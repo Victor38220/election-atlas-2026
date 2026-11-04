@@ -15,3 +15,5 @@ The dashboard normalizes and reformats public source data. Each normalized poll 
 | Interface icons | [Lucide](https://lucide.dev/license), ISC licence. Installed dependencies retain their respective licences. |
 
 Recorded fixtures and saved snapshots retain the same source-specific licensing as the source records. The project does not replace source attribution with a blanket licence over all data. The source data is presented for information; no trading, wallet, signing, or account functionality is implemented.
+
+Reported 2026 counts: official state election offices via [Open America](https://openamerica.io/elections/api/), with feed timestamps and direct data links. These unofficial counts are not race calls or certification. The exit-poll view includes one dated factual reading attributed to [CBS News](https://www.cbsnews.com/news/cbs-news-exit-polls-midterm-elections-2026/); it is labeled as a recorded observation and is not republished as a live data feed.

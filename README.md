@@ -1,6 +1,6 @@
 # Election Atlas · 2026
 
-Interactive election dashboard for the **35 U.S. Senate contests** and **36 state governor elections** on November 3, 2026. Click any state to explore races and historical county returns. Polling, model forecasts and market prices remain separate measurements. No election winner is inferred from a price or forecast.
+Interactive election dashboard for the **35 U.S. Senate contests** and **36 state governor elections** on November 3, 2026. The national map shows both offices together: Senate on the left half of each state, governor on the right. Click a state to expand directly into its county map. Compact cards show the Polling Forecast favorite and only that candidate’s Kalshi and Polymarket prices. Polling, model forecasts and market prices remain separate measurements. No election winner is inferred from a price or forecast.
 
 Live: https://election-atlas-2026.election-atlas-2026.workers.dev
 
@@ -9,7 +9,7 @@ Repository: [Victor38220/election-atlas-2026](https://github.com/Victor38220/ele
 ## How it runs
 
 - **Cloudflare Worker:** serves the built React application and a public, GET-only proxy for explicitly allowed provider hosts and paths. The proxy solves browser CORS restrictions and briefly caches successful responses for 20 seconds. It holds no API keys or private credentials.
-- **Open dashboard:** attempts a live refresh on load, then at the next wall-clock `:00` and `:30` boundaries. Hidden tabs pause refresh and refresh when visible again. Browser suspension, network delays, provider caching and rate limits can delay updates; this is not a guaranteed real-time feed.
+- **Open dashboard:** attempts a live refresh on load, then at the next wall-clock `:00` and `:30` boundaries for markets. Forecasts and individual polls refresh every ten minutes, matching provider caching. Hidden tabs pause refresh and refresh when visible again. Browser suspension, network delays, provider caching and rate limits can delay updates; this is not a guaranteed real-time feed.
 - **GitHub archive:** a separate Action runs at minutes `7,22,37,52`. Python refreshes markets when 15 minutes have passed and polling/county/metadata when a day has passed. It validates and commits changed JSON, preserving actual observed market history for 21 days. It does not redeploy Cloudflare and is independent of visitors or the local computer.
 - **Resilience:** the page starts from a real bundled snapshot, checks the GitHub archive and keeps the most recent successful browser data in local storage. Sources refresh independently. A failed fetch retains the previous successful data and timestamp. Missing data is `null`, never a zero probability.
 - **History:** archived observations use 15-minute buckets for 24 hours and hourly buckets thereafter. Browser observations use five-minute buckets for the latest day and hourly buckets thereafter. Only observed prices appear; historical prices are never backfilled with invented points.
@@ -88,3 +88,11 @@ The initial successful ingestion collected 71 forecasts, 1,569 deduplicated indi
 `src/` contains typed live adapters, analytics, map, county explorer, charts and UI. `worker/index.ts` contains the fixed-host proxy. `scripts/` contains Python provider adapters, Pydantic models, reconciliation and archive collection. `config/races.json` is the canonical race roster; `config/market-mappings.json` keeps exact accepted IDs and explicit overrides. `public/data/` contains the real normalized snapshot, observed history, provider metadata and county files. `tests/fixtures/` preserves small recorded responses for offline tests.
 
 See [ATTRIBUTION.md](ATTRIBUTION.md) for provider and row-specific data licensing.
+
+## Reported 2026 vote counts
+
+The Results view uses [Open America’s documented free API](https://openamerica.io/elections/api/), which passes through counts from official state election offices. Live calls verified both Senate and Governor responses with nine state races each on November 3, 2026. This is partial coverage, and no county breakdown is exposed by that API. Results refresh once per minute through a 60-second Cloudflare cache. The source timestamp remains visible; a reported leader is never labeled a certified winner. Reporting percentages describe the source’s reporting units, which can be precincts, counties, or localities, and do not measure votes counted. Exit-poll survey data is separate from reported vote counts; the dashboard links to publisher coverage because no free, documented 2026 demographic exit-poll API was verified.
+
+## Focused views
+
+The default view keeps the map, model favorites, polling margins and two market prices together. Full polls, trend charts and resolution terms are available through each race’s details button. Election results are a separate map lens using reported ballot leaders, never model favorites or race calls. County maps currently remain historical because the connected results API supplies statewide totals only. Exit polls have their own view: one explicitly dated, attributed national published reading and links to current publisher reports. That recorded reading does not auto-refresh; no free state/county exit-poll API was verified.

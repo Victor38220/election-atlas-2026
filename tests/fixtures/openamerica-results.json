@@ -1,0 +1,789 @@
+{
+  "Senate": {
+    "api": 1,
+    "year": 2026,
+    "office": "Senate",
+    "live": true,
+    "stale": false,
+    "counting": true,
+    "final": false,
+    "as_of": "2026-11-04T02:55:12+00:00",
+    "source": "state",
+    "counts": {
+      "called": {},
+      "races": 9,
+      "not_called": 9,
+      "reporting": 0,
+      "with_precincts": 9
+    },
+    "races": {
+      "AR": {
+        "leader": "D",
+        "called": false,
+        "winner": "",
+        "pct_in": 6.39,
+        "total": 338283,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Hallie Shoffner",
+            "p": "D",
+            "v": 167761,
+            "pct": 49.59,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Tom Cotton",
+            "p": "R",
+            "v": 161888,
+            "pct": 47.86,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Jeff Wadlin",
+            "p": "L",
+            "v": 8634,
+            "pct": 2.55,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "FL": {
+        "leader": "R",
+        "called": false,
+        "winner": "",
+        "pct_in": 98.36,
+        "total": 8207370,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Ashley Moody",
+            "p": "R",
+            "v": 4180876,
+            "pct": 50.94,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Angie Nixon",
+            "p": "D",
+            "v": 3932923,
+            "pct": 47.92,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Neil J. Gillespie",
+            "p": "I",
+            "v": 93571,
+            "pct": 1.14,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "GA": {
+        "leader": "D",
+        "called": false,
+        "winner": "",
+        "pct_in": 96.23,
+        "total": 3520276,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Jon Ossoff",
+            "p": "D",
+            "v": 2082039,
+            "pct": 59.14,
+            "inc": true,
+            "w": false,
+            "b": "O000174"
+          },
+          {
+            "n": "Mike Collins",
+            "p": "R",
+            "v": 1438237,
+            "pct": 40.86,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "ID": {
+        "leader": "",
+        "called": false,
+        "winner": "",
+        "pct_in": 0.0,
+        "total": 0,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Todd Achilles",
+            "p": "I",
+            "v": 0,
+            "pct": null,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Natalie M Fleming",
+            "p": "I",
+            "v": 0,
+            "pct": null,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Matt Loesby",
+            "p": "L",
+            "v": 0,
+            "pct": null,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Jim Risch",
+            "p": "R",
+            "v": 0,
+            "pct": null,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "LA": {
+        "leader": "R",
+        "called": false,
+        "winner": "",
+        "pct_in": 20.55,
+        "total": 431030,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Julia Letlow",
+            "p": "R",
+            "v": 226785,
+            "pct": 52.61,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Jamie Davis",
+            "p": "D",
+            "v": 204245,
+            "pct": 47.39,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "MN": {
+        "leader": "R",
+        "called": false,
+        "winner": "",
+        "pct_in": 3.26,
+        "total": 17191,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Michele Tafoya",
+            "p": "R",
+            "v": 11502,
+            "pct": 66.91,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Peggy Flanagan",
+            "p": "D",
+            "v": 5241,
+            "pct": 30.49,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Marisa Simonetti",
+            "p": "I",
+            "v": 266,
+            "pct": 1.55,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Rebecca Whiting",
+            "p": "L",
+            "v": 182,
+            "pct": 1.06,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "NC": {
+        "leader": "D",
+        "called": false,
+        "winner": "",
+        "pct_in": 72.66,
+        "total": 3653757,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Roy Cooper",
+            "p": "D",
+            "v": 2147556,
+            "pct": 58.78,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Michael Whatley",
+            "p": "R",
+            "v": 1430129,
+            "pct": 39.14,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Shannon W. Bray",
+            "p": "L",
+            "v": 45831,
+            "pct": 1.25,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Michael Dublin",
+            "p": "G",
+            "v": 30241,
+            "pct": 0.83,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "TX": {
+        "leader": "D",
+        "called": false,
+        "winner": "",
+        "pct_in": 10.0,
+        "total": 5955394,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "James Talarico",
+            "p": "D",
+            "v": 3369982,
+            "pct": 56.59,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Ken Paxton",
+            "p": "R",
+            "v": 2491085,
+            "pct": 41.83,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Ted Brown",
+            "p": "L",
+            "v": 94327,
+            "pct": 1.58,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "VA": {
+        "leader": "D",
+        "called": false,
+        "winner": "",
+        "pct_in": 99.25,
+        "total": 2840168,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Mark R. Warner",
+            "p": "D",
+            "v": 1703154,
+            "pct": 59.97,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Bert Mizusawa",
+            "p": "R",
+            "v": 1137014,
+            "pct": 40.03,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      }
+    }
+  },
+  "Governor": {
+    "api": 1,
+    "year": 2026,
+    "office": "Governor",
+    "live": true,
+    "stale": false,
+    "counting": true,
+    "final": false,
+    "as_of": "2026-11-04T02:55:09+00:00",
+    "source": "state",
+    "counts": {
+      "called": {},
+      "races": 9,
+      "not_called": 9,
+      "reporting": 1,
+      "with_precincts": 9
+    },
+    "races": {
+      "AR": {
+        "leader": "R",
+        "called": false,
+        "winner": "",
+        "pct_in": 6.39,
+        "total": 338114,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Sarah Huckabee Sanders",
+            "p": "R",
+            "v": 163338,
+            "pct": 48.31,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Fred Love",
+            "p": "D",
+            "v": 154244,
+            "pct": 45.62,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Colt Shelby",
+            "p": "L",
+            "v": 20532,
+            "pct": 6.07,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "CT": {
+        "leader": "D",
+        "called": false,
+        "winner": "",
+        "pct_in": 3.47,
+        "total": 44048,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Ned Lamont",
+            "p": "D",
+            "v": 23714,
+            "pct": 53.84,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Ryan Fazio",
+            "p": "R",
+            "v": 20334,
+            "pct": 46.16,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "FL": {
+        "leader": "R",
+        "called": false,
+        "winner": "",
+        "pct_in": 98.36,
+        "total": 8197617,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Donalds / Avila",
+            "p": "R",
+            "v": 4105840,
+            "pct": 50.09,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Jolly / Graham",
+            "p": "D",
+            "v": 3988188,
+            "pct": 48.65,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Jewett / Skelly",
+            "p": "L",
+            "v": 37463,
+            "pct": 0.46,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Russo / Rodriguez",
+            "p": "I",
+            "v": 22972,
+            "pct": 0.28,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Burkett / Coto",
+            "p": "I",
+            "v": 15088,
+            "pct": 0.18,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Abrams / Van Vactor",
+            "p": "I",
+            "v": 12325,
+            "pct": 0.15,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Datto / Santana",
+            "p": "I",
+            "v": 8249,
+            "pct": 0.1,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Dimanche / Rojas",
+            "p": "I",
+            "v": 7492,
+            "pct": 0.09,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "GA": {
+        "leader": "D",
+        "called": false,
+        "winner": "",
+        "pct_in": 96.23,
+        "total": 3522185,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Keisha Lance Bottoms",
+            "p": "D",
+            "v": 1927067,
+            "pct": 54.71,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Rick Jackson",
+            "p": "R",
+            "v": 1595118,
+            "pct": 45.29,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "ID": {
+        "leader": "",
+        "called": false,
+        "winner": "",
+        "pct_in": 0.0,
+        "total": 0,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Brad Little",
+            "p": "R",
+            "v": 0,
+            "pct": null,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Terri Pickens",
+            "p": "D",
+            "v": 0,
+            "pct": null,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Pro-Life",
+            "p": "C",
+            "v": 0,
+            "pct": null,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Paul Sand",
+            "p": "L",
+            "v": 0,
+            "pct": null,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "John R. Stegner",
+            "p": "I",
+            "v": 0,
+            "pct": null,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "MN": {
+        "leader": "R",
+        "called": false,
+        "winner": "",
+        "pct_in": 3.26,
+        "total": 17203,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Lisa Demuth",
+            "p": "R",
+            "v": 11394,
+            "pct": 66.23,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Amy Klobuchar",
+            "p": "D",
+            "v": 5586,
+            "pct": 32.47,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Steven Young",
+            "p": "GP",
+            "v": 223,
+            "pct": 1.3,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "RI": {
+        "leader": "D",
+        "called": false,
+        "winner": "",
+        "pct_in": 100.0,
+        "total": 315073,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Helena Buonanno Foulkes",
+            "p": "D",
+            "v": 181680,
+            "pct": 57.66,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Kenneth Block",
+            "p": "I",
+            "v": 87763,
+            "pct": 27.85,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Aaron C. Guckian",
+            "p": "R",
+            "v": 42318,
+            "pct": 13.43,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "C. D. Reynolds",
+            "p": "I",
+            "v": 1836,
+            "pct": 0.58,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Jasjit S. Gotra",
+            "p": "I",
+            "v": 1476,
+            "pct": 0.47,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "TX": {
+        "leader": "D",
+        "called": false,
+        "winner": "",
+        "pct_in": 10.0,
+        "total": 5965814,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Gina Hinojosa",
+            "p": "D",
+            "v": 3253214,
+            "pct": 54.53,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Greg Abbott",
+            "p": "R",
+            "v": 2636714,
+            "pct": 44.2,
+            "inc": true,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Pat Dixon",
+            "p": "L",
+            "v": 75886,
+            "pct": 1.27,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      },
+      "VT": {
+        "leader": "R",
+        "called": false,
+        "winner": "",
+        "pct_in": 71.26,
+        "total": 218314,
+        "uncontested": false,
+        "cands": [
+          {
+            "n": "Phil Scott",
+            "p": "R",
+            "v": 119610,
+            "pct": 54.79,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Amanda Janoo",
+            "p": "D",
+            "v": 95099,
+            "pct": 43.56,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Brian Judd",
+            "p": "I",
+            "v": 1887,
+            "pct": 0.86,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "June Goodband",
+            "p": "PEA",
+            "v": 882,
+            "pct": 0.4,
+            "inc": false,
+            "w": false,
+            "b": ""
+          },
+          {
+            "n": "Dean Roy",
+            "p": "FRE",
+            "v": 836,
+            "pct": 0.38,
+            "inc": false,
+            "w": false,
+            "b": ""
+          }
+        ]
+      }
+    }
+  }
+}

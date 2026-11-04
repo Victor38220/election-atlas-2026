@@ -1,7 +1,7 @@
 import {useMemo,useState} from 'react';
 import {ArrowUpRight,ChevronDown,ExternalLink,Search,X} from 'lucide-react';
 import type {Contract,History,Poll,Quote,Race,Snapshot} from '../types';
-import {date,difference,market,money,party,pct,points,shortDate,summary} from '../lib/analytics';
+import {date,difference,market,money,party,pct,points,shortDate,summary,projectedWinner} from '../lib/analytics';
 import {OddsHistoryChart,PollingChart,contractLabel} from './Charts';
 
 function SourceLink({href,children}:{href:string;children:React.ReactNode}) {return <a href={href} target="_blank" rel="noopener noreferrer">{children}<ArrowUpRight size={12} aria-hidden="true"/></a>;}
@@ -41,7 +41,8 @@ export function RaceDetails({snapshot,race,history,onClose}:{snapshot:Snapshot;r
  const polls=useMemo(()=>snapshot.polls.filter(p=>p.race_id===race.id).sort((a,b)=>(b.end??'').localeCompare(a.end??'')),[snapshot.polls,race.id]);
  const filtered=polls.filter(p=>`${p.pollster} ${p.population??''} ${p.sponsor??''}`.toLowerCase().includes(query.toLowerCase()));
  const delta=difference(snapshot,race);
- const quotePairs=race.candidates.flatMap(candidate=>(['kalshi','polymarket'] as const).flatMap(provider=>{
+ const favorite=projectedWinner(snapshot,race)?.candidate;
+ const quotePairs=race.candidates.filter(c=>c.id===favorite?.id).flatMap(candidate=>(['kalshi','polymarket'] as const).flatMap(provider=>{
    const entry=market(snapshot,race,provider,candidate.id);return entry?[{...entry,candidate}]:[];
  }));
  return <section className="race-details" aria-label={`${race.state_name} ${race.office} race details`}>

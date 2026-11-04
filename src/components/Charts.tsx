@@ -1,16 +1,17 @@
 import {useMemo, useState} from 'react';
 import {CartesianGrid, Legend, Line, LineChart, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis} from 'recharts';
 import type {Contract, History, Poll, Race, Snapshot} from '../types';
-import {date, market, pct, points, shortDate} from '../lib/analytics';
+import {date, market, pct, points, shortDate, projectedWinner} from '../lib/analytics';
 
 const chartTheme = {background:'#152131',border:'1px solid #344155',borderRadius:10,color:'#edf3fb',fontSize:12};
 
 export function OddsHistoryChart({snapshot,race,history}:{snapshot:Snapshot;race:Race;history:History}) {
   const [range,setRange]=useState<'24h'|'14d'|'all'>('all');
-  const contracts=useMemo(()=>['kalshi','polymarket'].flatMap(p=>{
-    const entry=market(snapshot,race,p as 'kalshi'|'polymarket');
+  const favorite=projectedWinner(snapshot,race)?.candidate;
+  const contracts=useMemo(()=>favorite?['kalshi','polymarket'].flatMap(p=>{
+    const entry=market(snapshot,race,p as 'kalshi'|'polymarket',favorite.id);
     return entry ? [entry.contract] : [];
-  }),[snapshot,race]);
+  }):[],[snapshot,race,favorite]);
   const data=useMemo(()=>{
     const cutoff=range==='all'?0:Date.now()-(range==='24h'?86400000:14*86400000);
     const rows=new Map<number,Record<string,number>>();
@@ -23,7 +24,7 @@ export function OddsHistoryChart({snapshot,race,history}:{snapshot:Snapshot;race
   },[contracts,history,range]);
   const observations=contracts.reduce((count,c)=>count+(history[c.id]?.length??0),0);
   return <section className="chart-section" aria-label="Observed market price history">
-    <div className="section-heading"><div><h3>Market movement</h3><p>YES price · {race.candidates[0]?.name ?? 'Selected outcome'}</p></div><div className="chart-range" aria-label="History time range">{(['24h','14d','all'] as const).map(r=><button type="button" key={r} aria-pressed={range===r} className={range===r?'active':''} onClick={()=>setRange(r)}>{r==='all'?'All observed':r}</button>)}</div></div>
+    <div className="section-heading"><div><h3>Market movement</h3><p>YES price · {favorite?.name ?? 'No model favorite'}</p></div><div className="chart-range" aria-label="History time range">{(['24h','14d','all'] as const).map(r=><button type="button" key={r} aria-pressed={range===r} className={range===r?'active':''} onClick={()=>setRange(r)}>{r==='all'?'All observed':r}</button>)}</div></div>
     {data.length===0?<div className="empty-chart"><span className="empty-chart-icon">↗</span><strong>No observed prices in this range</strong><p>History starts when a usable quote is collected. Closed or empty books do not create a price.</p></div>:<>
       <div className="chart-canvas" style={{height:210,width:'100%'}}><ResponsiveContainer width="100%" height="100%"><LineChart data={data} margin={{top:12,right:12,bottom:8,left:-12}}>
         <CartesianGrid stroke="#273448" strokeDasharray="3 5" vertical={false}/>

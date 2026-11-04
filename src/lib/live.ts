@@ -52,9 +52,10 @@ function poll(raw:Row,race:Race):Poll{
 export function deduplicate(polls:Poll[]):Poll[]{const seen=new Set<string>();return [...polls].sort((a,b)=>Number(a.provider!=='polling_forecast')-Number(b.provider!=='polling_forecast')).filter(p=>{const key=[p.race_id,normalized(p.pollster),p.start?.slice(0,10),p.end?.slice(0,10),p.sample,p.population?.toUpperCase()].join('|');const source=[p.race_id,p.url,p.end?.slice(0,10),p.sample].join('|');if(seen.has(key)||(p.url&&seen.has(source)))return false;seen.add(key);if(p.url)seen.add(source);return true})}
 export async function refreshSnapshot(previous:Snapshot,signal?:AbortSignal):Promise<Snapshot>{
  const fetched=new Date().toISOString();let result:Snapshot={...previous,providers:{...previous.providers},context:{...previous.context},races:[...previous.races],summaries:[...previous.summaries],polls:[...previous.polls],contracts:[...previous.contracts],quotes:[...previous.quotes]};
- const status=(provider:string,ok:boolean,message='',partial=false)=>{const old=previous.providers[provider];result.providers[provider]={status:ok?(partial?'partial':'ok'):'error',last_attempt:fetched,last_success:ok?fetched:old?.last_success??null,message,refresh_seconds:30} satisfies Status};
+ const status=(provider:string,ok:boolean,message='',partial=false)=>{const old=previous.providers[provider];result.providers[provider]={status:ok?(partial?'partial':'ok'):'error',last_attempt:fetched,last_success:ok?fetched:old?.last_success??null,message,refresh_seconds:['polling_forecast','votehub'].includes(provider)?600:30} satisfies Status};
  await Promise.allSettled([
   (async()=>{try{
+   if(Date.now()-Number(previous.context.forecast_fetched_at??0)<600000)return;
    const payloads=await getBatch(['senate','governors'].map(path=>'/api/polling/'+path),signal);
    const received=payloads.flatMap(rows);const known=new Map(previous.races.map(r=>[r.provider_ids.polling_forecast,r]));
    const expected=previous.races.filter(r=>r.provider_ids.polling_forecast);
@@ -65,7 +66,7 @@ export async function refreshSnapshot(previous:Snapshot,signal?:AbortSignal):Pro
     updated.push({...race,candidates,updated_at:timestamp(raw.as_of)??race.updated_at});
     summaries.push({race_id:race.id,provider:'polling_forecast',comparison_candidate_id:candidates[0].id,poll_margin:numeric(raw.poll_average),forecast_margin:numeric(raw.best_bet_margin),probability:chance,rating:str(raw.rating)||null,polls_used:numeric(raw.polls_used),as_of:timestamp(raw.as_of),availability:raw.poll_average==null?'no_polls':'available',licence:str(raw.licence)||'CC BY 4.0',url:'https://www.pollingforecast.com'+(str(raw.page)||'/us/data')});
    }
-   result.races=previous.races.map(r=>updated.find(u=>u.id===r.id)??r);result.summaries=summaries;status('polling_forecast',true);
+   result.races=previous.races.map(r=>updated.find(u=>u.id===r.id)??r);result.summaries=summaries;result.context.forecast_fetched_at=Date.now();status('polling_forecast',true);
    if(Date.now()-Number(previous.context.polls_fetched_at??0)>600000){
     try{const pollPayloads=await getBatch(['Senate','Governor'].map(kind=>'/api/polling/polls?kind='+kind),signal);const normalizedPolls=pollPayloads.flatMap(rows).flatMap(raw=>{const race=known.get(str(raw.race));return race&&[null,undefined,'vote','general'].includes(raw.stage as string|null|undefined)?[poll(raw,race)]:[]});if(normalizedPolls.length){result.polls=deduplicate([...normalizedPolls,...result.polls.filter(p=>p.provider!=='polling_forecast')]);result.context.polls_fetched_at=Date.now()}}catch(exc){status('polling_forecast',true,'Forecast refreshed; individual polls retained: '+String(exc),true)}
    }
@@ -92,7 +93,7 @@ export async function refreshSnapshot(previous:Snapshot,signal?:AbortSignal):Pro
  ]);
  // Recheck candidate links against the newly refreshed daily candidate metadata.
  const candidates=new Map(result.races.flatMap(r=>r.candidates.map(c=>[c.id,c] as const)));
- result.contracts=result.contracts.map(c=>{const old=previous.races.flatMap(r=>r.candidates).find(x=>x.id===c.candidate_id);const current=c.candidate_id?candidates.get(c.candidate_id):null;if(c.outcome_type==='candidate'&&old&&current&&normalized(old.name)!==normalized(current.name)){result.quotes=result.quotes.map(q=>q.contract_id===c.id?{...q,price:null,warning:'Candidate identity changed; mapping requires review',pricing_method:'unavailable'}:q);return {...c,candidate_id:null}}return c});
+ result.contracts=result.contracts.map(c=>{const old=previous.races.flatMap(r=>r.candidates).find(x=>x.id===c.candidate_id);const current=c.candidate_id?candidates.get(c.candidate_id):null;if(old&&current&&((c.outcome_type==='candidate'&&normalized(old.name)!==normalized(current.name))||(c.outcome_type==='party'&&current.party!==c.outcome))){result.quotes=result.quotes.map(q=>q.contract_id===c.id?{...q,price:null,warning:'Candidate identity changed; mapping requires review',pricing_method:'unavailable'}:q);return {...c,candidate_id:null}}return c});
  result={...result,generated_at:fetched};return result;
 }
 export function appendHistory(previous:History,quotes:Quote[],time=Date.now()):History{

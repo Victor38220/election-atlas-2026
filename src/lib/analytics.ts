@@ -41,3 +41,11 @@ export function metricLabel(value:number|null,mode:Mode,r?:Race){
 }
 export function isStale(s:StatusLike|undefined,now=Date.now()) {return !s?.last_success||now-Date.parse(s.last_success)>Math.max(s.refresh_seconds*2000,90000)}
 type StatusLike={last_success:string|null;refresh_seconds:number};
+
+export function projectedWinner(s:Snapshot,r:Race){
+ const probability=summary(s,r)?.probability;
+ if(probability==null||probability===.5)return null;
+ const candidate=probability>.5?r.candidates[0]:r.candidates.find(c=>c.party==='R');
+ return candidate?{candidate,probability:probability>.5?probability:1-probability}:null;
+}
+export const partyColor=(p:string|undefined)=>p==='D'?'#579bd7':p==='R'?'#e06c7e':p==='I'?'#b198e0':'#52627a';

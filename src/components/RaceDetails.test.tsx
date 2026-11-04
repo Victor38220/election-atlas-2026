@@ -51,7 +51,8 @@ describe('race details with recorded real provider observations',()=>{
   const metrics=document.querySelector('.detail-metrics')!;
   expect(within(metrics as HTMLElement).getAllByText('—')).toHaveLength(3);
   expect(within(metrics as HTMLElement).queryByText('0.0%')).toBeNull();
-  expect(screen.getAllByText('YES midpoint').every(el=>el.parentElement?.textContent?.startsWith('—'))).toBe(true);
+  expect(screen.queryByText('YES midpoint')).toBeNull();
+  expect(screen.getByText(/No verified market contract/)).toBeVisible();
  });
  it('opens individual polls with release links, fieldwork, sample and licensing',()=>{
   const {race}=show('ME');

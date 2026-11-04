@@ -4,6 +4,7 @@ const PATHS:Record<string,RegExp>={polling:/^\/(senate|governors|polls|pollsters
 function targetFor(incoming:URL):{target:URL;provider:string}|null{
  const [,,provider,...rest]=incoming.pathname.split('/');const path='/'+rest.join('/');
  if(incoming.search.length>12000)return null;
+ if(provider==='results'&&/^\/(Senate|Governor)$/.test(path)){const target=new URL('https://openamerica.io/elections/results.json');target.searchParams.set('year','2026');target.searchParams.set('office',path.slice(1));return {target,provider}}
  if(provider==='archive'&&/^\/(latest|history|metadata)$/.test(path))return {target:new URL('https://raw.githubusercontent.com/Victor38220/election-atlas-2026/main/public/data'+path+'.json'),provider};
  if(!Object.hasOwn(HOSTS,provider)||!PATHS[provider].test(path))return null;
  const target=new URL(HOSTS[provider]+path);target.search=incoming.search;return {target,provider};
@@ -12,7 +13,7 @@ async function proxy(target:URL,provider:string,ctx:ExecutionContext):Promise<Re
  const cacheKey=new Request(target.toString());const cache=caches.default;const hit=await cache.match(cacheKey);if(hit)return hit;
  try{
   const upstream=await fetch(target,{headers:{Accept:'application/json','User-Agent':'ElectionAtlas/1.0 public election research'},signal:AbortSignal.timeout(22000),redirect:'manual'});
-  const headers=new Headers({'Content-Type':'application/json; charset=utf-8','X-Content-Type-Options':'nosniff','Cache-Control':upstream.ok?'public, max-age=20':'no-store'});const retry=upstream.headers.get('Retry-After');if(retry)headers.set('Retry-After',retry);
+  const headers=new Headers({'Content-Type':'application/json; charset=utf-8','X-Content-Type-Options':'nosniff','Cache-Control':upstream.ok?(provider==='results'?'public, max-age=60':'public, max-age=20'):'no-store'});const etag=upstream.headers.get('ETag');if(etag)headers.set('ETag',etag);const retry=upstream.headers.get('Retry-After');if(retry)headers.set('Retry-After',retry);
   if(!upstream.ok)return Response.json({error:`Provider returned HTTP ${upstream.status}`,provider},{status:upstream.status,headers});
   const response=new Response(upstream.body,{status:200,headers});ctx.waitUntil(cache.put(cacheKey,response.clone()));return response;
  }catch(exc){return Response.json({error:'Public data source unavailable',provider,detail:exc instanceof Error?exc.message:'Request failed'},{status:502,headers:{'Cache-Control':'no-store'}})}
