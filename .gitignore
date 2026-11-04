@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+.pytest_cache/
+artifacts/
+playwright-report/
+test-results/
+.env*
+*.tsbuildinfo
+.DS_Store
+
+.wrangler/

@@ -1,0 +1,1 @@
+Boundaries: us-atlas v3, U.S. Census Bureau. Source: https://github.com/topojson/us-atlas (ISC license). Counties and states are cartographic boundaries, not a 2026 reporting precinct system.

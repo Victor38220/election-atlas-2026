@@ -1,0 +1,45 @@
+name: Archive election data
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Refresh daily polling and county metadata too
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: election-data-archive
+  cancel-in-progress: false
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - run: pip install -r scripts/requirements.txt
+      - name: Refresh and validate real source data
+        env:
+          FORCE_REFRESH: ${{ inputs.force }}
+        run: |
+          if [ "$FORCE_REFRESH" = "true" ]; then
+            python -m scripts.update_data --force
+          else
+            python -m scripts.update_data
+          fi
+      - name: Persist validated snapshots and history
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data config/races.json config/market-mappings.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Archive observed election data'
+            git push
+          fi
