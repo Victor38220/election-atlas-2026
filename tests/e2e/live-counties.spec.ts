@@ -11,7 +11,7 @@ test('reads all eight current county feeds and keeps Texas leader prices tied to
  await page.goto(process.env.LIVE_TEST_URL!+'/#state=NC',{waitUntil:'domcontentloaded'});
  await expect(page.locator('path[data-county]')).toHaveCount(100);
  const fresh=async(state:string)=>{
-  await expect.poll(async()=>page.evaluate(state=>{const data=JSON.parse(localStorage.getItem('county-live-2026-'+state)??'null');return data?.fetched_at?Date.now()-Date.parse(data.fetched_at):Infinity},state),{timeout:45000}).toBeLessThan(120000);
+  await expect.poll(async()=>page.evaluate(state=>{const data=JSON.parse(localStorage.getItem('county-live-2026-'+state)??'null');return data?.fetched_at?Date.now()-Date.parse(data.fetched_at):Infinity},state),{timeout:45000}).toBeLessThan(state==='MN'?30*60000:120000);
   return await page.evaluate(state=>JSON.parse(localStorage.getItem('county-live-2026-'+state)!),state) as CountyLiveData;
  };
  const nc=await fresh('NC');expect(nc.year).toBe(2026);expect(nc.rows).toHaveLength(100);

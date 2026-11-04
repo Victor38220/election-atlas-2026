@@ -23,3 +23,21 @@ test('Texas prominently shows Hinojosa reported share and same-candidate market 
  await mkdir('artifacts',{recursive:true});await card.scrollIntoViewIfNeeded();await page.screenshot({path:`artifacts/live-Texas-leader-${testInfo.project.name}.png`,fullPage:false,animations:'disabled'});
  console.log('Texas actual leader proof',JSON.stringify({leader:leader.name,share:leader.share,source_as_of:actual.as_of,url:page.url()}));
 });
+
+test('Minnesota mirror preserves the actual collector timestamp and all 174 current race rows',async({page},testInfo)=>{
+ test.skip(!process.env.LIVE_TEST_URL,'Set LIVE_TEST_URL for live proof.');test.setTimeout(45000);
+ const responsePromise=page.waitForResponse(r=>new URL(r.url()).pathname==='/api/counties/MN'&&r.status()===200);
+ await page.goto(process.env.LIVE_TEST_URL!+'/#state=MN');
+ const backend=await (await responsePromise).json() as import('../../src/types/countyResults').CountyLiveData;
+ expect(backend.state).toBe('MN');expect(backend.year).toBe(2026);expect(backend.rows).toHaveLength(174);
+ expect(backend.rows.filter(r=>r.office==='Senate')).toHaveLength(87);expect(backend.rows.filter(r=>r.office==='Governor')).toHaveLength(87);
+ expect(Date.now()-Date.parse(backend.fetched_at)).toBeLessThan(30*60000);
+ await expect.poll(async()=>page.evaluate(()=>JSON.parse(localStorage.getItem('county-live-2026-MN')??'null')?.fetched_at),{timeout:15000}).toBe(backend.fetched_at);
+ await expect(page.locator('path[data-county]')).toHaveCount(87);
+ const row=backend.rows.find(r=>r.office==='Senate'&&(r.total??0)>0)!;
+ await page.locator(`path[data-county="${row.fips}"]`).focus();await page.keyboard.press('Enter');
+ const brief=page.getByRole('region',{name:'Selected county information'});await expect(brief).toContainText(row.county);await expect(brief).toContainText(row.total!.toLocaleString()+' votes reported');
+ await expect(brief.locator('.county-current-report')).toHaveCount(2);
+ await mkdir('artifacts',{recursive:true});await brief.scrollIntoViewIfNeeded();await page.screenshot({path:`artifacts/live-Minnesota-mirror-${testInfo.project.name}.png`,fullPage:false,animations:'disabled'});
+ console.log('Minnesota mirror proof',JSON.stringify({rows:backend.rows.length,backend_fetched_at:backend.fetched_at,official_source_time:backend.source_time}));
+});
