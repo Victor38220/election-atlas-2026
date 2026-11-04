@@ -1,0 +1,20 @@
+import {describe,it,expect} from 'vitest';
+import type {FeatureCollection,Geometry} from 'geojson';
+import type {CountyLiveData} from '../types/countyResults';
+import {countyTotals} from './countyTotals';
+import {normalizeGeorgia} from './countyGeorgia';
+import {normalizeNorthCarolina} from './countyNorthCarolina';
+import gaRaw from '../../tests/fixtures/ga-county-live.json';
+import ncRaw from '../../tests/fixtures/nc-county-live.json';
+import gaGeo from '../../public/geo/counties/GA.json';
+import ncGeo from '../../public/geo/counties/NC.json';
+const fetched='2026-11-04T04:00:00Z';
+const georgia=()=>normalizeGeorgia(gaRaw,gaGeo as FeatureCollection<Geometry>,fetched);
+const northCarolina=()=>normalizeNorthCarolina(ncRaw,ncGeo as FeatureCollection<Geometry>,fetched);
+describe('official county vote totals',()=>{
+ it('sums distinct recorded Georgia counties separately for each office and candidate',()=>{const data=georgia();const totals=countyTotals(data);expect(totals).toHaveLength(2);for(const office of ['Senate','Governor'] as const){const rows=data.rows.filter(r=>r.office===office);const total=totals.find(t=>t.office===office)!;expect(total.total).toBe(rows.reduce((n,r)=>n+r.total!,0));for(const candidate of total.candidates){const observed=rows.flatMap(r=>r.candidates).filter(c=>c.name===candidate.name&&c.party===candidate.party);expect(candidate.votes).toBe(observed.reduce((n,c)=>n+c.votes,0));expect(candidate.share).toBeCloseTo(candidate.votes/total.total)}expect(total.pct_reporting).toBeNull();expect(total.source_url).toBe(data.source_url)}});
+ it('rejects duplicate county identities for an office rather than double-counting',()=>{const data=georgia();const duplicate=data.rows.find(r=>r.office==='Senate')!;const totals=countyTotals({...data,rows:[...data.rows,duplicate]});expect(totals.some(t=>t.office==='Senate')).toBe(false);expect(totals.some(t=>t.office==='Governor')).toBe(true)});
+ it('does not aggregate partial or unavailable providers or other election dates',()=>{const data=northCarolina();expect(countyTotals({...data,status:'partial'})).toEqual([]);expect(countyTotals({...data,status:'unavailable'})).toEqual([]);expect(countyTotals({...data,election_date:'2024-11-05'} as unknown as CountyLiveData)).toEqual([]);expect(countyTotals(null)).toEqual([])});
+ it('preserves North Carolina source observation timing and never labels summed votes as counted-ballot percentage',()=>{const data=northCarolina();const [total]=countyTotals(data);expect(total.race_id).toBe('2026-senate-nc');expect(total.pct_reporting).toBeNull();const validTimes=data.rows.map(r=>r.source_time).filter((t):t is string=>Boolean(t&&Number.isFinite(Date.parse(t))));expect(total.as_of).toBe(validTimes.sort().at(-1)??null);expect(total.as_of).not.toBe(fetched);expect('winner' in total).toBe(false);expect('called' in total).toBe(false)});
+ it('ignores unrelated market prices and model forecasts instead of turning them into votes or leaders',()=>{const data=georgia();const expected=countyTotals(data);const contaminated={...data,quotes:[{price:1,candidate_id:'losing-candidate'}],summaries:[{probability:1,forecast_margin:99}]};expect(countyTotals(contaminated)).toEqual(expected);const zero:CountyLiveData={...data,rows:data.rows.map(r=>({...r,total:0,status:'awaiting',candidates:r.candidates.map(c=>({...c,votes:0,share:null}))}))};expect(countyTotals(zero).every(r=>r.total===0&&r.candidates.every(c=>c.votes===0&&c.share===null))).toBe(true)});
+});

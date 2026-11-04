@@ -1,0 +1,4569 @@
+{
+  "election": {
+    "electionDate": "2026-11-03",
+    "isPrimary": false,
+    "asOf": "2026-11-04T03:25:04.5367565Z",
+    "lastUpdated": "2026-11-04T03:24:58.1260627Z"
+  },
+  "ballotItemWithBreakdown": {
+    "id": "248c0000-c0a3-7204-3acd-08df11bc03cf",
+    "name": [
+      {
+        "languageId": "en",
+        "text": "Governor and Lieutenant Governor"
+      },
+      {
+        "languageId": "1",
+        "text": "Gobernador y Vicegobernador"
+      }
+    ],
+    "voteTotal": 1626083,
+    "breakdownResults": [
+      {
+        "locality": {
+          "id": "01000000-0496-9e5d-8720-08dbda36ae85",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Apache County"
+            },
+            {
+              "languageId": "1",
+              "text": "Apache County"
+            }
+          ],
+          "shortName": "apache-county-az",
+          "turnoutPercent": null,
+          "percentReporting": null,
+          "precinctsReporting": null,
+          "hasCountGroupStatus": false,
+          "hasPrecinctStatus": false,
+          "mapFeatureId": "Apache County"
+        },
+        "voteTotal": 12303,
+        "precinctReportingStatus": {
+          "reportingUnits": 0,
+          "totalUnits": 44,
+          "asOf": "2026-11-04T03:25:04.5367597Z",
+          "reportingStatusDetails": [
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Fully Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-fully-reported",
+              "order": 1,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Partially Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-partially-reported",
+              "order": 3,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Not Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-not-reported",
+              "order": 4,
+              "value": 44
+            }
+          ]
+        },
+        "ballotOptions": [
+          {
+            "id": "248c0000-c0a3-7204-3dc7-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              }
+            ],
+            "voteCount": 8342,
+            "party": {
+              "id": "248c0000-c0a3-7204-1baf-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Democratic"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Democratic"
+                }
+              ],
+              "abbreviation": "DEM",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3c6a-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              },
+              {
+                "languageId": "1",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              }
+            ],
+            "voteCount": 3716,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3f0b-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              },
+              {
+                "languageId": "1",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              }
+            ],
+            "voteCount": 129,
+            "party": {
+              "id": "248c0000-c0a3-7204-3942-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Green"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Green"
+                }
+              ],
+              "abbreviation": "GRN",
+              "standardName": null,
+              "color": "#007029",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-4049-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              }
+            ],
+            "voteCount": 104,
+            "party": {
+              "id": "248c0000-c0a3-7204-3b9f-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "No Labels"
+                },
+                {
+                  "languageId": "1",
+                  "text": "No Labels"
+                }
+              ],
+              "abbreviation": "NOL",
+              "standardName": null,
+              "color": "#CB4D26",
+              "textColor": "#FFFFFF",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-cd30-0ebd-f296-08df25530ad4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unofficial Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unofficial Write-in"
+              }
+            ],
+            "voteCount": 12,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-597d-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Gertritrude Gonzalez "
+              },
+              {
+                "languageId": "1",
+                "text": "Gertritrude Gonzalez "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-5ce7-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Alice Novoa "
+              },
+              {
+                "languageId": "1",
+                "text": "Alice Novoa "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-79c1-08df1f131e63",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unassigned Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unassigned Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          }
+        ]
+      },
+      {
+        "locality": {
+          "id": "01000000-0496-9e5d-604a-08dbda36ae89",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Cochise County"
+            },
+            {
+              "languageId": "1",
+              "text": "Cochise County"
+            }
+          ],
+          "shortName": "cochise-county-az",
+          "turnoutPercent": null,
+          "percentReporting": null,
+          "precinctsReporting": null,
+          "hasCountGroupStatus": false,
+          "hasPrecinctStatus": false,
+          "mapFeatureId": "Cochise County"
+        },
+        "voteTotal": 30235,
+        "precinctReportingStatus": {
+          "reportingUnits": 0,
+          "totalUnits": 55,
+          "asOf": "2026-11-04T03:25:04.5367597Z",
+          "reportingStatusDetails": [
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Fully Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-fully-reported",
+              "order": 1,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Partially Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-partially-reported",
+              "order": 3,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Not Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-not-reported",
+              "order": 4,
+              "value": 55
+            }
+          ]
+        },
+        "ballotOptions": [
+          {
+            "id": "248c0000-c0a3-7204-3dc7-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              }
+            ],
+            "voteCount": 15650,
+            "party": {
+              "id": "248c0000-c0a3-7204-1baf-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Democratic"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Democratic"
+                }
+              ],
+              "abbreviation": "DEM",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3c6a-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              },
+              {
+                "languageId": "1",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              }
+            ],
+            "voteCount": 13904,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3f0b-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              },
+              {
+                "languageId": "1",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              }
+            ],
+            "voteCount": 340,
+            "party": {
+              "id": "248c0000-c0a3-7204-3942-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Green"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Green"
+                }
+              ],
+              "abbreviation": "GRN",
+              "standardName": null,
+              "color": "#007029",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-4049-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              }
+            ],
+            "voteCount": 324,
+            "party": {
+              "id": "248c0000-c0a3-7204-3b9f-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "No Labels"
+                },
+                {
+                  "languageId": "1",
+                  "text": "No Labels"
+                }
+              ],
+              "abbreviation": "NOL",
+              "standardName": null,
+              "color": "#CB4D26",
+              "textColor": "#FFFFFF",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-cd30-0ebd-f296-08df25530ad4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unofficial Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unofficial Write-in"
+              }
+            ],
+            "voteCount": 16,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-5ce7-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Alice Novoa "
+              },
+              {
+                "languageId": "1",
+                "text": "Alice Novoa "
+              }
+            ],
+            "voteCount": 1,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-597d-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Gertritrude Gonzalez "
+              },
+              {
+                "languageId": "1",
+                "text": "Gertritrude Gonzalez "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-79c1-08df1f131e63",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unassigned Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unassigned Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          }
+        ]
+      },
+      {
+        "locality": {
+          "id": "01000000-0496-9e5d-f29e-08dbda36ae8a",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Coconino County"
+            },
+            {
+              "languageId": "1",
+              "text": "Condado de Coconino"
+            }
+          ],
+          "shortName": "coconino-county-az",
+          "turnoutPercent": null,
+          "percentReporting": null,
+          "precinctsReporting": null,
+          "hasCountGroupStatus": false,
+          "hasPrecinctStatus": false,
+          "mapFeatureId": "Coconino County"
+        },
+        "voteTotal": 34629,
+        "precinctReportingStatus": {
+          "reportingUnits": 56,
+          "totalUnits": 56,
+          "asOf": "2026-11-04T03:25:04.5367597Z",
+          "reportingStatusDetails": [
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Fully Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-fully-reported",
+              "order": 1,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Partially Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-partially-reported",
+              "order": 3,
+              "value": 56
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Not Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-not-reported",
+              "order": 4,
+              "value": 0
+            }
+          ]
+        },
+        "ballotOptions": [
+          {
+            "id": "248c0000-c0a3-7204-3dc7-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              }
+            ],
+            "voteCount": 24525,
+            "party": {
+              "id": "248c0000-c0a3-7204-1baf-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Democratic"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Democratic"
+                }
+              ],
+              "abbreviation": "DEM",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3c6a-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              },
+              {
+                "languageId": "1",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              }
+            ],
+            "voteCount": 9407,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-4049-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              }
+            ],
+            "voteCount": 347,
+            "party": {
+              "id": "248c0000-c0a3-7204-3b9f-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "No Labels"
+                },
+                {
+                  "languageId": "1",
+                  "text": "No Labels"
+                }
+              ],
+              "abbreviation": "NOL",
+              "standardName": null,
+              "color": "#CB4D26",
+              "textColor": "#FFFFFF",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3f0b-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              },
+              {
+                "languageId": "1",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              }
+            ],
+            "voteCount": 335,
+            "party": {
+              "id": "248c0000-c0a3-7204-3942-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Green"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Green"
+                }
+              ],
+              "abbreviation": "GRN",
+              "standardName": null,
+              "color": "#007029",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-cd30-0ebd-f296-08df25530ad4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unofficial Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unofficial Write-in"
+              }
+            ],
+            "voteCount": 13,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-79c1-08df1f131e63",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unassigned Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unassigned Write-in"
+              }
+            ],
+            "voteCount": 2,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-597d-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Gertritrude Gonzalez "
+              },
+              {
+                "languageId": "1",
+                "text": "Gertritrude Gonzalez "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-5ce7-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Alice Novoa "
+              },
+              {
+                "languageId": "1",
+                "text": "Alice Novoa "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          }
+        ]
+      },
+      {
+        "locality": {
+          "id": "01000000-0496-9e5d-e1ca-08dbda36ae8b",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Gila County"
+            },
+            {
+              "languageId": "1",
+              "text": "Gila County"
+            }
+          ],
+          "shortName": "gila-county-az",
+          "turnoutPercent": null,
+          "percentReporting": null,
+          "precinctsReporting": null,
+          "hasCountGroupStatus": false,
+          "hasPrecinctStatus": false,
+          "mapFeatureId": "Gila County"
+        },
+        "voteTotal": 12965,
+        "precinctReportingStatus": {
+          "reportingUnits": 0,
+          "totalUnits": 39,
+          "asOf": "2026-11-04T03:25:04.5367597Z",
+          "reportingStatusDetails": [
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Fully Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-fully-reported",
+              "order": 1,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Partially Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-partially-reported",
+              "order": 3,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Not Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-not-reported",
+              "order": 4,
+              "value": 39
+            }
+          ]
+        },
+        "ballotOptions": [
+          {
+            "id": "248c0000-c0a3-7204-3c6a-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              },
+              {
+                "languageId": "1",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              }
+            ],
+            "voteCount": 7776,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3dc7-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              }
+            ],
+            "voteCount": 4945,
+            "party": {
+              "id": "248c0000-c0a3-7204-1baf-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Democratic"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Democratic"
+                }
+              ],
+              "abbreviation": "DEM",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-4049-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              }
+            ],
+            "voteCount": 146,
+            "party": {
+              "id": "248c0000-c0a3-7204-3b9f-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "No Labels"
+                },
+                {
+                  "languageId": "1",
+                  "text": "No Labels"
+                }
+              ],
+              "abbreviation": "NOL",
+              "standardName": null,
+              "color": "#CB4D26",
+              "textColor": "#FFFFFF",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3f0b-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              },
+              {
+                "languageId": "1",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              }
+            ],
+            "voteCount": 95,
+            "party": {
+              "id": "248c0000-c0a3-7204-3942-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Green"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Green"
+                }
+              ],
+              "abbreviation": "GRN",
+              "standardName": null,
+              "color": "#007029",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-79c1-08df1f131e63",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unassigned Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unassigned Write-in"
+              }
+            ],
+            "voteCount": 3,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-597d-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Gertritrude Gonzalez "
+              },
+              {
+                "languageId": "1",
+                "text": "Gertritrude Gonzalez "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-5ce7-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Alice Novoa "
+              },
+              {
+                "languageId": "1",
+                "text": "Alice Novoa "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-cd30-0ebd-f296-08df25530ad4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unofficial Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unofficial Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          }
+        ]
+      },
+      {
+        "locality": {
+          "id": "01000000-0496-9e5d-d553-08dbda36ae8c",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Graham County"
+            },
+            {
+              "languageId": "1",
+              "text": "Graham County"
+            }
+          ],
+          "shortName": "graham-county-az",
+          "turnoutPercent": null,
+          "percentReporting": null,
+          "precinctsReporting": null,
+          "hasCountGroupStatus": false,
+          "hasPrecinctStatus": false,
+          "mapFeatureId": "Graham County"
+        },
+        "voteTotal": 6886,
+        "precinctReportingStatus": {
+          "reportingUnits": 23,
+          "totalUnits": 23,
+          "asOf": "2026-11-04T03:25:04.5367597Z",
+          "reportingStatusDetails": [
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Fully Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-fully-reported",
+              "order": 1,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Partially Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-partially-reported",
+              "order": 3,
+              "value": 23
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Not Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-not-reported",
+              "order": 4,
+              "value": 0
+            }
+          ]
+        },
+        "ballotOptions": [
+          {
+            "id": "248c0000-c0a3-7204-3c6a-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              },
+              {
+                "languageId": "1",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              }
+            ],
+            "voteCount": 4408,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3dc7-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              }
+            ],
+            "voteCount": 2322,
+            "party": {
+              "id": "248c0000-c0a3-7204-1baf-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Democratic"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Democratic"
+                }
+              ],
+              "abbreviation": "DEM",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-4049-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              }
+            ],
+            "voteCount": 84,
+            "party": {
+              "id": "248c0000-c0a3-7204-3b9f-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "No Labels"
+                },
+                {
+                  "languageId": "1",
+                  "text": "No Labels"
+                }
+              ],
+              "abbreviation": "NOL",
+              "standardName": null,
+              "color": "#CB4D26",
+              "textColor": "#FFFFFF",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3f0b-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              },
+              {
+                "languageId": "1",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              }
+            ],
+            "voteCount": 70,
+            "party": {
+              "id": "248c0000-c0a3-7204-3942-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Green"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Green"
+                }
+              ],
+              "abbreviation": "GRN",
+              "standardName": null,
+              "color": "#007029",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-79c1-08df1f131e63",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unassigned Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unassigned Write-in"
+              }
+            ],
+            "voteCount": 2,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-597d-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Gertritrude Gonzalez "
+              },
+              {
+                "languageId": "1",
+                "text": "Gertritrude Gonzalez "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-5ce7-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Alice Novoa "
+              },
+              {
+                "languageId": "1",
+                "text": "Alice Novoa "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-cd30-0ebd-f296-08df25530ad4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unofficial Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unofficial Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          }
+        ]
+      },
+      {
+        "locality": {
+          "id": "01000000-0496-9e5d-991f-08dbda36ae8e",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Greenlee County"
+            },
+            {
+              "languageId": "1",
+              "text": "Greenlee County"
+            }
+          ],
+          "shortName": "greenlee-county-az",
+          "turnoutPercent": null,
+          "percentReporting": null,
+          "precinctsReporting": null,
+          "hasCountGroupStatus": false,
+          "hasPrecinctStatus": false,
+          "mapFeatureId": "Greenlee County"
+        },
+        "voteTotal": 1061,
+        "precinctReportingStatus": {
+          "reportingUnits": 0,
+          "totalUnits": 6,
+          "asOf": "2026-11-04T03:25:04.5367597Z",
+          "reportingStatusDetails": [
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Fully Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-fully-reported",
+              "order": 1,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Partially Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-partially-reported",
+              "order": 3,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Not Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-not-reported",
+              "order": 4,
+              "value": 6
+            }
+          ]
+        },
+        "ballotOptions": [
+          {
+            "id": "248c0000-c0a3-7204-3dc7-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              }
+            ],
+            "voteCount": 585,
+            "party": {
+              "id": "248c0000-c0a3-7204-1baf-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Democratic"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Democratic"
+                }
+              ],
+              "abbreviation": "DEM",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3c6a-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              },
+              {
+                "languageId": "1",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              }
+            ],
+            "voteCount": 449,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3f0b-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              },
+              {
+                "languageId": "1",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              }
+            ],
+            "voteCount": 17,
+            "party": {
+              "id": "248c0000-c0a3-7204-3942-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Green"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Green"
+                }
+              ],
+              "abbreviation": "GRN",
+              "standardName": null,
+              "color": "#007029",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-4049-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              }
+            ],
+            "voteCount": 9,
+            "party": {
+              "id": "248c0000-c0a3-7204-3b9f-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "No Labels"
+                },
+                {
+                  "languageId": "1",
+                  "text": "No Labels"
+                }
+              ],
+              "abbreviation": "NOL",
+              "standardName": null,
+              "color": "#CB4D26",
+              "textColor": "#FFFFFF",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-79c1-08df1f131e63",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unassigned Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unassigned Write-in"
+              }
+            ],
+            "voteCount": 1,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-597d-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Gertritrude Gonzalez "
+              },
+              {
+                "languageId": "1",
+                "text": "Gertritrude Gonzalez "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-5ce7-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Alice Novoa "
+              },
+              {
+                "languageId": "1",
+                "text": "Alice Novoa "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-cd30-0ebd-f296-08df25530ad4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unofficial Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unofficial Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          }
+        ]
+      },
+      {
+        "locality": {
+          "id": "01000000-0496-9e5d-d168-08dbda36ae8f",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "La Paz County"
+            },
+            {
+              "languageId": "1",
+              "text": "La Paz County"
+            }
+          ],
+          "shortName": "la-paz-county-az",
+          "turnoutPercent": null,
+          "percentReporting": null,
+          "precinctsReporting": null,
+          "hasCountGroupStatus": false,
+          "hasPrecinctStatus": false,
+          "mapFeatureId": "La Paz County"
+        },
+        "voteTotal": 0,
+        "precinctReportingStatus": {
+          "reportingUnits": 0,
+          "totalUnits": 11,
+          "asOf": "2026-11-04T03:25:04.5367597Z",
+          "reportingStatusDetails": [
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Fully Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-fully-reported",
+              "order": 1,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Partially Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-partially-reported",
+              "order": 3,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Not Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-not-reported",
+              "order": 4,
+              "value": 11
+            }
+          ]
+        },
+        "ballotOptions": [
+          {
+            "id": "248c0000-c0a3-7204-3c6a-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              },
+              {
+                "languageId": "1",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3dc7-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-1baf-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Democratic"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Democratic"
+                }
+              ],
+              "abbreviation": "DEM",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3f0b-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              },
+              {
+                "languageId": "1",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-3942-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Green"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Green"
+                }
+              ],
+              "abbreviation": "GRN",
+              "standardName": null,
+              "color": "#007029",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-4049-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-3b9f-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "No Labels"
+                },
+                {
+                  "languageId": "1",
+                  "text": "No Labels"
+                }
+              ],
+              "abbreviation": "NOL",
+              "standardName": null,
+              "color": "#CB4D26",
+              "textColor": "#FFFFFF",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-597d-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Gertritrude Gonzalez "
+              },
+              {
+                "languageId": "1",
+                "text": "Gertritrude Gonzalez "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-5ce7-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Alice Novoa "
+              },
+              {
+                "languageId": "1",
+                "text": "Alice Novoa "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-79c1-08df1f131e63",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unassigned Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unassigned Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-cd30-0ebd-f296-08df25530ad4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unofficial Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unofficial Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          }
+        ]
+      },
+      {
+        "locality": {
+          "id": "01000000-0496-9e5d-9eb9-08dbda36ae91",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Maricopa County"
+            },
+            {
+              "languageId": "1",
+              "text": "Maricopa County"
+            }
+          ],
+          "shortName": "maricopa-county-az",
+          "turnoutPercent": null,
+          "percentReporting": null,
+          "precinctsReporting": null,
+          "hasCountGroupStatus": false,
+          "hasPrecinctStatus": false,
+          "mapFeatureId": "Maricopa County"
+        },
+        "voteTotal": 1004925,
+        "precinctReportingStatus": {
+          "reportingUnits": 0,
+          "totalUnits": 956,
+          "asOf": "2026-11-04T03:25:04.5367597Z",
+          "reportingStatusDetails": [
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Fully Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-fully-reported",
+              "order": 1,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Partially Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-partially-reported",
+              "order": 3,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Not Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-not-reported",
+              "order": 4,
+              "value": 956
+            }
+          ]
+        },
+        "ballotOptions": [
+          {
+            "id": "248c0000-c0a3-7204-3dc7-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              }
+            ],
+            "voteCount": 596958,
+            "party": {
+              "id": "248c0000-c0a3-7204-1baf-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Democratic"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Democratic"
+                }
+              ],
+              "abbreviation": "DEM",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3c6a-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              },
+              {
+                "languageId": "1",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              }
+            ],
+            "voteCount": 393646,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-4049-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              }
+            ],
+            "voteCount": 6897,
+            "party": {
+              "id": "248c0000-c0a3-7204-3b9f-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "No Labels"
+                },
+                {
+                  "languageId": "1",
+                  "text": "No Labels"
+                }
+              ],
+              "abbreviation": "NOL",
+              "standardName": null,
+              "color": "#CB4D26",
+              "textColor": "#FFFFFF",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3f0b-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              },
+              {
+                "languageId": "1",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              }
+            ],
+            "voteCount": 6854,
+            "party": {
+              "id": "248c0000-c0a3-7204-3942-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Green"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Green"
+                }
+              ],
+              "abbreviation": "GRN",
+              "standardName": null,
+              "color": "#007029",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-cd30-0ebd-f296-08df25530ad4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unofficial Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unofficial Write-in"
+              }
+            ],
+            "voteCount": 564,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-5ce7-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Alice Novoa "
+              },
+              {
+                "languageId": "1",
+                "text": "Alice Novoa "
+              }
+            ],
+            "voteCount": 4,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-597d-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Gertritrude Gonzalez "
+              },
+              {
+                "languageId": "1",
+                "text": "Gertritrude Gonzalez "
+              }
+            ],
+            "voteCount": 2,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-79c1-08df1f131e63",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unassigned Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unassigned Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          }
+        ]
+      },
+      {
+        "locality": {
+          "id": "01000000-0496-9e5d-cc92-08dbda36ae92",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Mohave County"
+            },
+            {
+              "languageId": "1",
+              "text": "Mohave County"
+            }
+          ],
+          "shortName": "mohave-county-az",
+          "turnoutPercent": null,
+          "percentReporting": null,
+          "precinctsReporting": null,
+          "hasCountGroupStatus": false,
+          "hasPrecinctStatus": false,
+          "mapFeatureId": "Mohave County"
+        },
+        "voteTotal": 52032,
+        "precinctReportingStatus": {
+          "reportingUnits": 0,
+          "totalUnits": 24,
+          "asOf": "2026-11-04T03:25:04.5367597Z",
+          "reportingStatusDetails": [
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Fully Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-fully-reported",
+              "order": 1,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Partially Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-partially-reported",
+              "order": 3,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Not Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-not-reported",
+              "order": 4,
+              "value": 24
+            }
+          ]
+        },
+        "ballotOptions": [
+          {
+            "id": "248c0000-c0a3-7204-3c6a-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              },
+              {
+                "languageId": "1",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              }
+            ],
+            "voteCount": 34959,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3dc7-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              }
+            ],
+            "voteCount": 16069,
+            "party": {
+              "id": "248c0000-c0a3-7204-1baf-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Democratic"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Democratic"
+                }
+              ],
+              "abbreviation": "DEM",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3f0b-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              },
+              {
+                "languageId": "1",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              }
+            ],
+            "voteCount": 493,
+            "party": {
+              "id": "248c0000-c0a3-7204-3942-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Green"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Green"
+                }
+              ],
+              "abbreviation": "GRN",
+              "standardName": null,
+              "color": "#007029",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-4049-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              }
+            ],
+            "voteCount": 481,
+            "party": {
+              "id": "248c0000-c0a3-7204-3b9f-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "No Labels"
+                },
+                {
+                  "languageId": "1",
+                  "text": "No Labels"
+                }
+              ],
+              "abbreviation": "NOL",
+              "standardName": null,
+              "color": "#CB4D26",
+              "textColor": "#FFFFFF",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-cd30-0ebd-f296-08df25530ad4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unofficial Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unofficial Write-in"
+              }
+            ],
+            "voteCount": 30,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-597d-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Gertritrude Gonzalez "
+              },
+              {
+                "languageId": "1",
+                "text": "Gertritrude Gonzalez "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-5ce7-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Alice Novoa "
+              },
+              {
+                "languageId": "1",
+                "text": "Alice Novoa "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-79c1-08df1f131e63",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unassigned Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unassigned Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          }
+        ]
+      },
+      {
+        "locality": {
+          "id": "01000000-0496-9e5d-f590-08dbda36ae93",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Navajo County"
+            },
+            {
+              "languageId": "1",
+              "text": "Navajo County"
+            }
+          ],
+          "shortName": "navajo-county-az",
+          "turnoutPercent": null,
+          "percentReporting": null,
+          "precinctsReporting": null,
+          "hasCountGroupStatus": false,
+          "hasPrecinctStatus": false,
+          "mapFeatureId": "Navajo County"
+        },
+        "voteTotal": 0,
+        "precinctReportingStatus": {
+          "reportingUnits": 0,
+          "totalUnits": 19,
+          "asOf": "2026-11-04T03:25:04.5367597Z",
+          "reportingStatusDetails": [
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Fully Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-fully-reported",
+              "order": 1,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Partially Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-partially-reported",
+              "order": 3,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Not Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-not-reported",
+              "order": 4,
+              "value": 19
+            }
+          ]
+        },
+        "ballotOptions": [
+          {
+            "id": "248c0000-c0a3-7204-3c6a-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              },
+              {
+                "languageId": "1",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3dc7-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-1baf-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Democratic"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Democratic"
+                }
+              ],
+              "abbreviation": "DEM",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3f0b-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              },
+              {
+                "languageId": "1",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-3942-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Green"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Green"
+                }
+              ],
+              "abbreviation": "GRN",
+              "standardName": null,
+              "color": "#007029",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-4049-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-3b9f-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "No Labels"
+                },
+                {
+                  "languageId": "1",
+                  "text": "No Labels"
+                }
+              ],
+              "abbreviation": "NOL",
+              "standardName": null,
+              "color": "#CB4D26",
+              "textColor": "#FFFFFF",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-597d-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Gertritrude Gonzalez "
+              },
+              {
+                "languageId": "1",
+                "text": "Gertritrude Gonzalez "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-5ce7-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Alice Novoa "
+              },
+              {
+                "languageId": "1",
+                "text": "Alice Novoa "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-79c1-08df1f131e63",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unassigned Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unassigned Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-cd30-0ebd-f296-08df25530ad4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unofficial Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unofficial Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          }
+        ]
+      },
+      {
+        "locality": {
+          "id": "01000000-0496-9e5d-f471-08dbda36ae94",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Pima County"
+            },
+            {
+              "languageId": "1",
+              "text": "Pima County"
+            }
+          ],
+          "shortName": "pima-county-az",
+          "turnoutPercent": null,
+          "percentReporting": null,
+          "precinctsReporting": null,
+          "hasCountGroupStatus": false,
+          "hasPrecinctStatus": false,
+          "mapFeatureId": "Pima County"
+        },
+        "voteTotal": 265593,
+        "precinctReportingStatus": {
+          "reportingUnits": 0,
+          "totalUnits": 265,
+          "asOf": "2026-11-04T03:25:04.5367597Z",
+          "reportingStatusDetails": [
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Fully Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-fully-reported",
+              "order": 1,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Partially Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-partially-reported",
+              "order": 3,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Not Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-not-reported",
+              "order": 4,
+              "value": 265
+            }
+          ]
+        },
+        "ballotOptions": [
+          {
+            "id": "248c0000-c0a3-7204-3dc7-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              }
+            ],
+            "voteCount": 182225,
+            "party": {
+              "id": "248c0000-c0a3-7204-1baf-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Democratic"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Democratic"
+                }
+              ],
+              "abbreviation": "DEM",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3c6a-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              },
+              {
+                "languageId": "1",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              }
+            ],
+            "voteCount": 78888,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3f0b-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              },
+              {
+                "languageId": "1",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              }
+            ],
+            "voteCount": 2272,
+            "party": {
+              "id": "248c0000-c0a3-7204-3942-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Green"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Green"
+                }
+              ],
+              "abbreviation": "GRN",
+              "standardName": null,
+              "color": "#007029",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-4049-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              }
+            ],
+            "voteCount": 2084,
+            "party": {
+              "id": "248c0000-c0a3-7204-3b9f-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "No Labels"
+                },
+                {
+                  "languageId": "1",
+                  "text": "No Labels"
+                }
+              ],
+              "abbreviation": "NOL",
+              "standardName": null,
+              "color": "#CB4D26",
+              "textColor": "#FFFFFF",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-cd30-0ebd-f296-08df25530ad4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unofficial Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unofficial Write-in"
+              }
+            ],
+            "voteCount": 112,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-79c1-08df1f131e63",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unassigned Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unassigned Write-in"
+              }
+            ],
+            "voteCount": 11,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-5ce7-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Alice Novoa "
+              },
+              {
+                "languageId": "1",
+                "text": "Alice Novoa "
+              }
+            ],
+            "voteCount": 1,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-597d-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Gertritrude Gonzalez "
+              },
+              {
+                "languageId": "1",
+                "text": "Gertritrude Gonzalez "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          }
+        ]
+      },
+      {
+        "locality": {
+          "id": "01000000-0496-9e5d-d66a-08dbda36ae95",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Pinal County"
+            },
+            {
+              "languageId": "1",
+              "text": "Pinal County"
+            }
+          ],
+          "shortName": "pinal-county-az",
+          "turnoutPercent": null,
+          "percentReporting": null,
+          "precinctsReporting": null,
+          "hasCountGroupStatus": false,
+          "hasPrecinctStatus": false,
+          "mapFeatureId": "Pinal County"
+        },
+        "voteTotal": 95740,
+        "precinctReportingStatus": {
+          "reportingUnits": 0,
+          "totalUnits": 136,
+          "asOf": "2026-11-04T03:25:04.5367597Z",
+          "reportingStatusDetails": [
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Fully Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-fully-reported",
+              "order": 1,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Partially Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-partially-reported",
+              "order": 3,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Not Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-not-reported",
+              "order": 4,
+              "value": 136
+            }
+          ]
+        },
+        "ballotOptions": [
+          {
+            "id": "248c0000-c0a3-7204-3dc7-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              }
+            ],
+            "voteCount": 49553,
+            "party": {
+              "id": "248c0000-c0a3-7204-1baf-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Democratic"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Democratic"
+                }
+              ],
+              "abbreviation": "DEM",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3c6a-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              },
+              {
+                "languageId": "1",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              }
+            ],
+            "voteCount": 44512,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3f0b-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              },
+              {
+                "languageId": "1",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              }
+            ],
+            "voteCount": 807,
+            "party": {
+              "id": "248c0000-c0a3-7204-3942-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Green"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Green"
+                }
+              ],
+              "abbreviation": "GRN",
+              "standardName": null,
+              "color": "#007029",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-4049-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              }
+            ],
+            "voteCount": 807,
+            "party": {
+              "id": "248c0000-c0a3-7204-3b9f-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "No Labels"
+                },
+                {
+                  "languageId": "1",
+                  "text": "No Labels"
+                }
+              ],
+              "abbreviation": "NOL",
+              "standardName": null,
+              "color": "#CB4D26",
+              "textColor": "#FFFFFF",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-cd30-0ebd-f296-08df25530ad4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unofficial Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unofficial Write-in"
+              }
+            ],
+            "voteCount": 61,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-597d-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Gertritrude Gonzalez "
+              },
+              {
+                "languageId": "1",
+                "text": "Gertritrude Gonzalez "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-5ce7-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Alice Novoa "
+              },
+              {
+                "languageId": "1",
+                "text": "Alice Novoa "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-79c1-08df1f131e63",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unassigned Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unassigned Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          }
+        ]
+      },
+      {
+        "locality": {
+          "id": "01000000-0496-9e5d-aff3-08dbda36ae96",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Santa Cruz County"
+            },
+            {
+              "languageId": "1",
+              "text": "Santa Cruz County"
+            }
+          ],
+          "shortName": "santa-cruz-county-az",
+          "turnoutPercent": null,
+          "percentReporting": null,
+          "precinctsReporting": null,
+          "hasCountGroupStatus": false,
+          "hasPrecinctStatus": false,
+          "mapFeatureId": "Santa Cruz County"
+        },
+        "voteTotal": 0,
+        "precinctReportingStatus": {
+          "reportingUnits": 0,
+          "totalUnits": 24,
+          "asOf": "2026-11-04T03:25:04.5367597Z",
+          "reportingStatusDetails": [
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Fully Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-fully-reported",
+              "order": 1,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Partially Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-partially-reported",
+              "order": 3,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Not Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-not-reported",
+              "order": 4,
+              "value": 24
+            }
+          ]
+        },
+        "ballotOptions": [
+          {
+            "id": "248c0000-c0a3-7204-3c6a-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              },
+              {
+                "languageId": "1",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3dc7-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-1baf-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Democratic"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Democratic"
+                }
+              ],
+              "abbreviation": "DEM",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3f0b-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              },
+              {
+                "languageId": "1",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-3942-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Green"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Green"
+                }
+              ],
+              "abbreviation": "GRN",
+              "standardName": null,
+              "color": "#007029",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-4049-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-3b9f-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "No Labels"
+                },
+                {
+                  "languageId": "1",
+                  "text": "No Labels"
+                }
+              ],
+              "abbreviation": "NOL",
+              "standardName": null,
+              "color": "#CB4D26",
+              "textColor": "#FFFFFF",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-597d-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Gertritrude Gonzalez "
+              },
+              {
+                "languageId": "1",
+                "text": "Gertritrude Gonzalez "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-5ce7-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Alice Novoa "
+              },
+              {
+                "languageId": "1",
+                "text": "Alice Novoa "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-79c1-08df1f131e63",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unassigned Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unassigned Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-cd30-0ebd-f296-08df25530ad4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unofficial Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unofficial Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          }
+        ]
+      },
+      {
+        "locality": {
+          "id": "01000000-0496-9e5d-1def-08dbda36ae98",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Yavapai County"
+            },
+            {
+              "languageId": "1",
+              "text": "Yavapai County"
+            }
+          ],
+          "shortName": "yavapai-county-az",
+          "turnoutPercent": null,
+          "percentReporting": null,
+          "precinctsReporting": null,
+          "hasCountGroupStatus": false,
+          "hasPrecinctStatus": false,
+          "mapFeatureId": "Yavapai County"
+        },
+        "voteTotal": 88650,
+        "precinctReportingStatus": {
+          "reportingUnits": 55,
+          "totalUnits": 57,
+          "asOf": "2026-11-04T03:25:04.5367597Z",
+          "reportingStatusDetails": [
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Fully Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-fully-reported",
+              "order": 1,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Partially Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-partially-reported",
+              "order": 3,
+              "value": 55
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Not Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-not-reported",
+              "order": 4,
+              "value": 2
+            }
+          ]
+        },
+        "ballotOptions": [
+          {
+            "id": "248c0000-c0a3-7204-3c6a-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              },
+              {
+                "languageId": "1",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              }
+            ],
+            "voteCount": 50239,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3dc7-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              }
+            ],
+            "voteCount": 36936,
+            "party": {
+              "id": "248c0000-c0a3-7204-1baf-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Democratic"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Democratic"
+                }
+              ],
+              "abbreviation": "DEM",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-4049-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              }
+            ],
+            "voteCount": 822,
+            "party": {
+              "id": "248c0000-c0a3-7204-3b9f-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "No Labels"
+                },
+                {
+                  "languageId": "1",
+                  "text": "No Labels"
+                }
+              ],
+              "abbreviation": "NOL",
+              "standardName": null,
+              "color": "#CB4D26",
+              "textColor": "#FFFFFF",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3f0b-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              },
+              {
+                "languageId": "1",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              }
+            ],
+            "voteCount": 617,
+            "party": {
+              "id": "248c0000-c0a3-7204-3942-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Green"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Green"
+                }
+              ],
+              "abbreviation": "GRN",
+              "standardName": null,
+              "color": "#007029",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-cd30-0ebd-f296-08df25530ad4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unofficial Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unofficial Write-in"
+              }
+            ],
+            "voteCount": 36,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-597d-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Gertritrude Gonzalez "
+              },
+              {
+                "languageId": "1",
+                "text": "Gertritrude Gonzalez "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-5ce7-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Alice Novoa "
+              },
+              {
+                "languageId": "1",
+                "text": "Alice Novoa "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-79c1-08df1f131e63",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unassigned Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unassigned Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          }
+        ]
+      },
+      {
+        "locality": {
+          "id": "01000000-0496-9e5d-12e0-08dbda36ae99",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Yuma County"
+            },
+            {
+              "languageId": "1",
+              "text": "Yuma County"
+            }
+          ],
+          "shortName": "yuma-county-az",
+          "turnoutPercent": null,
+          "percentReporting": null,
+          "precinctsReporting": null,
+          "hasCountGroupStatus": false,
+          "hasPrecinctStatus": false,
+          "mapFeatureId": "Yuma County"
+        },
+        "voteTotal": 21064,
+        "precinctReportingStatus": {
+          "reportingUnits": 0,
+          "totalUnits": 47,
+          "asOf": "2026-11-04T03:25:04.5367597Z",
+          "reportingStatusDetails": [
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Fully Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-fully-reported",
+              "order": 1,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Partially Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-partially-reported",
+              "order": 3,
+              "value": 0
+            },
+            {
+              "groupName": [
+                {
+                  "languageId": null,
+                  "text": "Not Reported"
+                }
+              ],
+              "reportingStatusClientTextKey": "reporting-status-not-reported",
+              "order": 4,
+              "value": 47
+            }
+          ]
+        },
+        "ballotOptions": [
+          {
+            "id": "248c0000-c0a3-7204-3dc7-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Katie Hobbs (DEM) / John Giles (PND)"
+              }
+            ],
+            "voteCount": 11191,
+            "party": {
+              "id": "248c0000-c0a3-7204-1baf-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Democratic"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Democratic"
+                }
+              ],
+              "abbreviation": "DEM",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3c6a-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              },
+              {
+                "languageId": "1",
+                "text": "Andy Biggs (REP) / Sine Kerr (REP)"
+              }
+            ],
+            "voteCount": 9375,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-3f0b-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              },
+              {
+                "languageId": "1",
+                "text": "Risa Lombardo (GRN) / Lisa Castillo (GRN)"
+              }
+            ],
+            "voteCount": 305,
+            "party": {
+              "id": "248c0000-c0a3-7204-3942-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Green"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Green"
+                }
+              ],
+              "abbreviation": "GRN",
+              "standardName": null,
+              "color": "#007029",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "248c0000-c0a3-7204-4049-08df11bc03cf",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              },
+              {
+                "languageId": "1",
+                "text": "Teri Ann Hourihan (NOL) / Angela Harrolle Mohan (PND)"
+              }
+            ],
+            "voteCount": 180,
+            "party": {
+              "id": "248c0000-c0a3-7204-3b9f-08df11bc03ba",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "No Labels"
+                },
+                {
+                  "languageId": "1",
+                  "text": "No Labels"
+                }
+              ],
+              "abbreviation": "NOL",
+              "standardName": null,
+              "color": "#CB4D26",
+              "textColor": "#FFFFFF",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-cd30-0ebd-f296-08df25530ad4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unofficial Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unofficial Write-in"
+              }
+            ],
+            "voteCount": 13,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-597d-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Gertritrude Gonzalez "
+              },
+              {
+                "languageId": "1",
+                "text": "Gertritrude Gonzalez "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-5ce7-08df1f123754",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Alice Novoa "
+              },
+              {
+                "languageId": "1",
+                "text": "Alice Novoa "
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": "248c0000-c0a3-7204-820f-08df11bc03af",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Republican"
+                },
+                {
+                  "languageId": "1",
+                  "text": "Republican"
+                }
+              ],
+              "abbreviation": "REP",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#ffffff",
+              "showInPublicResultsFilters": null
+            }
+          },
+          {
+            "id": "01000000-3a7a-2b48-79c1-08df1f131e63",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Unassigned Write-in"
+              },
+              {
+                "languageId": "1",
+                "text": "Unassigned Write-in"
+              }
+            ],
+            "voteCount": 0,
+            "party": {
+              "id": null,
+              "name": null,
+              "abbreviation": null,
+              "standardName": null,
+              "color": "#999999",
+              "textColor": null,
+              "showInPublicResultsFilters": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

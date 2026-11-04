@@ -34,14 +34,14 @@ function PollRow({poll}:{poll:Poll}) {
  </article>;
 }
 
-export function RaceDetails({snapshot,race,history,onClose}:{snapshot:Snapshot;race:Race;history:History;onClose:()=>void}) {
+export function RaceDetails({snapshot,race,history,onClose,candidateId}:{snapshot:Snapshot;race:Race;history:History;onClose:()=>void;candidateId?:string}) {
  const [tab,setTab]=useState<'overview'|'polls'>('overview');
  const [query,setQuery]=useState('');const [showAll,setShowAll]=useState(false);
  const polling=summary(snapshot,race);
  const polls=useMemo(()=>snapshot.polls.filter(p=>p.race_id===race.id).sort((a,b)=>(b.end??'').localeCompare(a.end??'')),[snapshot.polls,race.id]);
  const filtered=polls.filter(p=>`${p.pollster} ${p.population??''} ${p.sponsor??''}`.toLowerCase().includes(query.toLowerCase()));
  const delta=difference(snapshot,race);
- const favorite=projectedWinner(snapshot,race)?.candidate;
+ const favorite=candidateId===undefined?projectedWinner(snapshot,race)?.candidate:race.candidates.find(c=>c.id===candidateId);
  const quotePairs=race.candidates.filter(c=>c.id===favorite?.id).flatMap(candidate=>(['kalshi','polymarket'] as const).flatMap(provider=>{
    const entry=market(snapshot,race,provider,candidate.id);return entry?[{...entry,candidate}]:[];
  }));
@@ -55,7 +55,7 @@ export function RaceDetails({snapshot,race,history,onClose}:{snapshot:Snapshot;r
    {tab==='overview'?<>
      <section className="polling-summary"><div className="section-heading"><h3>Polling & forecast</h3>{polling&&<span className="rating-chip">{polling.rating??'Unrated'}</span>}</div><p className="metric-candidate">Reference outcome: {race.candidates[0]?.name} ({race.candidates[0]?.party})</p><div className="detail-metrics"><div><span>Reported poll average</span><strong>{points(polling?.poll_margin)}</strong><small>Margin vs. Republican</small></div><div><span>Model forecast margin</span><strong>{points(polling?.forecast_margin)}</strong><small>Polling Forecast model</small></div><div><span>Model win probability</span><strong>{pct(polling?.probability)}</strong><small>Forecast, not vote share</small></div></div><p className="data-note">{polling?.polls_used??'No'} polls used · As of {date(polling?.as_of)}. The reported polling average, modeled margin and modeled win probability are different measurements.</p>{polling&&<SourceLink href={polling.url}>Polling Forecast · {polling.licence}</SourceLink>}</section>
      <section className="market-section"><div className="section-heading"><h3>Prediction markets</h3><ExternalLink size={14} aria-hidden="true"/></div><p className="data-note">Prices from valid two-sided quotes. Prices can reflect spreads, liquidity, fees and settlement rules; they are not election results.</p><div className="market-card-grid">{quotePairs.length?quotePairs.map(({contract,quote,candidate})=><MarketCard key={contract.id} contract={contract} quote={quote} modelProbability={candidate.id===polling?.comparison_candidate_id?(polling?.probability??null):null}/>):<div className="empty-state">No verified market contract is available for these candidates.</div>}</div><div className="market-difference"><span>Kalshi − Polymarket · equivalent outcome</span><strong>{points(delta)}</strong><p>{delta==null?'No compatible pair has been approved. Settlement terms or available outcomes differ; a numerical spread would be misleading.':`${delta>0?'Kalshi':delta<0?'Polymarket':'Neither provider'} is higher for the verified equivalent outcome.`}</p></div></section>
-     <OddsHistoryChart snapshot={snapshot} race={race} history={history}/>
+     <OddsHistoryChart snapshot={snapshot} race={race} history={history} candidateId={candidateId}/>
      <section className="detail-sources"><h3>Race sources</h3>{race.sources.map((url,i)=><SourceLink key={url} href={url}>{i===0?'Polling Forecast race':url.includes('senate.gov')?'U.S. Senate class roster':'Ballotpedia election roster'}</SourceLink>)}<p className="data-note">Race metadata updated {date(race.updated_at)}. {race.election_type==='special'?'Special election; provider identifiers are kept separate from regular races.':''}</p></section>
    </>:<section className="individual-polls"><PollingChart polls={polls} race={race}/><div className="section-heading"><h3>Individual polls <span className="muted">{filtered.length}</span></h3></div><label className="search-field"><Search size={15} aria-hidden="true"/><input value={query} onChange={event=>{setQuery(event.target.value);setShowAll(false)}} placeholder="Search pollster, sponsor or population" aria-label="Search individual polls"/></label><p className="data-note">Margins are the first listed candidate minus Republican, in percentage points. Rows retain their original licensing and release links. Repeated underlying polls are deduplicated.</p>{filtered.length?filtered.slice(0,showAll?undefined:15).map(poll=><PollRow key={poll.id} poll={poll}/>):<div className="empty-state">No polls match this search.</div>}{!showAll&&filtered.length>15&&<button className="secondary-button" type="button" onClick={()=>setShowAll(true)}>Show all {filtered.length} polls</button>}</section>}
    </div>

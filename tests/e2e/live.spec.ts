@@ -14,7 +14,7 @@ test('refreshes real provider data and shows favorite prices through the deploye
  }
  const observed=await page.evaluate(()=>JSON.parse(localStorage.getItem('election-atlas-v1')??'{}').providers as Record<string,{last_success:string|null}>);
  for(const provider of ['polling_forecast','votehub','kalshi','polymarket'])expect(Date.now()-Date.parse(observed[provider].last_success!)).toBeLessThan(120000);
- await page.getByTestId('state-ME').click();
+ await page.locator('[data-state-label="ME"] rect').click();
  await expect(page.locator('path[data-county]')).toHaveCount(16);
  await expect(page.getByTestId('race-summary-Senate')).toBeVisible();
  await expect(page.getByTestId('race-summary-Governor')).toBeVisible();
@@ -25,7 +25,7 @@ test('refreshes real provider data and shows favorite prices through the deploye
  await page.getByRole('button',{name:'Back to national map',exact:true}).click();
  await expect(page.locator('path[data-state]')).toHaveCount(50);
  await expect(page.locator('.nation-map')).toHaveAttribute('aria-label',/reported vote leaders/);
- await page.getByTestId('state-GA').click();
+ await page.locator('[data-state-label="GA"] rect').click();
  await expect(page.getByTestId('reported-result-Senate')).toContainText('votes reported');
  await expect(page.getByTestId('reported-result-Governor')).toContainText('votes reported');
  await page.getByRole('button',{name:'Exit polls',exact:true}).click();

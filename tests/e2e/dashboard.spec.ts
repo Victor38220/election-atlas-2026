@@ -2,6 +2,7 @@ import {test,expect} from '@playwright/test';
 import {mkdir,readFile} from 'node:fs/promises';
 import type {Snapshot} from '../../src/types';
 const seed=JSON.parse(await readFile(new URL('../../public/data/latest.json',import.meta.url),'utf8')) as Snapshot;
+const reportedSeed=JSON.parse(await readFile(new URL('../../public/data/results.json',import.meta.url),'utf8')) as {races:{race_id:string;candidates:{name:string;party:string;votes:number;share:number}[];total:number}[]};
 const senateStates=['AL','AK','AR','CO','DE','FL','GA','ID','IL','IA','KS','KY','LA','ME','MA','MI','MN','MS','MT','NE','NH','NJ','NM','NC','OH','OK','OR','RI','SC','SD','TN','TX','VA','WV','WY'].sort();
 test.beforeEach(async({page})=>{await page.route('**/api/**',route=>route.abort());});
 
@@ -22,14 +23,14 @@ test('opens a single map showing all Senate and governor contests',async({page})
 
 test('state selection replaces the national map with counties and both statewide races',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/');
- await page.getByTestId('state-GA').click();
+ await page.locator('[data-state-label="GA"] rect').click();
  await expect(page.getByRole('heading',{name:'Georgia',exact:true})).toBeVisible();
  await expect(page.locator('path[data-state]')).toHaveCount(0);
  await expect(page.locator('path[data-county]')).toHaveCount(159);
  await expect(page.getByTestId('race-summary-Senate')).toBeVisible();
  await expect(page.getByTestId('race-summary-Governor')).toBeVisible();
- await expect(page.getByTestId('race-summary-Senate').getByText('Statewide polling margin')).toBeVisible();
- await expect(page.getByTestId('race-summary-Governor').getByText('Statewide polling margin')).toBeVisible();
+ await expect(page.getByTestId('race-summary-Senate').getByText('Pre-election polling margin')).toBeVisible();
+ await expect(page.getByTestId('race-summary-Governor').getByText('Pre-election polling margin')).toBeVisible();
  await expect(page.getByRole('textbox',{name:'Search counties'})).toBeHidden();
  await page.getByRole('button',{name:'Back to national map',exact:true}).click();
  await expect(page.locator('path[data-state]')).toHaveCount(50);
@@ -37,11 +38,14 @@ test('state selection replaces the national map with counties and both statewide
  expect(errors).toEqual([]);
 });
 
-test('keeps favorite candidate prices separate on the two market providers',async({page})=>{
+test('matches both market providers to the actual reported leader',async({page})=>{
  await page.goto('/#state=GA');
  for(const race of seed.races.filter(r=>r.state==='GA')){
   const summary=seed.summaries.find(s=>s.race_id===race.id)!;
-  const favorite=summary.probability!>.5?race.candidates[0]:race.candidates.find(c=>c.party==='R')!;
+  const observed=reportedSeed.races.find(r=>r.race_id===race.id);
+  const leader=observed&&observed.total>0?[...observed.candidates].sort((a,b)=>b.votes-a.votes)[0]:null;
+  expect(leader).not.toBeNull();
+  const favorite=race.candidates.find(c=>c.name===leader!.name)!;
   const other=race.candidates.find(c=>c.id!==favorite.id)!;
   const card=page.getByTestId('race-summary-'+race.office);
   await expect(card.getByRole('heading',{name:favorite.name,exact:true})).toBeVisible();
@@ -53,7 +57,7 @@ test('keeps favorite candidate prices separate on the two market providers',asyn
    const contracts=seed.contracts.filter(c=>c.race_id===race.id&&c.candidate_id===favorite.id&&c.provider===provider);
    const quotes=seed.quotes.filter(q=>contracts.some(c=>c.id===q.contract_id));
    const possible=quotes.filter(q=>q.price!==null).map(q=>(q.price!*100).toFixed(1)+'%');
-   const market=card.getByRole('link',{name:`${provider==='kalshi'?'Kalshi':'Polymarket'} ${race.office} favorite contract`});
+   const market=card.locator(`[data-provider="${provider}"] a`);
    const actual=await market.locator('strong').innerText();
    if(possible.length)expect(possible).toContain(actual);else expect(actual).toBe('—');
   }
@@ -138,7 +142,7 @@ test('reported statewide results use vote leaders and never substitute past coun
  const color=leader.party==='D'?'#579bd7':leader.party==='R'?'#e06c7e':leader.party==='I'?'#b198e0':'#52627a';
  await expect(page.locator('#race-split-AR stop').first()).toHaveAttribute('stop-color',color);
  await expect(page.locator('#race-split-ID stop').first()).toHaveAttribute('stop-color','#52627a');
- await page.getByTestId('state-AR').click();
+ await page.locator('[data-state-label="AR"] rect').click();
  const result=page.getByTestId('reported-result-Senate');
  await expect(result).toContainText(ar.total.toLocaleString()+' votes reported');
  await expect(result).toContainText(leader.votes.toLocaleString()+' votes');
@@ -165,4 +169,35 @@ test('exit polls identify an attributed national observation and unavailable loc
  await page.getByLabel('Go to state').selectOption('GA');await expect(exit.getByRole('heading',{name:'Georgia coverage',exact:true})).toBeVisible();
  await page.getByRole('button',{name:'Polls & markets',exact:true}).click();await expect(page.locator('path[data-county]')).toHaveCount(159);
  await page.getByRole('button',{name:'Back to national map',exact:true}).click();await expect(page.locator('path[data-state]')).toHaveCount(50);
+});
+
+
+test('Texas governor prioritizes the reported Democratic leader over the older Abbott forecast',async({page})=>{
+ const race=seed.races.find(r=>r.state==='TX'&&r.office==='Governor')!;
+ const model=seed.summaries.find(s=>s.race_id===race.id)!;
+ expect(model.probability).toBeLessThan(.5);
+ const observation=reportedSeed.races.find(r=>r.race_id===race.id)!;
+ const leader=[...observation.candidates].sort((a,b)=>b.votes-a.votes)[0];
+ expect(leader.name).toBe('Gina Hinojosa');expect(leader.party).toBe('D');
+ await page.goto('/#state=TX');
+ const card=page.getByTestId('race-summary-Governor');
+ await expect(card.getByRole('heading',{name:'Gina Hinojosa',exact:true})).toBeVisible();
+ await expect(card.getByRole('heading',{name:'Greg Abbott',exact:true})).toHaveCount(0);
+ await expect(card.locator('.leader-share strong')).toHaveText((leader.share*100).toFixed(1)+'%');
+ await expect(card).toContainText(/Leading.*Unofficial/i);
+ for(const provider of ['kalshi','polymarket'] as const){
+  const matching=seed.contracts.filter(c=>c.race_id===race.id&&c.provider===provider&&c.candidate_id===race.candidates[0].id);
+  const cell=card.locator(`[data-provider="${provider}"]`);
+  await expect(cell).toHaveCount(1);
+  if(matching.length){const title=await cell.locator('a').getAttribute('title');expect(matching.some(c=>title?.includes(c.question))).toBe(true)}
+ }
+});
+
+
+test('uncovered Maine contests show no reported leader rather than forecast favorites',async({page})=>{
+ await page.goto('/#state=ME');await expect(page.locator('path[data-county]')).toHaveCount(16);
+ for(const office of ['Senate','Governor']){
+  const card=page.getByTestId('race-summary-'+office);await expect(card.getByRole('heading',{name:'No reported leader',exact:true})).toBeVisible();
+  await expect(card.locator('.leader-share')).toHaveCount(0);await expect(card.locator('.focused-market strong')).toHaveText(['—','—']);
+ }
 });

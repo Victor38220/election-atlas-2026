@@ -3,20 +3,21 @@ import {geoConicEqualArea,geoMercator,geoPath} from 'd3-geo';
 import type {FeatureCollection,Geometry} from 'geojson';
 import {Search,RefreshCw,ExternalLink} from 'lucide-react';
 import type {Office} from '../types';
-import type {CountyLiveResult} from '../types/countyResults';
+import type {CountyLiveData,CountyLiveResult} from '../types/countyResults';
 import {date,partyColor} from '../lib/analytics';
 import {useCountyResults} from '../hooks/useCountyResults';
 import manifest from '../../config/races.json';
 import './maps.css';
 export interface CountySelection {name:string;rows:CountyLiveResult[];office:Office}
-interface Props {state:string;stateName:string;fips:string;focused?:boolean;onCountyChange?:(selection:CountySelection|null)=>void}
+interface Props {state:string;stateName:string;fips:string;focused?:boolean;onCountyChange?:(selection:CountySelection|null)=>void;onDataChange?:(data:CountyLiveData|null)=>void}
 export function countyLeader(row:CountyLiveResult|undefined){if(!row||!row.total||row.status!=='reporting')return null;const sorted=[...row.candidates].sort((a,b)=>b.votes-a.votes);return sorted[0]?.votes>0&&sorted[0].votes!==sorted[1]?.votes?sorted[0]:null}
-export default function CountyExplorer({state,stateName,fips,focused=false,onCountyChange}:Props){
+export default function CountyExplorer({state,stateName,fips,focused=false,onCountyChange,onDataChange}:Props){
  const [geo,setGeo]=useState<FeatureCollection<Geometry>|null>(null),[geometryError,setGeometryError]=useState(''),[search,setSearch]=useState(''),[selected,setSelected]=useState<string|null>(null);
  const offices=useMemo(()=>manifest.filter(r=>r.state===state).map(r=>r.office as Office),[state]);
  const [office,setOffice]=useState<Office>(()=>offices.includes('Senate')?'Senate':'Governor');
  const {data,loading,error,supported,refresh}=useCountyResults(state,geo);
  useEffect(()=>{const controller=new AbortController();setGeo(null);setGeometryError('');setSearch('');setSelected(null);setOffice(offices.includes('Senate')?'Senate':'Governor');fetch(import.meta.env.BASE_URL+'geo/counties/'+state+'.json',{signal:controller.signal}).then(r=>{if(!r.ok)throw new Error('County boundaries unavailable.');return r.json()}).then(setGeo).catch(e=>{if(!controller.signal.aborted)setGeometryError(String(e))});return()=>controller.abort()},[state,offices]);
+ useEffect(()=>{onDataChange?.(data)},[data,onDataChange]);
  const paths=useMemo(()=>{if(!geo)return [];const projection=state==='AK'?geoConicEqualArea().parallels([55,65]).rotate([154,0]).center([0,64]):geoMercator();projection.fitExtent([[12,12],[588,360]],geo);const path=geoPath(projection);return geo.features.map(f=>({fips:String(f.id).padStart(5,'0'),name:String(f.properties?.name??''),d:path(f)??''}))},[geo,state]);
  const rows=useMemo(()=>data?.rows.filter(r=>r.office===office)??[],[data,office]);
  const selectedRows=useMemo(()=>data?.rows.filter(r=>r.fips===selected)??[],[data,selected]);

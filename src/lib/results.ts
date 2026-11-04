@@ -25,7 +25,7 @@ export function normalizeResults(payload:unknown,office:Office,races:Race[]=mani
   const raw=record(value);if(!Array.isArray(raw.cands))throw new Error('Invalid result candidate list');
   const total=integer(raw.total,'vote total');const candidates=raw.cands.map(value=>{const c=record(value);const name=text(c.n);if(!name)throw new Error('Missing result candidate name');const votes=integer(c.v,'candidate vote count');let share:number|null=null;if(c.pct!==null&&c.pct!==undefined){const reported=numeric(c.pct);if(reported===null||reported<0||reported>100)throw new Error('Invalid candidate share');share=probability(reported/100)}if(total===0)share=null;return {name,party:text(c.p),votes,share}});
   const reporting=raw.pct_in==null?null:numeric(raw.pct_in);if((raw.pct_in!=null&&reporting===null)||(reporting!==null&&(reporting<0||reporting>100)))throw new Error('Invalid reporting percentage');
-  result.push({race_id:matches[0].id,state:matches[0].state,office,as_of:sourceTimestamp||null,pct_reporting:reporting,total,candidates,stale:data.stale,source_url:'https://openamerica.io/elections/results.json?year=2026&office='+office});
+  result.push({race_id:matches[0].id,state:matches[0].state,office,as_of:text(raw.as_of)&&Number.isFinite(Date.parse(text(raw.as_of)))?text(raw.as_of):sourceTimestamp||null,pct_reporting:reporting,total,candidates,stale:data.stale,source_url:'https://openamerica.io/elections/results.json?year=2026&office='+office});
  }
  return result;
 }

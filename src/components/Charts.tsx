@@ -5,9 +5,9 @@ import {date, market, pct, points, shortDate, projectedWinner} from '../lib/anal
 
 const chartTheme = {background:'#152131',border:'1px solid #344155',borderRadius:10,color:'#edf3fb',fontSize:12};
 
-export function OddsHistoryChart({snapshot,race,history}:{snapshot:Snapshot;race:Race;history:History}) {
+export function OddsHistoryChart({snapshot,race,history,candidateId}:{snapshot:Snapshot;race:Race;history:History;candidateId?:string}) {
   const [range,setRange]=useState<'24h'|'14d'|'all'>('all');
-  const favorite=projectedWinner(snapshot,race)?.candidate;
+  const favorite=candidateId===undefined?projectedWinner(snapshot,race)?.candidate:race.candidates.find(c=>c.id===candidateId);
   const contracts=useMemo(()=>favorite?['kalshi','polymarket'].flatMap(p=>{
     const entry=market(snapshot,race,p as 'kalshi'|'polymarket',favorite.id);
     return entry ? [entry.contract] : [];
