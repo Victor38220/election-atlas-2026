@@ -1,3 +1,4 @@
+import { notableRaces } from './notable';
 import raceManifest from '../config/races.json';
 interface Env{ASSETS:Fetcher}
 const HOSTS:Record<string,string>={polling:'https://www.pollingforecast.com/api/us',kalshi:'https://external-api.kalshi.com/trade-api/v2',polymarket:'https://gamma-api.polymarket.com',votehub:'https://api.votehub.com',clob:'https://clob.polymarket.com'};
@@ -36,6 +37,10 @@ export default {
  async fetch(request:Request,env:Env,ctx:ExecutionContext):Promise<Response>{
   const incoming=new URL(request.url);if(!incoming.pathname.startsWith('/api/'))return env.ASSETS.fetch(request);
   if(request.method!=='GET')return Response.json({error:'Only public GET data is supported'},{status:405});
+  if(incoming.pathname==='/api/notable-races'){
+   const key=new Request(incoming.origin+'/api/notable-races');const hit=await caches.default.match(key);if(hit)return hit;
+   const response=await notableRaces();if(response.ok&&response.headers.get('Cache-Control')!=='no-store')ctx.waitUntil(caches.default.put(key,response.clone()));return response;
+  }
   if(incoming.pathname==='/api/counties/CO'){
    const versionResponse=await proxy(new URL('https://results.enr.clarityelections.com/CO/127407/current_ver.txt'),'countyText',ctx);if(!versionResponse.ok)return versionResponse;
    const version=(await versionResponse.text()).trim();if(!/^\d{5,12}$/.test(version))return Response.json({error:'Invalid Colorado report version'},{status:502});
