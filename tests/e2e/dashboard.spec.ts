@@ -15,7 +15,7 @@ test('opens a single map showing all Senate and governor contests',async({page})
  expect(await page.locator('path[data-senate="true"]').evaluateAll(paths=>paths.map(p=>p.getAttribute('data-state')).sort())).toEqual(senateStates);
  await expect(page.getByTestId('state-HI')).toHaveAttribute('data-senate','false');
  await expect(page.getByTestId('state-HI')).toHaveAttribute('data-governor','true');
- await expect(page.getByTestId('map-legend')).toContainText('Left: Senate · Right: Governor');
+ await expect(page.getByTestId('map-legend')).toContainText('Two-race states split Senate / Governor');
  await expect(page.getByTestId('map-legend')).toContainText('Independent');
  await expect(page.locator('.office-tabs,.mode-tabs,.summary-grid,.field-notes,.race-table-section,.composition')).toHaveCount(0);
  expect(errors).toEqual([]);
@@ -65,37 +65,49 @@ test('matches both market providers to the actual reported leader',async({page})
  }
 });
 
-test('live county reports preserve actual counts, genuine zeroes and unavailable coverage',async({page})=>{
+test('published county reports retain source attribution and matched geography',async({page})=>{
  const historicalRequests:string[]=[];page.on('request',request=>{if(/\/data\/counties\/|\/api\/polling\/counties/.test(request.url()))historicalRequests.push(request.url())});
- await page.goto('/#state=NC');await expect(page.locator('path[data-county]')).toHaveCount(100);
- await expect(page.locator('path[data-status="reporting"]')).toHaveCount(99);
- await expect(page.locator('path[data-status="awaiting"]')).toHaveCount(1);
- await page.locator('path[data-county="37001"]').focus();await page.keyboard.press('Enter');
- const brief=page.getByRole('region',{name:'Selected county information'});
- await expect(brief.getByRole('heading',{name:'Alamance',exact:true})).toBeVisible();
- await expect(brief).toContainText('67,849 votes reported');await expect(brief).toContainText('39 / 39 precincts');
- await expect(brief).toContainText('Roy Cooper');await expect(brief).toContainText('38,109');
- await expect(brief.getByRole('link',{name:'North Carolina State Board of Elections ↗'})).toHaveAttribute('href',/er.ncsbe.gov/);
- await expect(brief).toContainText('Source time:');
- await expect(brief).toContainText('County polling and county markets are unavailable');
- await expect(page.getByLabel('County election year')).toHaveCount(0);
- await expect(page.getByRole('option',{name:'President',exact:true})).toHaveCount(0);
- await page.getByLabel('Go to state').selectOption('CA');await expect(page.locator('path[data-status="awaiting"]')).toHaveCount(58);
- await page.locator('path[data-county="06001"]').focus();await page.keyboard.press('Enter');
- await expect(brief.getByRole('heading',{name:'Alameda',exact:true})).toBeVisible();
- await expect(brief).toContainText('Awaiting reported votes');await expect(brief).toContainText('0 votes reported · 0 / 627 precincts');
- await expect(brief).not.toContainText('0.0%');
- await page.getByLabel('Go to state').selectOption('ME');await expect(page.locator('path[data-status="unavailable"]')).toHaveCount(16);
- await expect(page.locator('.county-live-status')).toHaveText('No verified 2026 live county feed is connected for this state.');
- await page.getByLabel('Go to state').selectOption('GA');await expect(page.locator('path[data-county]')).toHaveCount(159);
- await expect(page.locator('path[data-status="reporting"]')).toHaveCount(156);
- await expect(page.locator('path[data-status="awaiting"]')).toHaveCount(3);
- await page.locator('path[data-county="13001"]').focus();await page.keyboard.press('Enter');
- await expect(brief.getByRole('heading',{name:'Appling',exact:true})).toBeVisible();
- await expect(brief.locator('.county-current-report')).toHaveCount(2);
- await expect(brief).toContainText('6,176 votes reported');await expect(brief).toContainText('US Senate');await expect(brief).toContainText('Governor');
- await expect(page.locator('.county-explorer')).not.toContainText('2024');
+ for(const [state,count,fips] of [['NC',100,'37001'],['CA',58,'06001'],['ME',16,'23005'],['GA',159,'13001']] as const){
+  const data=JSON.parse(await readFile(new URL(`../../public/data/live-counties/${state}.json`,import.meta.url),'utf8'));
+  const row=data.rows.find((r:{fips:string})=>r.fips===fips);
+  expect(row).toBeTruthy();
+  if(state==='NC')await page.goto('/#state=NC');else await page.getByLabel('Go to state').selectOption(state);
+  await expect(page.locator('path[data-county]')).toHaveCount(count);
+  const shape=page.locator(`path[data-county="${fips}"]`);await expect(shape).toHaveAttribute('data-status',row.status);
+  await shape.focus();await page.keyboard.press('Enter');
+  const brief=page.getByRole('region',{name:'Selected county information'});
+  await expect(brief.getByRole('heading',{name:row.county,exact:true})).toBeVisible();
+  await expect(brief).toContainText(`${row.total.toLocaleString()} votes reported`);
+  await expect(brief.getByRole('link',{name:`${row.source_name} ↗`}).first()).toHaveAttribute('href',row.source_url);
+  if(row.status==='reporting')await expect(brief).toContainText(row.candidates[0].votes.toLocaleString());
+  await expect(brief).toContainText('Source time:');
+  await expect(page.getByLabel('County election year')).toHaveCount(0);
+ }
  expect(historicalRequests).toEqual([]);
+});
+
+test('results map distinguishes AP calls from uncalled leaders and fills single-race states',async({page})=>{
+ const data=JSON.parse(await readFile(new URL('../../public/data/results.json',import.meta.url),'utf8'));
+ const called=data.calls.find((c:{state:string;office:string})=>c.state==='AL'&&c.office==='Senate');
+ expect(called.authority).toBe('Associated Press');
+ data.calls=data.calls.filter((c:{state:string})=>c.state!=='NY');
+ const uncalled=data.races.find((r:{state:string;office:string;total:number})=>r.state==='NY'&&r.office==='Governor'&&r.total>0);
+ expect(uncalled).toBeTruthy();
+ await page.route('**/data/results.json',route=>route.fulfill({json:data}));
+ await page.goto('/');
+ const al=page.getByTestId('state-AL');await expect(al).toHaveAttribute('data-ap-called-senate','true');
+ await expect(al).toHaveAttribute('aria-label',new RegExp(`AP called ${called.winner_name}`));
+ const ny=page.getByTestId('state-NY');await expect(ny).toHaveAttribute('data-contests','1');
+ await expect(ny).not.toHaveAttribute('fill',/race-split/);
+ await expect(ny.locator('..').locator('path[fill="url(#leader-hatch)"]')).toHaveCount(1);
+ await expect(page.getByTestId('map-legend')).toContainText('Solid: AP called winner');
+ await expect(page.getByTestId('map-legend')).toContainText('Hatched: reported leader, uncalled');
+});
+
+test('Alaska displays election districts and explains their geography',async({page})=>{
+ await page.goto('/#state=AK');await expect(page.locator('path[data-county]')).toHaveCount(40);
+ await expect(page.locator('.county-map-hint').first()).toContainText('House election districts');
+ await expect(page.locator('.county-map-hint').first()).toContainText('not boroughs or census-area counties');
 });
 
 test('saved observations and deep links work when every API is unavailable',async({page})=>{
@@ -129,6 +141,7 @@ test('keeps the map prominent on desktop and mobile without horizontal overflow'
 });
 
 test('reported statewide results use vote leaders and never substitute past county returns',async({page},testInfo)=>{
+ await page.route('**/data/live-counties/AR.json',route=>route.abort());
  const recorded=JSON.parse(await readFile(new URL('../../public/data/results.json',import.meta.url),'utf8'));
  const ar=recorded.races.find((r:{state:string;office:string})=>r.state==='AR'&&r.office==='Senate');
  const leader=[...ar.candidates].sort((a:{votes:number},b:{votes:number})=>b.votes-a.votes)[0];
@@ -138,19 +151,18 @@ test('reported statewide results use vote leaders and never substitute past coun
  await page.goto('/');await expect(page.locator('path[data-state]')).toHaveCount(50);
  await page.getByRole('button',{name:'Election results',exact:true}).click();
  await expect(page.locator('.results-status')).toContainText('races with reported data');
- await expect(page.getByTestId('map-legend')).toContainText('No reported count');
+ await expect(page.getByTestId('map-legend')).toContainText('No verified count');
  const color=leader.party==='D'?'#579bd7':leader.party==='R'?'#e06c7e':leader.party==='I'?'#b198e0':'#52627a';
  await expect(page.locator('#race-split-AR stop').first()).toHaveAttribute('stop-color',color);
- await expect(page.locator('#race-split-ID stop').first()).toHaveAttribute('stop-color','#52627a');
  await page.locator('[data-state-label="AR"] rect').click();
  const result=page.getByTestId('reported-result-Senate');
  await expect(result).toContainText(ar.total.toLocaleString()+' votes reported');
  await expect(result).toContainText(leader.votes.toLocaleString()+' votes');
- await expect(result).toContainText('reporting units');
+ await expect(result).toContainText('Reporting units');
  await expect(result).toContainText('not the share of ballots counted');
  await expect(result).toContainText('A leader is not a declared winner');
- await expect(result.getByRole('link',{name:'Official state election offices via Open America'})).toHaveAttribute('href',ar.source_url);
- await expect(page.locator('.county-live-status')).toContainText('No verified 2026 live county feed');
+ await expect(result.getByRole('link',{name:'Published election results source'})).toHaveAttribute('href',ar.source_url);
+ await expect(page.locator('.county-explorer')).not.toContainText('2024');
  await expect(page.getByLabel('County election year')).toHaveCount(0);
  await expect(page.getByTestId('race-summary-Senate')).toBeVisible();
  await result.scrollIntoViewIfNeeded();await page.screenshot({path:`artifacts/results-${testInfo.project.name}.png`,fullPage:false,animations:'disabled'});
@@ -195,10 +207,13 @@ test('Texas governor prioritizes the reported Democratic leader over the older A
 });
 
 
-test('uncovered Maine contests show no reported leader rather than forecast favorites',async({page})=>{
+test('Maine cards use the published reported leaders',async({page})=>{
  await page.goto('/#state=ME');await expect(page.locator('path[data-county]')).toHaveCount(16);
  for(const office of ['Senate','Governor']){
-  const card=page.getByTestId('race-summary-'+office);await expect(card.getByRole('heading',{name:'No reported leader',exact:true})).toBeVisible();
-  await expect(card.locator('.leader-share')).toHaveCount(0);await expect(card.locator('.focused-market strong')).toHaveText(['—','—']);
+  const observation=reportedSeed.races.find(r=>r.race_id===`2026-${office.toLowerCase()}-me`)!;
+  const leader=[...observation.candidates].sort((a,b)=>b.votes-a.votes)[0];
+  const card=page.getByTestId('race-summary-'+office);
+  await expect(card.getByRole('heading',{name:leader.name,exact:true})).toBeVisible();
+  await expect(card.locator('.leader-share strong')).toHaveText((leader.share*100).toFixed(1)+'%');
  }
 });

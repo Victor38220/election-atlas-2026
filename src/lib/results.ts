@@ -5,7 +5,7 @@ import {normalizeNationalResults} from './countyNational';
 import {normalizeApCalls} from './apCalls';
 import type {APCall} from './apCalls';
 export interface ResultCandidate{name:string;party:string;votes:number;share:number|null}
-export interface RaceResult{race_id:string;state:string;office:Office;as_of:string|null;pct_reporting:number|null;total:number;candidates:ResultCandidate[];stale:boolean;source_url:string}
+export interface RaceResult{race_id:string;state:string;office:Office;as_of:string|null;pct_reporting:number|null;estimated_vote_in?:number|null;total:number;candidates:ResultCandidate[];stale:boolean;source_url:string}
 export interface ResultsData{fetched_at:string;as_of:string|null;races:RaceResult[];calls?:APCall[];status?:'ok'|'partial';errors?:string[]}
 export const RESULTS_ATTRIBUTION='Official state election offices via Open America';
 export const RESULTS_DOCS='https://openamerica.io/elections/api/';

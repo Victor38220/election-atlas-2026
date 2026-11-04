@@ -9,6 +9,7 @@ const list=(value:unknown):Row[]=>{if(!Array.isArray(value))throw new Error('Mis
 const text=(value:unknown)=>typeof value==='string'?value:'';
 const count=(value:unknown):number|null=>{if(value===null||value===undefined)return null;if(typeof value!=='number'||!Number.isSafeInteger(value)||value<0)throw new Error('Invalid reported vote count');return value};
 const stamp=(value:unknown)=>{const s=text(value);if(!s)return null;if(!Number.isFinite(Date.parse(s)))throw new Error('Invalid election source timestamp');return s};
+function estimatedVoteIn(value:unknown):number|null{if(value===null||value===undefined)return null;if(typeof value!=='number'||!Number.isFinite(value)||value<0||value>100)throw new Error('Invalid published estimated vote-in percentage');return value/100}
 const parties:Record<string,string>={DEM:'D',GOP:'R',REP:'R',IND:'I',LIB:'L',GRN:'G',GRE:'G'};
 export const nationalSlug=(name:string)=>name.toLowerCase().replace(/\s+/g,'-');
 export const nationalUrl=(stateName:string)=>`https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-${nationalSlug(stateName)}.json`;
@@ -24,12 +25,12 @@ function sourceRaces(payload:unknown,office:Office,races:Race[],state?:string){
   return [{source,race:matches[0]}];
  });
 }
-/** Published counts only: expected votes, estimates, model probabilities and editorial text are excluded. */
+/** Actual vote totals and separately labeled source counting estimates. No model vote forecast enters counted votes. */
 export function normalizeNationalResults(payload:unknown,office:Office,races:Race[]):RaceResult[]{
  return sourceRaces(payload,office,races).map(({source,race})=>{
   const unit=row(source.top_reporting_unit),total=count(unit.total_votes);if(total===null)throw new Error('Missing statewide reported total');
   const observed=candidates(source,unit,total);if(observed.reduce((sum,c)=>sum+c.votes,0)>total)throw new Error('Candidate votes exceed reported total');
-  return {race_id:race.id,state:race.state,office,as_of:stamp(unit.provider_updated_at)||stamp(source.updated_at),pct_reporting:null,total,candidates:observed,stale:false,source_url:text(source.url)||nationalUrl(race.state_name)};
+  return {race_id:race.id,state:race.state,office,as_of:stamp(unit.provider_updated_at)||stamp(source.updated_at),pct_reporting:null,estimated_vote_in:estimatedVoteIn(unit.eevp),total,candidates:observed,stale:false,source_url:text(source.url)||nationalUrl(race.state_name)};
  });
 }
 
@@ -61,12 +62,15 @@ export function normalizeNationalCounties(payload:unknown,state:string,geo:Featu
    }
    if(missing){incomplete=true;continue}
    const observed=[...grouped.values()].map(c=>({...c,share:total>0?c.votes/total:null})).sort((a,b)=>b.votes-a.votes);
-   rows.push({fips,county:geometry.get(fips)!,geography_type:district?'state_house_district':'county',...district?{district_id:fips.slice(2)}:{},state,office,year:2026,candidates:observed,total,reported:missingReporting?null:reported,reporting_total:missingReporting?null:precincts,reporting_unit:missingReporting?null:'precincts',source_time:timestamp,fetched_at:fetchedAt,source_url:sourceUrl,source_name:sourceName,status:total>0?'reporting':'awaiting'});
+   let estimated=group.length===1?estimatedVoteIn(group[0].eevp):null;let estimateMethod:CountyLiveResult['estimated_vote_in_method']=estimated===null?null:'published';
+   if(group.length>1){let weight=0,weighted=0,missingEstimate=false;for(const unit of group){const value=estimatedVoteIn(unit.eevp),expected=unit.total_expected_vote;if(value===null||typeof expected!=='number'||!Number.isFinite(expected)||expected<=0){missingEstimate=true;break}weight+=expected;weighted+=value*expected}if(!missingEstimate&&weight>0){estimated=weighted/weight;estimateMethod='weighted_town_estimates'}}
+   rows.push({fips,county:geometry.get(fips)!,geography_type:district?'state_house_district':'county',...district?{district_id:fips.slice(2)}:{},state,office,year:2026,candidates:observed,total,estimated_vote_in:estimated,estimated_vote_in_method:estimateMethod,reported:missingReporting?null:reported,reporting_total:missingReporting?null:precincts,reporting_unit:missingReporting?null:'precincts',source_time:timestamp,fetched_at:fetchedAt,source_url:sourceUrl,source_name:sourceName,status:total>0?'reporting':'awaiting'});
   }
   if(groups.size!==geometry.size)incomplete=true;
   // A county aggregate cannot replace statewide counts when towns/units are missing.
   const stateTotal=count(row(source.top_reporting_unit).total_votes);const countyTotal=rows.filter(r=>r.office===office).reduce((s,r)=>s+(r.total??0),0);
   if(stateTotal!==null&&countyTotal!==stateTotal){incomplete=true;unreconciled=true}
  }
- return {state,geography_type:district?'state_house_district':'county',year:2026,election_date:'2026-11-03',fetched_at:fetchedAt,source_time:clocks.sort().at(-1)??null,source_name:sourceName,source_url:sourceUrl,rows,status:!rows.length?'unavailable':incomplete||incompatible?'partial':'ok',message:!rows.length?'The source does not publish county totals compatible with this map. Statewide counts remain available.':`${new Set(rows.map(r=>r.fips)).size} ${district?'election districts':'counties'} with published returns.${district?' Alaska publishes House election districts, not borough/census-area county totals. Ranked-choice source counts do not establish a final-round winner.':''}${aggregated?' County totals sum distinct towns using publisher-supplied county FIPS.':''}${state==='CT'?' Connecticut uses the eight county groupings supplied by this feed, not the nine planning regions.':''}${incompatible?' Some reporting boundaries do not match this county map.':''}${unreconciled?' Local sums do not fully reconcile with the statewide snapshot; statewide cards use the separately reported state total.':incomplete?' Some county or office records are missing; statewide totals are reported separately.':''} Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included.`};
+ const statewide=(['Senate','Governor'] as Office[]).flatMap(office=>normalizeNationalResults(payload,office,races)).filter(r=>r.state===state);
+ return {state,geography_type:district?'state_house_district':'county',statewide,year:2026,election_date:'2026-11-03',fetched_at:fetchedAt,source_time:clocks.sort().at(-1)??null,source_name:sourceName,source_url:sourceUrl,rows,status:!rows.length?'unavailable':incomplete||incompatible?'partial':'ok',message:!rows.length?'The source does not publish county totals compatible with this map. Statewide counts remain available.':`${new Set(rows.map(r=>r.fips)).size} ${district?'election districts':'counties'} with published returns.${district?' Alaska publishes House election districts, not borough/census-area county totals. Ranked-choice source counts do not establish a final-round winner.':''}${aggregated?' County totals sum distinct towns using publisher-supplied county FIPS.':''}${state==='CT'?' Connecticut uses the eight county groupings supplied by this feed, not the nine planning regions.':''}${incompatible?' Some reporting boundaries do not match this county map.':''}${unreconciled?' Local sums do not fully reconcile with the statewide snapshot; statewide cards use the separately reported state total.':incomplete?' Some county or office records are missing; statewide totals are reported separately.':''} Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts. Counting-progress estimates are labeled separately; no win-probability forecasts are included.`};
 }

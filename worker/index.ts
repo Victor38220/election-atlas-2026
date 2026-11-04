@@ -5,7 +5,7 @@ const PATHS:Record<string,RegExp>={polling:/^\/(senate|governors|polls|pollsters
 function targetFor(incoming:URL):{target:URL;provider:string}|null{
  const [,,provider,...rest]=incoming.pathname.split('/');const path='/'+rest.join('/');
  if(incoming.search.length>12000)return null;
- if(provider==='national'&&/^\/(Senate|Governor)$/.test(path))return {target:new URL('https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-'+(path==='/Senate'?'senate':'governor')+'.json'),provider:'countyTX'};
+ if(provider==='national'&&/^\/(Senate|Governor|House)$/.test(path))return {target:new URL('https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-'+path.slice(1).toLowerCase()+'.json'),provider:'countyTX'};
  if(provider==='counties'&&/^\/national\/[A-Z]{2}$/.test(path)){const state=path.split('/')[2];const race=raceManifest.find(r=>r.state===state);if(!race)return null;return {target:new URL('https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-'+race.state_name.toLowerCase().replace(/\s+/g,'-')+'.json'),provider:'countyTX'}}
  if(provider==='counties'&&/^\/TX\/(Senate|Governor)$/.test(path)){const race=path.endsWith('/Senate')?'us-senate':'governor';return {target:new URL('https://texianpartisan.com/api/results/election/tx-2026-general/counties?race='+race),provider:'countyTX'}}
  if(provider==='counties'&&path==='/VA')return {target:new URL('https://enr.elections.virginia.gov/results/public/api/elections/virginia/2026-November-General/data/ballot-item/01000000-f030-c43d-d69c-08df1fee529a?lang=en'),provider};

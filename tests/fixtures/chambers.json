@@ -1,0 +1,411 @@
+{
+  "house": {
+    "races": [
+      {
+        "nyt_id": "US-G-H-2026-11-03",
+        "election_date": "2026-11-03",
+        "office_id": "H",
+        "race_type_id": "G",
+        "seat_number": "1",
+        "race_call_status": null,
+        "updated_at": "2026-11-04T04:58:47.852Z",
+        "top_reporting_unit": {
+          "state_postal": "US",
+          "provider_updated_at": "2026-11-04T04:58:47.852+00:00"
+        },
+        "candidate_metadata": {
+          "democrat": {
+            "first_name": null,
+            "middle_name": null,
+            "last_name": "Democrat",
+            "suffix": null,
+            "party": {
+              "nyt_id": "DEM",
+              "name": "Democrat",
+              "abbreviation": "Dem."
+            }
+          },
+          "republican": {
+            "first_name": null,
+            "middle_name": null,
+            "last_name": "Republican",
+            "suffix": null,
+            "party": {
+              "nyt_id": "GOP",
+              "name": "Republican",
+              "abbreviation": "Rep."
+            }
+          },
+          "other": {
+            "first_name": null,
+            "middle_name": null,
+            "last_name": "Other",
+            "suffix": null,
+            "party": {
+              "nyt_id": "OTH",
+              "name": "Independent",
+              "abbreviation": "Ind."
+            }
+          }
+        },
+        "outcome": {
+          "won": [],
+          "advanced_to_runoff": [],
+          "called_by": [],
+          "runoff_accepted_at": [],
+          "winner_accepted_at": [],
+          "gained": null,
+          "electoral_votes": null
+        },
+        "type": "General"
+      },
+      {
+        "nyt_id": "AL-G-H-1-2026-11-03",
+        "election_date": "2026-11-03",
+        "office_id": "H",
+        "race_type_id": "G",
+        "seat_number": "1",
+        "race_call_status": "called",
+        "updated_at": "2026-11-04T04:48:45.409Z",
+        "top_reporting_unit": {
+          "state_postal": "AL",
+          "provider_updated_at": "2026-11-04T04:48:45.409+00:00"
+        },
+        "candidate_metadata": {
+          "jones-c": {
+            "first_name": "Clyde",
+            "middle_name": null,
+            "last_name": "Jones",
+            "suffix": null,
+            "party": {
+              "nyt_id": "DEM",
+              "name": "Democrat",
+              "abbreviation": "Dem."
+            }
+          },
+          "carl-j": {
+            "first_name": "Jerry",
+            "middle_name": null,
+            "last_name": "Carl",
+            "suffix": null,
+            "party": {
+              "nyt_id": "GOP",
+              "name": "Republican",
+              "abbreviation": "Rep."
+            }
+          }
+        },
+        "outcome": {
+          "won": [
+            "carl-j"
+          ],
+          "advanced_to_runoff": [],
+          "called_by": [
+            "ap"
+          ],
+          "runoff_accepted_at": [],
+          "winner_accepted_at": [
+            "2026-11-04T04:15:38.902654+00:00"
+          ],
+          "gained": null,
+          "electoral_votes": null
+        },
+        "type": "General"
+      },
+      {
+        "nyt_id": "AL-G-H-2-2026-11-03",
+        "election_date": "2026-11-03",
+        "office_id": "H",
+        "race_type_id": "G",
+        "seat_number": "2",
+        "race_call_status": "called",
+        "updated_at": "2026-11-04T04:48:05.433Z",
+        "top_reporting_unit": {
+          "state_postal": "AL",
+          "provider_updated_at": "2026-11-04T04:48:05.433+00:00"
+        },
+        "candidate_metadata": {
+          "figures-s": {
+            "first_name": "Shomari",
+            "middle_name": "C.",
+            "last_name": "Figures",
+            "suffix": null,
+            "party": {
+              "nyt_id": "DEM",
+              "name": "Democrat",
+              "abbreviation": "Dem."
+            }
+          },
+          "marques-r": {
+            "first_name": "Rhett",
+            "middle_name": null,
+            "last_name": "Marques",
+            "suffix": null,
+            "party": {
+              "nyt_id": "GOP",
+              "name": "Republican",
+              "abbreviation": "Rep."
+            }
+          }
+        },
+        "outcome": {
+          "won": [
+            "figures-s"
+          ],
+          "advanced_to_runoff": [],
+          "called_by": [
+            "ap"
+          ],
+          "runoff_accepted_at": [],
+          "winner_accepted_at": [
+            "2026-11-04T04:00:38.162274+00:00"
+          ],
+          "gained": null,
+          "electoral_votes": null
+        },
+        "type": "General"
+      }
+    ]
+  },
+  "senate": {
+    "races": [
+      {
+        "nyt_id": "AL-G-S-2026-11-03",
+        "election_date": "2026-11-03",
+        "office_id": "S",
+        "race_type_id": "G",
+        "seat_number": "2",
+        "race_call_status": "called",
+        "updated_at": "2026-11-04T04:30:15.424Z",
+        "top_reporting_unit": {
+          "state_postal": "AL",
+          "provider_updated_at": "2026-11-04T04:30:15.424+00:00"
+        },
+        "candidate_metadata": {
+          "wess-e": {
+            "first_name": "Everett",
+            "middle_name": null,
+            "last_name": "Wess",
+            "suffix": null,
+            "party": {
+              "nyt_id": "DEM",
+              "name": "Democrat",
+              "abbreviation": "Dem."
+            }
+          },
+          "moore-b": {
+            "first_name": "Barry",
+            "middle_name": null,
+            "last_name": "Moore",
+            "suffix": null,
+            "party": {
+              "nyt_id": "GOP",
+              "name": "Republican",
+              "abbreviation": "Rep."
+            }
+          }
+        },
+        "outcome": {
+          "won": [
+            "moore-b"
+          ],
+          "advanced_to_runoff": [],
+          "called_by": [
+            "ap"
+          ],
+          "runoff_accepted_at": [],
+          "winner_accepted_at": [
+            "2026-11-04T04:18:13.479055+00:00"
+          ],
+          "gained": false,
+          "electoral_votes": null
+        },
+        "type": "General"
+      },
+      {
+        "nyt_id": "FL-S_W-S-2026-11-03",
+        "election_date": "2026-11-03",
+        "office_id": "S",
+        "race_type_id": "W",
+        "seat_number": "3",
+        "race_call_status": "called",
+        "updated_at": "2026-11-04T04:30:58.726Z",
+        "top_reporting_unit": {
+          "state_postal": "FL",
+          "provider_updated_at": "2026-11-04T04:30:58.726+00:00"
+        },
+        "candidate_metadata": {
+          "moody-a": {
+            "first_name": "Ashley",
+            "middle_name": null,
+            "last_name": "Moody",
+            "suffix": null,
+            "party": {
+              "nyt_id": "GOP",
+              "name": "Republican",
+              "abbreviation": "Rep."
+            }
+          },
+          "nixon-a": {
+            "first_name": "Angie",
+            "middle_name": null,
+            "last_name": "Nixon",
+            "suffix": null,
+            "party": {
+              "nyt_id": "DEM",
+              "name": "Democrat",
+              "abbreviation": "Dem."
+            }
+          },
+          "gillespie-n": {
+            "first_name": "Neil",
+            "middle_name": "J.",
+            "last_name": "Gillespie",
+            "suffix": null,
+            "party": {
+              "nyt_id": "NPA",
+              "name": "Independent",
+              "abbreviation": "Ind."
+            }
+          }
+        },
+        "outcome": {
+          "won": [
+            "moody-a"
+          ],
+          "advanced_to_runoff": [],
+          "called_by": [
+            "ap"
+          ],
+          "runoff_accepted_at": [],
+          "winner_accepted_at": [
+            "2026-11-04T01:35:32.796712+00:00"
+          ],
+          "gained": false,
+          "electoral_votes": null
+        },
+        "type": "Special General"
+      },
+      {
+        "nyt_id": "OH-S_W-S-2026-11-03",
+        "election_date": "2026-11-03",
+        "office_id": "S",
+        "race_type_id": "W",
+        "seat_number": "3",
+        "race_call_status": "called",
+        "updated_at": "2026-11-04T04:30:46.897Z",
+        "top_reporting_unit": {
+          "state_postal": "OH",
+          "provider_updated_at": "2026-11-04T04:30:46.897+00:00"
+        },
+        "candidate_metadata": {
+          "husted-j": {
+            "first_name": "Jon",
+            "middle_name": null,
+            "last_name": "Husted",
+            "suffix": null,
+            "party": {
+              "nyt_id": "GOP",
+              "name": "Republican",
+              "abbreviation": "Rep."
+            }
+          },
+          "brown-s": {
+            "first_name": "Sherrod",
+            "middle_name": null,
+            "last_name": "Brown",
+            "suffix": null,
+            "party": {
+              "nyt_id": "DEM",
+              "name": "Democrat",
+              "abbreviation": "Dem."
+            }
+          },
+          "levy-g": {
+            "first_name": "Greg",
+            "middle_name": null,
+            "last_name": "Levy",
+            "suffix": null,
+            "party": {
+              "nyt_id": "IND",
+              "name": "Independent",
+              "abbreviation": "Ind."
+            }
+          },
+          "redpath-w": {
+            "first_name": "William",
+            "middle_name": "B.",
+            "last_name": "Redpath",
+            "suffix": null,
+            "party": {
+              "nyt_id": "LIB",
+              "name": "Libertarian",
+              "abbreviation": "Lib."
+            }
+          }
+        },
+        "outcome": {
+          "won": [
+            "brown-s"
+          ],
+          "advanced_to_runoff": [],
+          "called_by": [
+            "ap"
+          ],
+          "runoff_accepted_at": [],
+          "winner_accepted_at": [
+            "2026-11-04T04:10:16.711833+00:00"
+          ],
+          "gained": true,
+          "electoral_votes": null
+        },
+        "type": "Special General"
+      }
+    ],
+    "partyControlData": {
+      "results": [
+        {
+          "offices": {
+            "S": {
+              "party_balance": {
+                "DEM": {
+                  "party_id": "DEM",
+                  "party": "Democrat",
+                  "party_abbreviation": "Dem.",
+                  "flip_count": 5,
+                  "seats": 50,
+                  "no_election": 34,
+                  "winner": false,
+                  "candidate_metadata": null,
+                  "controlled_at": null
+                },
+                "GOP": {
+                  "party_id": "GOP",
+                  "party": "Republican",
+                  "party_abbreviation": "Rep.",
+                  "flip_count": 0,
+                  "seats": 39,
+                  "no_election": 31,
+                  "winner": false,
+                  "candidate_metadata": null,
+                  "controlled_at": null
+                },
+                "OTH": {
+                  "party_id": "OTH",
+                  "party": "Independent",
+                  "party_abbreviation": "Ind.",
+                  "flip_count": 0,
+                  "seats": 0,
+                  "no_election": 0,
+                  "winner": false,
+                  "candidate_metadata": null,
+                  "controlled_at": null
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

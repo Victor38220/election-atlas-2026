@@ -1,1 +1,2896 @@
-[{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ak:left","name":"Mary Peltola","party":"D"},{"aliases":["Dan Sullivan","Daniel Sullivan"],"caucus":null,"external_ids":{},"id":"2026-senate-ak:rep","name":"Dan S. Sullivan","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"02","id":"2026-senate-ak","incumbent":"Dan S. Sullivan","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"AK"},"sources":["https://www.pollingforecast.com/us/senate/ak","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"AK","state_name":"Alaska","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-al:left","name":"Everett Wess","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-al:rep","name":"Barry Moore","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"01","id":"2026-senate-al","incumbent":"Tommy Tuberville","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"AL"},"sources":["https://www.pollingforecast.com/us/senate/al","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"AL","state_name":"Alabama","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ar:left","name":"Hallie Shoffner","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ar:rep","name":"Tom Cotton","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"05","id":"2026-senate-ar","incumbent":"Tom Cotton","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"AR"},"sources":["https://www.pollingforecast.com/us/senate/ar","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"AR","state_name":"Arkansas","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-co:left","name":"John Hickenlooper","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-co:rep","name":"Mark Baisley","party":"R"}],"chamber":"US Senate","defending_party":"D","election_type":"regular","fips":"08","id":"2026-senate-co","incumbent":"John Hickenlooper","incumbent_party":"D","office":"Senate","provider_ids":{"polling_forecast":"CO"},"sources":["https://www.pollingforecast.com/us/senate/co","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"CO","state_name":"Colorado","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-de:left","name":"Chris Coons","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-de:rep","name":"Michael Katz","party":"R"}],"chamber":"US Senate","defending_party":"D","election_type":"regular","fips":"10","id":"2026-senate-de","incumbent":"Chris Coons","incumbent_party":"D","office":"Senate","provider_ids":{"polling_forecast":"DE"},"sources":["https://www.pollingforecast.com/us/senate/de","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"DE","state_name":"Delaware","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-fl-special:left","name":"Angie Nixon","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-fl-special:rep","name":"Ashley Moody","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"special","fips":"12","id":"2026-senate-fl-special","incumbent":"Ashley Moody","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"FL-S"},"sources":["https://www.pollingforecast.com/us/senate/fl-s","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"FL","state_name":"Florida","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ga:left","name":"Jon Ossoff","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ga:rep","name":"Mike Collins","party":"R"}],"chamber":"US Senate","defending_party":"D","election_type":"regular","fips":"13","id":"2026-senate-ga","incumbent":"Jon Ossoff","incumbent_party":"D","office":"Senate","provider_ids":{"polling_forecast":"GA"},"sources":["https://www.pollingforecast.com/us/senate/ga","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"GA","state_name":"Georgia","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ia:left","name":"Josh Turek","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ia:rep","name":"Ashley Hinson","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"19","id":"2026-senate-ia","incumbent":"Joni Ernst","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"IA"},"sources":["https://www.pollingforecast.com/us/senate/ia","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"IA","state_name":"Iowa","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-id:left","name":"Todd Achilles","party":"I"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-id:rep","name":"Jim Risch","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"16","id":"2026-senate-id","incumbent":"Jim Risch","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"ID"},"sources":["https://www.pollingforecast.com/us/senate/id","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"ID","state_name":"Idaho","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-il:left","name":"Juliana Stratton","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-il:rep","name":"Don Tracy","party":"R"}],"chamber":"US Senate","defending_party":"D","election_type":"regular","fips":"17","id":"2026-senate-il","incumbent":"Dick Durbin","incumbent_party":"D","office":"Senate","provider_ids":{"polling_forecast":"IL"},"sources":["https://www.pollingforecast.com/us/senate/il","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"IL","state_name":"Illinois","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ks:left","name":"Adam Hamilton","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ks:rep","name":"Roger Marshall","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"20","id":"2026-senate-ks","incumbent":"Roger Marshall","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"KS"},"sources":["https://www.pollingforecast.com/us/senate/ks","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"KS","state_name":"Kansas","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ky:left","name":"Charles Booker","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ky:rep","name":"Andy Barr","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"21","id":"2026-senate-ky","incumbent":"Mitch McConnell","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"KY"},"sources":["https://www.pollingforecast.com/us/senate/ky","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"KY","state_name":"Kentucky","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-la:left","name":"Jamie Davis","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-la:rep","name":"Julia Letlow","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"22","id":"2026-senate-la","incumbent":"Bill Cassidy","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"LA"},"sources":["https://www.pollingforecast.com/us/senate/la","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"LA","state_name":"Louisiana","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ma:left","name":"Ed Markey","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ma:rep","name":"John Deaton","party":"R"}],"chamber":"US Senate","defending_party":"D","election_type":"regular","fips":"25","id":"2026-senate-ma","incumbent":"Ed Markey","incumbent_party":"D","office":"Senate","provider_ids":{"polling_forecast":"MA"},"sources":["https://www.pollingforecast.com/us/senate/ma","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"MA","state_name":"Massachusetts","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-me:left","name":"Troy Jackson","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-me:rep","name":"Susan Collins","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"23","id":"2026-senate-me","incumbent":"Susan Collins","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"ME"},"sources":["https://www.pollingforecast.com/us/senate/me","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"ME","state_name":"Maine","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-mi:left","name":"Abdul El-Sayed","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-mi:rep","name":"Mike Rogers","party":"R"}],"chamber":"US Senate","defending_party":"D","election_type":"regular","fips":"26","id":"2026-senate-mi","incumbent":"Gary Peters","incumbent_party":"D","office":"Senate","provider_ids":{"polling_forecast":"MI"},"sources":["https://www.pollingforecast.com/us/senate/mi","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"MI","state_name":"Michigan","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-mn:left","name":"Peggy Flanagan","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-mn:rep","name":"Michele Tafoya","party":"R"}],"chamber":"US Senate","defending_party":"D","election_type":"regular","fips":"27","id":"2026-senate-mn","incumbent":"Tina Smith","incumbent_party":"D","office":"Senate","provider_ids":{"polling_forecast":"MN"},"sources":["https://www.pollingforecast.com/us/senate/mn","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"MN","state_name":"Minnesota","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ms:left","name":"Scott Colom","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ms:rep","name":"Cindy Hyde-Smith","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"28","id":"2026-senate-ms","incumbent":"Cindy Hyde-Smith","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"MS"},"sources":["https://www.pollingforecast.com/us/senate/ms","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"MS","state_name":"Mississippi","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-mt:left","name":"Alani Bankhead","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-mt:rep","name":"Kurt Alme","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"30","id":"2026-senate-mt","incumbent":"Steve Daines","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"MT"},"sources":["https://www.pollingforecast.com/us/senate/mt","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"MT","state_name":"Montana","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-nc:left","name":"Roy Cooper","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-nc:rep","name":"Michael Whatley","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"37","id":"2026-senate-nc","incumbent":"Thom Tillis","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"NC"},"sources":["https://www.pollingforecast.com/us/senate/nc","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"NC","state_name":"North Carolina","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ne:left","name":"Dan Osborn","party":"I"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ne:rep","name":"Pete Ricketts","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"31","id":"2026-senate-ne","incumbent":"Pete Ricketts","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"NE"},"sources":["https://www.pollingforecast.com/us/senate/ne","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"NE","state_name":"Nebraska","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-nh:left","name":"Chris Pappas","party":"D"},{"aliases":["John Sununu"],"caucus":null,"external_ids":{},"id":"2026-senate-nh:rep","name":"John E. Sununu","party":"R"}],"chamber":"US Senate","defending_party":"D","election_type":"regular","fips":"33","id":"2026-senate-nh","incumbent":"Jeanne Shaheen","incumbent_party":"D","office":"Senate","provider_ids":{"polling_forecast":"NH"},"sources":["https://www.pollingforecast.com/us/senate/nh","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"NH","state_name":"New Hampshire","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-nj:left","name":"Cory Booker","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-nj:rep","name":"Justin Murphy","party":"R"}],"chamber":"US Senate","defending_party":"D","election_type":"regular","fips":"34","id":"2026-senate-nj","incumbent":"Cory Booker","incumbent_party":"D","office":"Senate","provider_ids":{"polling_forecast":"NJ"},"sources":["https://www.pollingforecast.com/us/senate/nj","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"NJ","state_name":"New Jersey","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":["Ben Ray Lujan"],"caucus":null,"external_ids":{},"id":"2026-senate-nm:left","name":"Ben Ray Luján","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-nm:rep","name":"Larry Marker","party":"R"}],"chamber":"US Senate","defending_party":"D","election_type":"regular","fips":"35","id":"2026-senate-nm","incumbent":"Ben Ray Luján","incumbent_party":"D","office":"Senate","provider_ids":{"polling_forecast":"NM"},"sources":["https://www.pollingforecast.com/us/senate/nm","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"NM","state_name":"New Mexico","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-oh-special:left","name":"Sherrod Brown","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-oh-special:rep","name":"Jon Husted","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"special","fips":"39","id":"2026-senate-oh-special","incumbent":"Jon Husted","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"OH-S"},"sources":["https://www.pollingforecast.com/us/senate/oh-s","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"OH","state_name":"Ohio","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ok:left","name":"N'Kiyla Jasmine Thomas","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ok:rep","name":"Kevin Hern","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"40","id":"2026-senate-ok","incumbent":"Alan Armstrong","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"OK"},"sources":["https://www.pollingforecast.com/us/senate/ok","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"OK","state_name":"Oklahoma","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-or:left","name":"Jeff Merkley","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-or:rep","name":"David Brock Smith","party":"R"}],"chamber":"US Senate","defending_party":"D","election_type":"regular","fips":"41","id":"2026-senate-or","incumbent":"Jeff Merkley","incumbent_party":"D","office":"Senate","provider_ids":{"polling_forecast":"OR"},"sources":["https://www.pollingforecast.com/us/senate/or","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"OR","state_name":"Oregon","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ri:left","name":"Jack Reed","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-ri:rep","name":"Raymond McKay","party":"R"}],"chamber":"US Senate","defending_party":"D","election_type":"regular","fips":"44","id":"2026-senate-ri","incumbent":"Jack Reed","incumbent_party":"D","office":"Senate","provider_ids":{"polling_forecast":"RI"},"sources":["https://www.pollingforecast.com/us/senate/ri","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"RI","state_name":"Rhode Island","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-sc:left","name":"Annie Andrews","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-sc:rep","name":"Darline Graham","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"45","id":"2026-senate-sc","incumbent":"Darline Graham","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"SC"},"sources":["https://www.pollingforecast.com/us/senate/sc","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"SC","state_name":"South Carolina","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-sd:left","name":"Brian Bengs","party":"I"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-sd:rep","name":"Mike Rounds","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"46","id":"2026-senate-sd","incumbent":"Mike Rounds","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"SD"},"sources":["https://www.pollingforecast.com/us/senate/sd","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"SD","state_name":"South Dakota","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-tn:left","name":"Marquita Bradshaw","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-tn:rep","name":"Bill Hagerty","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"47","id":"2026-senate-tn","incumbent":"Bill Hagerty","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"TN"},"sources":["https://www.pollingforecast.com/us/senate/tn","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"TN","state_name":"Tennessee","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-tx:left","name":"James Talarico","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-tx:rep","name":"Ken Paxton","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"48","id":"2026-senate-tx","incumbent":"John Cornyn","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"TX"},"sources":["https://www.pollingforecast.com/us/senate/tx","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"TX","state_name":"Texas","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-va:left","name":"Mark Warner","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-va:rep","name":"Bert Mizusawa","party":"R"}],"chamber":"US Senate","defending_party":"D","election_type":"regular","fips":"51","id":"2026-senate-va","incumbent":"Mark Warner","incumbent_party":"D","office":"Senate","provider_ids":{"polling_forecast":"VA"},"sources":["https://www.pollingforecast.com/us/senate/va","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"VA","state_name":"Virginia","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-wv:left","name":"Rachel Fetty Anderson","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-wv:rep","name":"Shelley Moore Capito","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"54","id":"2026-senate-wv","incumbent":"Shelley Moore Capito","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"WV"},"sources":["https://www.pollingforecast.com/us/senate/wv","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"WV","state_name":"West Virginia","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-wy:left","name":"James W. Byrd","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-senate-wy:rep","name":"Harriet Hageman","party":"R"}],"chamber":"US Senate","defending_party":"R","election_type":"regular","fips":"56","id":"2026-senate-wy","incumbent":"Cynthia Lummis","incumbent_party":"R","office":"Senate","provider_ids":{"polling_forecast":"WY"},"sources":["https://www.pollingforecast.com/us/senate/wy","https://ballotpedia.org/United_States_Senate_elections,_2026","https://www.senate.gov/senators/Class_II.htm"],"state":"WY","state_name":"Wyoming","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ak:left","name":"Jonathan Kreiss-Tomkins","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ak:rep","name":"Dave Bronson","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"02","id":"2026-governor-ak","incumbent":"Mike Dunleavy","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-AK"},"sources":["https://www.pollingforecast.com/us/governors/ak","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"AK","state_name":"Alaska","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-al:left","name":"Doug Jones","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-al:rep","name":"Tommy Tuberville","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"01","id":"2026-governor-al","incumbent":"Kay Ivey","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-AL"},"sources":["https://www.pollingforecast.com/us/governors/al","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"AL","state_name":"Alabama","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ar:left","name":"Fredrick Love","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ar:rep","name":"Sarah Huckabee Sanders","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"05","id":"2026-governor-ar","incumbent":"Sarah Huckabee Sanders","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-AR"},"sources":["https://www.pollingforecast.com/us/governors/ar","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"AR","state_name":"Arkansas","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-az:left","name":"Katie Hobbs","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-az:rep","name":"Andy Biggs","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"04","id":"2026-governor-az","incumbent":"Katie Hobbs","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-AZ"},"sources":["https://www.pollingforecast.com/us/governors/az","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"AZ","state_name":"Arizona","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ca:left","name":"Xavier Becerra","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ca:rep","name":"Steve Hilton","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"06","id":"2026-governor-ca","incumbent":"Gavin Newsom","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-CA"},"sources":["https://www.pollingforecast.com/us/governors/ca","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"CA","state_name":"California","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-co:left","name":"Phil Weiser","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-co:rep","name":"Victor Marx","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"08","id":"2026-governor-co","incumbent":"Jared Polis","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-CO"},"sources":["https://www.pollingforecast.com/us/governors/co","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"CO","state_name":"Colorado","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ct:left","name":"Ned Lamont","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ct:rep","name":"Ryan Fazio","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"09","id":"2026-governor-ct","incumbent":"Ned Lamont","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-CT"},"sources":["https://www.pollingforecast.com/us/governors/ct","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"CT","state_name":"Connecticut","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-fl:left","name":"David Jolly","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-fl:rep","name":"Byron Donalds","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"12","id":"2026-governor-fl","incumbent":"Ron DeSantis","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-FL"},"sources":["https://www.pollingforecast.com/us/governors/fl","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"FL","state_name":"Florida","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ga:left","name":"Keisha Lance Bottoms","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ga:rep","name":"Rick Jackson","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"13","id":"2026-governor-ga","incumbent":"Brian Kemp","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-GA"},"sources":["https://www.pollingforecast.com/us/governors/ga","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"GA","state_name":"Georgia","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-hi:left","name":"Josh Green","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-hi:rep","name":"Gary Cordery","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"15","id":"2026-governor-hi","incumbent":"Josh Green","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-HI"},"sources":["https://www.pollingforecast.com/us/governors/hi","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"HI","state_name":"Hawaii","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ia:left","name":"Rob Sand","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ia:rep","name":"Zach Lahn","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"19","id":"2026-governor-ia","incumbent":"Kim Reynolds","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-IA"},"sources":["https://www.pollingforecast.com/us/governors/ia","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"IA","state_name":"Iowa","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-id:left","name":"Terri Pickens","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-id:rep","name":"Brad Little","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"16","id":"2026-governor-id","incumbent":"Brad Little","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-ID"},"sources":["https://www.pollingforecast.com/us/governors/id","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"ID","state_name":"Idaho","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-il:left","name":"JB Pritzker","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-il:rep","name":"Darren Bailey","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"17","id":"2026-governor-il","incumbent":"JB Pritzker","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-IL"},"sources":["https://www.pollingforecast.com/us/governors/il","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"IL","state_name":"Illinois","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ks:left","name":"Cindy Holscher","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ks:rep","name":"Ty Masterson","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"20","id":"2026-governor-ks","incumbent":"Laura Kelly","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-KS"},"sources":["https://www.pollingforecast.com/us/governors/ks","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"KS","state_name":"Kansas","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ma:left","name":"Maura Healey","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ma:rep","name":"Mike Minogue","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"25","id":"2026-governor-ma","incumbent":"Maura Healey","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-MA"},"sources":["https://www.pollingforecast.com/us/governors/ma","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"MA","state_name":"Massachusetts","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-md:left","name":"Wes Moore","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-md:rep","name":"Dan Cox","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"24","id":"2026-governor-md","incumbent":"Wes Moore","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-MD"},"sources":["https://www.pollingforecast.com/us/governors/md","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"MD","state_name":"Maryland","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-me:left","name":"Hannah Pingree","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-me:rep","name":"Robert B. Charles","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"23","id":"2026-governor-me","incumbent":"Janet Mills","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-ME"},"sources":["https://www.pollingforecast.com/us/governors/me","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"ME","state_name":"Maine","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-mi:left","name":"Jocelyn Benson","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-mi:rep","name":"John James","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"26","id":"2026-governor-mi","incumbent":"Gretchen Whitmer","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-MI"},"sources":["https://www.pollingforecast.com/us/governors/mi","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"MI","state_name":"Michigan","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-mn:left","name":"Amy Klobuchar","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-mn:rep","name":"Lisa Demuth","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"27","id":"2026-governor-mn","incumbent":"Tim Walz","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-MN"},"sources":["https://www.pollingforecast.com/us/governors/mn","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"MN","state_name":"Minnesota","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ne:left","name":"Lynne Walz","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ne:rep","name":"Jim Pillen","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"31","id":"2026-governor-ne","incumbent":"Jim Pillen","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-NE"},"sources":["https://www.pollingforecast.com/us/governors/ne","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"NE","state_name":"Nebraska","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-nh:left","name":"Cinde Warmington","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-nh:rep","name":"Kelly Ayotte","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"33","id":"2026-governor-nh","incumbent":"Kelly Ayotte","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-NH"},"sources":["https://www.pollingforecast.com/us/governors/nh","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"NH","state_name":"New Hampshire","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-nm:left","name":"Deb Haaland","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-nm:rep","name":"Gregg Hull","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"35","id":"2026-governor-nm","incumbent":"Michelle Lujan Grisham","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-NM"},"sources":["https://www.pollingforecast.com/us/governors/nm","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"NM","state_name":"New Mexico","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-nv:left","name":"Aaron Ford","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-nv:rep","name":"Joe Lombardo","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"32","id":"2026-governor-nv","incumbent":"Joe Lombardo","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-NV"},"sources":["https://www.pollingforecast.com/us/governors/nv","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"NV","state_name":"Nevada","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ny:left","name":"Kathy Hochul","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ny:rep","name":"Bruce Blakeman","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"36","id":"2026-governor-ny","incumbent":"Kathy Hochul","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-NY"},"sources":["https://www.pollingforecast.com/us/governors/ny","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"NY","state_name":"New York","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-oh:left","name":"Amy Acton","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-oh:rep","name":"Vivek Ramaswamy","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"39","id":"2026-governor-oh","incumbent":"Mike DeWine","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-OH"},"sources":["https://www.pollingforecast.com/us/governors/oh","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"OH","state_name":"Ohio","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ok:left","name":"Cyndi Munson","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ok:rep","name":"Mike Mazzei","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"40","id":"2026-governor-ok","incumbent":"Kevin Stitt","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-OK"},"sources":["https://www.pollingforecast.com/us/governors/ok","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"OK","state_name":"Oklahoma","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-or:left","name":"Tina Kotek","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-or:rep","name":"Christine Drazan","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"41","id":"2026-governor-or","incumbent":"Tina Kotek","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-OR"},"sources":["https://www.pollingforecast.com/us/governors/or","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"OR","state_name":"Oregon","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-pa:left","name":"Josh Shapiro","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-pa:rep","name":"Stacy Garrity","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"42","id":"2026-governor-pa","incumbent":"Josh Shapiro","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-PA"},"sources":["https://www.pollingforecast.com/us/governors/pa","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"PA","state_name":"Pennsylvania","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ri:left","name":"Helena Foulkes","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-ri:rep","name":"Aaron Guckian","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"44","id":"2026-governor-ri","incumbent":"Dan McKee","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-RI"},"sources":["https://www.pollingforecast.com/us/governors/ri","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"RI","state_name":"Rhode Island","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-sc:left","name":"Jermaine Johnson","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-sc:rep","name":"Alan Wilson","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"45","id":"2026-governor-sc","incumbent":"Henry McMaster","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-SC"},"sources":["https://www.pollingforecast.com/us/governors/sc","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"SC","state_name":"South Carolina","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-sd:left","name":"Dan Ahlers","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-sd:rep","name":"Larry Rhoden","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"46","id":"2026-governor-sd","incumbent":"Larry Rhoden","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-SD"},"sources":["https://www.pollingforecast.com/us/governors/sd","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"SD","state_name":"South Dakota","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-tn:left","name":"Jerri Green","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-tn:rep","name":"Marsha Blackburn","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"47","id":"2026-governor-tn","incumbent":"Bill Lee","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-TN"},"sources":["https://www.pollingforecast.com/us/governors/tn","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"TN","state_name":"Tennessee","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-tx:left","name":"Gina Hinojosa","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-tx:rep","name":"Greg Abbott","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"48","id":"2026-governor-tx","incumbent":"Greg Abbott","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-TX"},"sources":["https://www.pollingforecast.com/us/governors/tx","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"TX","state_name":"Texas","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-vt:left","name":"Amanda Janoo","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-vt:rep","name":"Phil Scott","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"50","id":"2026-governor-vt","incumbent":"Phil Scott","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-VT"},"sources":["https://www.pollingforecast.com/us/governors/vt","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"VT","state_name":"Vermont","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-wi:left","name":"David Crowley","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-wi:rep","name":"Tom Tiffany","party":"R"}],"chamber":null,"defending_party":"D","election_type":"regular","fips":"55","id":"2026-governor-wi","incumbent":"Tony Evers","incumbent_party":"D","office":"Governor","provider_ids":{"polling_forecast":"G-WI"},"sources":["https://www.pollingforecast.com/us/governors/wi","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"WI","state_name":"Wisconsin","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026},{"candidates":[{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-wy:left","name":"Kenneth Casner","party":"D"},{"aliases":[],"caucus":null,"external_ids":{},"id":"2026-governor-wy:rep","name":"Eric Barlow","party":"R"}],"chamber":null,"defending_party":"R","election_type":"regular","fips":"56","id":"2026-governor-wy","incumbent":"Mark Gordon","incumbent_party":"R","office":"Governor","provider_ids":{"polling_forecast":"G-WY"},"sources":["https://www.pollingforecast.com/us/governors/wy","https://ballotpedia.org/Gubernatorial_elections,_2026"],"state":"WY","state_name":"Wyoming","status":"scheduled","updated_at":"2026-11-02T00:00:00Z","year":2026}]
+[
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ak:left",
+        "name": "Mary Peltola",
+        "party": "D"
+      },
+      {
+        "aliases": [
+          "Dan Sullivan",
+          "Daniel Sullivan"
+        ],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ak:rep",
+        "name": "Dan S. Sullivan",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "02",
+    "id": "2026-senate-ak",
+    "incumbent": "Dan S. Sullivan",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "AK"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/ak",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "AK",
+    "state_name": "Alaska",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-al:left",
+        "name": "Everett Wess",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-al:rep",
+        "name": "Barry Moore",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "01",
+    "id": "2026-senate-al",
+    "incumbent": "Tommy Tuberville",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "AL"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/al",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "AL",
+    "state_name": "Alabama",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ar:left",
+        "name": "Hallie Shoffner",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ar:rep",
+        "name": "Tom Cotton",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "05",
+    "id": "2026-senate-ar",
+    "incumbent": "Tom Cotton",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "AR"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/ar",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "AR",
+    "state_name": "Arkansas",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-co:left",
+        "name": "John Hickenlooper",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-co:rep",
+        "name": "Mark Baisley",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "08",
+    "id": "2026-senate-co",
+    "incumbent": "John Hickenlooper",
+    "incumbent_party": "D",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "CO"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/co",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "CO",
+    "state_name": "Colorado",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-de:left",
+        "name": "Chris Coons",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-de:rep",
+        "name": "Michael Katz",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "10",
+    "id": "2026-senate-de",
+    "incumbent": "Chris Coons",
+    "incumbent_party": "D",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "DE"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/de",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "DE",
+    "state_name": "Delaware",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-fl-special:left",
+        "name": "Angie Nixon",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-fl-special:rep",
+        "name": "Ashley Moody",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "special",
+    "fips": "12",
+    "id": "2026-senate-fl-special",
+    "incumbent": "Ashley Moody",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "FL-S"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/fl-s",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "FL",
+    "state_name": "Florida",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ga:left",
+        "name": "Jon Ossoff",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ga:rep",
+        "name": "Mike Collins",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "13",
+    "id": "2026-senate-ga",
+    "incumbent": "Jon Ossoff",
+    "incumbent_party": "D",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "GA"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/ga",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "GA",
+    "state_name": "Georgia",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ia:left",
+        "name": "Josh Turek",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ia:rep",
+        "name": "Ashley Hinson",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "19",
+    "id": "2026-senate-ia",
+    "incumbent": "Joni Ernst",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "IA"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/ia",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "IA",
+    "state_name": "Iowa",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-id:left",
+        "name": "Todd Achilles",
+        "party": "I"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-id:rep",
+        "name": "Jim Risch",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "16",
+    "id": "2026-senate-id",
+    "incumbent": "Jim Risch",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "ID"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/id",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "ID",
+    "state_name": "Idaho",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-il:left",
+        "name": "Juliana Stratton",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-il:rep",
+        "name": "Don Tracy",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "17",
+    "id": "2026-senate-il",
+    "incumbent": "Dick Durbin",
+    "incumbent_party": "D",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "IL"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/il",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "IL",
+    "state_name": "Illinois",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ks:left",
+        "name": "Adam Hamilton",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ks:rep",
+        "name": "Roger Marshall",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "20",
+    "id": "2026-senate-ks",
+    "incumbent": "Roger Marshall",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "KS"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/ks",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "KS",
+    "state_name": "Kansas",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ky:left",
+        "name": "Charles Booker",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ky:rep",
+        "name": "Andy Barr",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "21",
+    "id": "2026-senate-ky",
+    "incumbent": "Mitch McConnell",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "KY"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/ky",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "KY",
+    "state_name": "Kentucky",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-la:left",
+        "name": "Jamie Davis",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-la:rep",
+        "name": "Julia Letlow",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "22",
+    "id": "2026-senate-la",
+    "incumbent": "Bill Cassidy",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "LA"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/la",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "LA",
+    "state_name": "Louisiana",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [
+          "Edward J. Markey"
+        ],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ma:left",
+        "name": "Ed Markey",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ma:rep",
+        "name": "John Deaton",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "25",
+    "id": "2026-senate-ma",
+    "incumbent": "Ed Markey",
+    "incumbent_party": "D",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "MA"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/ma",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "MA",
+    "state_name": "Massachusetts",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [
+          "Troy D. Jackson"
+        ],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-me:left",
+        "name": "Troy Jackson",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-me:rep",
+        "name": "Susan Collins",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "23",
+    "id": "2026-senate-me",
+    "incumbent": "Susan Collins",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "ME"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/me",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "ME",
+    "state_name": "Maine",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-mi:left",
+        "name": "Abdul El-Sayed",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-mi:rep",
+        "name": "Mike Rogers",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "26",
+    "id": "2026-senate-mi",
+    "incumbent": "Gary Peters",
+    "incumbent_party": "D",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "MI"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/mi",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "MI",
+    "state_name": "Michigan",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-mn:left",
+        "name": "Peggy Flanagan",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-mn:rep",
+        "name": "Michele Tafoya",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "27",
+    "id": "2026-senate-mn",
+    "incumbent": "Tina Smith",
+    "incumbent_party": "D",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "MN"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/mn",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "MN",
+    "state_name": "Minnesota",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ms:left",
+        "name": "Scott Colom",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ms:rep",
+        "name": "Cindy Hyde-Smith",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "28",
+    "id": "2026-senate-ms",
+    "incumbent": "Cindy Hyde-Smith",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "MS"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/ms",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "MS",
+    "state_name": "Mississippi",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-mt:left",
+        "name": "Alani Bankhead",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-mt:rep",
+        "name": "Kurt Alme",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "30",
+    "id": "2026-senate-mt",
+    "incumbent": "Steve Daines",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "MT"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/mt",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "MT",
+    "state_name": "Montana",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-nc:left",
+        "name": "Roy Cooper",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-nc:rep",
+        "name": "Michael Whatley",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "37",
+    "id": "2026-senate-nc",
+    "incumbent": "Thom Tillis",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "NC"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/nc",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "NC",
+    "state_name": "North Carolina",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ne:left",
+        "name": "Dan Osborn",
+        "party": "I"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ne:rep",
+        "name": "Pete Ricketts",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "31",
+    "id": "2026-senate-ne",
+    "incumbent": "Pete Ricketts",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "NE"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/ne",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "NE",
+    "state_name": "Nebraska",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-nh:left",
+        "name": "Chris Pappas",
+        "party": "D"
+      },
+      {
+        "aliases": [
+          "John Sununu"
+        ],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-nh:rep",
+        "name": "John E. Sununu",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "33",
+    "id": "2026-senate-nh",
+    "incumbent": "Jeanne Shaheen",
+    "incumbent_party": "D",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "NH"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/nh",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "NH",
+    "state_name": "New Hampshire",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-nj:left",
+        "name": "Cory Booker",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-nj:rep",
+        "name": "Justin Murphy",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "34",
+    "id": "2026-senate-nj",
+    "incumbent": "Cory Booker",
+    "incumbent_party": "D",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "NJ"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/nj",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "NJ",
+    "state_name": "New Jersey",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [
+          "Ben Ray Lujan"
+        ],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-nm:left",
+        "name": "Ben Ray Luj\u00e1n",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-nm:rep",
+        "name": "Larry Marker",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "35",
+    "id": "2026-senate-nm",
+    "incumbent": "Ben Ray Luj\u00e1n",
+    "incumbent_party": "D",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "NM"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/nm",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "NM",
+    "state_name": "New Mexico",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-oh-special:left",
+        "name": "Sherrod Brown",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-oh-special:rep",
+        "name": "Jon Husted",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "special",
+    "fips": "39",
+    "id": "2026-senate-oh-special",
+    "incumbent": "Jon Husted",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "OH-S"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/oh-s",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "OH",
+    "state_name": "Ohio",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ok:left",
+        "name": "N'Kiyla Jasmine Thomas",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ok:rep",
+        "name": "Kevin Hern",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "40",
+    "id": "2026-senate-ok",
+    "incumbent": "Alan Armstrong",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "OK"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/ok",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "OK",
+    "state_name": "Oklahoma",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-or:left",
+        "name": "Jeff Merkley",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-or:rep",
+        "name": "David Brock Smith",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "41",
+    "id": "2026-senate-or",
+    "incumbent": "Jeff Merkley",
+    "incumbent_party": "D",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "OR"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/or",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "OR",
+    "state_name": "Oregon",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ri:left",
+        "name": "Jack Reed",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-ri:rep",
+        "name": "Raymond McKay",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "44",
+    "id": "2026-senate-ri",
+    "incumbent": "Jack Reed",
+    "incumbent_party": "D",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "RI"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/ri",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "RI",
+    "state_name": "Rhode Island",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-sc:left",
+        "name": "Annie Andrews",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-sc:rep",
+        "name": "Darline Graham",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "45",
+    "id": "2026-senate-sc",
+    "incumbent": "Darline Graham",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "SC"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/sc",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "SC",
+    "state_name": "South Carolina",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-sd:left",
+        "name": "Brian Bengs",
+        "party": "I"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-sd:rep",
+        "name": "Mike Rounds",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "46",
+    "id": "2026-senate-sd",
+    "incumbent": "Mike Rounds",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "SD"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/sd",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "SD",
+    "state_name": "South Dakota",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-tn:left",
+        "name": "Marquita Bradshaw",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-tn:rep",
+        "name": "Bill Hagerty",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "47",
+    "id": "2026-senate-tn",
+    "incumbent": "Bill Hagerty",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "TN"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/tn",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "TN",
+    "state_name": "Tennessee",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-tx:left",
+        "name": "James Talarico",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-tx:rep",
+        "name": "Ken Paxton",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "48",
+    "id": "2026-senate-tx",
+    "incumbent": "John Cornyn",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "TX"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/tx",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "TX",
+    "state_name": "Texas",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [
+          "Mark R. Warner"
+        ],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-va:left",
+        "name": "Mark Warner",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-va:rep",
+        "name": "Bert Mizusawa",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "51",
+    "id": "2026-senate-va",
+    "incumbent": "Mark Warner",
+    "incumbent_party": "D",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "VA"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/va",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "VA",
+    "state_name": "Virginia",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-wv:left",
+        "name": "Rachel Fetty Anderson",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-wv:rep",
+        "name": "Shelley Moore Capito",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "54",
+    "id": "2026-senate-wv",
+    "incumbent": "Shelley Moore Capito",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "WV"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/wv",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "WV",
+    "state_name": "West Virginia",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-wy:left",
+        "name": "James W. Byrd",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-senate-wy:rep",
+        "name": "Harriet Hageman",
+        "party": "R"
+      }
+    ],
+    "chamber": "US Senate",
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "56",
+    "id": "2026-senate-wy",
+    "incumbent": "Cynthia Lummis",
+    "incumbent_party": "R",
+    "office": "Senate",
+    "provider_ids": {
+      "polling_forecast": "WY"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/senate/wy",
+      "https://ballotpedia.org/United_States_Senate_elections,_2026",
+      "https://www.senate.gov/senators/Class_II.htm"
+    ],
+    "state": "WY",
+    "state_name": "Wyoming",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ak:left",
+        "name": "Jonathan Kreiss-Tomkins",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ak:rep",
+        "name": "Dave Bronson",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "02",
+    "id": "2026-governor-ak",
+    "incumbent": "Mike Dunleavy",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-AK"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/ak",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "AK",
+    "state_name": "Alaska",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-al:left",
+        "name": "Doug Jones",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-al:rep",
+        "name": "Tommy Tuberville",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "01",
+    "id": "2026-governor-al",
+    "incumbent": "Kay Ivey",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-AL"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/al",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "AL",
+    "state_name": "Alabama",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ar:left",
+        "name": "Fredrick Love",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ar:rep",
+        "name": "Sarah Huckabee Sanders",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "05",
+    "id": "2026-governor-ar",
+    "incumbent": "Sarah Huckabee Sanders",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-AR"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/ar",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "AR",
+    "state_name": "Arkansas",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-az:left",
+        "name": "Katie Hobbs",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-az:rep",
+        "name": "Andy Biggs",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "04",
+    "id": "2026-governor-az",
+    "incumbent": "Katie Hobbs",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-AZ"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/az",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "AZ",
+    "state_name": "Arizona",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ca:left",
+        "name": "Xavier Becerra",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ca:rep",
+        "name": "Steve Hilton",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "06",
+    "id": "2026-governor-ca",
+    "incumbent": "Gavin Newsom",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-CA"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/ca",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "CA",
+    "state_name": "California",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-co:left",
+        "name": "Phil Weiser",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-co:rep",
+        "name": "Victor Marx",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "08",
+    "id": "2026-governor-co",
+    "incumbent": "Jared Polis",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-CO"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/co",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "CO",
+    "state_name": "Colorado",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ct:left",
+        "name": "Ned Lamont",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ct:rep",
+        "name": "Ryan Fazio",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "09",
+    "id": "2026-governor-ct",
+    "incumbent": "Ned Lamont",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-CT"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/ct",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "CT",
+    "state_name": "Connecticut",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-fl:left",
+        "name": "David Jolly",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-fl:rep",
+        "name": "Byron Donalds",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "12",
+    "id": "2026-governor-fl",
+    "incumbent": "Ron DeSantis",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-FL"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/fl",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "FL",
+    "state_name": "Florida",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ga:left",
+        "name": "Keisha Lance Bottoms",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ga:rep",
+        "name": "Rick Jackson",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "13",
+    "id": "2026-governor-ga",
+    "incumbent": "Brian Kemp",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-GA"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/ga",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "GA",
+    "state_name": "Georgia",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-hi:left",
+        "name": "Josh Green",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-hi:rep",
+        "name": "Gary Cordery",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "15",
+    "id": "2026-governor-hi",
+    "incumbent": "Josh Green",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-HI"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/hi",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "HI",
+    "state_name": "Hawaii",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ia:left",
+        "name": "Rob Sand",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ia:rep",
+        "name": "Zach Lahn",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "19",
+    "id": "2026-governor-ia",
+    "incumbent": "Kim Reynolds",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-IA"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/ia",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "IA",
+    "state_name": "Iowa",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-id:left",
+        "name": "Terri Pickens",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-id:rep",
+        "name": "Brad Little",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "16",
+    "id": "2026-governor-id",
+    "incumbent": "Brad Little",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-ID"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/id",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "ID",
+    "state_name": "Idaho",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-il:left",
+        "name": "JB Pritzker",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-il:rep",
+        "name": "Darren Bailey",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "17",
+    "id": "2026-governor-il",
+    "incumbent": "JB Pritzker",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-IL"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/il",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "IL",
+    "state_name": "Illinois",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ks:left",
+        "name": "Cindy Holscher",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ks:rep",
+        "name": "Ty Masterson",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "20",
+    "id": "2026-governor-ks",
+    "incumbent": "Laura Kelly",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-KS"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/ks",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "KS",
+    "state_name": "Kansas",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ma:left",
+        "name": "Maura Healey",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ma:rep",
+        "name": "Mike Minogue",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "25",
+    "id": "2026-governor-ma",
+    "incumbent": "Maura Healey",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-MA"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/ma",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "MA",
+    "state_name": "Massachusetts",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-md:left",
+        "name": "Wes Moore",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-md:rep",
+        "name": "Dan Cox",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "24",
+    "id": "2026-governor-md",
+    "incumbent": "Wes Moore",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-MD"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/md",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "MD",
+    "state_name": "Maryland",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [
+          "Hannah M. Pingree"
+        ],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-me:left",
+        "name": "Hannah Pingree",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-me:rep",
+        "name": "Robert B. Charles",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "23",
+    "id": "2026-governor-me",
+    "incumbent": "Janet Mills",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-ME"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/me",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "ME",
+    "state_name": "Maine",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-mi:left",
+        "name": "Jocelyn Benson",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-mi:rep",
+        "name": "John James",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "26",
+    "id": "2026-governor-mi",
+    "incumbent": "Gretchen Whitmer",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-MI"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/mi",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "MI",
+    "state_name": "Michigan",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-mn:left",
+        "name": "Amy Klobuchar",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-mn:rep",
+        "name": "Lisa Demuth",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "27",
+    "id": "2026-governor-mn",
+    "incumbent": "Tim Walz",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-MN"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/mn",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "MN",
+    "state_name": "Minnesota",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ne:left",
+        "name": "Lynne Walz",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ne:rep",
+        "name": "Jim Pillen",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "31",
+    "id": "2026-governor-ne",
+    "incumbent": "Jim Pillen",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-NE"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/ne",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "NE",
+    "state_name": "Nebraska",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-nh:left",
+        "name": "Cinde Warmington",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-nh:rep",
+        "name": "Kelly Ayotte",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "33",
+    "id": "2026-governor-nh",
+    "incumbent": "Kelly Ayotte",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-NH"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/nh",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "NH",
+    "state_name": "New Hampshire",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-nm:left",
+        "name": "Deb Haaland",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-nm:rep",
+        "name": "Gregg Hull",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "35",
+    "id": "2026-governor-nm",
+    "incumbent": "Michelle Lujan Grisham",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-NM"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/nm",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "NM",
+    "state_name": "New Mexico",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-nv:left",
+        "name": "Aaron Ford",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-nv:rep",
+        "name": "Joe Lombardo",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "32",
+    "id": "2026-governor-nv",
+    "incumbent": "Joe Lombardo",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-NV"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/nv",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "NV",
+    "state_name": "Nevada",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [
+          "Kathy C. Hochul"
+        ],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ny:left",
+        "name": "Kathy Hochul",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ny:rep",
+        "name": "Bruce Blakeman",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "36",
+    "id": "2026-governor-ny",
+    "incumbent": "Kathy Hochul",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-NY"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/ny",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "NY",
+    "state_name": "New York",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-oh:left",
+        "name": "Amy Acton",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-oh:rep",
+        "name": "Vivek Ramaswamy",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "39",
+    "id": "2026-governor-oh",
+    "incumbent": "Mike DeWine",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-OH"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/oh",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "OH",
+    "state_name": "Ohio",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ok:left",
+        "name": "Cyndi Munson",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ok:rep",
+        "name": "Mike Mazzei",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "40",
+    "id": "2026-governor-ok",
+    "incumbent": "Kevin Stitt",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-OK"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/ok",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "OK",
+    "state_name": "Oklahoma",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-or:left",
+        "name": "Tina Kotek",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-or:rep",
+        "name": "Christine Drazan",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "41",
+    "id": "2026-governor-or",
+    "incumbent": "Tina Kotek",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-OR"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/or",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "OR",
+    "state_name": "Oregon",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-pa:left",
+        "name": "Josh Shapiro",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-pa:rep",
+        "name": "Stacy Garrity",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "42",
+    "id": "2026-governor-pa",
+    "incumbent": "Josh Shapiro",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-PA"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/pa",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "PA",
+    "state_name": "Pennsylvania",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [
+          "Helena Buonanno Foulkes"
+        ],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ri:left",
+        "name": "Helena Foulkes",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-ri:rep",
+        "name": "Aaron Guckian",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "44",
+    "id": "2026-governor-ri",
+    "incumbent": "Dan McKee",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-RI"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/ri",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "RI",
+    "state_name": "Rhode Island",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-sc:left",
+        "name": "Jermaine Johnson",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-sc:rep",
+        "name": "Alan Wilson",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "45",
+    "id": "2026-governor-sc",
+    "incumbent": "Henry McMaster",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-SC"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/sc",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "SC",
+    "state_name": "South Carolina",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-sd:left",
+        "name": "Dan Ahlers",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-sd:rep",
+        "name": "Larry Rhoden",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "46",
+    "id": "2026-governor-sd",
+    "incumbent": "Larry Rhoden",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-SD"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/sd",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "SD",
+    "state_name": "South Dakota",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-tn:left",
+        "name": "Jerri Green",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-tn:rep",
+        "name": "Marsha Blackburn",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "47",
+    "id": "2026-governor-tn",
+    "incumbent": "Bill Lee",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-TN"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/tn",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "TN",
+    "state_name": "Tennessee",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-tx:left",
+        "name": "Gina Hinojosa",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-tx:rep",
+        "name": "Greg Abbott",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "48",
+    "id": "2026-governor-tx",
+    "incumbent": "Greg Abbott",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-TX"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/tx",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "TX",
+    "state_name": "Texas",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-vt:left",
+        "name": "Amanda Janoo",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-vt:rep",
+        "name": "Phil Scott",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "50",
+    "id": "2026-governor-vt",
+    "incumbent": "Phil Scott",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-VT"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/vt",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "VT",
+    "state_name": "Vermont",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-wi:left",
+        "name": "David Crowley",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-wi:rep",
+        "name": "Tom Tiffany",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "D",
+    "election_type": "regular",
+    "fips": "55",
+    "id": "2026-governor-wi",
+    "incumbent": "Tony Evers",
+    "incumbent_party": "D",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-WI"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/wi",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "WI",
+    "state_name": "Wisconsin",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  },
+  {
+    "candidates": [
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-wy:left",
+        "name": "Kenneth Casner",
+        "party": "D"
+      },
+      {
+        "aliases": [],
+        "caucus": null,
+        "external_ids": {},
+        "id": "2026-governor-wy:rep",
+        "name": "Eric Barlow",
+        "party": "R"
+      }
+    ],
+    "chamber": null,
+    "defending_party": "R",
+    "election_type": "regular",
+    "fips": "56",
+    "id": "2026-governor-wy",
+    "incumbent": "Mark Gordon",
+    "incumbent_party": "R",
+    "office": "Governor",
+    "provider_ids": {
+      "polling_forecast": "G-WY"
+    },
+    "sources": [
+      "https://www.pollingforecast.com/us/governors/wy",
+      "https://ballotpedia.org/Gubernatorial_elections,_2026"
+    ],
+    "state": "WY",
+    "state_name": "Wyoming",
+    "status": "scheduled",
+    "updated_at": "2026-11-02T00:00:00Z",
+    "year": 2026
+  }
+]

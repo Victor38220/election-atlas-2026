@@ -21,6 +21,13 @@ describe('nationwide published actual vote counts',()=>{
   const data=normalizeNationalCounties(fixture.new_york,'NY',geometry(ny),fetched,races);
   expect(data.rows.map(r=>r.county)).toEqual(expect.arrayContaining(['Kings','New York','Queens']));expect(data.rows.every(r=>r.office==='Governor')).toBe(true);
  });
+ it('retains the publisher statewide total separately when regional records do not reconcile',()=>{
+  const data=normalizeNationalCounties(fixture.michigan,'MI',geometry(mi),fetched,races);
+  const statewide=data.statewide!.find(r=>r.office==='Senate')!;
+  expect(data.status).toBe('partial');expect(statewide.total).toBe(fixture.michigan.races[0].top_reporting_unit.total_votes);
+  expect(statewide.total).not.toBe(data.rows.filter(r=>r.office==='Senate').reduce((sum,r)=>sum+(r.total??0),0));
+  expect(statewide.source_url).toBe(fixture.michigan.races[0].url);
+ });
  it('sums distinct Massachusetts towns with publisher county FIPS exactly once',()=>{
   const data=normalizeNationalCounties(fixture.massachusetts,'MA',geometry(ma),fetched,races);
   expect(data.rows).toHaveLength(1);expect(data.rows[0].fips).toBe('25025');
@@ -44,5 +51,22 @@ describe('nationwide published actual vote counts',()=>{
  it('keeps genuine zero totals awaiting with null candidate shares',()=>{
   const raw=structuredClone(fixture.michigan);for(const r of raw.races)for(const u of r.reporting_units){u.total_votes=0;for(const c of u.candidates)c.votes.total=0}
   const data=normalizeNationalCounties(raw,'MI',geometry(mi),fetched,races);expect(data.rows.every(r=>r.status==='awaiting'&&r.candidates.every(c=>c.share===null))).toBe(true);
+ });
+ it('keeps source estimated vote-in separate from candidate share and precinct reporting',()=>{
+  const data=normalizeNationalCounties(fixture.michigan,'MI',geometry(mi),fetched,races);const county=data.rows[0];
+  expect(county.estimated_vote_in).toBe(fixture.michigan.races[0].reporting_units[0].eevp!/100);
+  expect(county.estimated_vote_in).not.toBe(county.reported!/county.reporting_total!);
+  expect(data.statewide![0].estimated_vote_in).toBe(fixture.michigan.races[0].top_reporting_unit.eevp!/100);
+ });
+ it('rolls up published town estimates with source expected-vote weights and labels the method',()=>{
+  const source=fixture.massachusetts.races[0].reporting_units;
+  const expected=source.reduce((sum,u)=>sum+u.eevp!*u.total_expected_vote!,0)/source.reduce((sum,u)=>sum+u.total_expected_vote!,0)/100;
+  const data=normalizeNationalCounties(fixture.massachusetts,'MA',geometry(ma),fetched,races);
+  expect(data.rows[0].estimated_vote_in).toBeCloseTo(expected,10);expect(data.rows[0].estimated_vote_in_method).toBe('weighted_town_estimates');
+ });
+ it('retains unavailable estimates as null and rejects out-of-range source percentages',()=>{
+  const raw=structuredClone(fixture.michigan);Object.assign(raw.races[0].reporting_units[0],{eevp:null});
+  expect(normalizeNationalCounties(raw,'MI',geometry(mi),fetched,races).rows[0].estimated_vote_in).toBeNull();
+  raw.races[0].reporting_units[0].eevp=101;expect(()=>normalizeNationalCounties(raw,'MI',geometry(mi),fetched,races)).toThrow('estimated vote-in');
  });
 });
