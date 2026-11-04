@@ -64,3 +64,30 @@ def test_control_contracts_are_not_state_races_and_other_years_rejected():
     assert len(accepted)==2
     assert {c['outcome'] for c,_ in accepted}=={'D','R'}
     assert all(c['race_id'] is None and c['outcome_type']=='control' for c,_ in accepted)
+
+def test_archive_migrates_legacy_county_status_without_fetching_historical_returns(tmp_path,monkeypatch):
+    from scripts import update_data
+    current=datetime.now(timezone.utc).isoformat().replace('+00:00','Z')
+    snapshot=json.loads((ROOT/'public/data/latest.json').read_text())
+    for provider,status in snapshot['providers'].items():
+        status['last_success']=current
+    snapshot['providers']['counties']={'status':'error','last_attempt':current,'last_success':None,'message':'legacy history','refresh_seconds':86400}
+    data=tmp_path/'public/data';data.mkdir(parents=True)
+    config=tmp_path/'config';config.mkdir()
+    (data/'latest.json').write_text(json.dumps(snapshot))
+    (config/'races.json').write_text(json.dumps(snapshot['races']))
+    class OfflineClient:
+        calls=[]
+        def get(self,url,params=None):
+            self.calls.append(url)
+            raise AssertionError('Daily migration must not call historical county APIs')
+    client=OfflineClient()
+    monkeypatch.setattr(update_data,'ROOT',tmp_path)
+    monkeypatch.setattr(update_data,'DATA',data)
+    monkeypatch.setattr(update_data,'Client',lambda:client)
+    update_data.run()
+    updated=json.loads((data/'latest.json').read_text())
+    assert 'counties' not in updated['providers']
+    assert not client.calls
+    assert not (data/'counties').exists()
+    assert 'North Carolina Senate' in json.loads((data/'metadata.json').read_text())['county_note']

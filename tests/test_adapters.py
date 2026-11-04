@@ -268,4 +268,5 @@ def test_refresh_failure_retains_last_successful_real_data(tmp_path, monkeypatch
     assert result['quotes'] == snapshot['quotes']
     assert result['polls'] == snapshot['polls']
     assert all(s['status'] == 'error' for s in result['providers'].values())
-    assert all(result['providers'][p]['last_success'] == old['last_success'] for p, old in snapshot['providers'].items())
+    assert 'counties' not in result['providers']
+    assert all(result['providers'][p]['last_success'] == old['last_success'] for p, old in snapshot['providers'].items() if p != 'counties')

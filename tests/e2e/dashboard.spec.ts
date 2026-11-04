@@ -61,20 +61,35 @@ test('keeps favorite candidate prices separate on the two market providers',asyn
  }
 });
 
-test('county selection shows historical local returns with statewide polling kept distinct',async({page})=>{
- await page.goto('/#state=GA');await expect(page.locator('path[data-county]')).toHaveCount(159);
- await page.locator('.county-directory summary').click();
- await page.getByRole('textbox',{name:'Search counties'}).fill('Fulton');
- await page.getByRole('button',{name:'Fulton',exact:true}).click();
+test('live county reports preserve actual counts, genuine zeroes and unavailable coverage',async({page})=>{
+ const historicalRequests:string[]=[];page.on('request',request=>{if(/\/data\/counties\/|\/api\/polling\/counties/.test(request.url()))historicalRequests.push(request.url())});
+ await page.goto('/#state=NC');await expect(page.locator('path[data-status="reporting"]')).toHaveCount(100);
+ await page.locator('path[data-county="37001"]').focus();await page.keyboard.press('Enter');
  const brief=page.getByRole('region',{name:'Selected county information'});
- await expect(brief.getByRole('heading',{name:'Fulton',exact:true})).toBeVisible();
- await expect(brief).toContainText('2024 President · historical returns');
- await expect(brief).toContainText('County polling unavailable');
- await expect(brief).toContainText('Polls and market prices above are statewide');
- await expect(brief.locator('.county-votes-compact b')).toHaveCount(2);
- await page.getByLabel('County election office').selectOption('Senate');
- await expect(page.getByLabel('County election year')).toHaveValue('2022');
- await expect(brief.getByRole('heading',{name:'Select a county',exact:true})).toBeVisible();
+ await expect(brief.getByRole('heading',{name:'Alamance',exact:true})).toBeVisible();
+ await expect(brief).toContainText('67,849 votes reported');await expect(brief).toContainText('39 / 39 precincts');
+ await expect(brief).toContainText('Roy Cooper');await expect(brief).toContainText('38,109');
+ await expect(brief.getByRole('link',{name:'North Carolina State Board of Elections ↗'})).toHaveAttribute('href',/er.ncsbe.gov/);
+ await expect(brief).toContainText('Source time:');
+ await expect(brief).toContainText('County polling and county markets are unavailable');
+ await expect(page.getByLabel('County election year')).toHaveCount(0);
+ await expect(page.getByRole('option',{name:'President',exact:true})).toHaveCount(0);
+ await page.getByLabel('Go to state').selectOption('CA');await expect(page.locator('path[data-status="awaiting"]')).toHaveCount(58);
+ await page.locator('path[data-county="06001"]').focus();await page.keyboard.press('Enter');
+ await expect(brief.getByRole('heading',{name:'Alameda',exact:true})).toBeVisible();
+ await expect(brief).toContainText('Awaiting reported votes');await expect(brief).toContainText('0 votes reported · 0 / 627 precincts');
+ await expect(brief).not.toContainText('0.0%');
+ await page.getByLabel('Go to state').selectOption('ME');await expect(page.locator('path[data-status="unavailable"]')).toHaveCount(16);
+ await expect(page.locator('.county-live-status')).toHaveText('No verified 2026 live county feed is connected for this state.');
+ await page.getByLabel('Go to state').selectOption('GA');await expect(page.locator('path[data-county]')).toHaveCount(159);
+ await expect(page.locator('path[data-status="reporting"]')).toHaveCount(156);
+ await expect(page.locator('path[data-status="awaiting"]')).toHaveCount(3);
+ await page.locator('path[data-county="13001"]').focus();await page.keyboard.press('Enter');
+ await expect(brief.getByRole('heading',{name:'Appling',exact:true})).toBeVisible();
+ await expect(brief.locator('.county-current-report')).toHaveCount(2);
+ await expect(brief).toContainText('6,176 votes reported');await expect(brief).toContainText('US Senate');await expect(brief).toContainText('Governor');
+ await expect(page.locator('.county-explorer')).not.toContainText('2024');
+ expect(historicalRequests).toEqual([]);
 });
 
 test('saved observations and deep links work when every API is unavailable',async({page})=>{
@@ -107,7 +122,7 @@ test('keeps the map prominent on desktop and mobile without horizontal overflow'
  await page.getByRole('button',{name:'Back to national map',exact:true}).click();await expect(page.locator('path[data-state]')).toHaveCount(50);
 });
 
-test('reported results use vote leaders regardless of source order and keep county history separate',async({page},testInfo)=>{
+test('reported statewide results use vote leaders and never substitute past county returns',async({page},testInfo)=>{
  const recorded=JSON.parse(await readFile(new URL('../../public/data/results.json',import.meta.url),'utf8'));
  const ar=recorded.races.find((r:{state:string;office:string})=>r.state==='AR'&&r.office==='Senate');
  const leader=[...ar.candidates].sort((a:{votes:number},b:{votes:number})=>b.votes-a.votes)[0];
@@ -129,8 +144,8 @@ test('reported results use vote leaders regardless of source order and keep coun
  await expect(result).toContainText('not the share of ballots counted');
  await expect(result).toContainText('A leader is not a declared winner');
  await expect(result.getByRole('link',{name:'Official state election offices via Open America'})).toHaveAttribute('href',ar.source_url);
- await expect(page.locator('.county-result-note')).toContainText('historical returns');
- await expect(page.getByLabel('County election year')).toHaveValue('2024');
+ await expect(page.locator('.county-live-status')).toContainText('No verified 2026 live county feed');
+ await expect(page.getByLabel('County election year')).toHaveCount(0);
  await expect(page.getByTestId('race-summary-Senate')).toBeVisible();
  await result.scrollIntoViewIfNeeded();await page.screenshot({path:`artifacts/results-${testInfo.project.name}.png`,fullPage:false,animations:'disabled'});
 });

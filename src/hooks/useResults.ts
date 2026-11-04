@@ -10,8 +10,8 @@ export function useResults(enabled:boolean){
  useEffect(()=>{if(!enabled)return;let active=true;let timer:ReturnType<typeof setTimeout>;
   (async()=>{if(!current.current){let saved:ResultsData|null=null;try{saved=JSON.parse(localStorage.getItem(KEY)??'null') as ResultsData|null}catch{/* Optional cache. */}const seed=await getJSON(import.meta.env.BASE_URL+'data/results.json').catch(()=>null) as ResultsData|null;const initial=saved?.races&&(!seed||Date.parse(saved.fetched_at)>Date.parse(seed.fetched_at))?saved:seed;if(initial?.races&&active){current.current=initial;setData(initial)}}if(active)void refresh()})();
   const schedule=()=>{timer=setTimeout(()=>{if(document.visibilityState!=='hidden')void refresh();schedule()},60000-Date.now()%60000)};schedule();
-  const visible=()=>{if(document.visibilityState==='visible')void refresh()};document.addEventListener('visibilitychange',visible);
-  return()=>{active=false;clearTimeout(timer);document.removeEventListener('visibilitychange',visible);abort.current?.abort()};
+  const visible=()=>{if(document.visibilityState==='visible')void refresh()};document.addEventListener('visibilitychange',visible);const manual=()=>void refresh();window.addEventListener('election-atlas:refresh',manual);
+  return()=>{active=false;clearTimeout(timer);document.removeEventListener('visibilitychange',visible);window.removeEventListener('election-atlas:refresh',manual);abort.current?.abort()};
  },[enabled,refresh]);
  return {data,loading,error,refresh};
 }

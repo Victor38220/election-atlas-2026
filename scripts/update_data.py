@@ -47,8 +47,8 @@ def run(force=False):
     old=read(DATA/'latest.json',{});races=read(ROOT/'config/races.json',[]) or old.get('races',[])
     if not races:raise RuntimeError('Canonical manifest is required')
     mappings_file=ROOT/'config/market-mappings.json';map_config=read(mappings_file,{'mappings':[],'overrides':[]})
-    statuses=old.get('providers',{}).copy();new=dict(old);new.update(races=races)
-    for provider,interval in [('polling_forecast',86400),('votehub',86400),('counties',86400),('kalshi',900),('polymarket',900)]:
+    statuses=old.get('providers',{}).copy();statuses.pop('counties',None);new=dict(old);new.update(races=races)
+    for provider,interval in [('polling_forecast',86400),('votehub',86400),('kalshi',900),('polymarket',900)]:
         status=statuses.get(provider,{})
         if not force and not due(status,interval,current):continue
         partial_message=''
@@ -62,11 +62,6 @@ def run(force=False):
                 polls,context=votehub.fetch(client,races)
                 new['polls']=[p for p in new.get('polls',[]) if p['provider']!='votehub']+polls
                 new.setdefault('context',{})['votehub']=context
-            elif provider=='counties':
-                payload=client.get(polling_forecast.BASE+'/counties');rows=polling_forecast.rows(payload)
-                if not rows:raise ValueError('Empty county response; previous data retained')
-                for state in {r['state'] for r in rows}:
-                    write(DATA/'counties'/f'{state}.json',{'as_of':payload.get('asOf'),'attribution':payload.get('attribution'),'rows':[r for r in rows if r['state']==state]})
             else:
                 adapter=kalshi if provider=='kalshi' else polymarket
                 discovery=map_config.setdefault('last_discovery',{})
@@ -111,7 +106,7 @@ def run(force=False):
     write(DATA/'latest.json',validated)
     history=history_update(read(DATA/'history.json',{}),validated['quotes'],current)
     write(DATA/'history.json',history)
-    write(DATA/'metadata.json',{'generated_at':fetched,'providers':statuses,'polling_note':'Margins: first listed candidate minus Republican, in percentage points. Model probabilities and model margins are distinct from polling averages.','market_note':'Executable two-sided bid/ask midpoints only; last trades retained as raw fields. Different settlement terms excluded from comparison unless explicitly reviewed.','county_note':'Historical returns only. No 2026 live county results source has been verified.','retention_days':21,'history_resolution':'15 minutes for 24 hours, then hourly; observed points only','source_urls':['https://www.pollingforecast.com/us/data','https://votehub.com/polls/api/','https://docs.kalshi.com/getting_started/quick_start_market_data','https://docs.polymarket.com/market-data/overview']})
+    write(DATA/'metadata.json',{'generated_at':fetched,'providers':statuses,'polling_note':'Margins: first listed candidate minus Republican, in percentage points. Model probabilities and model margins are distinct from polling averages.','market_note':'Executable two-sided bid/ask midpoints only; last trades retained as raw fields. Different settlement terms excluded from comparison unless explicitly reviewed.','county_note':'November 3, 2026 official county feeds only: Georgia Senate and Governor (159 counties for each office), North Carolina Senate (100 counties), and California Governor (58 counties; initialized and awaiting votes at the recorded observation). Other county coverage is unavailable. No historical county election returns are collected or published.','retention_days':21,'history_resolution':'15 minutes for 24 hours, then hourly; observed points only','source_urls':['https://www.pollingforecast.com/us/data','https://votehub.com/polls/api/','https://docs.kalshi.com/getting_started/quick_start_market_data','https://docs.polymarket.com/market-data/overview','https://er.ncsbe.gov/?election_dt=11/03/2026&county_id=0&office=FED&contest=0','https://media.sos.ca.gov/media/governor.json','https://results.sos.ga.gov/']})
     print(json.dumps({'races':len(validated['races']),'polls':len(validated['polls']),'contracts':len(validated['contracts']),'usable_quotes':sum(q['price'] is not None for q in validated['quotes']),'providers':statuses},indent=2))
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--force',action='store_true');args=parser.parse_args();logging.basicConfig(level=logging.INFO);run(args.force)

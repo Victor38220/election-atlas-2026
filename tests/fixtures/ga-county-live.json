@@ -1,0 +1,1672 @@
+{
+  "Senate": {
+    "election": {
+      "ballotItemCount": 1,
+      "dateText": [
+        {
+          "languageId": "en",
+          "text": "November 3, 2026"
+        }
+      ],
+      "id": "01000000-70f4-ca87-08cb-08df23e5fea8",
+      "jurisdictionId": "09378a07-e6cf-4f66-be7c-ca4aa534f99a",
+      "name": [
+        {
+          "languageId": "en",
+          "text": "November 3, 2026 - General & Special Elections"
+        }
+      ],
+      "isOfficialResults": false,
+      "electionDate": "2026-11-03",
+      "isProduction": true,
+      "asOf": "2026-11-04T03:25:34.1404196Z",
+      "lastUpdated": "2026-11-04T03:25:15.3658842Z",
+      "publishDate": "2026-11-04T03:26:18.7009731Z",
+      "publishVersionId": "384c15e8-4734-47e1-84ee-7eb0a4a7c7be",
+      "publicReportCategories": [
+        {
+          "id": null,
+          "categoryName": null,
+          "reports": [
+            {
+              "reportName": "Total Votes Excel",
+              "blobName": "Total Votes Results_016b8c71-d1ee-42e3-9198-fc6239164b70.xlsx",
+              "order": 0,
+              "versions": null,
+              "county": null
+            }
+          ],
+          "order": 0,
+          "categoryType": null,
+          "description": null,
+          "categoryNameTranslations": null
+        }
+      ],
+      "groupReportingStatus": [
+        {
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Election Day"
+            }
+          ],
+          "reportingStatusClientTextKey": "reporting-status-not-reported",
+          "order": 1,
+          "value": null
+        },
+        {
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Advance Voting"
+            }
+          ],
+          "reportingStatusClientTextKey": "reporting-status-not-reported",
+          "order": 2,
+          "value": null
+        },
+        {
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Absentee by Mail"
+            }
+          ],
+          "reportingStatusClientTextKey": "reporting-status-not-reported",
+          "order": 3,
+          "value": null
+        },
+        {
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Provisional"
+            }
+          ],
+          "reportingStatusClientTextKey": "reporting-status-not-reported",
+          "order": 4,
+          "value": null
+        }
+      ],
+      "precinctReportingStatus": null,
+      "contestGroups": [],
+      "countGroups": [
+        {
+          "groupId": "01000000-3a82-a359-956f-08df23e5ff21",
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Election Day"
+            }
+          ],
+          "isFromVirtualPrecinct": false
+        },
+        {
+          "groupId": "01000000-3a82-a359-de9c-08df23e5ff25",
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Advance Voting"
+            }
+          ],
+          "isFromVirtualPrecinct": false
+        },
+        {
+          "groupId": "01000000-3a82-a359-44a4-08df23e5ff27",
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Absentee by Mail"
+            }
+          ],
+          "isFromVirtualPrecinct": false
+        },
+        {
+          "groupId": "01000000-3a82-a359-a55e-08df23e5ff28",
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Provisional"
+            }
+          ],
+          "isFromVirtualPrecinct": false
+        }
+      ],
+      "precinctsReporting": null,
+      "map": {
+        "enabled": true,
+        "styleUrl": "mapbox://styles/enhancedvoting/cm1jnw2xt002801pf5t7g25mp",
+        "featureIdField": "NAME",
+        "disclaimer": [],
+        "showMapLegend": true
+      },
+      "totalVoters": 7516484.0,
+      "ballotsCast": 0.0,
+      "redactingPrecinctCountGroups": false,
+      "precinctResultsProtected": false,
+      "reportingStatusBy": 0,
+      "customPublicMessages": [],
+      "closeRaceThreshold": null,
+      "closeRaceThresholdDisclaimer": [],
+      "hasStateWideCloseRaces": false,
+      "nextUpdateAt": null,
+      "hidePrecincts": false,
+      "includePrecinctResults": true,
+      "includePrecinctStatuses": true,
+      "showOverUnderVotes": false,
+      "isPrimary": false,
+      "parties": [
+        {
+          "id": "01000000-3a82-a359-3795-08df23e5ff36",
+          "name": [
+            {
+              "languageId": "en",
+              "text": ""
+            }
+          ],
+          "abbreviation": "",
+          "standardName": "",
+          "color": "#FF9933",
+          "textColor": "#FFFFFF",
+          "showInPublicResultsFilters": true
+        },
+        {
+          "id": "01000000-3a82-a359-46c9-08df23e5ff36",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Rep"
+            }
+          ],
+          "abbreviation": "Rep",
+          "standardName": "Rep",
+          "color": "#960018",
+          "textColor": "#000000",
+          "showInPublicResultsFilters": true
+        },
+        {
+          "id": "01000000-3a82-a359-49a7-08df23e5ff36",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Dem"
+            }
+          ],
+          "abbreviation": "Dem",
+          "standardName": "Dem",
+          "color": "#255C99",
+          "textColor": "#000000",
+          "showInPublicResultsFilters": true
+        },
+        {
+          "id": "01000000-3a82-a359-0ce4-08df23e608ef",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "REP"
+            }
+          ],
+          "abbreviation": "REP",
+          "standardName": "REP",
+          "color": "#960018",
+          "textColor": "#ffffff",
+          "showInPublicResultsFilters": true
+        },
+        {
+          "id": "01000000-3a82-a359-6c9a-08df23e60bed",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Ind"
+            }
+          ],
+          "abbreviation": "Ind",
+          "standardName": "Ind",
+          "color": "#481f82",
+          "textColor": "#000000",
+          "showInPublicResultsFilters": true
+        }
+      ]
+    },
+    "ballotItemWithBreakdown": {
+      "id": "01000000-3a82-a359-4042-08df23e5ff36",
+      "name": [
+        {
+          "languageId": "en",
+          "text": "US Senate"
+        }
+      ],
+      "voteFor": [
+        {
+          "languageId": "en",
+          "text": "Vote for 1"
+        }
+      ],
+      "referendum": [],
+      "turnout": null,
+      "reportingStatus": {
+        "reportingUnits": 156,
+        "totalUnits": 159,
+        "asOf": "2026-11-04T03:25:34.1404196Z",
+        "reportingStatusDetails": null
+      },
+      "contestType": "Candidate",
+      "voteTotal": 3785161,
+      "underVoteCount": null,
+      "overVoteCount": null,
+      "summaryResults": {
+        "ballotOptions": [
+          {
+            "id": "01000000-3a82-a359-482e-08df23e5ff36",
+            "nativeId": "1",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Mike Collins (Rep)"
+              }
+            ],
+            "voteCount": 1558801,
+            "party": {
+              "id": "01000000-3a82-a359-46c9-08df23e5ff36",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Rep"
+                }
+              ],
+              "abbreviation": "Rep",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#000000",
+              "showInPublicResultsFilters": null
+            },
+            "groupResults": [
+              {
+                "groupId": "01000000-3a82-a359-956f-08df23e5ff21",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Election Day"
+                  }
+                ],
+                "voteCount": 532134
+              },
+              {
+                "groupId": "01000000-3a82-a359-de9c-08df23e5ff25",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Advance Voting"
+                  }
+                ],
+                "voteCount": 985663
+              },
+              {
+                "groupId": "01000000-3a82-a359-44a4-08df23e5ff27",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Absentee by Mail"
+                  }
+                ],
+                "voteCount": 40954
+              },
+              {
+                "groupId": "01000000-3a82-a359-a55e-08df23e5ff28",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Provisional"
+                  }
+                ],
+                "voteCount": 50
+              }
+            ],
+            "isWriteIn": false,
+            "isQualifiedWriteIn": false,
+            "isWinner": null
+          },
+          {
+            "id": "01000000-3a82-a359-4a50-08df23e5ff36",
+            "nativeId": "2",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Jon Ossoff (I) (Dem)"
+              }
+            ],
+            "voteCount": 2226360,
+            "party": {
+              "id": "01000000-3a82-a359-49a7-08df23e5ff36",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Dem"
+                }
+              ],
+              "abbreviation": "Dem",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#000000",
+              "showInPublicResultsFilters": null
+            },
+            "groupResults": [
+              {
+                "groupId": "01000000-3a82-a359-956f-08df23e5ff21",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Election Day"
+                  }
+                ],
+                "voteCount": 484851
+              },
+              {
+                "groupId": "01000000-3a82-a359-de9c-08df23e5ff25",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Advance Voting"
+                  }
+                ],
+                "voteCount": 1652763
+              },
+              {
+                "groupId": "01000000-3a82-a359-44a4-08df23e5ff27",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Absentee by Mail"
+                  }
+                ],
+                "voteCount": 88687
+              },
+              {
+                "groupId": "01000000-3a82-a359-a55e-08df23e5ff28",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Provisional"
+                  }
+                ],
+                "voteCount": 59
+              }
+            ],
+            "isWriteIn": false,
+            "isQualifiedWriteIn": false,
+            "isWinner": null
+          }
+        ]
+      },
+      "rankedChoiceSummaryResults": null,
+      "breakdownResults": [
+        {
+          "parentBallotItemId": "01000000-3a82-a359-5a9e-08df23e630d2",
+          "locality": {
+            "id": "d58e790a-a271-4225-8cd6-a1ed0aa829b1",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Appling County"
+              }
+            ],
+            "shortName": "appling-county-ga",
+            "turnoutPercent": null,
+            "percentReporting": null,
+            "precinctsReporting": null,
+            "hasCountGroupStatus": false,
+            "hasPrecinctStatus": false,
+            "mapFeatureId": "Appling"
+          },
+          "voteTotal": 6176,
+          "underVoteCount": null,
+          "overVoteCount": null,
+          "precinctReportingStatus": {
+            "reportingUnits": 9,
+            "totalUnits": 9,
+            "asOf": "2026-11-04T03:25:34.1404255Z",
+            "reportingStatusDetails": [
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Fully Reported"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-fully-reported",
+                "order": 1,
+                "value": 0
+              },
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Election Night Complete"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-election-night-complete",
+                "order": 2,
+                "value": 9
+              },
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Partially Reported"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-partially-reported",
+                "order": 3,
+                "value": 0
+              },
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Not Reported"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-not-reported",
+                "order": 4,
+                "value": 0
+              }
+            ]
+          },
+          "ballotOptions": [
+            {
+              "id": "01000000-3a82-a359-482e-08df23e5ff36",
+              "nativeId": "1",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Mike Collins (Rep)"
+                }
+              ],
+              "voteCount": 4628,
+              "party": {
+                "id": "01000000-3a82-a359-46c9-08df23e5ff36",
+                "name": [
+                  {
+                    "languageId": "en",
+                    "text": "Rep"
+                  }
+                ],
+                "abbreviation": "Rep",
+                "standardName": null,
+                "color": "#960018",
+                "textColor": "#000000",
+                "showInPublicResultsFilters": null
+              },
+              "groupResults": [
+                {
+                  "groupId": "01000000-3a82-a359-956f-08df23e5ff21",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Election Day"
+                    }
+                  ],
+                  "voteCount": 1922
+                },
+                {
+                  "groupId": "01000000-3a82-a359-de9c-08df23e5ff25",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Advance Voting"
+                    }
+                  ],
+                  "voteCount": 2592
+                },
+                {
+                  "groupId": "01000000-3a82-a359-44a4-08df23e5ff27",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Absentee by Mail"
+                    }
+                  ],
+                  "voteCount": 114
+                },
+                {
+                  "groupId": "01000000-3a82-a359-a55e-08df23e5ff28",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Provisional"
+                    }
+                  ],
+                  "voteCount": 0
+                }
+              ],
+              "isWriteIn": false,
+              "isQualifiedWriteIn": false,
+              "isWinner": null
+            },
+            {
+              "id": "01000000-3a82-a359-4a50-08df23e5ff36",
+              "nativeId": "2",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Jon Ossoff (I) (Dem)"
+                }
+              ],
+              "voteCount": 1548,
+              "party": {
+                "id": "01000000-3a82-a359-49a7-08df23e5ff36",
+                "name": [
+                  {
+                    "languageId": "en",
+                    "text": "Dem"
+                  }
+                ],
+                "abbreviation": "Dem",
+                "standardName": null,
+                "color": "#255C99",
+                "textColor": "#000000",
+                "showInPublicResultsFilters": null
+              },
+              "groupResults": [
+                {
+                  "groupId": "01000000-3a82-a359-956f-08df23e5ff21",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Election Day"
+                    }
+                  ],
+                  "voteCount": 484
+                },
+                {
+                  "groupId": "01000000-3a82-a359-de9c-08df23e5ff25",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Advance Voting"
+                    }
+                  ],
+                  "voteCount": 961
+                },
+                {
+                  "groupId": "01000000-3a82-a359-44a4-08df23e5ff27",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Absentee by Mail"
+                    }
+                  ],
+                  "voteCount": 103
+                },
+                {
+                  "groupId": "01000000-3a82-a359-a55e-08df23e5ff28",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Provisional"
+                    }
+                  ],
+                  "voteCount": 0
+                }
+              ],
+              "isWriteIn": false,
+              "isQualifiedWriteIn": false,
+              "isWinner": null
+            }
+          ]
+        },
+        {
+          "parentBallotItemId": "01000000-3a82-a359-d290-08df23e6314a",
+          "locality": {
+            "id": "6e098a97-b550-4227-8ed4-08552cccac20",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Atkinson County"
+              }
+            ],
+            "shortName": "atkinson-county-ga",
+            "turnoutPercent": null,
+            "percentReporting": null,
+            "precinctsReporting": null,
+            "hasCountGroupStatus": false,
+            "hasPrecinctStatus": false,
+            "mapFeatureId": "Atkinson"
+          },
+          "voteTotal": 2234,
+          "underVoteCount": null,
+          "overVoteCount": null,
+          "precinctReportingStatus": {
+            "reportingUnits": 4,
+            "totalUnits": 4,
+            "asOf": "2026-11-04T03:25:34.1404255Z",
+            "reportingStatusDetails": [
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Fully Reported"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-fully-reported",
+                "order": 1,
+                "value": 0
+              },
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Election Night Complete"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-election-night-complete",
+                "order": 2,
+                "value": 4
+              },
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Partially Reported"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-partially-reported",
+                "order": 3,
+                "value": 0
+              },
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Not Reported"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-not-reported",
+                "order": 4,
+                "value": 0
+              }
+            ]
+          },
+          "ballotOptions": [
+            {
+              "id": "01000000-3a82-a359-482e-08df23e5ff36",
+              "nativeId": "1",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Mike Collins (Rep)"
+                }
+              ],
+              "voteCount": 1472,
+              "party": {
+                "id": "01000000-3a82-a359-46c9-08df23e5ff36",
+                "name": [
+                  {
+                    "languageId": "en",
+                    "text": "Rep"
+                  }
+                ],
+                "abbreviation": "Rep",
+                "standardName": null,
+                "color": "#960018",
+                "textColor": "#000000",
+                "showInPublicResultsFilters": null
+              },
+              "groupResults": [
+                {
+                  "groupId": "01000000-3a82-a359-de9c-08df23e5ff25",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Advance Voting"
+                    }
+                  ],
+                  "voteCount": 718
+                },
+                {
+                  "groupId": "01000000-3a82-a359-44a4-08df23e5ff27",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Absentee by Mail"
+                    }
+                  ],
+                  "voteCount": 30
+                },
+                {
+                  "groupId": "01000000-3a82-a359-a55e-08df23e5ff28",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Provisional"
+                    }
+                  ],
+                  "voteCount": 2
+                },
+                {
+                  "groupId": "01000000-3a82-a359-956f-08df23e5ff21",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Election Day"
+                    }
+                  ],
+                  "voteCount": 722
+                }
+              ],
+              "isWriteIn": false,
+              "isQualifiedWriteIn": false,
+              "isWinner": null
+            },
+            {
+              "id": "01000000-3a82-a359-4a50-08df23e5ff36",
+              "nativeId": "2",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Jon Ossoff (I) (Dem)"
+                }
+              ],
+              "voteCount": 762,
+              "party": {
+                "id": "01000000-3a82-a359-49a7-08df23e5ff36",
+                "name": [
+                  {
+                    "languageId": "en",
+                    "text": "Dem"
+                  }
+                ],
+                "abbreviation": "Dem",
+                "standardName": null,
+                "color": "#255C99",
+                "textColor": "#000000",
+                "showInPublicResultsFilters": null
+              },
+              "groupResults": [
+                {
+                  "groupId": "01000000-3a82-a359-956f-08df23e5ff21",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Election Day"
+                    }
+                  ],
+                  "voteCount": 350
+                },
+                {
+                  "groupId": "01000000-3a82-a359-de9c-08df23e5ff25",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Advance Voting"
+                    }
+                  ],
+                  "voteCount": 388
+                },
+                {
+                  "groupId": "01000000-3a82-a359-44a4-08df23e5ff27",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Absentee by Mail"
+                    }
+                  ],
+                  "voteCount": 24
+                },
+                {
+                  "groupId": "01000000-3a82-a359-a55e-08df23e5ff28",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Provisional"
+                    }
+                  ],
+                  "voteCount": 0
+                }
+              ],
+              "isWriteIn": false,
+              "isQualifiedWriteIn": false,
+              "isWinner": null
+            }
+          ]
+        }
+      ],
+      "breakdownResultCount": 159
+    }
+  },
+  "Governor": {
+    "election": {
+      "ballotItemCount": 1,
+      "dateText": [
+        {
+          "languageId": "en",
+          "text": "November 3, 2026"
+        }
+      ],
+      "id": "01000000-70f4-ca87-08cb-08df23e5fea8",
+      "jurisdictionId": "09378a07-e6cf-4f66-be7c-ca4aa534f99a",
+      "name": [
+        {
+          "languageId": "en",
+          "text": "November 3, 2026 - General & Special Elections"
+        }
+      ],
+      "isOfficialResults": false,
+      "electionDate": "2026-11-03",
+      "isProduction": true,
+      "asOf": "2026-11-04T03:25:34.1404196Z",
+      "lastUpdated": "2026-11-04T03:25:15.3658842Z",
+      "publishDate": "2026-11-04T03:26:18.7009731Z",
+      "publishVersionId": "384c15e8-4734-47e1-84ee-7eb0a4a7c7be",
+      "publicReportCategories": [
+        {
+          "id": null,
+          "categoryName": null,
+          "reports": [
+            {
+              "reportName": "Total Votes Excel",
+              "blobName": "Total Votes Results_016b8c71-d1ee-42e3-9198-fc6239164b70.xlsx",
+              "order": 0,
+              "versions": null,
+              "county": null
+            }
+          ],
+          "order": 0,
+          "categoryType": null,
+          "description": null,
+          "categoryNameTranslations": null
+        }
+      ],
+      "groupReportingStatus": [
+        {
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Election Day"
+            }
+          ],
+          "reportingStatusClientTextKey": "reporting-status-not-reported",
+          "order": 1,
+          "value": null
+        },
+        {
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Advance Voting"
+            }
+          ],
+          "reportingStatusClientTextKey": "reporting-status-not-reported",
+          "order": 2,
+          "value": null
+        },
+        {
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Absentee by Mail"
+            }
+          ],
+          "reportingStatusClientTextKey": "reporting-status-not-reported",
+          "order": 3,
+          "value": null
+        },
+        {
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Provisional"
+            }
+          ],
+          "reportingStatusClientTextKey": "reporting-status-not-reported",
+          "order": 4,
+          "value": null
+        }
+      ],
+      "precinctReportingStatus": null,
+      "contestGroups": [],
+      "countGroups": [
+        {
+          "groupId": "01000000-3a82-a359-956f-08df23e5ff21",
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Election Day"
+            }
+          ],
+          "isFromVirtualPrecinct": false
+        },
+        {
+          "groupId": "01000000-3a82-a359-de9c-08df23e5ff25",
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Advance Voting"
+            }
+          ],
+          "isFromVirtualPrecinct": false
+        },
+        {
+          "groupId": "01000000-3a82-a359-44a4-08df23e5ff27",
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Absentee by Mail"
+            }
+          ],
+          "isFromVirtualPrecinct": false
+        },
+        {
+          "groupId": "01000000-3a82-a359-a55e-08df23e5ff28",
+          "groupName": [
+            {
+              "languageId": "en",
+              "text": "Provisional"
+            }
+          ],
+          "isFromVirtualPrecinct": false
+        }
+      ],
+      "precinctsReporting": null,
+      "map": {
+        "enabled": true,
+        "styleUrl": "mapbox://styles/enhancedvoting/cm1jnw2xt002801pf5t7g25mp",
+        "featureIdField": "NAME",
+        "disclaimer": [],
+        "showMapLegend": true
+      },
+      "totalVoters": 7516484.0,
+      "ballotsCast": 0.0,
+      "redactingPrecinctCountGroups": false,
+      "precinctResultsProtected": false,
+      "reportingStatusBy": 0,
+      "customPublicMessages": [],
+      "closeRaceThreshold": null,
+      "closeRaceThresholdDisclaimer": [],
+      "hasStateWideCloseRaces": false,
+      "nextUpdateAt": null,
+      "hidePrecincts": false,
+      "includePrecinctResults": true,
+      "includePrecinctStatuses": true,
+      "showOverUnderVotes": false,
+      "isPrimary": false,
+      "parties": [
+        {
+          "id": "01000000-3a82-a359-3795-08df23e5ff36",
+          "name": [
+            {
+              "languageId": "en",
+              "text": ""
+            }
+          ],
+          "abbreviation": "",
+          "standardName": "",
+          "color": "#FF9933",
+          "textColor": "#FFFFFF",
+          "showInPublicResultsFilters": true
+        },
+        {
+          "id": "01000000-3a82-a359-46c9-08df23e5ff36",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Rep"
+            }
+          ],
+          "abbreviation": "Rep",
+          "standardName": "Rep",
+          "color": "#960018",
+          "textColor": "#000000",
+          "showInPublicResultsFilters": true
+        },
+        {
+          "id": "01000000-3a82-a359-49a7-08df23e5ff36",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Dem"
+            }
+          ],
+          "abbreviation": "Dem",
+          "standardName": "Dem",
+          "color": "#255C99",
+          "textColor": "#000000",
+          "showInPublicResultsFilters": true
+        },
+        {
+          "id": "01000000-3a82-a359-0ce4-08df23e608ef",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "REP"
+            }
+          ],
+          "abbreviation": "REP",
+          "standardName": "REP",
+          "color": "#960018",
+          "textColor": "#ffffff",
+          "showInPublicResultsFilters": true
+        },
+        {
+          "id": "01000000-3a82-a359-6c9a-08df23e60bed",
+          "name": [
+            {
+              "languageId": "en",
+              "text": "Ind"
+            }
+          ],
+          "abbreviation": "Ind",
+          "standardName": "Ind",
+          "color": "#481f82",
+          "textColor": "#000000",
+          "showInPublicResultsFilters": true
+        }
+      ]
+    },
+    "ballotItemWithBreakdown": {
+      "id": "01000000-3a82-a359-0434-08df23e5ff46",
+      "name": [
+        {
+          "languageId": "en",
+          "text": "Governor"
+        }
+      ],
+      "voteFor": [
+        {
+          "languageId": "en",
+          "text": "Vote for 1"
+        }
+      ],
+      "referendum": [],
+      "turnout": null,
+      "reportingStatus": {
+        "reportingUnits": 156,
+        "totalUnits": 159,
+        "asOf": "2026-11-04T03:25:34.1404196Z",
+        "reportingStatusDetails": null
+      },
+      "contestType": "Candidate",
+      "voteTotal": 3787136,
+      "underVoteCount": null,
+      "overVoteCount": null,
+      "summaryResults": {
+        "ballotOptions": [
+          {
+            "id": "01000000-3a82-a359-0468-08df23e5ff46",
+            "nativeId": "3",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Rick Jackson (Rep)"
+              }
+            ],
+            "voteCount": 1731803,
+            "party": {
+              "id": "01000000-3a82-a359-46c9-08df23e5ff36",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Rep"
+                }
+              ],
+              "abbreviation": "Rep",
+              "standardName": null,
+              "color": "#960018",
+              "textColor": "#000000",
+              "showInPublicResultsFilters": null
+            },
+            "groupResults": [
+              {
+                "groupId": "01000000-3a82-a359-956f-08df23e5ff21",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Election Day"
+                  }
+                ],
+                "voteCount": 588984
+              },
+              {
+                "groupId": "01000000-3a82-a359-de9c-08df23e5ff25",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Advance Voting"
+                  }
+                ],
+                "voteCount": 1095034
+              },
+              {
+                "groupId": "01000000-3a82-a359-44a4-08df23e5ff27",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Absentee by Mail"
+                  }
+                ],
+                "voteCount": 47728
+              },
+              {
+                "groupId": "01000000-3a82-a359-a55e-08df23e5ff28",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Provisional"
+                  }
+                ],
+                "voteCount": 57
+              }
+            ],
+            "isWriteIn": false,
+            "isQualifiedWriteIn": false,
+            "isWinner": null
+          },
+          {
+            "id": "01000000-3a82-a359-047d-08df23e5ff46",
+            "nativeId": "4",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Keisha Lance Bottoms (Dem)"
+              }
+            ],
+            "voteCount": 2055333,
+            "party": {
+              "id": "01000000-3a82-a359-49a7-08df23e5ff36",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Dem"
+                }
+              ],
+              "abbreviation": "Dem",
+              "standardName": null,
+              "color": "#255C99",
+              "textColor": "#000000",
+              "showInPublicResultsFilters": null
+            },
+            "groupResults": [
+              {
+                "groupId": "01000000-3a82-a359-956f-08df23e5ff21",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Election Day"
+                  }
+                ],
+                "voteCount": 429770
+              },
+              {
+                "groupId": "01000000-3a82-a359-de9c-08df23e5ff25",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Advance Voting"
+                  }
+                ],
+                "voteCount": 1545112
+              },
+              {
+                "groupId": "01000000-3a82-a359-44a4-08df23e5ff27",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Absentee by Mail"
+                  }
+                ],
+                "voteCount": 80399
+              },
+              {
+                "groupId": "01000000-3a82-a359-a55e-08df23e5ff28",
+                "groupName": [
+                  {
+                    "languageId": "en",
+                    "text": "Provisional"
+                  }
+                ],
+                "voteCount": 52
+              }
+            ],
+            "isWriteIn": false,
+            "isQualifiedWriteIn": false,
+            "isWinner": null
+          }
+        ]
+      },
+      "rankedChoiceSummaryResults": null,
+      "breakdownResults": [
+        {
+          "parentBallotItemId": "01000000-3a82-a359-5e78-08df23e630d2",
+          "locality": {
+            "id": "d58e790a-a271-4225-8cd6-a1ed0aa829b1",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Appling County"
+              }
+            ],
+            "shortName": "appling-county-ga",
+            "turnoutPercent": null,
+            "percentReporting": null,
+            "precinctsReporting": null,
+            "hasCountGroupStatus": false,
+            "hasPrecinctStatus": false,
+            "mapFeatureId": "Appling"
+          },
+          "voteTotal": 6194,
+          "underVoteCount": null,
+          "overVoteCount": null,
+          "precinctReportingStatus": {
+            "reportingUnits": 9,
+            "totalUnits": 9,
+            "asOf": "2026-11-04T03:25:34.1404255Z",
+            "reportingStatusDetails": [
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Fully Reported"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-fully-reported",
+                "order": 1,
+                "value": 0
+              },
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Election Night Complete"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-election-night-complete",
+                "order": 2,
+                "value": 9
+              },
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Partially Reported"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-partially-reported",
+                "order": 3,
+                "value": 0
+              },
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Not Reported"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-not-reported",
+                "order": 4,
+                "value": 0
+              }
+            ]
+          },
+          "ballotOptions": [
+            {
+              "id": "01000000-3a82-a359-0468-08df23e5ff46",
+              "nativeId": "3",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Rick Jackson (Rep)"
+                }
+              ],
+              "voteCount": 4819,
+              "party": {
+                "id": "01000000-3a82-a359-46c9-08df23e5ff36",
+                "name": [
+                  {
+                    "languageId": "en",
+                    "text": "Rep"
+                  }
+                ],
+                "abbreviation": "Rep",
+                "standardName": null,
+                "color": "#960018",
+                "textColor": "#000000",
+                "showInPublicResultsFilters": null
+              },
+              "groupResults": [
+                {
+                  "groupId": "01000000-3a82-a359-a55e-08df23e5ff28",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Provisional"
+                    }
+                  ],
+                  "voteCount": 0
+                },
+                {
+                  "groupId": "01000000-3a82-a359-44a4-08df23e5ff27",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Absentee by Mail"
+                    }
+                  ],
+                  "voteCount": 131
+                },
+                {
+                  "groupId": "01000000-3a82-a359-de9c-08df23e5ff25",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Advance Voting"
+                    }
+                  ],
+                  "voteCount": 2694
+                },
+                {
+                  "groupId": "01000000-3a82-a359-956f-08df23e5ff21",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Election Day"
+                    }
+                  ],
+                  "voteCount": 1994
+                }
+              ],
+              "isWriteIn": false,
+              "isQualifiedWriteIn": false,
+              "isWinner": null
+            },
+            {
+              "id": "01000000-3a82-a359-047d-08df23e5ff46",
+              "nativeId": "4",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Keisha Lance Bottoms (Dem)"
+                }
+              ],
+              "voteCount": 1375,
+              "party": {
+                "id": "01000000-3a82-a359-49a7-08df23e5ff36",
+                "name": [
+                  {
+                    "languageId": "en",
+                    "text": "Dem"
+                  }
+                ],
+                "abbreviation": "Dem",
+                "standardName": null,
+                "color": "#255C99",
+                "textColor": "#000000",
+                "showInPublicResultsFilters": null
+              },
+              "groupResults": [
+                {
+                  "groupId": "01000000-3a82-a359-956f-08df23e5ff21",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Election Day"
+                    }
+                  ],
+                  "voteCount": 419
+                },
+                {
+                  "groupId": "01000000-3a82-a359-de9c-08df23e5ff25",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Advance Voting"
+                    }
+                  ],
+                  "voteCount": 867
+                },
+                {
+                  "groupId": "01000000-3a82-a359-44a4-08df23e5ff27",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Absentee by Mail"
+                    }
+                  ],
+                  "voteCount": 89
+                },
+                {
+                  "groupId": "01000000-3a82-a359-a55e-08df23e5ff28",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Provisional"
+                    }
+                  ],
+                  "voteCount": 0
+                }
+              ],
+              "isWriteIn": false,
+              "isQualifiedWriteIn": false,
+              "isWinner": null
+            }
+          ]
+        },
+        {
+          "parentBallotItemId": "01000000-3a82-a359-d5b2-08df23e6314a",
+          "locality": {
+            "id": "6e098a97-b550-4227-8ed4-08552cccac20",
+            "name": [
+              {
+                "languageId": "en",
+                "text": "Atkinson County"
+              }
+            ],
+            "shortName": "atkinson-county-ga",
+            "turnoutPercent": null,
+            "percentReporting": null,
+            "precinctsReporting": null,
+            "hasCountGroupStatus": false,
+            "hasPrecinctStatus": false,
+            "mapFeatureId": "Atkinson"
+          },
+          "voteTotal": 2240,
+          "underVoteCount": null,
+          "overVoteCount": null,
+          "precinctReportingStatus": {
+            "reportingUnits": 4,
+            "totalUnits": 4,
+            "asOf": "2026-11-04T03:25:34.1404255Z",
+            "reportingStatusDetails": [
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Fully Reported"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-fully-reported",
+                "order": 1,
+                "value": 0
+              },
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Election Night Complete"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-election-night-complete",
+                "order": 2,
+                "value": 4
+              },
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Partially Reported"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-partially-reported",
+                "order": 3,
+                "value": 0
+              },
+              {
+                "groupName": [
+                  {
+                    "languageId": null,
+                    "text": "Not Reported"
+                  }
+                ],
+                "reportingStatusClientTextKey": "reporting-status-not-reported",
+                "order": 4,
+                "value": 0
+              }
+            ]
+          },
+          "ballotOptions": [
+            {
+              "id": "01000000-3a82-a359-0468-08df23e5ff46",
+              "nativeId": "3",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Rick Jackson (Rep)"
+                }
+              ],
+              "voteCount": 1548,
+              "party": {
+                "id": "01000000-3a82-a359-46c9-08df23e5ff36",
+                "name": [
+                  {
+                    "languageId": "en",
+                    "text": "Rep"
+                  }
+                ],
+                "abbreviation": "Rep",
+                "standardName": null,
+                "color": "#960018",
+                "textColor": "#000000",
+                "showInPublicResultsFilters": null
+              },
+              "groupResults": [
+                {
+                  "groupId": "01000000-3a82-a359-a55e-08df23e5ff28",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Provisional"
+                    }
+                  ],
+                  "voteCount": 2
+                },
+                {
+                  "groupId": "01000000-3a82-a359-956f-08df23e5ff21",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Election Day"
+                    }
+                  ],
+                  "voteCount": 760
+                },
+                {
+                  "groupId": "01000000-3a82-a359-44a4-08df23e5ff27",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Absentee by Mail"
+                    }
+                  ],
+                  "voteCount": 32
+                },
+                {
+                  "groupId": "01000000-3a82-a359-de9c-08df23e5ff25",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Advance Voting"
+                    }
+                  ],
+                  "voteCount": 754
+                }
+              ],
+              "isWriteIn": false,
+              "isQualifiedWriteIn": false,
+              "isWinner": null
+            },
+            {
+              "id": "01000000-3a82-a359-047d-08df23e5ff46",
+              "nativeId": "4",
+              "name": [
+                {
+                  "languageId": "en",
+                  "text": "Keisha Lance Bottoms (Dem)"
+                }
+              ],
+              "voteCount": 692,
+              "party": {
+                "id": "01000000-3a82-a359-49a7-08df23e5ff36",
+                "name": [
+                  {
+                    "languageId": "en",
+                    "text": "Dem"
+                  }
+                ],
+                "abbreviation": "Dem",
+                "standardName": null,
+                "color": "#255C99",
+                "textColor": "#000000",
+                "showInPublicResultsFilters": null
+              },
+              "groupResults": [
+                {
+                  "groupId": "01000000-3a82-a359-956f-08df23e5ff21",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Election Day"
+                    }
+                  ],
+                  "voteCount": 314
+                },
+                {
+                  "groupId": "01000000-3a82-a359-de9c-08df23e5ff25",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Advance Voting"
+                    }
+                  ],
+                  "voteCount": 357
+                },
+                {
+                  "groupId": "01000000-3a82-a359-44a4-08df23e5ff27",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Absentee by Mail"
+                    }
+                  ],
+                  "voteCount": 21
+                },
+                {
+                  "groupId": "01000000-3a82-a359-a55e-08df23e5ff28",
+                  "groupName": [
+                    {
+                      "languageId": "en",
+                      "text": "Provisional"
+                    }
+                  ],
+                  "voteCount": 0
+                }
+              ],
+              "isWriteIn": false,
+              "isQualifiedWriteIn": false,
+              "isWinner": null
+            }
+          ]
+        }
+      ],
+      "breakdownResultCount": 159
+    }
+  }
+}

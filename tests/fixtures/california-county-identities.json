@@ -1,0 +1,352 @@
+{
+  "features": [
+    {
+      "id": "06069",
+      "properties": {
+        "name": "San Benito"
+      }
+    },
+    {
+      "id": "06089",
+      "properties": {
+        "name": "Shasta"
+      }
+    },
+    {
+      "id": "06091",
+      "properties": {
+        "name": "Sierra"
+      }
+    },
+    {
+      "id": "06019",
+      "properties": {
+        "name": "Fresno"
+      }
+    },
+    {
+      "id": "06005",
+      "properties": {
+        "name": "Amador"
+      }
+    },
+    {
+      "id": "06017",
+      "properties": {
+        "name": "El Dorado"
+      }
+    },
+    {
+      "id": "06053",
+      "properties": {
+        "name": "Monterey"
+      }
+    },
+    {
+      "id": "06071",
+      "properties": {
+        "name": "San Bernardino"
+      }
+    },
+    {
+      "id": "06103",
+      "properties": {
+        "name": "Tehama"
+      }
+    },
+    {
+      "id": "06057",
+      "properties": {
+        "name": "Nevada"
+      }
+    },
+    {
+      "id": "06109",
+      "properties": {
+        "name": "Tuolumne"
+      }
+    },
+    {
+      "id": "06083",
+      "properties": {
+        "name": "Santa Barbara"
+      }
+    },
+    {
+      "id": "06105",
+      "properties": {
+        "name": "Trinity"
+      }
+    },
+    {
+      "id": "06099",
+      "properties": {
+        "name": "Stanislaus"
+      }
+    },
+    {
+      "id": "06011",
+      "properties": {
+        "name": "Colusa"
+      }
+    },
+    {
+      "id": "06003",
+      "properties": {
+        "name": "Alpine"
+      }
+    },
+    {
+      "id": "06093",
+      "properties": {
+        "name": "Siskiyou"
+      }
+    },
+    {
+      "id": "06015",
+      "properties": {
+        "name": "Del Norte"
+      }
+    },
+    {
+      "id": "06027",
+      "properties": {
+        "name": "Inyo"
+      }
+    },
+    {
+      "id": "06077",
+      "properties": {
+        "name": "San Joaquin"
+      }
+    },
+    {
+      "id": "06025",
+      "properties": {
+        "name": "Imperial"
+      }
+    },
+    {
+      "id": "06009",
+      "properties": {
+        "name": "Calaveras"
+      }
+    },
+    {
+      "id": "06007",
+      "properties": {
+        "name": "Butte"
+      }
+    },
+    {
+      "id": "06039",
+      "properties": {
+        "name": "Madera"
+      }
+    },
+    {
+      "id": "06111",
+      "properties": {
+        "name": "Ventura"
+      }
+    },
+    {
+      "id": "06059",
+      "properties": {
+        "name": "Orange"
+      }
+    },
+    {
+      "id": "06029",
+      "properties": {
+        "name": "Kern"
+      }
+    },
+    {
+      "id": "06013",
+      "properties": {
+        "name": "Contra Costa"
+      }
+    },
+    {
+      "id": "06031",
+      "properties": {
+        "name": "Kings"
+      }
+    },
+    {
+      "id": "06045",
+      "properties": {
+        "name": "Mendocino"
+      }
+    },
+    {
+      "id": "06097",
+      "properties": {
+        "name": "Sonoma"
+      }
+    },
+    {
+      "id": "06115",
+      "properties": {
+        "name": "Yuba"
+      }
+    },
+    {
+      "id": "06047",
+      "properties": {
+        "name": "Merced"
+      }
+    },
+    {
+      "id": "06107",
+      "properties": {
+        "name": "Tulare"
+      }
+    },
+    {
+      "id": "06067",
+      "properties": {
+        "name": "Sacramento"
+      }
+    },
+    {
+      "id": "06095",
+      "properties": {
+        "name": "Solano"
+      }
+    },
+    {
+      "id": "06075",
+      "properties": {
+        "name": "San Francisco"
+      }
+    },
+    {
+      "id": "06043",
+      "properties": {
+        "name": "Mariposa"
+      }
+    },
+    {
+      "id": "06041",
+      "properties": {
+        "name": "Marin"
+      }
+    },
+    {
+      "id": "06101",
+      "properties": {
+        "name": "Sutter"
+      }
+    },
+    {
+      "id": "06035",
+      "properties": {
+        "name": "Lassen"
+      }
+    },
+    {
+      "id": "06065",
+      "properties": {
+        "name": "Riverside"
+      }
+    },
+    {
+      "id": "06063",
+      "properties": {
+        "name": "Plumas"
+      }
+    },
+    {
+      "id": "06085",
+      "properties": {
+        "name": "Santa Clara"
+      }
+    },
+    {
+      "id": "06061",
+      "properties": {
+        "name": "Placer"
+      }
+    },
+    {
+      "id": "06079",
+      "properties": {
+        "name": "San Luis Obispo"
+      }
+    },
+    {
+      "id": "06081",
+      "properties": {
+        "name": "San Mateo"
+      }
+    },
+    {
+      "id": "06051",
+      "properties": {
+        "name": "Mono"
+      }
+    },
+    {
+      "id": "06073",
+      "properties": {
+        "name": "San Diego"
+      }
+    },
+    {
+      "id": "06055",
+      "properties": {
+        "name": "Napa"
+      }
+    },
+    {
+      "id": "06001",
+      "properties": {
+        "name": "Alameda"
+      }
+    },
+    {
+      "id": "06113",
+      "properties": {
+        "name": "Yolo"
+      }
+    },
+    {
+      "id": "06033",
+      "properties": {
+        "name": "Lake"
+      }
+    },
+    {
+      "id": "06037",
+      "properties": {
+        "name": "Los Angeles"
+      }
+    },
+    {
+      "id": "06021",
+      "properties": {
+        "name": "Glenn"
+      }
+    },
+    {
+      "id": "06087",
+      "properties": {
+        "name": "Santa Cruz"
+      }
+    },
+    {
+      "id": "06023",
+      "properties": {
+        "name": "Humboldt"
+      }
+    },
+    {
+      "id": "06049",
+      "properties": {
+        "name": "Modoc"
+      }
+    }
+  ]
+}

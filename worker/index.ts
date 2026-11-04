@@ -1,9 +1,12 @@
 interface Env{ASSETS:Fetcher}
 const HOSTS:Record<string,string>={polling:'https://www.pollingforecast.com/api/us',kalshi:'https://external-api.kalshi.com/trade-api/v2',polymarket:'https://gamma-api.polymarket.com',votehub:'https://api.votehub.com',clob:'https://clob.polymarket.com'};
-const PATHS:Record<string,RegExp>={polling:/^\/(senate|governors|polls|pollsters|counties|race\/[A-Z0-9-]+)$/,kalshi:/^\/(markets(?:\/[A-Z0-9-]+)?|events\/[A-Z0-9-]+|series(?:\/[A-Z0-9-]+)?)$/,polymarket:/^\/(markets(?:\/\d+)?|events(?:\/\d+)?|public-search|tags)$/,votehub:/^\/(polls|poll-types|pollsters|subjects)$/,clob:/^\/(midpoint|price)$/};
+const PATHS:Record<string,RegExp>={polling:/^\/(senate|governors|polls|pollsters|race\/[A-Z0-9-]+)$/,kalshi:/^\/(markets(?:\/[A-Z0-9-]+)?|events\/[A-Z0-9-]+|series(?:\/[A-Z0-9-]+)?)$/,polymarket:/^\/(markets(?:\/\d+)?|events(?:\/\d+)?|public-search|tags)$/,votehub:/^\/(polls|poll-types|pollsters|subjects)$/,clob:/^\/(midpoint|price)$/};
 function targetFor(incoming:URL):{target:URL;provider:string}|null{
  const [,,provider,...rest]=incoming.pathname.split('/');const path='/'+rest.join('/');
  if(incoming.search.length>12000)return null;
+ if(provider==='counties'&&/^\/GA\/(Senate|Governor)$/.test(path)){const ids:Record<string,string>={Senate:'01000000-3a82-a359-4042-08df23e5ff36',Governor:'01000000-3a82-a359-0434-08df23e5ff46'};return {target:new URL('https://results.sos.ga.gov/results/public/api/elections/Georgia/11032026GeneralAndSpecialElection/data/ballot-item/'+ids[path.split('/')[2]]+'?lang=en'),provider}}
+ if(provider==='counties'&&path==='/CA')return {target:new URL('https://media.sos.ca.gov/media/governor.json'),provider};
+ if(provider==='counties'&&/^\/NC\/(metadata|candidates|results)$/.test(path)){const files:Record<string,string>={metadata:'county.txt',candidates:'results_0.txt',results:'precinct_0.txt'};const target=new URL('https://er.ncsbe.gov/enr/20261103/data/'+files[path.split('/')[2]]);target.searchParams.set('v',new Date().toISOString().slice(0,16).replace(/[^0-9]/g,''));return {target,provider}}
  if(provider==='results'&&/^\/(Senate|Governor)$/.test(path)){const target=new URL('https://openamerica.io/elections/results.json');target.searchParams.set('year','2026');target.searchParams.set('office',path.slice(1));return {target,provider}}
  if(provider==='archive'&&/^\/(latest|history|metadata)$/.test(path))return {target:new URL('https://raw.githubusercontent.com/Victor38220/election-atlas-2026/main/public/data'+path+'.json'),provider};
  if(!Object.hasOwn(HOSTS,provider)||!PATHS[provider].test(path))return null;
@@ -13,7 +16,7 @@ async function proxy(target:URL,provider:string,ctx:ExecutionContext):Promise<Re
  const cacheKey=new Request(target.toString());const cache=caches.default;const hit=await cache.match(cacheKey);if(hit)return hit;
  try{
   const upstream=await fetch(target,{headers:{Accept:'application/json','User-Agent':'ElectionAtlas/1.0 public election research'},signal:AbortSignal.timeout(22000),redirect:'manual'});
-  const headers=new Headers({'Content-Type':'application/json; charset=utf-8','X-Content-Type-Options':'nosniff','Cache-Control':upstream.ok?(provider==='results'?'public, max-age=60':'public, max-age=20'):'no-store'});const etag=upstream.headers.get('ETag');if(etag)headers.set('ETag',etag);const retry=upstream.headers.get('Retry-After');if(retry)headers.set('Retry-After',retry);
+  const headers=new Headers({'Content-Type':'application/json; charset=utf-8','X-Content-Type-Options':'nosniff','Cache-Control':upstream.ok?((provider==='results'||provider==='counties')?'public, max-age=60':'public, max-age=20'):'no-store'});const etag=upstream.headers.get('ETag');if(etag)headers.set('ETag',etag);const retry=upstream.headers.get('Retry-After');if(retry)headers.set('Retry-After',retry);
   if(!upstream.ok)return Response.json({error:`Provider returned HTTP ${upstream.status}`,provider},{status:upstream.status,headers});
   const response=new Response(upstream.body,{status:200,headers});ctx.waitUntil(cache.put(cacheKey,response.clone()));return response;
  }catch(exc){return Response.json({error:'Public data source unavailable',provider,detail:exc instanceof Error?exc.message:'Request failed'},{status:502,headers:{'Cache-Control':'no-store'}})}
