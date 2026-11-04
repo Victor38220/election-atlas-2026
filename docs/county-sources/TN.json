@@ -1,0 +1,4115 @@
+{
+  "state": "TN",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "Senate",
+      "manifest_race_id": "2026-senate-tn",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "hagerty-b",
+          "name": "Bill Hagerty",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "bradshaw-m",
+          "name": "Marquita Bradshaw",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "chandler-t",
+          "name": "Tharon Chandler",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "gerena-a",
+          "name": "Andrew Gerena",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "hearn-j",
+          "name": "Jeremy Dean Hearn",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "jones-r",
+          "name": "Robert Jones",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "macon-j",
+          "name": "James William Macon III",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "matthews-y",
+          "name": "Yoshi D. Matthews",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "sutman-d",
+          "name": "David Sutman Jr.",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "whitson-c",
+          "name": "Catherine Barcel Whitson",
+          "party": "Independent"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "47001",
+          "name": "Anderson",
+          "votes": {
+            "hagerty-b": 13663,
+            "bradshaw-m": 9521,
+            "chandler-t": 85,
+            "gerena-a": 96,
+            "hearn-j": 58,
+            "jones-r": 154,
+            "macon-j": 41,
+            "matthews-y": 16,
+            "sutman-d": 26,
+            "whitson-c": 28
+          },
+          "total_votes": 23688,
+          "unit_count": 1
+        },
+        {
+          "fips": "47003",
+          "name": "Bedford",
+          "votes": {
+            "hagerty-b": 8745,
+            "bradshaw-m": 3726,
+            "chandler-t": 48,
+            "gerena-a": 40,
+            "hearn-j": 27,
+            "jones-r": 64,
+            "macon-j": 22,
+            "matthews-y": 16,
+            "sutman-d": 20,
+            "whitson-c": 31
+          },
+          "total_votes": 12739,
+          "unit_count": 1
+        },
+        {
+          "fips": "47005",
+          "name": "Benton",
+          "votes": {
+            "hagerty-b": 3509,
+            "bradshaw-m": 1065,
+            "chandler-t": 23,
+            "gerena-a": 5,
+            "hearn-j": 18,
+            "jones-r": 27,
+            "macon-j": 4,
+            "matthews-y": 3,
+            "sutman-d": 12,
+            "whitson-c": 9
+          },
+          "total_votes": 4675,
+          "unit_count": 1
+        },
+        {
+          "fips": "47007",
+          "name": "Bledsoe",
+          "votes": {
+            "hagerty-b": 2940,
+            "bradshaw-m": 806,
+            "chandler-t": 16,
+            "gerena-a": 6,
+            "hearn-j": 10,
+            "jones-r": 13,
+            "macon-j": 9,
+            "matthews-y": 2,
+            "sutman-d": 8,
+            "whitson-c": 6
+          },
+          "total_votes": 3816,
+          "unit_count": 1
+        },
+        {
+          "fips": "47009",
+          "name": "Blount",
+          "votes": {
+            "hagerty-b": 29702,
+            "bradshaw-m": 14475,
+            "chandler-t": 185,
+            "gerena-a": 151,
+            "hearn-j": 147,
+            "jones-r": 218,
+            "macon-j": 71,
+            "matthews-y": 32,
+            "sutman-d": 32,
+            "whitson-c": 74
+          },
+          "total_votes": 45087,
+          "unit_count": 1
+        },
+        {
+          "fips": "47011",
+          "name": "Bradley",
+          "votes": {
+            "hagerty-b": 20127,
+            "bradshaw-m": 7926,
+            "chandler-t": 115,
+            "gerena-a": 82,
+            "hearn-j": 66,
+            "jones-r": 122,
+            "macon-j": 26,
+            "matthews-y": 42,
+            "sutman-d": 63,
+            "whitson-c": 107
+          },
+          "total_votes": 28676,
+          "unit_count": 1
+        },
+        {
+          "fips": "47013",
+          "name": "Campbell",
+          "votes": {
+            "hagerty-b": 6351,
+            "bradshaw-m": 1813,
+            "chandler-t": 33,
+            "gerena-a": 18,
+            "hearn-j": 38,
+            "jones-r": 63,
+            "macon-j": 21,
+            "matthews-y": 4,
+            "sutman-d": 11,
+            "whitson-c": 17
+          },
+          "total_votes": 8369,
+          "unit_count": 1
+        },
+        {
+          "fips": "47015",
+          "name": "Cannon",
+          "votes": {
+            "hagerty-b": 3098,
+            "bradshaw-m": 993,
+            "chandler-t": 20,
+            "gerena-a": 18,
+            "hearn-j": 13,
+            "jones-r": 29,
+            "macon-j": 8,
+            "matthews-y": 3,
+            "sutman-d": 5,
+            "whitson-c": 11
+          },
+          "total_votes": 4198,
+          "unit_count": 1
+        },
+        {
+          "fips": "47017",
+          "name": "Carroll",
+          "votes": {
+            "hagerty-b": 5236,
+            "bradshaw-m": 1662,
+            "chandler-t": 37,
+            "gerena-a": 19,
+            "hearn-j": 23,
+            "jones-r": 18,
+            "macon-j": 8,
+            "matthews-y": 11,
+            "sutman-d": 19,
+            "whitson-c": 16
+          },
+          "total_votes": 7049,
+          "unit_count": 1
+        },
+        {
+          "fips": "47019",
+          "name": "Carter",
+          "votes": {
+            "hagerty-b": 10933,
+            "bradshaw-m": 3611,
+            "chandler-t": 78,
+            "gerena-a": 68,
+            "hearn-j": 47,
+            "jones-r": 118,
+            "macon-j": 15,
+            "matthews-y": 25,
+            "sutman-d": 26,
+            "whitson-c": 67
+          },
+          "total_votes": 14988,
+          "unit_count": 1
+        },
+        {
+          "fips": "47021",
+          "name": "Cheatham",
+          "votes": {
+            "hagerty-b": 8724,
+            "bradshaw-m": 4929,
+            "chandler-t": 62,
+            "gerena-a": 35,
+            "hearn-j": 54,
+            "jones-r": 64,
+            "macon-j": 17,
+            "matthews-y": 19,
+            "sutman-d": 18,
+            "whitson-c": 27
+          },
+          "total_votes": 13949,
+          "unit_count": 1
+        },
+        {
+          "fips": "47023",
+          "name": "Chester",
+          "votes": {
+            "hagerty-b": 3433,
+            "bradshaw-m": 1014,
+            "chandler-t": 15,
+            "gerena-a": 14,
+            "hearn-j": 15,
+            "jones-r": 16,
+            "macon-j": 3,
+            "matthews-y": 8,
+            "sutman-d": 8,
+            "whitson-c": 15
+          },
+          "total_votes": 4541,
+          "unit_count": 1
+        },
+        {
+          "fips": "47025",
+          "name": "Claiborne",
+          "votes": {
+            "hagerty-b": 6916,
+            "bradshaw-m": 1646,
+            "chandler-t": 34,
+            "gerena-a": 20,
+            "hearn-j": 19,
+            "jones-r": 58,
+            "macon-j": 15,
+            "matthews-y": 13,
+            "sutman-d": 24,
+            "whitson-c": 32
+          },
+          "total_votes": 8777,
+          "unit_count": 1
+        },
+        {
+          "fips": "47027",
+          "name": "Clay",
+          "votes": {
+            "hagerty-b": 1544,
+            "bradshaw-m": 444,
+            "chandler-t": 12,
+            "gerena-a": 12,
+            "hearn-j": 4,
+            "jones-r": 8,
+            "macon-j": 4,
+            "matthews-y": 3,
+            "sutman-d": 2,
+            "whitson-c": 6
+          },
+          "total_votes": 2039,
+          "unit_count": 1
+        },
+        {
+          "fips": "47029",
+          "name": "Cocke",
+          "votes": {
+            "hagerty-b": 7111,
+            "bradshaw-m": 1940,
+            "chandler-t": 37,
+            "gerena-a": 36,
+            "hearn-j": 24,
+            "jones-r": 39,
+            "macon-j": 12,
+            "matthews-y": 9,
+            "sutman-d": 2,
+            "whitson-c": 49
+          },
+          "total_votes": 9259,
+          "unit_count": 1
+        },
+        {
+          "fips": "47031",
+          "name": "Coffee",
+          "votes": {
+            "hagerty-b": 10544,
+            "bradshaw-m": 4569,
+            "chandler-t": 75,
+            "gerena-a": 38,
+            "hearn-j": 40,
+            "jones-r": 98,
+            "macon-j": 22,
+            "matthews-y": 36,
+            "sutman-d": 24,
+            "whitson-c": 41
+          },
+          "total_votes": 15487,
+          "unit_count": 1
+        },
+        {
+          "fips": "47033",
+          "name": "Crockett",
+          "votes": {
+            "hagerty-b": 2484,
+            "bradshaw-m": 991,
+            "chandler-t": 16,
+            "gerena-a": 5,
+            "hearn-j": 18,
+            "jones-r": 14,
+            "macon-j": 7,
+            "matthews-y": 1,
+            "sutman-d": 5,
+            "whitson-c": 11
+          },
+          "total_votes": 3552,
+          "unit_count": 1
+        },
+        {
+          "fips": "47035",
+          "name": "Cumberland",
+          "votes": {
+            "hagerty-b": 17907,
+            "bradshaw-m": 5314,
+            "chandler-t": 94,
+            "gerena-a": 68,
+            "hearn-j": 42,
+            "jones-r": 69,
+            "macon-j": 24,
+            "matthews-y": 20,
+            "sutman-d": 35,
+            "whitson-c": 66
+          },
+          "total_votes": 23639,
+          "unit_count": 1
+        },
+        {
+          "fips": "47037",
+          "name": "Davidson",
+          "votes": {
+            "hagerty-b": 59248,
+            "bradshaw-m": 158305,
+            "chandler-t": 671,
+            "gerena-a": 497,
+            "hearn-j": 412,
+            "jones-r": 866,
+            "macon-j": 205,
+            "matthews-y": 324,
+            "sutman-d": 251,
+            "whitson-c": 448
+          },
+          "total_votes": 221227,
+          "unit_count": 1
+        },
+        {
+          "fips": "47039",
+          "name": "Decatur",
+          "votes": {
+            "hagerty-b": 2612,
+            "bradshaw-m": 645,
+            "chandler-t": 12,
+            "gerena-a": 12,
+            "hearn-j": 8,
+            "jones-r": 11,
+            "macon-j": 3,
+            "matthews-y": 3,
+            "sutman-d": 5,
+            "whitson-c": 5
+          },
+          "total_votes": 3316,
+          "unit_count": 1
+        },
+        {
+          "fips": "47041",
+          "name": "DeKalb",
+          "votes": {
+            "hagerty-b": 3859,
+            "bradshaw-m": 1286,
+            "chandler-t": 16,
+            "gerena-a": 13,
+            "hearn-j": 14,
+            "jones-r": 14,
+            "macon-j": 10,
+            "matthews-y": 8,
+            "sutman-d": 8,
+            "whitson-c": 19
+          },
+          "total_votes": 5247,
+          "unit_count": 1
+        },
+        {
+          "fips": "47043",
+          "name": "Dickson",
+          "votes": {
+            "hagerty-b": 10410,
+            "bradshaw-m": 4960,
+            "chandler-t": 86,
+            "gerena-a": 51,
+            "hearn-j": 51,
+            "jones-r": 89,
+            "macon-j": 16,
+            "matthews-y": 22,
+            "sutman-d": 28,
+            "whitson-c": 31
+          },
+          "total_votes": 15744,
+          "unit_count": 1
+        },
+        {
+          "fips": "47045",
+          "name": "Dyer",
+          "votes": {
+            "hagerty-b": 6397,
+            "bradshaw-m": 2012,
+            "chandler-t": 40,
+            "gerena-a": 17,
+            "hearn-j": 23,
+            "jones-r": 52,
+            "macon-j": 16,
+            "matthews-y": 14,
+            "sutman-d": 12,
+            "whitson-c": 18
+          },
+          "total_votes": 8601,
+          "unit_count": 1
+        },
+        {
+          "fips": "47047",
+          "name": "Fayette",
+          "votes": {
+            "hagerty-b": 11122,
+            "bradshaw-m": 5529,
+            "chandler-t": 52,
+            "gerena-a": 48,
+            "hearn-j": 31,
+            "jones-r": 56,
+            "macon-j": 30,
+            "matthews-y": 15,
+            "sutman-d": 27,
+            "whitson-c": 31
+          },
+          "total_votes": 16941,
+          "unit_count": 1
+        },
+        {
+          "fips": "47049",
+          "name": "Fentress",
+          "votes": {
+            "hagerty-b": 4646,
+            "bradshaw-m": 916,
+            "chandler-t": 19,
+            "gerena-a": 18,
+            "hearn-j": 5,
+            "jones-r": 24,
+            "macon-j": 6,
+            "matthews-y": 9,
+            "sutman-d": 16,
+            "whitson-c": 10
+          },
+          "total_votes": 5669,
+          "unit_count": 1
+        },
+        {
+          "fips": "47051",
+          "name": "Franklin",
+          "votes": {
+            "hagerty-b": 8485,
+            "bradshaw-m": 3550,
+            "chandler-t": 56,
+            "gerena-a": 36,
+            "hearn-j": 26,
+            "jones-r": 92,
+            "macon-j": 14,
+            "matthews-y": 8,
+            "sutman-d": 18,
+            "whitson-c": 32
+          },
+          "total_votes": 12317,
+          "unit_count": 1
+        },
+        {
+          "fips": "47053",
+          "name": "Gibson",
+          "votes": {
+            "hagerty-b": 8618,
+            "bradshaw-m": 3754,
+            "chandler-t": 42,
+            "gerena-a": 43,
+            "hearn-j": 43,
+            "jones-r": 54,
+            "macon-j": 14,
+            "matthews-y": 19,
+            "sutman-d": 23,
+            "whitson-c": 47
+          },
+          "total_votes": 12657,
+          "unit_count": 1
+        },
+        {
+          "fips": "47055",
+          "name": "Giles",
+          "votes": {
+            "hagerty-b": 5987,
+            "bradshaw-m": 2226,
+            "chandler-t": 36,
+            "gerena-a": 22,
+            "hearn-j": 19,
+            "jones-r": 54,
+            "macon-j": 11,
+            "matthews-y": 8,
+            "sutman-d": 15,
+            "whitson-c": 23
+          },
+          "total_votes": 8401,
+          "unit_count": 1
+        },
+        {
+          "fips": "47057",
+          "name": "Grainger",
+          "votes": {
+            "hagerty-b": 5172,
+            "bradshaw-m": 1228,
+            "chandler-t": 33,
+            "gerena-a": 20,
+            "hearn-j": 17,
+            "jones-r": 18,
+            "macon-j": 11,
+            "matthews-y": 2,
+            "sutman-d": 7,
+            "whitson-c": 17
+          },
+          "total_votes": 6525,
+          "unit_count": 1
+        },
+        {
+          "fips": "47059",
+          "name": "Greene",
+          "votes": {
+            "hagerty-b": 14597,
+            "bradshaw-m": 4275,
+            "chandler-t": 90,
+            "gerena-a": 58,
+            "hearn-j": 53,
+            "jones-r": 130,
+            "macon-j": 20,
+            "matthews-y": 25,
+            "sutman-d": 35,
+            "whitson-c": 83
+          },
+          "total_votes": 19366,
+          "unit_count": 1
+        },
+        {
+          "fips": "47061",
+          "name": "Grundy",
+          "votes": {
+            "hagerty-b": 2610,
+            "bradshaw-m": 780,
+            "chandler-t": 19,
+            "gerena-a": 10,
+            "hearn-j": 9,
+            "jones-r": 33,
+            "macon-j": 7,
+            "matthews-y": 4,
+            "sutman-d": 9,
+            "whitson-c": 11
+          },
+          "total_votes": 3492,
+          "unit_count": 1
+        },
+        {
+          "fips": "47063",
+          "name": "Hamblen",
+          "votes": {
+            "hagerty-b": 10563,
+            "bradshaw-m": 4478,
+            "chandler-t": 54,
+            "gerena-a": 54,
+            "hearn-j": 40,
+            "jones-r": 62,
+            "macon-j": 15,
+            "matthews-y": 16,
+            "sutman-d": 14,
+            "whitson-c": 34
+          },
+          "total_votes": 15330,
+          "unit_count": 1
+        },
+        {
+          "fips": "47065",
+          "name": "Hamilton",
+          "votes": {
+            "hagerty-b": 59388,
+            "bradshaw-m": 62609,
+            "chandler-t": 359,
+            "gerena-a": 335,
+            "hearn-j": 272,
+            "jones-r": 422,
+            "macon-j": 125,
+            "matthews-y": 235,
+            "sutman-d": 159,
+            "whitson-c": 348
+          },
+          "total_votes": 124252,
+          "unit_count": 1
+        },
+        {
+          "fips": "47067",
+          "name": "Hancock",
+          "votes": {
+            "hagerty-b": 1226,
+            "bradshaw-m": 260,
+            "chandler-t": 9,
+            "gerena-a": 10,
+            "hearn-j": 2,
+            "jones-r": 10,
+            "macon-j": 2,
+            "matthews-y": 1,
+            "sutman-d": 0,
+            "whitson-c": 3
+          },
+          "total_votes": 1523,
+          "unit_count": 1
+        },
+        {
+          "fips": "47069",
+          "name": "Hardeman",
+          "votes": {
+            "hagerty-b": 3516,
+            "bradshaw-m": 2902,
+            "chandler-t": 18,
+            "gerena-a": 21,
+            "hearn-j": 18,
+            "jones-r": 30,
+            "macon-j": 15,
+            "matthews-y": 5,
+            "sutman-d": 13,
+            "whitson-c": 11
+          },
+          "total_votes": 6549,
+          "unit_count": 1
+        },
+        {
+          "fips": "47071",
+          "name": "Hardin",
+          "votes": {
+            "hagerty-b": 5968,
+            "bradshaw-m": 1299,
+            "chandler-t": 25,
+            "gerena-a": 19,
+            "hearn-j": 27,
+            "jones-r": 51,
+            "macon-j": 7,
+            "matthews-y": 6,
+            "sutman-d": 7,
+            "whitson-c": 17
+          },
+          "total_votes": 7426,
+          "unit_count": 1
+        },
+        {
+          "fips": "47073",
+          "name": "Hawkins",
+          "votes": {
+            "hagerty-b": 11428,
+            "bradshaw-m": 3069,
+            "chandler-t": 58,
+            "gerena-a": 55,
+            "hearn-j": 35,
+            "jones-r": 83,
+            "macon-j": 18,
+            "matthews-y": 18,
+            "sutman-d": 31,
+            "whitson-c": 63
+          },
+          "total_votes": 14858,
+          "unit_count": 1
+        },
+        {
+          "fips": "47075",
+          "name": "Haywood",
+          "votes": {
+            "hagerty-b": 1924,
+            "bradshaw-m": 2741,
+            "chandler-t": 10,
+            "gerena-a": 22,
+            "hearn-j": 15,
+            "jones-r": 27,
+            "macon-j": 8,
+            "matthews-y": 3,
+            "sutman-d": 4,
+            "whitson-c": 1
+          },
+          "total_votes": 4755,
+          "unit_count": 1
+        },
+        {
+          "fips": "47077",
+          "name": "Henderson",
+          "votes": {
+            "hagerty-b": 5455,
+            "bradshaw-m": 1416,
+            "chandler-t": 24,
+            "gerena-a": 12,
+            "hearn-j": 23,
+            "jones-r": 29,
+            "macon-j": 5,
+            "matthews-y": 15,
+            "sutman-d": 5,
+            "whitson-c": 19
+          },
+          "total_votes": 7003,
+          "unit_count": 1
+        },
+        {
+          "fips": "47079",
+          "name": "Henry",
+          "votes": {
+            "hagerty-b": 6689,
+            "bradshaw-m": 2428,
+            "chandler-t": 43,
+            "gerena-a": 26,
+            "hearn-j": 27,
+            "jones-r": 46,
+            "macon-j": 7,
+            "matthews-y": 17,
+            "sutman-d": 27,
+            "whitson-c": 33
+          },
+          "total_votes": 9343,
+          "unit_count": 1
+        },
+        {
+          "fips": "47081",
+          "name": "Hickman",
+          "votes": {
+            "hagerty-b": 4718,
+            "bradshaw-m": 1599,
+            "chandler-t": 33,
+            "gerena-a": 12,
+            "hearn-j": 20,
+            "jones-r": 35,
+            "macon-j": 17,
+            "matthews-y": 13,
+            "sutman-d": 6,
+            "whitson-c": 32
+          },
+          "total_votes": 6485,
+          "unit_count": 1
+        },
+        {
+          "fips": "47083",
+          "name": "Houston",
+          "votes": {
+            "hagerty-b": 1667,
+            "bradshaw-m": 610,
+            "chandler-t": 16,
+            "gerena-a": 6,
+            "hearn-j": 7,
+            "jones-r": 11,
+            "macon-j": 1,
+            "matthews-y": 3,
+            "sutman-d": 5,
+            "whitson-c": 13
+          },
+          "total_votes": 2339,
+          "unit_count": 1
+        },
+        {
+          "fips": "47085",
+          "name": "Humphreys",
+          "votes": {
+            "hagerty-b": 3625,
+            "bradshaw-m": 1467,
+            "chandler-t": 17,
+            "gerena-a": 17,
+            "hearn-j": 12,
+            "jones-r": 43,
+            "macon-j": 12,
+            "matthews-y": 6,
+            "sutman-d": 3,
+            "whitson-c": 10
+          },
+          "total_votes": 5212,
+          "unit_count": 1
+        },
+        {
+          "fips": "47087",
+          "name": "Jackson",
+          "votes": {
+            "hagerty-b": 2457,
+            "bradshaw-m": 792,
+            "chandler-t": 12,
+            "gerena-a": 13,
+            "hearn-j": 12,
+            "jones-r": 17,
+            "macon-j": 4,
+            "matthews-y": 7,
+            "sutman-d": 8,
+            "whitson-c": 9
+          },
+          "total_votes": 3331,
+          "unit_count": 1
+        },
+        {
+          "fips": "47089",
+          "name": "Jefferson",
+          "votes": {
+            "hagerty-b": 11475,
+            "bradshaw-m": 3657,
+            "chandler-t": 60,
+            "gerena-a": 54,
+            "hearn-j": 50,
+            "jones-r": 80,
+            "macon-j": 21,
+            "matthews-y": 24,
+            "sutman-d": 33,
+            "whitson-c": 43
+          },
+          "total_votes": 15497,
+          "unit_count": 1
+        },
+        {
+          "fips": "47091",
+          "name": "Johnson",
+          "votes": {
+            "hagerty-b": 3934,
+            "bradshaw-m": 961,
+            "chandler-t": 27,
+            "gerena-a": 18,
+            "hearn-j": 15,
+            "jones-r": 21,
+            "macon-j": 2,
+            "matthews-y": 5,
+            "sutman-d": 2,
+            "whitson-c": 13
+          },
+          "total_votes": 4998,
+          "unit_count": 1
+        },
+        {
+          "fips": "47093",
+          "name": "Knox",
+          "votes": {
+            "hagerty-b": 78503,
+            "bradshaw-m": 75557,
+            "chandler-t": 382,
+            "gerena-a": 360,
+            "hearn-j": 205,
+            "jones-r": 488,
+            "macon-j": 120,
+            "matthews-y": 215,
+            "sutman-d": 176,
+            "whitson-c": 264
+          },
+          "total_votes": 156270,
+          "unit_count": 1
+        },
+        {
+          "fips": "47095",
+          "name": "Lake",
+          "votes": {
+            "hagerty-b": 757,
+            "bradshaw-m": 319,
+            "chandler-t": 3,
+            "gerena-a": 3,
+            "hearn-j": 12,
+            "jones-r": 7,
+            "macon-j": 0,
+            "matthews-y": 2,
+            "sutman-d": 7,
+            "whitson-c": 5
+          },
+          "total_votes": 1115,
+          "unit_count": 1
+        },
+        {
+          "fips": "47097",
+          "name": "Lauderdale",
+          "votes": {
+            "hagerty-b": 3216,
+            "bradshaw-m": 1968,
+            "chandler-t": 12,
+            "gerena-a": 24,
+            "hearn-j": 15,
+            "jones-r": 29,
+            "macon-j": 6,
+            "matthews-y": 9,
+            "sutman-d": 9,
+            "whitson-c": 5
+          },
+          "total_votes": 5293,
+          "unit_count": 1
+        },
+        {
+          "fips": "47099",
+          "name": "Lawrence",
+          "votes": {
+            "hagerty-b": 9041,
+            "bradshaw-m": 2371,
+            "chandler-t": 177,
+            "gerena-a": 30,
+            "hearn-j": 31,
+            "jones-r": 76,
+            "macon-j": 12,
+            "matthews-y": 19,
+            "sutman-d": 17,
+            "whitson-c": 34
+          },
+          "total_votes": 11808,
+          "unit_count": 1
+        },
+        {
+          "fips": "47101",
+          "name": "Lewis",
+          "votes": {
+            "hagerty-b": 2814,
+            "bradshaw-m": 866,
+            "chandler-t": 25,
+            "gerena-a": 3,
+            "hearn-j": 11,
+            "jones-r": 20,
+            "macon-j": 7,
+            "matthews-y": 4,
+            "sutman-d": 3,
+            "whitson-c": 4
+          },
+          "total_votes": 3757,
+          "unit_count": 1
+        },
+        {
+          "fips": "47103",
+          "name": "Lincoln",
+          "votes": {
+            "hagerty-b": 7511,
+            "bradshaw-m": 2273,
+            "chandler-t": 36,
+            "gerena-a": 21,
+            "hearn-j": 25,
+            "jones-r": 22,
+            "macon-j": 11,
+            "matthews-y": 11,
+            "sutman-d": 13,
+            "whitson-c": 26
+          },
+          "total_votes": 9949,
+          "unit_count": 1
+        },
+        {
+          "fips": "47105",
+          "name": "Loudon",
+          "votes": {
+            "hagerty-b": 0,
+            "bradshaw-m": 0,
+            "chandler-t": 0,
+            "gerena-a": 0,
+            "hearn-j": 0,
+            "jones-r": 0,
+            "macon-j": 0,
+            "matthews-y": 0,
+            "sutman-d": 0,
+            "whitson-c": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "47107",
+          "name": "McMinn",
+          "votes": {
+            "hagerty-b": 10286,
+            "bradshaw-m": 3384,
+            "chandler-t": 59,
+            "gerena-a": 42,
+            "hearn-j": 82,
+            "jones-r": 92,
+            "macon-j": 34,
+            "matthews-y": 9,
+            "sutman-d": 21,
+            "whitson-c": 26
+          },
+          "total_votes": 14035,
+          "unit_count": 1
+        },
+        {
+          "fips": "47109",
+          "name": "McNairy",
+          "votes": {
+            "hagerty-b": 5608,
+            "bradshaw-m": 1361,
+            "chandler-t": 44,
+            "gerena-a": 18,
+            "hearn-j": 33,
+            "jones-r": 43,
+            "macon-j": 11,
+            "matthews-y": 16,
+            "sutman-d": 11,
+            "whitson-c": 33
+          },
+          "total_votes": 7178,
+          "unit_count": 1
+        },
+        {
+          "fips": "47111",
+          "name": "Macon",
+          "votes": {
+            "hagerty-b": 4262,
+            "bradshaw-m": 1023,
+            "chandler-t": 20,
+            "gerena-a": 14,
+            "hearn-j": 14,
+            "jones-r": 34,
+            "macon-j": 11,
+            "matthews-y": 5,
+            "sutman-d": 10,
+            "whitson-c": 10
+          },
+          "total_votes": 5403,
+          "unit_count": 1
+        },
+        {
+          "fips": "47113",
+          "name": "Madison",
+          "votes": {
+            "hagerty-b": 13954,
+            "bradshaw-m": 12708,
+            "chandler-t": 83,
+            "gerena-a": 81,
+            "hearn-j": 74,
+            "jones-r": 114,
+            "macon-j": 37,
+            "matthews-y": 40,
+            "sutman-d": 50,
+            "whitson-c": 54
+          },
+          "total_votes": 27195,
+          "unit_count": 1
+        },
+        {
+          "fips": "47115",
+          "name": "Marion",
+          "votes": {
+            "hagerty-b": 5801,
+            "bradshaw-m": 2453,
+            "chandler-t": 39,
+            "gerena-a": 25,
+            "hearn-j": 36,
+            "jones-r": 70,
+            "macon-j": 13,
+            "matthews-y": 5,
+            "sutman-d": 5,
+            "whitson-c": 18
+          },
+          "total_votes": 8465,
+          "unit_count": 1
+        },
+        {
+          "fips": "47117",
+          "name": "Marshall",
+          "votes": {
+            "hagerty-b": 7071,
+            "bradshaw-m": 2796,
+            "chandler-t": 48,
+            "gerena-a": 22,
+            "hearn-j": 33,
+            "jones-r": 56,
+            "macon-j": 11,
+            "matthews-y": 17,
+            "sutman-d": 17,
+            "whitson-c": 27
+          },
+          "total_votes": 10098,
+          "unit_count": 1
+        },
+        {
+          "fips": "47119",
+          "name": "Maury",
+          "votes": {
+            "hagerty-b": 23036,
+            "bradshaw-m": 12059,
+            "chandler-t": 146,
+            "gerena-a": 76,
+            "hearn-j": 61,
+            "jones-r": 164,
+            "macon-j": 36,
+            "matthews-y": 46,
+            "sutman-d": 36,
+            "whitson-c": 65
+          },
+          "total_votes": 35725,
+          "unit_count": 1
+        },
+        {
+          "fips": "47121",
+          "name": "Meigs",
+          "votes": {
+            "hagerty-b": 2794,
+            "bradshaw-m": 789,
+            "chandler-t": 9,
+            "gerena-a": 13,
+            "hearn-j": 6,
+            "jones-r": 15,
+            "macon-j": 2,
+            "matthews-y": 5,
+            "sutman-d": 10,
+            "whitson-c": 8
+          },
+          "total_votes": 3651,
+          "unit_count": 1
+        },
+        {
+          "fips": "47123",
+          "name": "Monroe",
+          "votes": {
+            "hagerty-b": 10225,
+            "bradshaw-m": 2945,
+            "chandler-t": 61,
+            "gerena-a": 31,
+            "hearn-j": 54,
+            "jones-r": 108,
+            "macon-j": 26,
+            "matthews-y": 8,
+            "sutman-d": 14,
+            "whitson-c": 30
+          },
+          "total_votes": 13502,
+          "unit_count": 1
+        },
+        {
+          "fips": "47125",
+          "name": "Montgomery",
+          "votes": {
+            "hagerty-b": 27311,
+            "bradshaw-m": 27373,
+            "chandler-t": 241,
+            "gerena-a": 211,
+            "hearn-j": 129,
+            "jones-r": 216,
+            "macon-j": 77,
+            "matthews-y": 126,
+            "sutman-d": 100,
+            "whitson-c": 170
+          },
+          "total_votes": 55954,
+          "unit_count": 1
+        },
+        {
+          "fips": "47127",
+          "name": "Moore",
+          "votes": {
+            "hagerty-b": 1791,
+            "bradshaw-m": 475,
+            "chandler-t": 10,
+            "gerena-a": 3,
+            "hearn-j": 5,
+            "jones-r": 11,
+            "macon-j": 0,
+            "matthews-y": 4,
+            "sutman-d": 1,
+            "whitson-c": 5
+          },
+          "total_votes": 2305,
+          "unit_count": 1
+        },
+        {
+          "fips": "47129",
+          "name": "Morgan",
+          "votes": {
+            "hagerty-b": 3920,
+            "bradshaw-m": 923,
+            "chandler-t": 22,
+            "gerena-a": 9,
+            "hearn-j": 15,
+            "jones-r": 23,
+            "macon-j": 6,
+            "matthews-y": 14,
+            "sutman-d": 9,
+            "whitson-c": 15
+          },
+          "total_votes": 4956,
+          "unit_count": 1
+        },
+        {
+          "fips": "47131",
+          "name": "Obion",
+          "votes": {
+            "hagerty-b": 6093,
+            "bradshaw-m": 1796,
+            "chandler-t": 30,
+            "gerena-a": 11,
+            "hearn-j": 16,
+            "jones-r": 15,
+            "macon-j": 11,
+            "matthews-y": 9,
+            "sutman-d": 15,
+            "whitson-c": 19
+          },
+          "total_votes": 8015,
+          "unit_count": 1
+        },
+        {
+          "fips": "47133",
+          "name": "Overton",
+          "votes": {
+            "hagerty-b": 4758,
+            "bradshaw-m": 1565,
+            "chandler-t": 23,
+            "gerena-a": 13,
+            "hearn-j": 14,
+            "jones-r": 45,
+            "macon-j": 9,
+            "matthews-y": 11,
+            "sutman-d": 8,
+            "whitson-c": 16
+          },
+          "total_votes": 6462,
+          "unit_count": 1
+        },
+        {
+          "fips": "47135",
+          "name": "Perry",
+          "votes": {
+            "hagerty-b": 1656,
+            "bradshaw-m": 434,
+            "chandler-t": 16,
+            "gerena-a": 6,
+            "hearn-j": 3,
+            "jones-r": 6,
+            "macon-j": 5,
+            "matthews-y": 3,
+            "sutman-d": 3,
+            "whitson-c": 5
+          },
+          "total_votes": 2137,
+          "unit_count": 1
+        },
+        {
+          "fips": "47137",
+          "name": "Pickett",
+          "votes": {
+            "hagerty-b": 1443,
+            "bradshaw-m": 401,
+            "chandler-t": 9,
+            "gerena-a": 4,
+            "hearn-j": 7,
+            "jones-r": 8,
+            "macon-j": 1,
+            "matthews-y": 2,
+            "sutman-d": 4,
+            "whitson-c": 4
+          },
+          "total_votes": 1883,
+          "unit_count": 1
+        },
+        {
+          "fips": "47139",
+          "name": "Polk",
+          "votes": {
+            "hagerty-b": 3943,
+            "bradshaw-m": 1091,
+            "chandler-t": 15,
+            "gerena-a": 19,
+            "hearn-j": 12,
+            "jones-r": 19,
+            "macon-j": 3,
+            "matthews-y": 9,
+            "sutman-d": 8,
+            "whitson-c": 15
+          },
+          "total_votes": 5134,
+          "unit_count": 1
+        },
+        {
+          "fips": "47141",
+          "name": "Putnam",
+          "votes": {
+            "hagerty-b": 14961,
+            "bradshaw-m": 7721,
+            "chandler-t": 82,
+            "gerena-a": 65,
+            "hearn-j": 41,
+            "jones-r": 83,
+            "macon-j": 27,
+            "matthews-y": 38,
+            "sutman-d": 29,
+            "whitson-c": 67
+          },
+          "total_votes": 23114,
+          "unit_count": 1
+        },
+        {
+          "fips": "47143",
+          "name": "Rhea",
+          "votes": {
+            "hagerty-b": 0,
+            "bradshaw-m": 0,
+            "chandler-t": 0,
+            "gerena-a": 0,
+            "hearn-j": 0,
+            "jones-r": 0,
+            "macon-j": 0,
+            "matthews-y": 0,
+            "sutman-d": 0,
+            "whitson-c": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "47145",
+          "name": "Roane",
+          "votes": {
+            "hagerty-b": 12085,
+            "bradshaw-m": 5018,
+            "chandler-t": 78,
+            "gerena-a": 48,
+            "hearn-j": 38,
+            "jones-r": 76,
+            "macon-j": 16,
+            "matthews-y": 23,
+            "sutman-d": 30,
+            "whitson-c": 63
+          },
+          "total_votes": 17475,
+          "unit_count": 1
+        },
+        {
+          "fips": "47147",
+          "name": "Robertson",
+          "votes": {
+            "hagerty-b": 15005,
+            "bradshaw-m": 7210,
+            "chandler-t": 83,
+            "gerena-a": 76,
+            "hearn-j": 42,
+            "jones-r": 130,
+            "macon-j": 30,
+            "matthews-y": 41,
+            "sutman-d": 32,
+            "whitson-c": 59
+          },
+          "total_votes": 22708,
+          "unit_count": 1
+        },
+        {
+          "fips": "47149",
+          "name": "Rutherford",
+          "votes": {
+            "hagerty-b": 48977,
+            "bradshaw-m": 49225,
+            "chandler-t": 348,
+            "gerena-a": 319,
+            "hearn-j": 199,
+            "jones-r": 586,
+            "macon-j": 120,
+            "matthews-y": 161,
+            "sutman-d": 132,
+            "whitson-c": 257
+          },
+          "total_votes": 100324,
+          "unit_count": 1
+        },
+        {
+          "fips": "47151",
+          "name": "Scott",
+          "votes": {
+            "hagerty-b": 3466,
+            "bradshaw-m": 735,
+            "chandler-t": 24,
+            "gerena-a": 12,
+            "hearn-j": 9,
+            "jones-r": 14,
+            "macon-j": 5,
+            "matthews-y": 11,
+            "sutman-d": 9,
+            "whitson-c": 18
+          },
+          "total_votes": 4303,
+          "unit_count": 1
+        },
+        {
+          "fips": "47153",
+          "name": "Sequatchie",
+          "votes": {
+            "hagerty-b": 3688,
+            "bradshaw-m": 1015,
+            "chandler-t": 16,
+            "gerena-a": 12,
+            "hearn-j": 15,
+            "jones-r": 33,
+            "macon-j": 8,
+            "matthews-y": 8,
+            "sutman-d": 7,
+            "whitson-c": 7
+          },
+          "total_votes": 4809,
+          "unit_count": 1
+        },
+        {
+          "fips": "47155",
+          "name": "Sevier",
+          "votes": {
+            "hagerty-b": 18601,
+            "bradshaw-m": 6924,
+            "chandler-t": 102,
+            "gerena-a": 81,
+            "hearn-j": 43,
+            "jones-r": 93,
+            "macon-j": 27,
+            "matthews-y": 29,
+            "sutman-d": 54,
+            "whitson-c": 72
+          },
+          "total_votes": 26026,
+          "unit_count": 1
+        },
+        {
+          "fips": "47157",
+          "name": "Shelby",
+          "votes": {
+            "hagerty-b": 73900,
+            "bradshaw-m": 164533,
+            "chandler-t": 908,
+            "gerena-a": 596,
+            "hearn-j": 765,
+            "jones-r": 1154,
+            "macon-j": 533,
+            "matthews-y": 481,
+            "sutman-d": 476,
+            "whitson-c": 532
+          },
+          "total_votes": 243878,
+          "unit_count": 1
+        },
+        {
+          "fips": "47159",
+          "name": "Smith",
+          "votes": {
+            "hagerty-b": 4254,
+            "bradshaw-m": 1213,
+            "chandler-t": 32,
+            "gerena-a": 21,
+            "hearn-j": 23,
+            "jones-r": 21,
+            "macon-j": 4,
+            "matthews-y": 8,
+            "sutman-d": 12,
+            "whitson-c": 15
+          },
+          "total_votes": 5603,
+          "unit_count": 1
+        },
+        {
+          "fips": "47161",
+          "name": "Stewart",
+          "votes": {
+            "hagerty-b": 3323,
+            "bradshaw-m": 968,
+            "chandler-t": 14,
+            "gerena-a": 10,
+            "hearn-j": 14,
+            "jones-r": 20,
+            "macon-j": 2,
+            "matthews-y": 2,
+            "sutman-d": 7,
+            "whitson-c": 14
+          },
+          "total_votes": 4374,
+          "unit_count": 1
+        },
+        {
+          "fips": "47163",
+          "name": "Sullivan",
+          "votes": {
+            "hagerty-b": 31817,
+            "bradshaw-m": 13111,
+            "chandler-t": 175,
+            "gerena-a": 133,
+            "hearn-j": 120,
+            "jones-r": 219,
+            "macon-j": 36,
+            "matthews-y": 76,
+            "sutman-d": 92,
+            "whitson-c": 143
+          },
+          "total_votes": 45922,
+          "unit_count": 1
+        },
+        {
+          "fips": "47165",
+          "name": "Sumner",
+          "votes": {
+            "hagerty-b": 39673,
+            "bradshaw-m": 23655,
+            "chandler-t": 248,
+            "gerena-a": 206,
+            "hearn-j": 127,
+            "jones-r": 268,
+            "macon-j": 60,
+            "matthews-y": 79,
+            "sutman-d": 91,
+            "whitson-c": 148
+          },
+          "total_votes": 64555,
+          "unit_count": 1
+        },
+        {
+          "fips": "47167",
+          "name": "Tipton",
+          "votes": {
+            "hagerty-b": 11069,
+            "bradshaw-m": 4770,
+            "chandler-t": 61,
+            "gerena-a": 50,
+            "hearn-j": 44,
+            "jones-r": 95,
+            "macon-j": 21,
+            "matthews-y": 27,
+            "sutman-d": 26,
+            "whitson-c": 49
+          },
+          "total_votes": 16212,
+          "unit_count": 1
+        },
+        {
+          "fips": "47169",
+          "name": "Trousdale",
+          "votes": {
+            "hagerty-b": 1872,
+            "bradshaw-m": 723,
+            "chandler-t": 15,
+            "gerena-a": 10,
+            "hearn-j": 4,
+            "jones-r": 9,
+            "macon-j": 3,
+            "matthews-y": 5,
+            "sutman-d": 4,
+            "whitson-c": 3
+          },
+          "total_votes": 2648,
+          "unit_count": 1
+        },
+        {
+          "fips": "47171",
+          "name": "Unicoi",
+          "votes": {
+            "hagerty-b": 3902,
+            "bradshaw-m": 1282,
+            "chandler-t": 21,
+            "gerena-a": 18,
+            "hearn-j": 8,
+            "jones-r": 41,
+            "macon-j": 7,
+            "matthews-y": 11,
+            "sutman-d": 10,
+            "whitson-c": 29
+          },
+          "total_votes": 5329,
+          "unit_count": 1
+        },
+        {
+          "fips": "47173",
+          "name": "Union",
+          "votes": {
+            "hagerty-b": 3592,
+            "bradshaw-m": 950,
+            "chandler-t": 17,
+            "gerena-a": 7,
+            "hearn-j": 14,
+            "jones-r": 8,
+            "macon-j": 5,
+            "matthews-y": 5,
+            "sutman-d": 10,
+            "whitson-c": 12
+          },
+          "total_votes": 4620,
+          "unit_count": 1
+        },
+        {
+          "fips": "47175",
+          "name": "Van Buren",
+          "votes": {
+            "hagerty-b": 1565,
+            "bradshaw-m": 465,
+            "chandler-t": 21,
+            "gerena-a": 10,
+            "hearn-j": 9,
+            "jones-r": 14,
+            "macon-j": 2,
+            "matthews-y": 5,
+            "sutman-d": 5,
+            "whitson-c": 9
+          },
+          "total_votes": 2105,
+          "unit_count": 1
+        },
+        {
+          "fips": "47177",
+          "name": "Warren",
+          "votes": {
+            "hagerty-b": 6646,
+            "bradshaw-m": 3004,
+            "chandler-t": 57,
+            "gerena-a": 21,
+            "hearn-j": 33,
+            "jones-r": 70,
+            "macon-j": 18,
+            "matthews-y": 21,
+            "sutman-d": 23,
+            "whitson-c": 39
+          },
+          "total_votes": 9932,
+          "unit_count": 1
+        },
+        {
+          "fips": "47179",
+          "name": "Washington",
+          "votes": {
+            "hagerty-b": 0,
+            "bradshaw-m": 0,
+            "chandler-t": 0,
+            "gerena-a": 0,
+            "hearn-j": 0,
+            "jones-r": 0,
+            "macon-j": 0,
+            "matthews-y": 0,
+            "sutman-d": 0,
+            "whitson-c": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "47181",
+          "name": "Wayne",
+          "votes": {
+            "hagerty-b": 3214,
+            "bradshaw-m": 578,
+            "chandler-t": 8,
+            "gerena-a": 9,
+            "hearn-j": 8,
+            "jones-r": 19,
+            "macon-j": 8,
+            "matthews-y": 5,
+            "sutman-d": 5,
+            "whitson-c": 3
+          },
+          "total_votes": 3857,
+          "unit_count": 1
+        },
+        {
+          "fips": "47183",
+          "name": "Weakley",
+          "votes": {
+            "hagerty-b": 6431,
+            "bradshaw-m": 2141,
+            "chandler-t": 28,
+            "gerena-a": 23,
+            "hearn-j": 29,
+            "jones-r": 35,
+            "macon-j": 12,
+            "matthews-y": 13,
+            "sutman-d": 18,
+            "whitson-c": 13
+          },
+          "total_votes": 8743,
+          "unit_count": 1
+        },
+        {
+          "fips": "47185",
+          "name": "White",
+          "votes": {
+            "hagerty-b": 6085,
+            "bradshaw-m": 1734,
+            "chandler-t": 26,
+            "gerena-a": 19,
+            "hearn-j": 25,
+            "jones-r": 50,
+            "macon-j": 8,
+            "matthews-y": 12,
+            "sutman-d": 8,
+            "whitson-c": 29
+          },
+          "total_votes": 7996,
+          "unit_count": 1
+        },
+        {
+          "fips": "47187",
+          "name": "Williamson",
+          "votes": {
+            "hagerty-b": 63349,
+            "bradshaw-m": 38783,
+            "chandler-t": 341,
+            "gerena-a": 214,
+            "hearn-j": 170,
+            "jones-r": 300,
+            "macon-j": 77,
+            "matthews-y": 91,
+            "sutman-d": 108,
+            "whitson-c": 226
+          },
+          "total_votes": 103659,
+          "unit_count": 1
+        },
+        {
+          "fips": "47189",
+          "name": "Wilson",
+          "votes": {
+            "hagerty-b": 34356,
+            "bradshaw-m": 21224,
+            "chandler-t": 237,
+            "gerena-a": 126,
+            "hearn-j": 146,
+            "jones-r": 211,
+            "macon-j": 58,
+            "matthews-y": 75,
+            "sutman-d": 84,
+            "whitson-c": 135
+          },
+          "total_votes": 56652,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [
+          "hagerty-b"
+        ],
+        "called_by": [
+          "ap"
+        ]
+      },
+      "reporting_count": 92,
+      "missing_fips": [],
+      "state_total_votes": 1988066,
+      "county_total_votes": 1988066,
+      "county_sum_reconciles": true
+    },
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "manifest_race_id": "2026-governor-tn",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "blackburn-m",
+          "name": "Marsha Blackburn",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "green-j",
+          "name": "Jerri Green",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "pinkston-l",
+          "name": "Lauren Pinkston",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "hatley-d",
+          "name": "David Hatley",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "abidi-m",
+          "name": "Misam Abidi",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "brewer-d",
+          "name": "Dean Brewer",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "brown-r",
+          "name": "Ray Brown",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "jackson-w",
+          "name": "Wendell Jackson",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "van_morgan-c",
+          "name": "Charles Van Morgan",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "murphy-e",
+          "name": "Eddie Lee Murphy",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "scoggin-v",
+          "name": "Victor L. Scoggin",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "seeman-d",
+          "name": "Dave Seeman",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "smithson-k",
+          "name": "Karl Knox Smithson",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "vick-r",
+          "name": "Robert C. Vick",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "taylor-l",
+          "name": "L. Webb Taylor",
+          "party": "Independent"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "47001",
+          "name": "Anderson",
+          "votes": {
+            "blackburn-m": 11223,
+            "green-j": 9989,
+            "pinkston-l": 164,
+            "hatley-d": 2309,
+            "abidi-m": 23,
+            "brewer-d": 89,
+            "brown-r": 67,
+            "jackson-w": 44,
+            "van_morgan-c": 6,
+            "murphy-e": 11,
+            "scoggin-v": 4,
+            "seeman-d": 12,
+            "smithson-k": 2,
+            "vick-r": 14,
+            "taylor-l": 10
+          },
+          "total_votes": 23967,
+          "unit_count": 1
+        },
+        {
+          "fips": "47003",
+          "name": "Bedford",
+          "votes": {
+            "blackburn-m": 7347,
+            "green-j": 4114,
+            "pinkston-l": 148,
+            "hatley-d": 1411,
+            "abidi-m": 9,
+            "brewer-d": 43,
+            "brown-r": 36,
+            "jackson-w": 18,
+            "van_morgan-c": 16,
+            "murphy-e": 23,
+            "scoggin-v": 4,
+            "seeman-d": 5,
+            "smithson-k": 0,
+            "vick-r": 11,
+            "taylor-l": 13
+          },
+          "total_votes": 13198,
+          "unit_count": 1
+        },
+        {
+          "fips": "47005",
+          "name": "Benton",
+          "votes": {
+            "blackburn-m": 2897,
+            "green-j": 1137,
+            "pinkston-l": 49,
+            "hatley-d": 637,
+            "abidi-m": 3,
+            "brewer-d": 15,
+            "brown-r": 6,
+            "jackson-w": 4,
+            "van_morgan-c": 4,
+            "murphy-e": 6,
+            "scoggin-v": 2,
+            "seeman-d": 0,
+            "smithson-k": 0,
+            "vick-r": 3,
+            "taylor-l": 2
+          },
+          "total_votes": 4765,
+          "unit_count": 1
+        },
+        {
+          "fips": "47007",
+          "name": "Bledsoe",
+          "votes": {
+            "blackburn-m": 2468,
+            "green-j": 878,
+            "pinkston-l": 35,
+            "hatley-d": 454,
+            "abidi-m": 1,
+            "brewer-d": 16,
+            "brown-r": 7,
+            "jackson-w": 8,
+            "van_morgan-c": 1,
+            "murphy-e": 2,
+            "scoggin-v": 1,
+            "seeman-d": 0,
+            "smithson-k": 0,
+            "vick-r": 4,
+            "taylor-l": 1
+          },
+          "total_votes": 3876,
+          "unit_count": 1
+        },
+        {
+          "fips": "47009",
+          "name": "Blount",
+          "votes": {
+            "blackburn-m": 24830,
+            "green-j": 14856,
+            "pinkston-l": 500,
+            "hatley-d": 4890,
+            "abidi-m": 26,
+            "brewer-d": 158,
+            "brown-r": 83,
+            "jackson-w": 51,
+            "van_morgan-c": 8,
+            "murphy-e": 18,
+            "scoggin-v": 22,
+            "seeman-d": 12,
+            "smithson-k": 5,
+            "vick-r": 25,
+            "taylor-l": 13
+          },
+          "total_votes": 45497,
+          "unit_count": 1
+        },
+        {
+          "fips": "47011",
+          "name": "Bradley",
+          "votes": {
+            "blackburn-m": 17061,
+            "green-j": 8327,
+            "pinkston-l": 563,
+            "hatley-d": 3136,
+            "abidi-m": 25,
+            "brewer-d": 75,
+            "brown-r": 46,
+            "jackson-w": 30,
+            "van_morgan-c": 33,
+            "murphy-e": 27,
+            "scoggin-v": 20,
+            "seeman-d": 7,
+            "smithson-k": 6,
+            "vick-r": 20,
+            "taylor-l": 8
+          },
+          "total_votes": 29384,
+          "unit_count": 1
+        },
+        {
+          "fips": "47013",
+          "name": "Campbell",
+          "votes": {
+            "blackburn-m": 5394,
+            "green-j": 1978,
+            "pinkston-l": 61,
+            "hatley-d": 1083,
+            "abidi-m": 8,
+            "brewer-d": 29,
+            "brown-r": 23,
+            "jackson-w": 14,
+            "van_morgan-c": 1,
+            "murphy-e": 8,
+            "scoggin-v": 3,
+            "seeman-d": 2,
+            "smithson-k": 1,
+            "vick-r": 1,
+            "taylor-l": 2
+          },
+          "total_votes": 8608,
+          "unit_count": 1
+        },
+        {
+          "fips": "47015",
+          "name": "Cannon",
+          "votes": {
+            "blackburn-m": 2494,
+            "green-j": 1047,
+            "pinkston-l": 85,
+            "hatley-d": 677,
+            "abidi-m": 1,
+            "brewer-d": 6,
+            "brown-r": 4,
+            "jackson-w": 3,
+            "van_morgan-c": 7,
+            "murphy-e": 6,
+            "scoggin-v": 3,
+            "seeman-d": 0,
+            "smithson-k": 5,
+            "vick-r": 3,
+            "taylor-l": 2
+          },
+          "total_votes": 4343,
+          "unit_count": 1
+        },
+        {
+          "fips": "47017",
+          "name": "Carroll",
+          "votes": {
+            "blackburn-m": 4179,
+            "green-j": 1739,
+            "pinkston-l": 201,
+            "hatley-d": 941,
+            "abidi-m": 7,
+            "brewer-d": 8,
+            "brown-r": 14,
+            "jackson-w": 7,
+            "van_morgan-c": 6,
+            "murphy-e": 5,
+            "scoggin-v": 4,
+            "seeman-d": 3,
+            "smithson-k": 1,
+            "vick-r": 11,
+            "taylor-l": 5
+          },
+          "total_votes": 7131,
+          "unit_count": 1
+        },
+        {
+          "fips": "47019",
+          "name": "Carter",
+          "votes": {
+            "blackburn-m": 7892,
+            "green-j": 3596,
+            "pinkston-l": 71,
+            "hatley-d": 4164,
+            "abidi-m": 3,
+            "brewer-d": 16,
+            "brown-r": 11,
+            "jackson-w": 14,
+            "van_morgan-c": 5,
+            "murphy-e": 15,
+            "scoggin-v": 4,
+            "seeman-d": 5,
+            "smithson-k": 2,
+            "vick-r": 6,
+            "taylor-l": 3
+          },
+          "total_votes": 15807,
+          "unit_count": 1
+        },
+        {
+          "fips": "47021",
+          "name": "Cheatham",
+          "votes": {
+            "blackburn-m": 7205,
+            "green-j": 5087,
+            "pinkston-l": 136,
+            "hatley-d": 1535,
+            "abidi-m": 3,
+            "brewer-d": 15,
+            "brown-r": 18,
+            "jackson-w": 9,
+            "van_morgan-c": 14,
+            "murphy-e": 16,
+            "scoggin-v": 16,
+            "seeman-d": 4,
+            "smithson-k": 2,
+            "vick-r": 11,
+            "taylor-l": 3
+          },
+          "total_votes": 14074,
+          "unit_count": 1
+        },
+        {
+          "fips": "47023",
+          "name": "Chester",
+          "votes": {
+            "blackburn-m": 2683,
+            "green-j": 961,
+            "pinkston-l": 522,
+            "hatley-d": 428,
+            "abidi-m": 1,
+            "brewer-d": 7,
+            "brown-r": 7,
+            "jackson-w": 3,
+            "van_morgan-c": 2,
+            "murphy-e": 2,
+            "scoggin-v": 3,
+            "seeman-d": 3,
+            "smithson-k": 1,
+            "vick-r": 5,
+            "taylor-l": 0
+          },
+          "total_votes": 4628,
+          "unit_count": 1
+        },
+        {
+          "fips": "47025",
+          "name": "Claiborne",
+          "votes": {
+            "blackburn-m": 5753,
+            "green-j": 1924,
+            "pinkston-l": 44,
+            "hatley-d": 1144,
+            "abidi-m": 7,
+            "brewer-d": 32,
+            "brown-r": 14,
+            "jackson-w": 6,
+            "van_morgan-c": 2,
+            "murphy-e": 30,
+            "scoggin-v": 3,
+            "seeman-d": 5,
+            "smithson-k": 3,
+            "vick-r": 17,
+            "taylor-l": 5
+          },
+          "total_votes": 8989,
+          "unit_count": 1
+        },
+        {
+          "fips": "47027",
+          "name": "Clay",
+          "votes": {
+            "blackburn-m": 1264,
+            "green-j": 507,
+            "pinkston-l": 7,
+            "hatley-d": 338,
+            "abidi-m": 1,
+            "brewer-d": 3,
+            "brown-r": 10,
+            "jackson-w": 4,
+            "van_morgan-c": 4,
+            "murphy-e": 6,
+            "scoggin-v": 0,
+            "seeman-d": 1,
+            "smithson-k": 1,
+            "vick-r": 1,
+            "taylor-l": 1
+          },
+          "total_votes": 2148,
+          "unit_count": 1
+        },
+        {
+          "fips": "47029",
+          "name": "Cocke",
+          "votes": {
+            "blackburn-m": 966,
+            "green-j": 2120,
+            "pinkston-l": 25,
+            "hatley-d": 1243,
+            "abidi-m": 6,
+            "brewer-d": 22,
+            "brown-r": 18,
+            "jackson-w": 11,
+            "van_morgan-c": 16,
+            "murphy-e": 9,
+            "scoggin-v": 4,
+            "seeman-d": 6,
+            "smithson-k": 1,
+            "vick-r": 255,
+            "taylor-l": 3
+          },
+          "total_votes": 4705,
+          "unit_count": 1
+        },
+        {
+          "fips": "47031",
+          "name": "Coffee",
+          "votes": {
+            "blackburn-m": 8723,
+            "green-j": 4685,
+            "pinkston-l": 175,
+            "hatley-d": 1900,
+            "abidi-m": 12,
+            "brewer-d": 32,
+            "brown-r": 19,
+            "jackson-w": 10,
+            "van_morgan-c": 11,
+            "murphy-e": 17,
+            "scoggin-v": 10,
+            "seeman-d": 10,
+            "smithson-k": 4,
+            "vick-r": 7,
+            "taylor-l": 9
+          },
+          "total_votes": 15624,
+          "unit_count": 1
+        },
+        {
+          "fips": "47033",
+          "name": "Crockett",
+          "votes": {
+            "blackburn-m": 1848,
+            "green-j": 1022,
+            "pinkston-l": 458,
+            "hatley-d": 342,
+            "abidi-m": 3,
+            "brewer-d": 5,
+            "brown-r": 4,
+            "jackson-w": 4,
+            "van_morgan-c": 2,
+            "murphy-e": 4,
+            "scoggin-v": 2,
+            "seeman-d": 0,
+            "smithson-k": 0,
+            "vick-r": 4,
+            "taylor-l": 3
+          },
+          "total_votes": 3701,
+          "unit_count": 1
+        },
+        {
+          "fips": "47035",
+          "name": "Cumberland",
+          "votes": {
+            "blackburn-m": 15880,
+            "green-j": 5576,
+            "pinkston-l": 107,
+            "hatley-d": 2406,
+            "abidi-m": 21,
+            "brewer-d": 63,
+            "brown-r": 51,
+            "jackson-w": 43,
+            "van_morgan-c": 13,
+            "murphy-e": 24,
+            "scoggin-v": 10,
+            "seeman-d": 11,
+            "smithson-k": 3,
+            "vick-r": 13,
+            "taylor-l": 11
+          },
+          "total_votes": 24232,
+          "unit_count": 1
+        },
+        {
+          "fips": "47037",
+          "name": "Davidson",
+          "votes": {
+            "blackburn-m": 48546,
+            "green-j": 160749,
+            "pinkston-l": 2370,
+            "hatley-d": 11163,
+            "abidi-m": 241,
+            "brewer-d": 259,
+            "brown-r": 129,
+            "jackson-w": 160,
+            "van_morgan-c": 80,
+            "murphy-e": 163,
+            "scoggin-v": 76,
+            "seeman-d": 122,
+            "smithson-k": 55,
+            "vick-r": 150,
+            "taylor-l": 126
+          },
+          "total_votes": 224389,
+          "unit_count": 1
+        },
+        {
+          "fips": "47039",
+          "name": "Decatur",
+          "votes": {
+            "blackburn-m": 2242,
+            "green-j": 701,
+            "pinkston-l": 80,
+            "hatley-d": 328,
+            "abidi-m": 2,
+            "brewer-d": 11,
+            "brown-r": 2,
+            "jackson-w": 3,
+            "van_morgan-c": 3,
+            "murphy-e": 6,
+            "scoggin-v": 3,
+            "seeman-d": 2,
+            "smithson-k": 0,
+            "vick-r": 3,
+            "taylor-l": 2
+          },
+          "total_votes": 3388,
+          "unit_count": 1
+        },
+        {
+          "fips": "47041",
+          "name": "DeKalb",
+          "votes": {
+            "blackburn-m": 3122,
+            "green-j": 1412,
+            "pinkston-l": 53,
+            "hatley-d": 791,
+            "abidi-m": 4,
+            "brewer-d": 16,
+            "brown-r": 15,
+            "jackson-w": 5,
+            "van_morgan-c": 7,
+            "murphy-e": 8,
+            "scoggin-v": 1,
+            "seeman-d": 4,
+            "smithson-k": 0,
+            "vick-r": 8,
+            "taylor-l": 5
+          },
+          "total_votes": 5451,
+          "unit_count": 1
+        },
+        {
+          "fips": "47043",
+          "name": "Dickson",
+          "votes": {
+            "blackburn-m": 8597,
+            "green-j": 5093,
+            "pinkston-l": 229,
+            "hatley-d": 1878,
+            "abidi-m": 9,
+            "brewer-d": 25,
+            "brown-r": 21,
+            "jackson-w": 13,
+            "van_morgan-c": 16,
+            "murphy-e": 11,
+            "scoggin-v": 4,
+            "seeman-d": 4,
+            "smithson-k": 2,
+            "vick-r": 14,
+            "taylor-l": 6
+          },
+          "total_votes": 15922,
+          "unit_count": 1
+        },
+        {
+          "fips": "47045",
+          "name": "Dyer",
+          "votes": {
+            "blackburn-m": 5367,
+            "green-j": 2266,
+            "pinkston-l": 288,
+            "hatley-d": 916,
+            "abidi-m": 8,
+            "brewer-d": 26,
+            "brown-r": 20,
+            "jackson-w": 8,
+            "van_morgan-c": 12,
+            "murphy-e": 19,
+            "scoggin-v": 3,
+            "seeman-d": 2,
+            "smithson-k": 0,
+            "vick-r": 4,
+            "taylor-l": 2
+          },
+          "total_votes": 8941,
+          "unit_count": 1
+        },
+        {
+          "fips": "47047",
+          "name": "Fayette",
+          "votes": {
+            "blackburn-m": 10196,
+            "green-j": 5576,
+            "pinkston-l": 79,
+            "hatley-d": 1461,
+            "abidi-m": 16,
+            "brewer-d": 33,
+            "brown-r": 22,
+            "jackson-w": 21,
+            "van_morgan-c": 6,
+            "murphy-e": 21,
+            "scoggin-v": 6,
+            "seeman-d": 4,
+            "smithson-k": 4,
+            "vick-r": 10,
+            "taylor-l": 7
+          },
+          "total_votes": 17462,
+          "unit_count": 1
+        },
+        {
+          "fips": "47049",
+          "name": "Fentress",
+          "votes": {
+            "blackburn-m": 3952,
+            "green-j": 1013,
+            "pinkston-l": 49,
+            "hatley-d": 738,
+            "abidi-m": 3,
+            "brewer-d": 17,
+            "brown-r": 20,
+            "jackson-w": 11,
+            "van_morgan-c": 6,
+            "murphy-e": 2,
+            "scoggin-v": 2,
+            "seeman-d": 0,
+            "smithson-k": 1,
+            "vick-r": 4,
+            "taylor-l": 1
+          },
+          "total_votes": 5819,
+          "unit_count": 1
+        },
+        {
+          "fips": "47051",
+          "name": "Franklin",
+          "votes": {
+            "blackburn-m": 7342,
+            "green-j": 3659,
+            "pinkston-l": 100,
+            "hatley-d": 1428,
+            "abidi-m": 6,
+            "brewer-d": 33,
+            "brown-r": 25,
+            "jackson-w": 13,
+            "van_morgan-c": 16,
+            "murphy-e": 15,
+            "scoggin-v": 6,
+            "seeman-d": 3,
+            "smithson-k": 3,
+            "vick-r": 7,
+            "taylor-l": 1
+          },
+          "total_votes": 12657,
+          "unit_count": 1
+        },
+        {
+          "fips": "47053",
+          "name": "Gibson",
+          "votes": {
+            "blackburn-m": 6974,
+            "green-j": 4107,
+            "pinkston-l": 470,
+            "hatley-d": 1505,
+            "abidi-m": 16,
+            "brewer-d": 35,
+            "brown-r": 31,
+            "jackson-w": 17,
+            "van_morgan-c": 10,
+            "murphy-e": 14,
+            "scoggin-v": 5,
+            "seeman-d": 3,
+            "smithson-k": 2,
+            "vick-r": 6,
+            "taylor-l": 6
+          },
+          "total_votes": 13201,
+          "unit_count": 1
+        },
+        {
+          "fips": "47055",
+          "name": "Giles",
+          "votes": {
+            "blackburn-m": 5278,
+            "green-j": 2383,
+            "pinkston-l": 99,
+            "hatley-d": 825,
+            "abidi-m": 5,
+            "brewer-d": 28,
+            "brown-r": 18,
+            "jackson-w": 15,
+            "van_morgan-c": 10,
+            "murphy-e": 12,
+            "scoggin-v": 7,
+            "seeman-d": 3,
+            "smithson-k": 1,
+            "vick-r": 9,
+            "taylor-l": 8
+          },
+          "total_votes": 8701,
+          "unit_count": 1
+        },
+        {
+          "fips": "47057",
+          "name": "Grainger",
+          "votes": {
+            "blackburn-m": 4174,
+            "green-j": 1325,
+            "pinkston-l": 50,
+            "hatley-d": 1013,
+            "abidi-m": 4,
+            "brewer-d": 14,
+            "brown-r": 7,
+            "jackson-w": 2,
+            "van_morgan-c": 4,
+            "murphy-e": 7,
+            "scoggin-v": 1,
+            "seeman-d": 2,
+            "smithson-k": 1,
+            "vick-r": 15,
+            "taylor-l": 1
+          },
+          "total_votes": 6620,
+          "unit_count": 1
+        },
+        {
+          "fips": "47059",
+          "name": "Greene",
+          "votes": {
+            "blackburn-m": 11738,
+            "green-j": 4365,
+            "pinkston-l": 102,
+            "hatley-d": 3377,
+            "abidi-m": 10,
+            "brewer-d": 20,
+            "brown-r": 18,
+            "jackson-w": 4,
+            "van_morgan-c": 7,
+            "murphy-e": 22,
+            "scoggin-v": 11,
+            "seeman-d": 6,
+            "smithson-k": 7,
+            "vick-r": 33,
+            "taylor-l": 8
+          },
+          "total_votes": 19728,
+          "unit_count": 1
+        },
+        {
+          "fips": "47061",
+          "name": "Grundy",
+          "votes": {
+            "blackburn-m": 2292,
+            "green-j": 878,
+            "pinkston-l": 20,
+            "hatley-d": 392,
+            "abidi-m": 6,
+            "brewer-d": 17,
+            "brown-r": 10,
+            "jackson-w": 8,
+            "van_morgan-c": 5,
+            "murphy-e": 2,
+            "scoggin-v": 0,
+            "seeman-d": 3,
+            "smithson-k": 2,
+            "vick-r": 2,
+            "taylor-l": 4
+          },
+          "total_votes": 3641,
+          "unit_count": 1
+        },
+        {
+          "fips": "47063",
+          "name": "Hamblen",
+          "votes": {
+            "blackburn-m": 8291,
+            "green-j": 4767,
+            "pinkston-l": 71,
+            "hatley-d": 1919,
+            "abidi-m": 4,
+            "brewer-d": 42,
+            "brown-r": 16,
+            "jackson-w": 8,
+            "van_morgan-c": 15,
+            "murphy-e": 17,
+            "scoggin-v": 5,
+            "seeman-d": 3,
+            "smithson-k": 1,
+            "vick-r": 49,
+            "taylor-l": 4
+          },
+          "total_votes": 15212,
+          "unit_count": 1
+        },
+        {
+          "fips": "47065",
+          "name": "Hamilton",
+          "votes": {
+            "blackburn-m": 50673,
+            "green-j": 63364,
+            "pinkston-l": 1431,
+            "hatley-d": 8820,
+            "abidi-m": 133,
+            "brewer-d": 206,
+            "brown-r": 110,
+            "jackson-w": 138,
+            "van_morgan-c": 49,
+            "murphy-e": 109,
+            "scoggin-v": 49,
+            "seeman-d": 56,
+            "smithson-k": 16,
+            "vick-r": 78,
+            "taylor-l": 34
+          },
+          "total_votes": 125266,
+          "unit_count": 1
+        },
+        {
+          "fips": "47067",
+          "name": "Hancock",
+          "votes": {
+            "blackburn-m": 938,
+            "green-j": 312,
+            "pinkston-l": 9,
+            "hatley-d": 309,
+            "abidi-m": 1,
+            "brewer-d": 10,
+            "brown-r": 0,
+            "jackson-w": 1,
+            "van_morgan-c": 0,
+            "murphy-e": 0,
+            "scoggin-v": 0,
+            "seeman-d": 0,
+            "smithson-k": 0,
+            "vick-r": 2,
+            "taylor-l": 0
+          },
+          "total_votes": 1582,
+          "unit_count": 1
+        },
+        {
+          "fips": "47069",
+          "name": "Hardeman",
+          "votes": {
+            "blackburn-m": 3059,
+            "green-j": 2930,
+            "pinkston-l": 90,
+            "hatley-d": 540,
+            "abidi-m": 8,
+            "brewer-d": 10,
+            "brown-r": 17,
+            "jackson-w": 9,
+            "van_morgan-c": 3,
+            "murphy-e": 22,
+            "scoggin-v": 2,
+            "seeman-d": 3,
+            "smithson-k": 1,
+            "vick-r": 5,
+            "taylor-l": 7
+          },
+          "total_votes": 6706,
+          "unit_count": 1
+        },
+        {
+          "fips": "47071",
+          "name": "Hardin",
+          "votes": {
+            "blackburn-m": 5307,
+            "green-j": 1331,
+            "pinkston-l": 323,
+            "hatley-d": 497,
+            "abidi-m": 8,
+            "brewer-d": 17,
+            "brown-r": 12,
+            "jackson-w": 4,
+            "van_morgan-c": 2,
+            "murphy-e": 11,
+            "scoggin-v": 2,
+            "seeman-d": 0,
+            "smithson-k": 3,
+            "vick-r": 3,
+            "taylor-l": 4
+          },
+          "total_votes": 7524,
+          "unit_count": 1
+        },
+        {
+          "fips": "47073",
+          "name": "Hawkins",
+          "votes": {
+            "blackburn-m": 9547,
+            "green-j": 3127,
+            "pinkston-l": 72,
+            "hatley-d": 2604,
+            "abidi-m": 19,
+            "brewer-d": 35,
+            "brown-r": 14,
+            "jackson-w": 8,
+            "van_morgan-c": 13,
+            "murphy-e": 17,
+            "scoggin-v": 2,
+            "seeman-d": 9,
+            "smithson-k": 3,
+            "vick-r": 19,
+            "taylor-l": 5
+          },
+          "total_votes": 15494,
+          "unit_count": 1
+        },
+        {
+          "fips": "47075",
+          "name": "Haywood",
+          "votes": {
+            "blackburn-m": 1643,
+            "green-j": 2718,
+            "pinkston-l": 31,
+            "hatley-d": 372,
+            "abidi-m": 13,
+            "brewer-d": 12,
+            "brown-r": 7,
+            "jackson-w": 16,
+            "van_morgan-c": 2,
+            "murphy-e": 4,
+            "scoggin-v": 1,
+            "seeman-d": 1,
+            "smithson-k": 0,
+            "vick-r": 1,
+            "taylor-l": 1
+          },
+          "total_votes": 4822,
+          "unit_count": 1
+        },
+        {
+          "fips": "47077",
+          "name": "Henderson",
+          "votes": {
+            "blackburn-m": 4362,
+            "green-j": 1469,
+            "pinkston-l": 389,
+            "hatley-d": 818,
+            "abidi-m": 7,
+            "brewer-d": 8,
+            "brown-r": 12,
+            "jackson-w": 2,
+            "van_morgan-c": 2,
+            "murphy-e": 16,
+            "scoggin-v": 0,
+            "seeman-d": 2,
+            "smithson-k": 0,
+            "vick-r": 5,
+            "taylor-l": 3
+          },
+          "total_votes": 7095,
+          "unit_count": 1
+        },
+        {
+          "fips": "47079",
+          "name": "Henry",
+          "votes": {
+            "blackburn-m": 5600,
+            "green-j": 2708,
+            "pinkston-l": 136,
+            "hatley-d": 1179,
+            "abidi-m": 10,
+            "brewer-d": 27,
+            "brown-r": 22,
+            "jackson-w": 12,
+            "van_morgan-c": 15,
+            "murphy-e": 18,
+            "scoggin-v": 3,
+            "seeman-d": 1,
+            "smithson-k": 1,
+            "vick-r": 11,
+            "taylor-l": 13
+          },
+          "total_votes": 9756,
+          "unit_count": 1
+        },
+        {
+          "fips": "47081",
+          "name": "Hickman",
+          "votes": {
+            "blackburn-m": 3893,
+            "green-j": 1617,
+            "pinkston-l": 132,
+            "hatley-d": 845,
+            "abidi-m": 5,
+            "brewer-d": 10,
+            "brown-r": 5,
+            "jackson-w": 3,
+            "van_morgan-c": 4,
+            "murphy-e": 8,
+            "scoggin-v": 8,
+            "seeman-d": 4,
+            "smithson-k": 0,
+            "vick-r": 5,
+            "taylor-l": 1
+          },
+          "total_votes": 6540,
+          "unit_count": 1
+        },
+        {
+          "fips": "47083",
+          "name": "Houston",
+          "votes": {
+            "blackburn-m": 1445,
+            "green-j": 650,
+            "pinkston-l": 13,
+            "hatley-d": 245,
+            "abidi-m": 1,
+            "brewer-d": 9,
+            "brown-r": 4,
+            "jackson-w": 5,
+            "van_morgan-c": 1,
+            "murphy-e": 2,
+            "scoggin-v": 0,
+            "seeman-d": 1,
+            "smithson-k": 0,
+            "vick-r": 4,
+            "taylor-l": 3
+          },
+          "total_votes": 2383,
+          "unit_count": 1
+        },
+        {
+          "fips": "47085",
+          "name": "Humphreys",
+          "votes": {
+            "blackburn-m": 2924,
+            "green-j": 1535,
+            "pinkston-l": 40,
+            "hatley-d": 758,
+            "abidi-m": 1,
+            "brewer-d": 14,
+            "brown-r": 10,
+            "jackson-w": 8,
+            "van_morgan-c": 2,
+            "murphy-e": 4,
+            "scoggin-v": 1,
+            "seeman-d": 2,
+            "smithson-k": 0,
+            "vick-r": 0,
+            "taylor-l": 4
+          },
+          "total_votes": 5303,
+          "unit_count": 1
+        },
+        {
+          "fips": "47087",
+          "name": "Jackson",
+          "votes": {
+            "blackburn-m": 1970,
+            "green-j": 873,
+            "pinkston-l": 30,
+            "hatley-d": 543,
+            "abidi-m": 5,
+            "brewer-d": 5,
+            "brown-r": 8,
+            "jackson-w": 3,
+            "van_morgan-c": 8,
+            "murphy-e": 2,
+            "scoggin-v": 1,
+            "seeman-d": 1,
+            "smithson-k": 0,
+            "vick-r": 4,
+            "taylor-l": 4
+          },
+          "total_votes": 3457,
+          "unit_count": 1
+        },
+        {
+          "fips": "47089",
+          "name": "Jefferson",
+          "votes": {
+            "blackburn-m": 9626,
+            "green-j": 3883,
+            "pinkston-l": 102,
+            "hatley-d": 1934,
+            "abidi-m": 13,
+            "brewer-d": 31,
+            "brown-r": 20,
+            "jackson-w": 15,
+            "van_morgan-c": 7,
+            "murphy-e": 7,
+            "scoggin-v": 4,
+            "seeman-d": 7,
+            "smithson-k": 1,
+            "vick-r": 270,
+            "taylor-l": 5
+          },
+          "total_votes": 15925,
+          "unit_count": 1
+        },
+        {
+          "fips": "47091",
+          "name": "Johnson",
+          "votes": {
+            "blackburn-m": 3264,
+            "green-j": 943,
+            "pinkston-l": 22,
+            "hatley-d": 932,
+            "abidi-m": 6,
+            "brewer-d": 15,
+            "brown-r": 14,
+            "jackson-w": 6,
+            "van_morgan-c": 5,
+            "murphy-e": 5,
+            "scoggin-v": 0,
+            "seeman-d": 1,
+            "smithson-k": 1,
+            "vick-r": 4,
+            "taylor-l": 3
+          },
+          "total_votes": 5221,
+          "unit_count": 1
+        },
+        {
+          "fips": "47093",
+          "name": "Knox",
+          "votes": {
+            "blackburn-m": 66600,
+            "green-j": 76116,
+            "pinkston-l": 2051,
+            "hatley-d": 11298,
+            "abidi-m": 125,
+            "brewer-d": 201,
+            "brown-r": 117,
+            "jackson-w": 51,
+            "van_morgan-c": 55,
+            "murphy-e": 112,
+            "scoggin-v": 39,
+            "seeman-d": 69,
+            "smithson-k": 15,
+            "vick-r": 136,
+            "taylor-l": 22
+          },
+          "total_votes": 157007,
+          "unit_count": 1
+        },
+        {
+          "fips": "47095",
+          "name": "Lake",
+          "votes": {
+            "blackburn-m": 681,
+            "green-j": 356,
+            "pinkston-l": 13,
+            "hatley-d": 75,
+            "abidi-m": 2,
+            "brewer-d": 2,
+            "brown-r": 2,
+            "jackson-w": 3,
+            "van_morgan-c": 2,
+            "murphy-e": 4,
+            "scoggin-v": 0,
+            "seeman-d": 1,
+            "smithson-k": 1,
+            "vick-r": 6,
+            "taylor-l": 0
+          },
+          "total_votes": 1148,
+          "unit_count": 1
+        },
+        {
+          "fips": "47097",
+          "name": "Lauderdale",
+          "votes": {
+            "blackburn-m": 2695,
+            "green-j": 2060,
+            "pinkston-l": 145,
+            "hatley-d": 639,
+            "abidi-m": 2,
+            "brewer-d": 14,
+            "brown-r": 11,
+            "jackson-w": 14,
+            "van_morgan-c": 9,
+            "murphy-e": 9,
+            "scoggin-v": 0,
+            "seeman-d": 3,
+            "smithson-k": 3,
+            "vick-r": 0,
+            "taylor-l": 2
+          },
+          "total_votes": 5606,
+          "unit_count": 1
+        },
+        {
+          "fips": "47099",
+          "name": "Lawrence",
+          "votes": {
+            "blackburn-m": 7350,
+            "green-j": 2682,
+            "pinkston-l": 707,
+            "hatley-d": 1346,
+            "abidi-m": 8,
+            "brewer-d": 51,
+            "brown-r": 62,
+            "jackson-w": 20,
+            "van_morgan-c": 18,
+            "murphy-e": 21,
+            "scoggin-v": 6,
+            "seeman-d": 4,
+            "smithson-k": 0,
+            "vick-r": 8,
+            "taylor-l": 13
+          },
+          "total_votes": 12296,
+          "unit_count": 1
+        },
+        {
+          "fips": "47101",
+          "name": "Lewis",
+          "votes": {
+            "blackburn-m": 2251,
+            "green-j": 891,
+            "pinkston-l": 155,
+            "hatley-d": 427,
+            "abidi-m": 5,
+            "brewer-d": 19,
+            "brown-r": 14,
+            "jackson-w": 10,
+            "van_morgan-c": 1,
+            "murphy-e": 1,
+            "scoggin-v": 3,
+            "seeman-d": 1,
+            "smithson-k": 0,
+            "vick-r": 2,
+            "taylor-l": 3
+          },
+          "total_votes": 3783,
+          "unit_count": 1
+        },
+        {
+          "fips": "47103",
+          "name": "Lincoln",
+          "votes": {
+            "blackburn-m": 6924,
+            "green-j": 2362,
+            "pinkston-l": 83,
+            "hatley-d": 559,
+            "abidi-m": 20,
+            "brewer-d": 34,
+            "brown-r": 17,
+            "jackson-w": 9,
+            "van_morgan-c": 10,
+            "murphy-e": 11,
+            "scoggin-v": 9,
+            "seeman-d": 4,
+            "smithson-k": 5,
+            "vick-r": 14,
+            "taylor-l": 9
+          },
+          "total_votes": 10070,
+          "unit_count": 1
+        },
+        {
+          "fips": "47105",
+          "name": "Loudon",
+          "votes": {
+            "blackburn-m": 0,
+            "green-j": 0,
+            "pinkston-l": 0,
+            "hatley-d": 0,
+            "abidi-m": 0,
+            "brewer-d": 0,
+            "brown-r": 0,
+            "jackson-w": 0,
+            "van_morgan-c": 0,
+            "murphy-e": 0,
+            "scoggin-v": 0,
+            "seeman-d": 0,
+            "smithson-k": 0,
+            "vick-r": 0,
+            "taylor-l": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "47107",
+          "name": "McMinn",
+          "votes": {
+            "blackburn-m": 8480,
+            "green-j": 3667,
+            "pinkston-l": 102,
+            "hatley-d": 1768,
+            "abidi-m": 19,
+            "brewer-d": 59,
+            "brown-r": 24,
+            "jackson-w": 41,
+            "van_morgan-c": 7,
+            "murphy-e": 10,
+            "scoggin-v": 5,
+            "seeman-d": 9,
+            "smithson-k": 1,
+            "vick-r": 8,
+            "taylor-l": 4
+          },
+          "total_votes": 14204,
+          "unit_count": 1
+        },
+        {
+          "fips": "47109",
+          "name": "McNairy",
+          "votes": {
+            "blackburn-m": 4406,
+            "green-j": 1265,
+            "pinkston-l": 883,
+            "hatley-d": 746,
+            "abidi-m": 4,
+            "brewer-d": 5,
+            "brown-r": 18,
+            "jackson-w": 6,
+            "van_morgan-c": 1,
+            "murphy-e": 6,
+            "scoggin-v": 4,
+            "seeman-d": 1,
+            "smithson-k": 0,
+            "vick-r": 9,
+            "taylor-l": 3
+          },
+          "total_votes": 7357,
+          "unit_count": 1
+        },
+        {
+          "fips": "47111",
+          "name": "Macon",
+          "votes": {
+            "blackburn-m": 3374,
+            "green-j": 1126,
+            "pinkston-l": 51,
+            "hatley-d": 969,
+            "abidi-m": 4,
+            "brewer-d": 14,
+            "brown-r": 13,
+            "jackson-w": 9,
+            "van_morgan-c": 7,
+            "murphy-e": 7,
+            "scoggin-v": 1,
+            "seeman-d": 1,
+            "smithson-k": 0,
+            "vick-r": 5,
+            "taylor-l": 7
+          },
+          "total_votes": 5588,
+          "unit_count": 1
+        },
+        {
+          "fips": "47113",
+          "name": "Madison",
+          "votes": {
+            "blackburn-m": 11652,
+            "green-j": 12560,
+            "pinkston-l": 851,
+            "hatley-d": 2031,
+            "abidi-m": 22,
+            "brewer-d": 30,
+            "brown-r": 37,
+            "jackson-w": 43,
+            "van_morgan-c": 9,
+            "murphy-e": 33,
+            "scoggin-v": 10,
+            "seeman-d": 10,
+            "smithson-k": 5,
+            "vick-r": 20,
+            "taylor-l": 24
+          },
+          "total_votes": 27337,
+          "unit_count": 1
+        },
+        {
+          "fips": "47115",
+          "name": "Marion",
+          "votes": {
+            "blackburn-m": 4945,
+            "green-j": 2713,
+            "pinkston-l": 65,
+            "hatley-d": 807,
+            "abidi-m": 6,
+            "brewer-d": 25,
+            "brown-r": 22,
+            "jackson-w": 13,
+            "van_morgan-c": 1,
+            "murphy-e": 4,
+            "scoggin-v": 0,
+            "seeman-d": 2,
+            "smithson-k": 1,
+            "vick-r": 0,
+            "taylor-l": 3
+          },
+          "total_votes": 8607,
+          "unit_count": 1
+        },
+        {
+          "fips": "47117",
+          "name": "Marshall",
+          "votes": {
+            "blackburn-m": 5810,
+            "green-j": 3046,
+            "pinkston-l": 167,
+            "hatley-d": 1291,
+            "abidi-m": 3,
+            "brewer-d": 34,
+            "brown-r": 20,
+            "jackson-w": 15,
+            "van_morgan-c": 10,
+            "murphy-e": 16,
+            "scoggin-v": 9,
+            "seeman-d": 3,
+            "smithson-k": 5,
+            "vick-r": 8,
+            "taylor-l": 17
+          },
+          "total_votes": 10454,
+          "unit_count": 1
+        },
+        {
+          "fips": "47119",
+          "name": "Maury",
+          "votes": {
+            "blackburn-m": 19783,
+            "green-j": 12162,
+            "pinkston-l": 1598,
+            "hatley-d": 2782,
+            "abidi-m": 30,
+            "brewer-d": 58,
+            "brown-r": 31,
+            "jackson-w": 20,
+            "van_morgan-c": 14,
+            "murphy-e": 37,
+            "scoggin-v": 14,
+            "seeman-d": 14,
+            "smithson-k": 4,
+            "vick-r": 25,
+            "taylor-l": 9
+          },
+          "total_votes": 36581,
+          "unit_count": 1
+        },
+        {
+          "fips": "47121",
+          "name": "Meigs",
+          "votes": {
+            "blackburn-m": 2321,
+            "green-j": 870,
+            "pinkston-l": 26,
+            "hatley-d": 512,
+            "abidi-m": 2,
+            "brewer-d": 10,
+            "brown-r": 6,
+            "jackson-w": 9,
+            "van_morgan-c": 6,
+            "murphy-e": 7,
+            "scoggin-v": 1,
+            "seeman-d": 1,
+            "smithson-k": 0,
+            "vick-r": 5,
+            "taylor-l": 1
+          },
+          "total_votes": 3777,
+          "unit_count": 1
+        },
+        {
+          "fips": "47123",
+          "name": "Monroe",
+          "votes": {
+            "blackburn-m": 8374,
+            "green-j": 3142,
+            "pinkston-l": 102,
+            "hatley-d": 1854,
+            "abidi-m": 10,
+            "brewer-d": 60,
+            "brown-r": 46,
+            "jackson-w": 19,
+            "van_morgan-c": 4,
+            "murphy-e": 5,
+            "scoggin-v": 3,
+            "seeman-d": 3,
+            "smithson-k": 1,
+            "vick-r": 2,
+            "taylor-l": 9
+          },
+          "total_votes": 13634,
+          "unit_count": 1
+        },
+        {
+          "fips": "47125",
+          "name": "Montgomery",
+          "votes": {
+            "blackburn-m": 24018,
+            "green-j": 27759,
+            "pinkston-l": 389,
+            "hatley-d": 4111,
+            "abidi-m": 104,
+            "brewer-d": 147,
+            "brown-r": 113,
+            "jackson-w": 203,
+            "van_morgan-c": 69,
+            "murphy-e": 74,
+            "scoggin-v": 38,
+            "seeman-d": 26,
+            "smithson-k": 12,
+            "vick-r": 53,
+            "taylor-l": 28
+          },
+          "total_votes": 57144,
+          "unit_count": 1
+        },
+        {
+          "fips": "47127",
+          "name": "Moore",
+          "votes": {
+            "blackburn-m": 1490,
+            "green-j": 508,
+            "pinkston-l": 27,
+            "hatley-d": 271,
+            "abidi-m": 1,
+            "brewer-d": 4,
+            "brown-r": 2,
+            "jackson-w": 1,
+            "van_morgan-c": 2,
+            "murphy-e": 3,
+            "scoggin-v": 1,
+            "seeman-d": 2,
+            "smithson-k": 3,
+            "vick-r": 1,
+            "taylor-l": 4
+          },
+          "total_votes": 2320,
+          "unit_count": 1
+        },
+        {
+          "fips": "47129",
+          "name": "Morgan",
+          "votes": {
+            "blackburn-m": 3139,
+            "green-j": 1020,
+            "pinkston-l": 57,
+            "hatley-d": 715,
+            "abidi-m": 2,
+            "brewer-d": 14,
+            "brown-r": 27,
+            "jackson-w": 7,
+            "van_morgan-c": 4,
+            "murphy-e": 6,
+            "scoggin-v": 1,
+            "seeman-d": 2,
+            "smithson-k": 2,
+            "vick-r": 3,
+            "taylor-l": 0
+          },
+          "total_votes": 4999,
+          "unit_count": 1
+        },
+        {
+          "fips": "47131",
+          "name": "Obion",
+          "votes": {
+            "blackburn-m": 5305,
+            "green-j": 1934,
+            "pinkston-l": 188,
+            "hatley-d": 550,
+            "abidi-m": 13,
+            "brewer-d": 31,
+            "brown-r": 9,
+            "jackson-w": 7,
+            "van_morgan-c": 8,
+            "murphy-e": 13,
+            "scoggin-v": 2,
+            "seeman-d": 1,
+            "smithson-k": 2,
+            "vick-r": 7,
+            "taylor-l": 2
+          },
+          "total_votes": 8072,
+          "unit_count": 1
+        },
+        {
+          "fips": "47133",
+          "name": "Overton",
+          "votes": {
+            "blackburn-m": 2724,
+            "green-j": 1319,
+            "pinkston-l": 29,
+            "hatley-d": 741,
+            "abidi-m": 6,
+            "brewer-d": 10,
+            "brown-r": 13,
+            "jackson-w": 10,
+            "van_morgan-c": 4,
+            "murphy-e": 8,
+            "scoggin-v": 3,
+            "seeman-d": 1,
+            "smithson-k": 0,
+            "vick-r": 3,
+            "taylor-l": 1
+          },
+          "total_votes": 4872,
+          "unit_count": 1
+        },
+        {
+          "fips": "47135",
+          "name": "Perry",
+          "votes": {
+            "blackburn-m": 1380,
+            "green-j": 497,
+            "pinkston-l": 38,
+            "hatley-d": 282,
+            "abidi-m": 0,
+            "brewer-d": 8,
+            "brown-r": 4,
+            "jackson-w": 5,
+            "van_morgan-c": 6,
+            "murphy-e": 4,
+            "scoggin-v": 3,
+            "seeman-d": 3,
+            "smithson-k": 1,
+            "vick-r": 0,
+            "taylor-l": 4
+          },
+          "total_votes": 2235,
+          "unit_count": 1
+        },
+        {
+          "fips": "47137",
+          "name": "Pickett",
+          "votes": {
+            "blackburn-m": 1102,
+            "green-j": 431,
+            "pinkston-l": 5,
+            "hatley-d": 388,
+            "abidi-m": 4,
+            "brewer-d": 7,
+            "brown-r": 7,
+            "jackson-w": 2,
+            "van_morgan-c": 3,
+            "murphy-e": 2,
+            "scoggin-v": 0,
+            "seeman-d": 1,
+            "smithson-k": 0,
+            "vick-r": 4,
+            "taylor-l": 0
+          },
+          "total_votes": 1956,
+          "unit_count": 1
+        },
+        {
+          "fips": "47139",
+          "name": "Polk",
+          "votes": {
+            "blackburn-m": 3256,
+            "green-j": 1213,
+            "pinkston-l": 39,
+            "hatley-d": 618,
+            "abidi-m": 1,
+            "brewer-d": 9,
+            "brown-r": 4,
+            "jackson-w": 4,
+            "van_morgan-c": 2,
+            "murphy-e": 9,
+            "scoggin-v": 2,
+            "seeman-d": 1,
+            "smithson-k": 1,
+            "vick-r": 5,
+            "taylor-l": 4
+          },
+          "total_votes": 5168,
+          "unit_count": 1
+        },
+        {
+          "fips": "47141",
+          "name": "Putnam",
+          "votes": {
+            "blackburn-m": 12276,
+            "green-j": 8333,
+            "pinkston-l": 406,
+            "hatley-d": 2431,
+            "abidi-m": 22,
+            "brewer-d": 44,
+            "brown-r": 32,
+            "jackson-w": 18,
+            "van_morgan-c": 13,
+            "murphy-e": 23,
+            "scoggin-v": 10,
+            "seeman-d": 5,
+            "smithson-k": 0,
+            "vick-r": 12,
+            "taylor-l": 3
+          },
+          "total_votes": 23628,
+          "unit_count": 1
+        },
+        {
+          "fips": "47143",
+          "name": "Rhea",
+          "votes": {
+            "blackburn-m": 0,
+            "green-j": 0,
+            "pinkston-l": 0,
+            "hatley-d": 0,
+            "abidi-m": 0,
+            "brewer-d": 0,
+            "brown-r": 0,
+            "jackson-w": 0,
+            "van_morgan-c": 0,
+            "murphy-e": 0,
+            "scoggin-v": 0,
+            "seeman-d": 0,
+            "smithson-k": 0,
+            "vick-r": 0,
+            "taylor-l": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "47145",
+          "name": "Roane",
+          "votes": {
+            "blackburn-m": 9954,
+            "green-j": 5364,
+            "pinkston-l": 176,
+            "hatley-d": 1934,
+            "abidi-m": 16,
+            "brewer-d": 43,
+            "brown-r": 51,
+            "jackson-w": 24,
+            "van_morgan-c": 12,
+            "murphy-e": 30,
+            "scoggin-v": 4,
+            "seeman-d": 10,
+            "smithson-k": 6,
+            "vick-r": 21,
+            "taylor-l": 6
+          },
+          "total_votes": 17651,
+          "unit_count": 1
+        },
+        {
+          "fips": "47147",
+          "name": "Robertson",
+          "votes": {
+            "blackburn-m": 12582,
+            "green-j": 7674,
+            "pinkston-l": 212,
+            "hatley-d": 2665,
+            "abidi-m": 21,
+            "brewer-d": 64,
+            "brown-r": 39,
+            "jackson-w": 34,
+            "van_morgan-c": 22,
+            "murphy-e": 23,
+            "scoggin-v": 9,
+            "seeman-d": 4,
+            "smithson-k": 1,
+            "vick-r": 16,
+            "taylor-l": 5
+          },
+          "total_votes": 23371,
+          "unit_count": 1
+        },
+        {
+          "fips": "47149",
+          "name": "Rutherford",
+          "votes": {
+            "blackburn-m": 41699,
+            "green-j": 50530,
+            "pinkston-l": 1214,
+            "hatley-d": 7706,
+            "abidi-m": 109,
+            "brewer-d": 189,
+            "brown-r": 98,
+            "jackson-w": 125,
+            "van_morgan-c": 69,
+            "murphy-e": 85,
+            "scoggin-v": 44,
+            "seeman-d": 55,
+            "smithson-k": 12,
+            "vick-r": 66,
+            "taylor-l": 40
+          },
+          "total_votes": 102041,
+          "unit_count": 1
+        },
+        {
+          "fips": "47151",
+          "name": "Scott",
+          "votes": {
+            "blackburn-m": 2902,
+            "green-j": 879,
+            "pinkston-l": 9,
+            "hatley-d": 665,
+            "abidi-m": 3,
+            "brewer-d": 18,
+            "brown-r": 6,
+            "jackson-w": 6,
+            "van_morgan-c": 15,
+            "murphy-e": 11,
+            "scoggin-v": 1,
+            "seeman-d": 0,
+            "smithson-k": 0,
+            "vick-r": 9,
+            "taylor-l": 2
+          },
+          "total_votes": 4526,
+          "unit_count": 1
+        },
+        {
+          "fips": "47153",
+          "name": "Sequatchie",
+          "votes": {
+            "blackburn-m": 3165,
+            "green-j": 1080,
+            "pinkston-l": 47,
+            "hatley-d": 591,
+            "abidi-m": 4,
+            "brewer-d": 20,
+            "brown-r": 5,
+            "jackson-w": 9,
+            "van_morgan-c": 3,
+            "murphy-e": 4,
+            "scoggin-v": 5,
+            "seeman-d": 1,
+            "smithson-k": 4,
+            "vick-r": 4,
+            "taylor-l": 3
+          },
+          "total_votes": 4945,
+          "unit_count": 1
+        },
+        {
+          "fips": "47155",
+          "name": "Sevier",
+          "votes": {
+            "blackburn-m": 16018,
+            "green-j": 7163,
+            "pinkston-l": 215,
+            "hatley-d": 2666,
+            "abidi-m": 23,
+            "brewer-d": 55,
+            "brown-r": 36,
+            "jackson-w": 10,
+            "van_morgan-c": 18,
+            "murphy-e": 21,
+            "scoggin-v": 8,
+            "seeman-d": 12,
+            "smithson-k": 13,
+            "vick-r": 44,
+            "taylor-l": 17
+          },
+          "total_votes": 26319,
+          "unit_count": 1
+        },
+        {
+          "fips": "47157",
+          "name": "Shelby",
+          "votes": {
+            "blackburn-m": 64143,
+            "green-j": 157271,
+            "pinkston-l": 1695,
+            "hatley-d": 16571,
+            "abidi-m": 451,
+            "brewer-d": 369,
+            "brown-r": 455,
+            "jackson-w": 502,
+            "van_morgan-c": 183,
+            "murphy-e": 486,
+            "scoggin-v": 134,
+            "seeman-d": 140,
+            "smithson-k": 160,
+            "vick-r": 296,
+            "taylor-l": 362
+          },
+          "total_votes": 243218,
+          "unit_count": 1
+        },
+        {
+          "fips": "47159",
+          "name": "Smith",
+          "votes": {
+            "blackburn-m": 3321,
+            "green-j": 1321,
+            "pinkston-l": 32,
+            "hatley-d": 1034,
+            "abidi-m": 6,
+            "brewer-d": 14,
+            "brown-r": 8,
+            "jackson-w": 2,
+            "van_morgan-c": 9,
+            "murphy-e": 12,
+            "scoggin-v": 4,
+            "seeman-d": 0,
+            "smithson-k": 1,
+            "vick-r": 1,
+            "taylor-l": 6
+          },
+          "total_votes": 5771,
+          "unit_count": 1
+        },
+        {
+          "fips": "47161",
+          "name": "Stewart",
+          "votes": {
+            "blackburn-m": 2908,
+            "green-j": 1029,
+            "pinkston-l": 36,
+            "hatley-d": 434,
+            "abidi-m": 4,
+            "brewer-d": 13,
+            "brown-r": 5,
+            "jackson-w": 3,
+            "van_morgan-c": 7,
+            "murphy-e": 6,
+            "scoggin-v": 0,
+            "seeman-d": 1,
+            "smithson-k": 1,
+            "vick-r": 8,
+            "taylor-l": 4
+          },
+          "total_votes": 4459,
+          "unit_count": 1
+        },
+        {
+          "fips": "47163",
+          "name": "Sullivan",
+          "votes": {
+            "blackburn-m": 25660,
+            "green-j": 12890,
+            "pinkston-l": 265,
+            "hatley-d": 7197,
+            "abidi-m": 34,
+            "brewer-d": 65,
+            "brown-r": 27,
+            "jackson-w": 27,
+            "van_morgan-c": 8,
+            "murphy-e": 44,
+            "scoggin-v": 11,
+            "seeman-d": 11,
+            "smithson-k": 6,
+            "vick-r": 24,
+            "taylor-l": 8
+          },
+          "total_votes": 46277,
+          "unit_count": 1
+        },
+        {
+          "fips": "47165",
+          "name": "Sumner",
+          "votes": {
+            "blackburn-m": 33424,
+            "green-j": 24433,
+            "pinkston-l": 705,
+            "hatley-d": 6413,
+            "abidi-m": 51,
+            "brewer-d": 152,
+            "brown-r": 105,
+            "jackson-w": 55,
+            "van_morgan-c": 53,
+            "murphy-e": 57,
+            "scoggin-v": 19,
+            "seeman-d": 23,
+            "smithson-k": 12,
+            "vick-r": 20,
+            "taylor-l": 16
+          },
+          "total_votes": 65538,
+          "unit_count": 1
+        },
+        {
+          "fips": "47167",
+          "name": "Tipton",
+          "votes": {
+            "blackburn-m": 9813,
+            "green-j": 4986,
+            "pinkston-l": 105,
+            "hatley-d": 1569,
+            "abidi-m": 17,
+            "brewer-d": 49,
+            "brown-r": 28,
+            "jackson-w": 27,
+            "van_morgan-c": 23,
+            "murphy-e": 37,
+            "scoggin-v": 9,
+            "seeman-d": 7,
+            "smithson-k": 2,
+            "vick-r": 6,
+            "taylor-l": 12
+          },
+          "total_votes": 16690,
+          "unit_count": 1
+        },
+        {
+          "fips": "47169",
+          "name": "Trousdale",
+          "votes": {
+            "blackburn-m": 1496,
+            "green-j": 787,
+            "pinkston-l": 14,
+            "hatley-d": 430,
+            "abidi-m": 2,
+            "brewer-d": 9,
+            "brown-r": 2,
+            "jackson-w": 0,
+            "van_morgan-c": 5,
+            "murphy-e": 0,
+            "scoggin-v": 1,
+            "seeman-d": 0,
+            "smithson-k": 1,
+            "vick-r": 2,
+            "taylor-l": 2
+          },
+          "total_votes": 2751,
+          "unit_count": 1
+        },
+        {
+          "fips": "47171",
+          "name": "Unicoi",
+          "votes": {
+            "blackburn-m": 3123,
+            "green-j": 1279,
+            "pinkston-l": 22,
+            "hatley-d": 1123,
+            "abidi-m": 4,
+            "brewer-d": 6,
+            "brown-r": 4,
+            "jackson-w": 4,
+            "van_morgan-c": 8,
+            "murphy-e": 4,
+            "scoggin-v": 0,
+            "seeman-d": 1,
+            "smithson-k": 1,
+            "vick-r": 2,
+            "taylor-l": 5
+          },
+          "total_votes": 5586,
+          "unit_count": 1
+        },
+        {
+          "fips": "47173",
+          "name": "Union",
+          "votes": {
+            "blackburn-m": 3145,
+            "green-j": 1044,
+            "pinkston-l": 30,
+            "hatley-d": 677,
+            "abidi-m": 1,
+            "brewer-d": 14,
+            "brown-r": 6,
+            "jackson-w": 3,
+            "van_morgan-c": 5,
+            "murphy-e": 4,
+            "scoggin-v": 0,
+            "seeman-d": 1,
+            "smithson-k": 0,
+            "vick-r": 5,
+            "taylor-l": 0
+          },
+          "total_votes": 4935,
+          "unit_count": 1
+        },
+        {
+          "fips": "47175",
+          "name": "Van Buren",
+          "votes": {
+            "blackburn-m": 1198,
+            "green-j": 523,
+            "pinkston-l": 23,
+            "hatley-d": 405,
+            "abidi-m": 6,
+            "brewer-d": 6,
+            "brown-r": 4,
+            "jackson-w": 2,
+            "van_morgan-c": 0,
+            "murphy-e": 1,
+            "scoggin-v": 5,
+            "seeman-d": 2,
+            "smithson-k": 3,
+            "vick-r": 3,
+            "taylor-l": 2
+          },
+          "total_votes": 2183,
+          "unit_count": 1
+        },
+        {
+          "fips": "47177",
+          "name": "Warren",
+          "votes": {
+            "blackburn-m": 5039,
+            "green-j": 3094,
+            "pinkston-l": 110,
+            "hatley-d": 2043,
+            "abidi-m": 14,
+            "brewer-d": 30,
+            "brown-r": 19,
+            "jackson-w": 18,
+            "van_morgan-c": 10,
+            "murphy-e": 6,
+            "scoggin-v": 1,
+            "seeman-d": 4,
+            "smithson-k": 5,
+            "vick-r": 8,
+            "taylor-l": 2
+          },
+          "total_votes": 10403,
+          "unit_count": 1
+        },
+        {
+          "fips": "47179",
+          "name": "Washington",
+          "votes": {
+            "blackburn-m": 0,
+            "green-j": 0,
+            "pinkston-l": 0,
+            "hatley-d": 0,
+            "abidi-m": 0,
+            "brewer-d": 0,
+            "brown-r": 0,
+            "jackson-w": 0,
+            "van_morgan-c": 0,
+            "murphy-e": 0,
+            "scoggin-v": 0,
+            "seeman-d": 0,
+            "smithson-k": 0,
+            "vick-r": 0,
+            "taylor-l": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "47181",
+          "name": "Wayne",
+          "votes": {
+            "blackburn-m": 2812,
+            "green-j": 668,
+            "pinkston-l": 59,
+            "hatley-d": 383,
+            "abidi-m": 5,
+            "brewer-d": 14,
+            "brown-r": 7,
+            "jackson-w": 3,
+            "van_morgan-c": 5,
+            "murphy-e": 6,
+            "scoggin-v": 2,
+            "seeman-d": 0,
+            "smithson-k": 1,
+            "vick-r": 2,
+            "taylor-l": 4
+          },
+          "total_votes": 3971,
+          "unit_count": 1
+        },
+        {
+          "fips": "47183",
+          "name": "Weakley",
+          "votes": {
+            "blackburn-m": 5310,
+            "green-j": 2389,
+            "pinkston-l": 220,
+            "hatley-d": 736,
+            "abidi-m": 8,
+            "brewer-d": 30,
+            "brown-r": 15,
+            "jackson-w": 10,
+            "van_morgan-c": 11,
+            "murphy-e": 13,
+            "scoggin-v": 4,
+            "seeman-d": 3,
+            "smithson-k": 4,
+            "vick-r": 12,
+            "taylor-l": 7
+          },
+          "total_votes": 8772,
+          "unit_count": 1
+        },
+        {
+          "fips": "47185",
+          "name": "White",
+          "votes": {
+            "blackburn-m": 4756,
+            "green-j": 1837,
+            "pinkston-l": 85,
+            "hatley-d": 1299,
+            "abidi-m": 5,
+            "brewer-d": 16,
+            "brown-r": 29,
+            "jackson-w": 3,
+            "van_morgan-c": 2,
+            "murphy-e": 9,
+            "scoggin-v": 4,
+            "seeman-d": 4,
+            "smithson-k": 2,
+            "vick-r": 11,
+            "taylor-l": 3
+          },
+          "total_votes": 8065,
+          "unit_count": 1
+        },
+        {
+          "fips": "47187",
+          "name": "Williamson",
+          "votes": {
+            "blackburn-m": 54843,
+            "green-j": 40224,
+            "pinkston-l": 1387,
+            "hatley-d": 7082,
+            "abidi-m": 59,
+            "brewer-d": 152,
+            "brown-r": 62,
+            "jackson-w": 32,
+            "van_morgan-c": 36,
+            "murphy-e": 67,
+            "scoggin-v": 20,
+            "seeman-d": 32,
+            "smithson-k": 17,
+            "vick-r": 78,
+            "taylor-l": 23
+          },
+          "total_votes": 104114,
+          "unit_count": 1
+        },
+        {
+          "fips": "47189",
+          "name": "Wilson",
+          "votes": {
+            "blackburn-m": 28278,
+            "green-j": 21385,
+            "pinkston-l": 559,
+            "hatley-d": 5530,
+            "abidi-m": 42,
+            "brewer-d": 80,
+            "brown-r": 54,
+            "jackson-w": 36,
+            "van_morgan-c": 29,
+            "murphy-e": 48,
+            "scoggin-v": 22,
+            "seeman-d": 12,
+            "smithson-k": 11,
+            "vick-r": 51,
+            "taylor-l": 22
+          },
+          "total_votes": 56159,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [],
+        "called_by": []
+      },
+      "reporting_count": 92,
+      "missing_fips": [],
+      "state_total_votes": 2008471,
+      "county_total_votes": 2008471,
+      "county_sum_reconciles": true
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-tennessee.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 95,
+  "reporting_count": 92,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:36:45.771Z",
+    "S_race_updated_at": "2026-11-04T04:36:45.141Z",
+    "G_race_updated_at": "2026-11-04T04:36:41.246Z"
+  },
+  "limitations": [
+    "Only candidates[].votes.total was used; NYT models, estimates, expected votes, and EEVP were ignored.",
+    "Exact county FIPS are matched against the local GeoJSON. Township aggregation is used only when no county-level reporting units exist, grouping by source fips_state+fips_county."
+  ],
+  "call_authority": {
+    "called_by_ap_offices": [
+      "S"
+    ],
+    "authority": "AP is identified only for offices whose outcome.called_by explicitly contains ap."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-tennessee.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 95,
+    "reporting_count": 92,
+    "row_count": 190,
+    "source_time": "2026-11-04T04:46:21.46+00:00",
+    "fetched_at": "2026-11-04T04:47:03.136Z",
+    "message": "95 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

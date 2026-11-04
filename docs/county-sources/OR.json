@@ -1,0 +1,1040 @@
+{
+  "state": "OR",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "Senate",
+      "manifest_race_id": "2026-senate-or",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "merkley-j",
+          "name": "Jeff Merkley",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "smith-d",
+          "name": "David Brock Smith",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "dye-g",
+          "name": "Gary Lyndon Dye",
+          "party": "Libertarian"
+        },
+        {
+          "nyt_id": "henry-c",
+          "name": "Chris Henry",
+          "party": "Progressive"
+        },
+        {
+          "nyt_id": "total_writeins",
+          "name": "Total Write-ins",
+          "party": ""
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "41001",
+          "name": "Baker",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41003",
+          "name": "Benton",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41005",
+          "name": "Clackamas",
+          "votes": {
+            "merkley-j": 82526,
+            "smith-d": 60852,
+            "dye-g": 1203,
+            "henry-c": 2106,
+            "total_writeins": 86
+          },
+          "total_votes": 146773,
+          "unit_count": 1
+        },
+        {
+          "fips": "41007",
+          "name": "Clatsop",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41009",
+          "name": "Columbia",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41011",
+          "name": "Coos",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41013",
+          "name": "Crook",
+          "votes": {
+            "merkley-j": 3309,
+            "smith-d": 9674,
+            "dye-g": 147,
+            "henry-c": 151,
+            "total_writeins": 10
+          },
+          "total_votes": 13291,
+          "unit_count": 1
+        },
+        {
+          "fips": "41015",
+          "name": "Curry",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41017",
+          "name": "Deschutes",
+          "votes": {
+            "merkley-j": 46785,
+            "smith-d": 32302,
+            "dye-g": 612,
+            "henry-c": 1003,
+            "total_writeins": 33
+          },
+          "total_votes": 80735,
+          "unit_count": 1
+        },
+        {
+          "fips": "41019",
+          "name": "Douglas",
+          "votes": {
+            "merkley-j": 12725,
+            "smith-d": 25497,
+            "dye-g": 370,
+            "henry-c": 657,
+            "total_writeins": 33
+          },
+          "total_votes": 39282,
+          "unit_count": 1
+        },
+        {
+          "fips": "41021",
+          "name": "Gilliam",
+          "votes": {
+            "merkley-j": 291,
+            "smith-d": 596,
+            "dye-g": 13,
+            "henry-c": 14,
+            "total_writeins": 0
+          },
+          "total_votes": 914,
+          "unit_count": 1
+        },
+        {
+          "fips": "41023",
+          "name": "Grant",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41025",
+          "name": "Harney",
+          "votes": {
+            "merkley-j": 777,
+            "smith-d": 2661,
+            "dye-g": 48,
+            "henry-c": 42,
+            "total_writeins": 4
+          },
+          "total_votes": 3532,
+          "unit_count": 1
+        },
+        {
+          "fips": "41027",
+          "name": "Hood River",
+          "votes": {
+            "merkley-j": 7572,
+            "smith-d": 3011,
+            "dye-g": 110,
+            "henry-c": 236,
+            "total_writeins": 8
+          },
+          "total_votes": 10937,
+          "unit_count": 1
+        },
+        {
+          "fips": "41029",
+          "name": "Jackson",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41031",
+          "name": "Jefferson",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41033",
+          "name": "Josephine",
+          "votes": {
+            "merkley-j": 12078,
+            "smith-d": 18743,
+            "dye-g": 303,
+            "henry-c": 418,
+            "total_writeins": 52
+          },
+          "total_votes": 31594,
+          "unit_count": 1
+        },
+        {
+          "fips": "41035",
+          "name": "Klamath",
+          "votes": {
+            "merkley-j": 7245,
+            "smith-d": 16427,
+            "dye-g": 258,
+            "henry-c": 343,
+            "total_writeins": 35
+          },
+          "total_votes": 24308,
+          "unit_count": 1
+        },
+        {
+          "fips": "41037",
+          "name": "Lake",
+          "votes": {
+            "merkley-j": 474,
+            "smith-d": 2078,
+            "dye-g": 21,
+            "henry-c": 29,
+            "total_writeins": 6
+          },
+          "total_votes": 2608,
+          "unit_count": 1
+        },
+        {
+          "fips": "41039",
+          "name": "Lane",
+          "votes": {
+            "merkley-j": 80324,
+            "smith-d": 44776,
+            "dye-g": 1020,
+            "henry-c": 2354,
+            "total_writeins": 62
+          },
+          "total_votes": 128536,
+          "unit_count": 1
+        },
+        {
+          "fips": "41041",
+          "name": "Lincoln",
+          "votes": {
+            "merkley-j": 10515,
+            "smith-d": 5295,
+            "dye-g": 146,
+            "henry-c": 306,
+            "total_writeins": 3
+          },
+          "total_votes": 16265,
+          "unit_count": 1
+        },
+        {
+          "fips": "41043",
+          "name": "Linn",
+          "votes": {
+            "merkley-j": 18733,
+            "smith-d": 28795,
+            "dye-g": 606,
+            "henry-c": 944,
+            "total_writeins": 32
+          },
+          "total_votes": 49110,
+          "unit_count": 1
+        },
+        {
+          "fips": "41045",
+          "name": "Malheur",
+          "votes": {
+            "merkley-j": 1451,
+            "smith-d": 3194,
+            "dye-g": 64,
+            "henry-c": 72,
+            "total_writeins": 2
+          },
+          "total_votes": 4783,
+          "unit_count": 1
+        },
+        {
+          "fips": "41047",
+          "name": "Marion",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41049",
+          "name": "Morrow",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41051",
+          "name": "Multnomah",
+          "votes": {
+            "merkley-j": 174135,
+            "smith-d": 33471,
+            "dye-g": 1240,
+            "henry-c": 4725,
+            "total_writeins": 177
+          },
+          "total_votes": 213748,
+          "unit_count": 1
+        },
+        {
+          "fips": "41053",
+          "name": "Polk",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41055",
+          "name": "Sherman",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41057",
+          "name": "Tillamook",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41059",
+          "name": "Umatilla",
+          "votes": {
+            "merkley-j": 5963,
+            "smith-d": 12225,
+            "dye-g": 229,
+            "henry-c": 274,
+            "total_writeins": 9
+          },
+          "total_votes": 18700,
+          "unit_count": 1
+        },
+        {
+          "fips": "41061",
+          "name": "Union",
+          "votes": {
+            "merkley-j": 3190,
+            "smith-d": 6863,
+            "dye-g": 91,
+            "henry-c": 183,
+            "total_writeins": 7
+          },
+          "total_votes": 10334,
+          "unit_count": 1
+        },
+        {
+          "fips": "41063",
+          "name": "Wallowa",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41065",
+          "name": "Wasco",
+          "votes": {
+            "merkley-j": 3833,
+            "smith-d": 3603,
+            "dye-g": 97,
+            "henry-c": 137,
+            "total_writeins": 3
+          },
+          "total_votes": 7673,
+          "unit_count": 1
+        },
+        {
+          "fips": "41067",
+          "name": "Washington",
+          "votes": {
+            "merkley-j": 87746,
+            "smith-d": 37287,
+            "dye-g": 970,
+            "henry-c": 2209,
+            "total_writeins": 87
+          },
+          "total_votes": 128299,
+          "unit_count": 1
+        },
+        {
+          "fips": "41069",
+          "name": "Wheeler",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41071",
+          "name": "Yamhill",
+          "votes": {
+            "merkley-j": 0,
+            "smith-d": 0,
+            "dye-g": 0,
+            "henry-c": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [
+          "merkley-j"
+        ],
+        "called_by": [
+          "ap"
+        ]
+      },
+      "reporting_count": 19,
+      "missing_fips": [],
+      "state_total_votes": 931422,
+      "county_total_votes": 931422,
+      "county_sum_reconciles": true
+    },
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "manifest_race_id": "2026-governor-or",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "kotek-t",
+          "name": "Tina Kotek",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "drazan-c",
+          "name": "Christine Drazan",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "smith-b",
+          "name": "Brett Smith",
+          "party": "Pacific Green"
+        },
+        {
+          "nyt_id": "total_writeins",
+          "name": "Total Write-ins",
+          "party": ""
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "41001",
+          "name": "Baker",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41003",
+          "name": "Benton",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41005",
+          "name": "Clackamas",
+          "votes": {
+            "kotek-t": 74755,
+            "drazan-c": 69858,
+            "smith-b": 3133,
+            "total_writeins": 166
+          },
+          "total_votes": 147912,
+          "unit_count": 1
+        },
+        {
+          "fips": "41007",
+          "name": "Clatsop",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41009",
+          "name": "Columbia",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41011",
+          "name": "Coos",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41013",
+          "name": "Crook",
+          "votes": {
+            "kotek-t": 2704,
+            "drazan-c": 10347,
+            "smith-b": 312,
+            "total_writeins": 15
+          },
+          "total_votes": 13378,
+          "unit_count": 1
+        },
+        {
+          "fips": "41015",
+          "name": "Curry",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41017",
+          "name": "Deschutes",
+          "votes": {
+            "kotek-t": 43004,
+            "drazan-c": 36463,
+            "smith-b": 1513,
+            "total_writeins": 73
+          },
+          "total_votes": 81053,
+          "unit_count": 1
+        },
+        {
+          "fips": "41019",
+          "name": "Douglas",
+          "votes": {
+            "kotek-t": 10890,
+            "drazan-c": 27390,
+            "smith-b": 1152,
+            "total_writeins": 46
+          },
+          "total_votes": 39478,
+          "unit_count": 1
+        },
+        {
+          "fips": "41021",
+          "name": "Gilliam",
+          "votes": {
+            "kotek-t": 225,
+            "drazan-c": 668,
+            "smith-b": 27,
+            "total_writeins": 2
+          },
+          "total_votes": 922,
+          "unit_count": 1
+        },
+        {
+          "fips": "41023",
+          "name": "Grant",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41025",
+          "name": "Harney",
+          "votes": {
+            "kotek-t": 579,
+            "drazan-c": 2928,
+            "smith-b": 95,
+            "total_writeins": 6
+          },
+          "total_votes": 3608,
+          "unit_count": 1
+        },
+        {
+          "fips": "41027",
+          "name": "Hood River",
+          "votes": {
+            "kotek-t": 6938,
+            "drazan-c": 3662,
+            "smith-b": 336,
+            "total_writeins": 11
+          },
+          "total_votes": 10947,
+          "unit_count": 1
+        },
+        {
+          "fips": "41029",
+          "name": "Jackson",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41031",
+          "name": "Jefferson",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41033",
+          "name": "Josephine",
+          "votes": {
+            "kotek-t": 10738,
+            "drazan-c": 20306,
+            "smith-b": 775,
+            "total_writeins": 58
+          },
+          "total_votes": 31877,
+          "unit_count": 1
+        },
+        {
+          "fips": "41035",
+          "name": "Klamath",
+          "votes": {
+            "kotek-t": 6034,
+            "drazan-c": 17738,
+            "smith-b": 656,
+            "total_writeins": 20
+          },
+          "total_votes": 24448,
+          "unit_count": 1
+        },
+        {
+          "fips": "41037",
+          "name": "Lake",
+          "votes": {
+            "kotek-t": 366,
+            "drazan-c": 2216,
+            "smith-b": 54,
+            "total_writeins": 4
+          },
+          "total_votes": 2640,
+          "unit_count": 1
+        },
+        {
+          "fips": "41039",
+          "name": "Lane",
+          "votes": {
+            "kotek-t": 74761,
+            "drazan-c": 50794,
+            "smith-b": 3393,
+            "total_writeins": 105
+          },
+          "total_votes": 129053,
+          "unit_count": 1
+        },
+        {
+          "fips": "41041",
+          "name": "Lincoln",
+          "votes": {
+            "kotek-t": 9788,
+            "drazan-c": 6022,
+            "smith-b": 493,
+            "total_writeins": 13
+          },
+          "total_votes": 16316,
+          "unit_count": 1
+        },
+        {
+          "fips": "41043",
+          "name": "Linn",
+          "votes": {
+            "kotek-t": 16446,
+            "drazan-c": 31349,
+            "smith-b": 1646,
+            "total_writeins": 44
+          },
+          "total_votes": 49485,
+          "unit_count": 1
+        },
+        {
+          "fips": "41045",
+          "name": "Malheur",
+          "votes": {
+            "kotek-t": 1277,
+            "drazan-c": 3420,
+            "smith-b": 127,
+            "total_writeins": 7
+          },
+          "total_votes": 4831,
+          "unit_count": 1
+        },
+        {
+          "fips": "41047",
+          "name": "Marion",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41049",
+          "name": "Morrow",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41051",
+          "name": "Multnomah",
+          "votes": {
+            "kotek-t": 165707,
+            "drazan-c": 42924,
+            "smith-b": 5031,
+            "total_writeins": 339
+          },
+          "total_votes": 214001,
+          "unit_count": 1
+        },
+        {
+          "fips": "41053",
+          "name": "Polk",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41055",
+          "name": "Sherman",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41057",
+          "name": "Tillamook",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41059",
+          "name": "Umatilla",
+          "votes": {
+            "kotek-t": 5047,
+            "drazan-c": 13305,
+            "smith-b": 539,
+            "total_writeins": 7
+          },
+          "total_votes": 18898,
+          "unit_count": 1
+        },
+        {
+          "fips": "41061",
+          "name": "Union",
+          "votes": {
+            "kotek-t": 2719,
+            "drazan-c": 7346,
+            "smith-b": 322,
+            "total_writeins": 10
+          },
+          "total_votes": 10397,
+          "unit_count": 1
+        },
+        {
+          "fips": "41063",
+          "name": "Wallowa",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41065",
+          "name": "Wasco",
+          "votes": {
+            "kotek-t": 3385,
+            "drazan-c": 4022,
+            "smith-b": 280,
+            "total_writeins": 6
+          },
+          "total_votes": 7693,
+          "unit_count": 1
+        },
+        {
+          "fips": "41067",
+          "name": "Washington",
+          "votes": {
+            "kotek-t": 81674,
+            "drazan-c": 44046,
+            "smith-b": 2864,
+            "total_writeins": 177
+          },
+          "total_votes": 128761,
+          "unit_count": 1
+        },
+        {
+          "fips": "41069",
+          "name": "Wheeler",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "41071",
+          "name": "Yamhill",
+          "votes": {
+            "kotek-t": 0,
+            "drazan-c": 0,
+            "smith-b": 0,
+            "total_writeins": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [],
+        "called_by": []
+      },
+      "reporting_count": 19,
+      "missing_fips": [],
+      "state_total_votes": 935698,
+      "county_total_votes": 935698,
+      "county_sum_reconciles": true
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-oregon.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 36,
+  "reporting_count": 19,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:37:10.179Z",
+    "S_race_updated_at": "2026-11-04T04:36:15.882Z",
+    "G_race_updated_at": "2026-11-04T04:37:03.252Z"
+  },
+  "limitations": [
+    "Only candidates[].votes.total was used; NYT models, estimates, expected votes, and EEVP were ignored.",
+    "Exact county FIPS are matched against the local GeoJSON. Township aggregation is used only when no county-level reporting units exist, grouping by source fips_state+fips_county."
+  ],
+  "call_authority": {
+    "called_by_ap_offices": [
+      "S"
+    ],
+    "authority": "AP is identified only for offices whose outcome.called_by explicitly contains ap."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-oregon.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 36,
+    "reporting_count": 20,
+    "row_count": 72,
+    "source_time": "2026-11-04T04:46:42.12+00:00",
+    "fetched_at": "2026-11-04T04:47:03.108Z",
+    "message": "36 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "state": "MD",
+  "offices": [
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "candidates": [
+        {
+          "nyt_id": "moore-w",
+          "name": "Wes Moore",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "cox-d",
+          "name": "Dan Cox",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "ellis-a",
+          "name": "Andy Ellis",
+          "party": "Green"
+        },
+        {
+          "nyt_id": "white-c",
+          "name": "Cathy White",
+          "party": "Working Class"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "24031",
+          "name": "Montgomery",
+          "unit_count": 1,
+          "votes": {
+            "moore-w": 246653,
+            "cox-d": 53487,
+            "ellis-a": 5350,
+            "white-c": 4284
+          },
+          "total_votes": 309774,
+          "precincts_reporting": 249,
+          "precincts_total": 257,
+          "eevp": 96.89
+        },
+        {
+          "fips": "24033",
+          "name": "Prince George's",
+          "unit_count": 1,
+          "votes": {
+            "moore-w": 191518,
+            "cox-d": 14612,
+            "white-c": 4145,
+            "ellis-a": 3925
+          },
+          "total_votes": 214200,
+          "precincts_reporting": 252,
+          "precincts_total": 327,
+          "eevp": 77.06,
+          "source_name": "Prince George\u2019s"
+        },
+        {
+          "fips": "24005",
+          "name": "Baltimore",
+          "unit_count": 1,
+          "votes": {
+            "moore-w": 127055,
+            "cox-d": 74164,
+            "white-c": 4977,
+            "ellis-a": 4610
+          },
+          "total_votes": 210806,
+          "precincts_reporting": 197,
+          "precincts_total": 258,
+          "eevp": 76.36
+        },
+        {
+          "fips": "24003",
+          "name": "Anne Arundel",
+          "unit_count": 1,
+          "votes": {
+            "moore-w": 106926,
+            "cox-d": 82564,
+            "ellis-a": 4074,
+            "white-c": 3757
+          },
+          "total_votes": 197321,
+          "precincts_reporting": 193,
+          "precincts_total": 196,
+          "eevp": 98.47
+        },
+        {
+          "fips": "24510",
+          "name": "Baltimore",
+          "unit_count": 1,
+          "votes": {
+            "moore-w": 98857,
+            "cox-d": 11577,
+            "ellis-a": 3968,
+            "white-c": 3809
+          },
+          "total_votes": 118211,
+          "precincts_reporting": 275,
+          "precincts_total": 295,
+          "eevp": 93.22,
+          "source_name": "Baltimore City"
+        },
+        {
+          "fips": "24027",
+          "name": "Howard",
+          "unit_count": 1,
+          "votes": {
+            "moore-w": 80478,
+            "cox-d": 30433,
+            "ellis-a": 3021,
+            "white-c": 1933
+          },
+          "total_votes": 115865,
+          "precincts_reporting": 67,
+          "precincts_total": 67,
+          "eevp": 100.0
+        },
+        {
+          "fips": "24025",
+          "name": "Harford",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 54650,
+            "moore-w": 37894,
+            "ellis-a": 1956,
+            "white-c": 1887
+          },
+          "total_votes": 96387,
+          "precincts_reporting": 63,
+          "precincts_total": 63,
+          "eevp": 100.0
+        },
+        {
+          "fips": "24021",
+          "name": "Frederick",
+          "unit_count": 1,
+          "votes": {
+            "moore-w": 50214,
+            "cox-d": 40309,
+            "ellis-a": 1911,
+            "white-c": 1490
+          },
+          "total_votes": 93924,
+          "precincts_reporting": 64,
+          "precincts_total": 66,
+          "eevp": 96.97
+        },
+        {
+          "fips": "24013",
+          "name": "Carroll",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 41399,
+            "moore-w": 20882,
+            "ellis-a": 1355,
+            "white-c": 1144
+          },
+          "total_votes": 64780,
+          "precincts_reporting": 49,
+          "precincts_total": 49,
+          "eevp": 100.0
+        },
+        {
+          "fips": "24017",
+          "name": "Charles",
+          "unit_count": 1,
+          "votes": {
+            "moore-w": 42060,
+            "cox-d": 14802,
+            "white-c": 1346,
+            "ellis-a": 1078
+          },
+          "total_votes": 59286,
+          "precincts_reporting": 34,
+          "precincts_total": 34,
+          "eevp": 100.0
+        },
+        {
+          "fips": "24043",
+          "name": "Washington",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 26441,
+            "moore-w": 18800,
+            "white-c": 926,
+            "ellis-a": 899
+          },
+          "total_votes": 47066,
+          "precincts_reporting": 47,
+          "precincts_total": 47,
+          "eevp": 100.0
+        },
+        {
+          "fips": "24037",
+          "name": "St. Mary's",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 21169,
+            "moore-w": 13905,
+            "white-c": 918,
+            "ellis-a": 726
+          },
+          "total_votes": 36718,
+          "precincts_reporting": 27,
+          "precincts_total": 27,
+          "eevp": 100.0,
+          "source_name": "St. Mary\u2019s"
+        },
+        {
+          "fips": "24009",
+          "name": "Calvert",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 18893,
+            "moore-w": 13680,
+            "white-c": 662,
+            "ellis-a": 654
+          },
+          "total_votes": 33889,
+          "precincts_reporting": 17,
+          "precincts_total": 17,
+          "eevp": 100.0
+        },
+        {
+          "fips": "24015",
+          "name": "Cecil",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 19096,
+            "moore-w": 8925,
+            "white-c": 607,
+            "ellis-a": 510
+          },
+          "total_votes": 29138,
+          "precincts_reporting": 28,
+          "precincts_total": 28,
+          "eevp": 100.0
+        },
+        {
+          "fips": "24045",
+          "name": "Wicomico",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 14965,
+            "moore-w": 12741,
+            "white-c": 734,
+            "ellis-a": 533
+          },
+          "total_votes": 28973,
+          "precincts_reporting": 69,
+          "precincts_total": 69,
+          "eevp": 100.0
+        },
+        {
+          "fips": "24035",
+          "name": "Queen Anne's",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 14268,
+            "moore-w": 6920,
+            "ellis-a": 427,
+            "white-c": 363
+          },
+          "total_votes": 21978,
+          "precincts_reporting": 11,
+          "precincts_total": 11,
+          "eevp": 100.0,
+          "source_name": "Queen Anne\u2019s"
+        },
+        {
+          "fips": "24047",
+          "name": "Worcester",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 13029,
+            "moore-w": 6894,
+            "white-c": 404,
+            "ellis-a": 331
+          },
+          "total_votes": 20658,
+          "precincts_reporting": 22,
+          "precincts_total": 22,
+          "eevp": 100.0
+        },
+        {
+          "fips": "24001",
+          "name": "Allegany",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 12959,
+            "moore-w": 5658,
+            "white-c": 423,
+            "ellis-a": 292
+          },
+          "total_votes": 19332,
+          "precincts_reporting": 30,
+          "precincts_total": 30,
+          "eevp": 100.0
+        },
+        {
+          "fips": "24041",
+          "name": "Talbot",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 8478,
+            "moore-w": 7460,
+            "ellis-a": 232,
+            "white-c": 221
+          },
+          "total_votes": 16391,
+          "precincts_reporting": 12,
+          "precincts_total": 12,
+          "eevp": 100.0
+        },
+        {
+          "fips": "24019",
+          "name": "Dorchester",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 6637,
+            "moore-w": 3776,
+            "white-c": 312,
+            "ellis-a": 141
+          },
+          "total_votes": 10866,
+          "precincts_reporting": 44,
+          "precincts_total": 44,
+          "eevp": 100.0
+        },
+        {
+          "fips": "24011",
+          "name": "Caroline",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 7252,
+            "moore-w": 2601,
+            "white-c": 215,
+            "ellis-a": 176
+          },
+          "total_votes": 10244,
+          "precincts_reporting": 8,
+          "precincts_total": 8,
+          "eevp": 100.0
+        },
+        {
+          "fips": "24023",
+          "name": "Garrett",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 7285,
+            "moore-w": 1675,
+            "white-c": 183,
+            "ellis-a": 97
+          },
+          "total_votes": 9240,
+          "precincts_reporting": 19,
+          "precincts_total": 19,
+          "eevp": 100.0
+        },
+        {
+          "fips": "24029",
+          "name": "Kent",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 3940,
+            "moore-w": 2871,
+            "ellis-a": 131,
+            "white-c": 126
+          },
+          "total_votes": 7068,
+          "precincts_reporting": 10,
+          "precincts_total": 10,
+          "eevp": 100.0
+        },
+        {
+          "fips": "24039",
+          "name": "Somerset",
+          "unit_count": 1,
+          "votes": {
+            "cox-d": 3881,
+            "moore-w": 2112,
+            "white-c": 145,
+            "ellis-a": 75
+          },
+          "total_votes": 6213,
+          "precincts_reporting": 23,
+          "precincts_total": 23,
+          "eevp": 100.0
+        }
+      ],
+      "outcome": {
+        "won": [
+          "moore-w"
+        ],
+        "advanced_to_runoff": [],
+        "called_by": [
+          "ap"
+        ],
+        "runoff_accepted_at": [],
+        "winner_accepted_at": [
+          "2026-11-04T01:02:08.301021+00:00"
+        ],
+        "gained": false,
+        "electoral_votes": null
+      },
+      "audit": {
+        "unit_strategy": "county_units",
+        "source_updated_at": "2026-11-04T04:38:09.827Z",
+        "source_unit_count": 24,
+        "county_count": 24,
+        "nonzero_counties": 24,
+        "source_coverage_pct": 100.0,
+        "county_precincts_reporting_sum": 1810,
+        "county_precincts_total_sum": 1979,
+        "county_candidate_vote_sums": {
+          "moore-w": 1110555,
+          "cox-d": 596290,
+          "ellis-a": 36472,
+          "white-c": 35011
+        },
+        "state_candidate_votes": {
+          "moore-w": 1110555,
+          "cox-d": 596290,
+          "ellis-a": 36472,
+          "white-c": 35011
+        },
+        "candidate_vote_sums_match_state": true,
+        "county_total_votes_sum": 1778328,
+        "state_total_votes": 1778328,
+        "county_total_votes_match_state": true,
+        "called_by": [
+          "ap"
+        ],
+        "ap_call_recorded": true
+      }
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-maryland.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 24,
+  "reporting_count": 24,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:38:27.575Z",
+    "county_provider_updated_at": "not present",
+    "G_race_updated_at": "2026-11-04T04:38:09.827Z"
+  },
+  "office_audit": [
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "county_count": 24,
+      "nonzero_counties": 24,
+      "source_coverage_pct": 100.0,
+      "unit_strategy": "county_units",
+      "candidate_vote_sums_match_state": true,
+      "county_total_votes_match_state": true,
+      "called_by": [
+        "ap"
+      ]
+    }
+  ],
+  "limitations": [
+    "Candidate county vote totals use only reporting_units candidates[].votes.total. NYT model estimates, expected vote, and calls were not substituted for vote counts.",
+    "When source units are township or municipality records, each unit is included once and summed into a county using fips_state + fips_county.",
+    "No blanket license is asserted; factual counts are attributed to The New York Times. AP is credited only when the race outcome records called_by including ap."
+  ],
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-maryland.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Governor"
+    ],
+    "county_count": 24,
+    "reporting_count": 24,
+    "row_count": 24,
+    "source_time": "2026-11-04T04:44:59.871+00:00",
+    "fetched_at": "2026-11-04T04:47:03.193Z",
+    "message": "24 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

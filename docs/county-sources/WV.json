@@ -1,0 +1,692 @@
+{
+  "state": "WV",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "Senate",
+      "manifest_race_id": "2026-senate-wv",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "capito-s",
+          "name": "Shelley Moore Capito",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "anderson-r",
+          "name": "Rachel Fetty Anderson",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "wilson-s",
+          "name": "S. Marshall Wilson",
+          "party": "Constitution"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "54001",
+          "name": "Barbour",
+          "votes": {
+            "capito-s": 2322,
+            "anderson-r": 1022,
+            "wilson-s": 167
+          },
+          "total_votes": 3511,
+          "unit_count": 1
+        },
+        {
+          "fips": "54003",
+          "name": "Berkeley",
+          "votes": {
+            "capito-s": 16663,
+            "anderson-r": 13927,
+            "wilson-s": 3059
+          },
+          "total_votes": 33649,
+          "unit_count": 1
+        },
+        {
+          "fips": "54005",
+          "name": "Boone",
+          "votes": {
+            "capito-s": 3127,
+            "anderson-r": 1470,
+            "wilson-s": 191
+          },
+          "total_votes": 4788,
+          "unit_count": 1
+        },
+        {
+          "fips": "54007",
+          "name": "Braxton",
+          "votes": {
+            "capito-s": 2049,
+            "anderson-r": 995,
+            "wilson-s": 109
+          },
+          "total_votes": 3153,
+          "unit_count": 1
+        },
+        {
+          "fips": "54009",
+          "name": "Brooke",
+          "votes": {
+            "capito-s": 3476,
+            "anderson-r": 1863,
+            "wilson-s": 129
+          },
+          "total_votes": 5468,
+          "unit_count": 1
+        },
+        {
+          "fips": "54011",
+          "name": "Cabell",
+          "votes": {
+            "capito-s": 11110,
+            "anderson-r": 10531,
+            "wilson-s": 627
+          },
+          "total_votes": 22268,
+          "unit_count": 1
+        },
+        {
+          "fips": "54013",
+          "name": "Calhoun",
+          "votes": {
+            "capito-s": 1114,
+            "anderson-r": 413,
+            "wilson-s": 52
+          },
+          "total_votes": 1579,
+          "unit_count": 1
+        },
+        {
+          "fips": "54015",
+          "name": "Clay",
+          "votes": {
+            "capito-s": 1198,
+            "anderson-r": 443,
+            "wilson-s": 90
+          },
+          "total_votes": 1731,
+          "unit_count": 1
+        },
+        {
+          "fips": "54017",
+          "name": "Doddridge",
+          "votes": {
+            "capito-s": 1203,
+            "anderson-r": 287,
+            "wilson-s": 69
+          },
+          "total_votes": 1559,
+          "unit_count": 1
+        },
+        {
+          "fips": "54019",
+          "name": "Fayette",
+          "votes": {
+            "capito-s": 5014,
+            "anderson-r": 3476,
+            "wilson-s": 323
+          },
+          "total_votes": 8813,
+          "unit_count": 1
+        },
+        {
+          "fips": "54021",
+          "name": "Gilmer",
+          "votes": {
+            "capito-s": 1039,
+            "anderson-r": 463,
+            "wilson-s": 58
+          },
+          "total_votes": 1560,
+          "unit_count": 1
+        },
+        {
+          "fips": "54023",
+          "name": "Grant",
+          "votes": {
+            "capito-s": 2347,
+            "anderson-r": 469,
+            "wilson-s": 71
+          },
+          "total_votes": 2887,
+          "unit_count": 1
+        },
+        {
+          "fips": "54025",
+          "name": "Greenbrier",
+          "votes": {
+            "capito-s": 5605,
+            "anderson-r": 3439,
+            "wilson-s": 289
+          },
+          "total_votes": 9333,
+          "unit_count": 1
+        },
+        {
+          "fips": "54027",
+          "name": "Hampshire",
+          "votes": {
+            "capito-s": 4449,
+            "anderson-r": 1607,
+            "wilson-s": 471
+          },
+          "total_votes": 6527,
+          "unit_count": 1
+        },
+        {
+          "fips": "54029",
+          "name": "Hancock",
+          "votes": {
+            "capito-s": 4855,
+            "anderson-r": 2466,
+            "wilson-s": 233
+          },
+          "total_votes": 7554,
+          "unit_count": 1
+        },
+        {
+          "fips": "54031",
+          "name": "Hardy",
+          "votes": {
+            "capito-s": 2883,
+            "anderson-r": 1089,
+            "wilson-s": 179
+          },
+          "total_votes": 4151,
+          "unit_count": 1
+        },
+        {
+          "fips": "54033",
+          "name": "Harrison",
+          "votes": {
+            "capito-s": 10297,
+            "anderson-r": 6842,
+            "wilson-s": 532
+          },
+          "total_votes": 17671,
+          "unit_count": 1
+        },
+        {
+          "fips": "54035",
+          "name": "Jackson",
+          "votes": {
+            "capito-s": 5180,
+            "anderson-r": 2218,
+            "wilson-s": 449
+          },
+          "total_votes": 7847,
+          "unit_count": 1
+        },
+        {
+          "fips": "54037",
+          "name": "Jefferson",
+          "votes": {
+            "capito-s": 9481,
+            "anderson-r": 10510,
+            "wilson-s": 908
+          },
+          "total_votes": 20899,
+          "unit_count": 1
+        },
+        {
+          "fips": "54039",
+          "name": "Kanawha",
+          "votes": {
+            "capito-s": 23179,
+            "anderson-r": 23483,
+            "wilson-s": 1116
+          },
+          "total_votes": 47778,
+          "unit_count": 1
+        },
+        {
+          "fips": "54041",
+          "name": "Lewis",
+          "votes": {
+            "capito-s": 2751,
+            "anderson-r": 1213,
+            "wilson-s": 171
+          },
+          "total_votes": 4135,
+          "unit_count": 1
+        },
+        {
+          "fips": "54043",
+          "name": "Lincoln",
+          "votes": {
+            "capito-s": 2265,
+            "anderson-r": 984,
+            "wilson-s": 151
+          },
+          "total_votes": 3400,
+          "unit_count": 1
+        },
+        {
+          "fips": "54045",
+          "name": "Logan",
+          "votes": {
+            "capito-s": 4094,
+            "anderson-r": 1407,
+            "wilson-s": 163
+          },
+          "total_votes": 5664,
+          "unit_count": 1
+        },
+        {
+          "fips": "54047",
+          "name": "McDowell",
+          "votes": {
+            "capito-s": 1533,
+            "anderson-r": 620,
+            "wilson-s": 92
+          },
+          "total_votes": 2245,
+          "unit_count": 1
+        },
+        {
+          "fips": "54049",
+          "name": "Marion",
+          "votes": {
+            "capito-s": 8028,
+            "anderson-r": 6788,
+            "wilson-s": 472
+          },
+          "total_votes": 15288,
+          "unit_count": 1
+        },
+        {
+          "fips": "54051",
+          "name": "Marshall",
+          "votes": {
+            "capito-s": 4991,
+            "anderson-r": 2511,
+            "wilson-s": 227
+          },
+          "total_votes": 7729,
+          "unit_count": 1
+        },
+        {
+          "fips": "54053",
+          "name": "Mason",
+          "votes": {
+            "capito-s": 4248,
+            "anderson-r": 1938,
+            "wilson-s": 384
+          },
+          "total_votes": 6570,
+          "unit_count": 1
+        },
+        {
+          "fips": "54055",
+          "name": "Mercer",
+          "votes": {
+            "capito-s": 8399,
+            "anderson-r": 3492,
+            "wilson-s": 409
+          },
+          "total_votes": 12300,
+          "unit_count": 1
+        },
+        {
+          "fips": "54057",
+          "name": "Mineral",
+          "votes": {
+            "capito-s": 5282,
+            "anderson-r": 1946,
+            "wilson-s": 217
+          },
+          "total_votes": 7445,
+          "unit_count": 1
+        },
+        {
+          "fips": "54059",
+          "name": "Mingo",
+          "votes": {
+            "capito-s": 2922,
+            "anderson-r": 933,
+            "wilson-s": 120
+          },
+          "total_votes": 3975,
+          "unit_count": 1
+        },
+        {
+          "fips": "54061",
+          "name": "Monongalia",
+          "votes": {
+            "capito-s": 11440,
+            "anderson-r": 16376,
+            "wilson-s": 549
+          },
+          "total_votes": 28365,
+          "unit_count": 1
+        },
+        {
+          "fips": "54063",
+          "name": "Monroe",
+          "votes": {
+            "capito-s": 2398,
+            "anderson-r": 949,
+            "wilson-s": 147
+          },
+          "total_votes": 3494,
+          "unit_count": 1
+        },
+        {
+          "fips": "54065",
+          "name": "Morgan",
+          "votes": {
+            "capito-s": 3709,
+            "anderson-r": 1701,
+            "wilson-s": 330
+          },
+          "total_votes": 5740,
+          "unit_count": 1
+        },
+        {
+          "fips": "54067",
+          "name": "Nicholas",
+          "votes": {
+            "capito-s": 4011,
+            "anderson-r": 1630,
+            "wilson-s": 181
+          },
+          "total_votes": 5822,
+          "unit_count": 1
+        },
+        {
+          "fips": "54069",
+          "name": "Ohio",
+          "votes": {
+            "capito-s": 6836,
+            "anderson-r": 5065,
+            "wilson-s": 251
+          },
+          "total_votes": 12152,
+          "unit_count": 1
+        },
+        {
+          "fips": "54071",
+          "name": "Pendleton",
+          "votes": {
+            "capito-s": 1541,
+            "anderson-r": 537,
+            "wilson-s": 72
+          },
+          "total_votes": 2150,
+          "unit_count": 1
+        },
+        {
+          "fips": "54073",
+          "name": "Pleasants",
+          "votes": {
+            "capito-s": 1267,
+            "anderson-r": 528,
+            "wilson-s": 70
+          },
+          "total_votes": 1865,
+          "unit_count": 1
+        },
+        {
+          "fips": "54075",
+          "name": "Pocahontas",
+          "votes": {
+            "capito-s": 1446,
+            "anderson-r": 791,
+            "wilson-s": 78
+          },
+          "total_votes": 2315,
+          "unit_count": 1
+        },
+        {
+          "fips": "54077",
+          "name": "Preston",
+          "votes": {
+            "capito-s": 5479,
+            "anderson-r": 2595,
+            "wilson-s": 421
+          },
+          "total_votes": 8495,
+          "unit_count": 1
+        },
+        {
+          "fips": "54079",
+          "name": "Putnam",
+          "votes": {
+            "capito-s": 9839,
+            "anderson-r": 5650,
+            "wilson-s": 594
+          },
+          "total_votes": 16083,
+          "unit_count": 1
+        },
+        {
+          "fips": "54081",
+          "name": "Raleigh",
+          "votes": {
+            "capito-s": 10570,
+            "anderson-r": 5119,
+            "wilson-s": 507
+          },
+          "total_votes": 16196,
+          "unit_count": 1
+        },
+        {
+          "fips": "54083",
+          "name": "Randolph",
+          "votes": {
+            "capito-s": 4423,
+            "anderson-r": 2540,
+            "wilson-s": 240
+          },
+          "total_votes": 7203,
+          "unit_count": 1
+        },
+        {
+          "fips": "54085",
+          "name": "Ritchie",
+          "votes": {
+            "capito-s": 1074,
+            "anderson-r": 289,
+            "wilson-s": 59
+          },
+          "total_votes": 1422,
+          "unit_count": 1
+        },
+        {
+          "fips": "54087",
+          "name": "Roane",
+          "votes": {
+            "capito-s": 2029,
+            "anderson-r": 974,
+            "wilson-s": 143
+          },
+          "total_votes": 3146,
+          "unit_count": 1
+        },
+        {
+          "fips": "54089",
+          "name": "Summers",
+          "votes": {
+            "capito-s": 2133,
+            "anderson-r": 941,
+            "wilson-s": 102
+          },
+          "total_votes": 3176,
+          "unit_count": 1
+        },
+        {
+          "fips": "54091",
+          "name": "Taylor",
+          "votes": {
+            "capito-s": 2821,
+            "anderson-r": 1509,
+            "wilson-s": 122
+          },
+          "total_votes": 4452,
+          "unit_count": 1
+        },
+        {
+          "fips": "54093",
+          "name": "Tucker",
+          "votes": {
+            "capito-s": 1604,
+            "anderson-r": 883,
+            "wilson-s": 54
+          },
+          "total_votes": 2541,
+          "unit_count": 1
+        },
+        {
+          "fips": "54095",
+          "name": "Tyler",
+          "votes": {
+            "capito-s": 1330,
+            "anderson-r": 399,
+            "wilson-s": 89
+          },
+          "total_votes": 1818,
+          "unit_count": 1
+        },
+        {
+          "fips": "54097",
+          "name": "Upshur",
+          "votes": {
+            "capito-s": 3765,
+            "anderson-r": 1714,
+            "wilson-s": 191
+          },
+          "total_votes": 5670,
+          "unit_count": 1
+        },
+        {
+          "fips": "54099",
+          "name": "Wayne",
+          "votes": {
+            "capito-s": 5242,
+            "anderson-r": 2840,
+            "wilson-s": 274
+          },
+          "total_votes": 8356,
+          "unit_count": 1
+        },
+        {
+          "fips": "54101",
+          "name": "Webster",
+          "votes": {
+            "capito-s": 1209,
+            "anderson-r": 408,
+            "wilson-s": 68
+          },
+          "total_votes": 1685,
+          "unit_count": 1
+        },
+        {
+          "fips": "54103",
+          "name": "Wetzel",
+          "votes": {
+            "capito-s": 2302,
+            "anderson-r": 1083,
+            "wilson-s": 87
+          },
+          "total_votes": 3472,
+          "unit_count": 1
+        },
+        {
+          "fips": "54105",
+          "name": "Wirt",
+          "votes": {
+            "capito-s": 1330,
+            "anderson-r": 435,
+            "wilson-s": 100
+          },
+          "total_votes": 1865,
+          "unit_count": 1
+        },
+        {
+          "fips": "54107",
+          "name": "Wood",
+          "votes": {
+            "capito-s": 13818,
+            "anderson-r": 8139,
+            "wilson-s": 705
+          },
+          "total_votes": 22662,
+          "unit_count": 1
+        },
+        {
+          "fips": "54109",
+          "name": "Wyoming",
+          "votes": {
+            "capito-s": 2470,
+            "anderson-r": 733,
+            "wilson-s": 116
+          },
+          "total_votes": 3319,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [
+          "capito-s"
+        ],
+        "called_by": [
+          "ap"
+        ]
+      },
+      "reporting_count": 55,
+      "missing_fips": [],
+      "state_total_votes": 454941,
+      "county_total_votes": 454941,
+      "county_sum_reconciles": true
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-west-virginia.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 55,
+  "reporting_count": 55,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:36:05.788Z",
+    "S_race_updated_at": "2026-11-04T04:26:59.857Z"
+  },
+  "limitations": [
+    "Only candidates[].votes.total was used; NYT models, estimates, expected votes, and EEVP were ignored.",
+    "Exact county FIPS are matched against the local GeoJSON. Township aggregation is used only when no county-level reporting units exist, grouping by source fips_state+fips_county."
+  ],
+  "call_authority": {
+    "called_by_ap_offices": [
+      "S"
+    ],
+    "authority": "AP is identified only for offices whose outcome.called_by explicitly contains ap."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-west-virginia.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate"
+    ],
+    "county_count": 55,
+    "reporting_count": 55,
+    "row_count": 55,
+    "source_time": "2026-11-04T04:42:48.206+00:00",
+    "fetched_at": "2026-11-04T04:47:03.153Z",
+    "message": "55 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

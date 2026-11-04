@@ -1,0 +1,1429 @@
+{
+  "state": "SD",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "Senate",
+      "manifest_race_id": "2026-senate-sd",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "rounds-m",
+          "name": "Mike Rounds",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "bengs-b",
+          "name": "Brian L. Bengs",
+          "party": "Independent"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "46003",
+          "name": "Aurora",
+          "votes": {
+            "rounds-m": 679,
+            "bengs-b": 289
+          },
+          "total_votes": 968,
+          "unit_count": 1
+        },
+        {
+          "fips": "46005",
+          "name": "Beadle",
+          "votes": {
+            "rounds-m": 2937,
+            "bengs-b": 1430
+          },
+          "total_votes": 4367,
+          "unit_count": 1
+        },
+        {
+          "fips": "46007",
+          "name": "Bennett",
+          "votes": {
+            "rounds-m": 0,
+            "bengs-b": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46009",
+          "name": "Bon Homme",
+          "votes": {
+            "rounds-m": 1540,
+            "bengs-b": 605
+          },
+          "total_votes": 2145,
+          "unit_count": 1
+        },
+        {
+          "fips": "46011",
+          "name": "Brookings",
+          "votes": {
+            "rounds-m": 3954,
+            "bengs-b": 3355
+          },
+          "total_votes": 7309,
+          "unit_count": 1
+        },
+        {
+          "fips": "46013",
+          "name": "Brown",
+          "votes": {
+            "rounds-m": 3963,
+            "bengs-b": 3260
+          },
+          "total_votes": 7223,
+          "unit_count": 1
+        },
+        {
+          "fips": "46015",
+          "name": "Brule",
+          "votes": {
+            "rounds-m": 1211,
+            "bengs-b": 560
+          },
+          "total_votes": 1771,
+          "unit_count": 1
+        },
+        {
+          "fips": "46017",
+          "name": "Buffalo",
+          "votes": {
+            "rounds-m": 142,
+            "bengs-b": 222
+          },
+          "total_votes": 364,
+          "unit_count": 1
+        },
+        {
+          "fips": "46019",
+          "name": "Butte",
+          "votes": {
+            "rounds-m": 317,
+            "bengs-b": 133
+          },
+          "total_votes": 450,
+          "unit_count": 1
+        },
+        {
+          "fips": "46021",
+          "name": "Campbell",
+          "votes": {
+            "rounds-m": 488,
+            "bengs-b": 113
+          },
+          "total_votes": 601,
+          "unit_count": 1
+        },
+        {
+          "fips": "46023",
+          "name": "Charles Mix",
+          "votes": {
+            "rounds-m": 1837,
+            "bengs-b": 815
+          },
+          "total_votes": 2652,
+          "unit_count": 1
+        },
+        {
+          "fips": "46025",
+          "name": "Clark",
+          "votes": {
+            "rounds-m": 0,
+            "bengs-b": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46027",
+          "name": "Clay",
+          "votes": {
+            "rounds-m": 1770,
+            "bengs-b": 2276
+          },
+          "total_votes": 4046,
+          "unit_count": 1
+        },
+        {
+          "fips": "46029",
+          "name": "Codington",
+          "votes": {
+            "rounds-m": 4119,
+            "bengs-b": 2076
+          },
+          "total_votes": 6195,
+          "unit_count": 1
+        },
+        {
+          "fips": "46031",
+          "name": "Corson",
+          "votes": {
+            "rounds-m": 97,
+            "bengs-b": 95
+          },
+          "total_votes": 192,
+          "unit_count": 1
+        },
+        {
+          "fips": "46033",
+          "name": "Custer",
+          "votes": {
+            "rounds-m": 928,
+            "bengs-b": 554
+          },
+          "total_votes": 1482,
+          "unit_count": 1
+        },
+        {
+          "fips": "46035",
+          "name": "Davison",
+          "votes": {
+            "rounds-m": 4014,
+            "bengs-b": 2027
+          },
+          "total_votes": 6041,
+          "unit_count": 1
+        },
+        {
+          "fips": "46037",
+          "name": "Day",
+          "votes": {
+            "rounds-m": 1249,
+            "bengs-b": 788
+          },
+          "total_votes": 2037,
+          "unit_count": 1
+        },
+        {
+          "fips": "46039",
+          "name": "Deuel",
+          "votes": {
+            "rounds-m": 1187,
+            "bengs-b": 500
+          },
+          "total_votes": 1687,
+          "unit_count": 1
+        },
+        {
+          "fips": "46041",
+          "name": "Dewey",
+          "votes": {
+            "rounds-m": 0,
+            "bengs-b": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46043",
+          "name": "Douglas",
+          "votes": {
+            "rounds-m": 1084,
+            "bengs-b": 175
+          },
+          "total_votes": 1259,
+          "unit_count": 1
+        },
+        {
+          "fips": "46045",
+          "name": "Edmunds",
+          "votes": {
+            "rounds-m": 1088,
+            "bengs-b": 352
+          },
+          "total_votes": 1440,
+          "unit_count": 1
+        },
+        {
+          "fips": "46047",
+          "name": "Fall River",
+          "votes": {
+            "rounds-m": 529,
+            "bengs-b": 365
+          },
+          "total_votes": 894,
+          "unit_count": 1
+        },
+        {
+          "fips": "46049",
+          "name": "Faulk",
+          "votes": {
+            "rounds-m": 658,
+            "bengs-b": 157
+          },
+          "total_votes": 815,
+          "unit_count": 1
+        },
+        {
+          "fips": "46051",
+          "name": "Grant",
+          "votes": {
+            "rounds-m": 1360,
+            "bengs-b": 555
+          },
+          "total_votes": 1915,
+          "unit_count": 1
+        },
+        {
+          "fips": "46053",
+          "name": "Gregory",
+          "votes": {
+            "rounds-m": 1186,
+            "bengs-b": 385
+          },
+          "total_votes": 1571,
+          "unit_count": 1
+        },
+        {
+          "fips": "46055",
+          "name": "Haakon",
+          "votes": {
+            "rounds-m": 683,
+            "bengs-b": 121
+          },
+          "total_votes": 804,
+          "unit_count": 1
+        },
+        {
+          "fips": "46057",
+          "name": "Hamlin",
+          "votes": {
+            "rounds-m": 1658,
+            "bengs-b": 573
+          },
+          "total_votes": 2231,
+          "unit_count": 1
+        },
+        {
+          "fips": "46059",
+          "name": "Hand",
+          "votes": {
+            "rounds-m": 0,
+            "bengs-b": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46061",
+          "name": "Hanson",
+          "votes": {
+            "rounds-m": 887,
+            "bengs-b": 294
+          },
+          "total_votes": 1181,
+          "unit_count": 1
+        },
+        {
+          "fips": "46063",
+          "name": "Harding",
+          "votes": {
+            "rounds-m": 567,
+            "bengs-b": 90
+          },
+          "total_votes": 657,
+          "unit_count": 1
+        },
+        {
+          "fips": "46065",
+          "name": "Hughes",
+          "votes": {
+            "rounds-m": 4266,
+            "bengs-b": 2187
+          },
+          "total_votes": 6453,
+          "unit_count": 1
+        },
+        {
+          "fips": "46067",
+          "name": "Hutchinson",
+          "votes": {
+            "rounds-m": 1957,
+            "bengs-b": 598
+          },
+          "total_votes": 2555,
+          "unit_count": 1
+        },
+        {
+          "fips": "46069",
+          "name": "Hyde",
+          "votes": {
+            "rounds-m": 397,
+            "bengs-b": 109
+          },
+          "total_votes": 506,
+          "unit_count": 1
+        },
+        {
+          "fips": "46071",
+          "name": "Jackson",
+          "votes": {
+            "rounds-m": 229,
+            "bengs-b": 44
+          },
+          "total_votes": 273,
+          "unit_count": 1
+        },
+        {
+          "fips": "46073",
+          "name": "Jerauld",
+          "votes": {
+            "rounds-m": 488,
+            "bengs-b": 205
+          },
+          "total_votes": 693,
+          "unit_count": 1
+        },
+        {
+          "fips": "46075",
+          "name": "Jones",
+          "votes": {
+            "rounds-m": 380,
+            "bengs-b": 75
+          },
+          "total_votes": 455,
+          "unit_count": 1
+        },
+        {
+          "fips": "46077",
+          "name": "Kingsbury",
+          "votes": {
+            "rounds-m": 1421,
+            "bengs-b": 630
+          },
+          "total_votes": 2051,
+          "unit_count": 1
+        },
+        {
+          "fips": "46079",
+          "name": "Lake",
+          "votes": {
+            "rounds-m": 2558,
+            "bengs-b": 1360
+          },
+          "total_votes": 3918,
+          "unit_count": 1
+        },
+        {
+          "fips": "46081",
+          "name": "Lawrence",
+          "votes": {
+            "rounds-m": 4003,
+            "bengs-b": 3200
+          },
+          "total_votes": 7203,
+          "unit_count": 1
+        },
+        {
+          "fips": "46083",
+          "name": "Lincoln",
+          "votes": {
+            "rounds-m": 6234,
+            "bengs-b": 3706
+          },
+          "total_votes": 9940,
+          "unit_count": 1
+        },
+        {
+          "fips": "46085",
+          "name": "Lyman",
+          "votes": {
+            "rounds-m": 728,
+            "bengs-b": 396
+          },
+          "total_votes": 1124,
+          "unit_count": 1
+        },
+        {
+          "fips": "46087",
+          "name": "McCook",
+          "votes": {
+            "rounds-m": 1555,
+            "bengs-b": 607
+          },
+          "total_votes": 2162,
+          "unit_count": 1
+        },
+        {
+          "fips": "46089",
+          "name": "McPherson",
+          "votes": {
+            "rounds-m": 816,
+            "bengs-b": 176
+          },
+          "total_votes": 992,
+          "unit_count": 1
+        },
+        {
+          "fips": "46091",
+          "name": "Marshall",
+          "votes": {
+            "rounds-m": 1007,
+            "bengs-b": 648
+          },
+          "total_votes": 1655,
+          "unit_count": 1
+        },
+        {
+          "fips": "46093",
+          "name": "Meade",
+          "votes": {
+            "rounds-m": 2347,
+            "bengs-b": 1180
+          },
+          "total_votes": 3527,
+          "unit_count": 1
+        },
+        {
+          "fips": "46095",
+          "name": "Mellette",
+          "votes": {
+            "rounds-m": 372,
+            "bengs-b": 234
+          },
+          "total_votes": 606,
+          "unit_count": 1
+        },
+        {
+          "fips": "46097",
+          "name": "Miner",
+          "votes": {
+            "rounds-m": 622,
+            "bengs-b": 262
+          },
+          "total_votes": 884,
+          "unit_count": 1
+        },
+        {
+          "fips": "46099",
+          "name": "Minnehaha",
+          "votes": {
+            "rounds-m": 10093,
+            "bengs-b": 12691
+          },
+          "total_votes": 22784,
+          "unit_count": 1
+        },
+        {
+          "fips": "46101",
+          "name": "Moody",
+          "votes": {
+            "rounds-m": 1517,
+            "bengs-b": 933
+          },
+          "total_votes": 2450,
+          "unit_count": 1
+        },
+        {
+          "fips": "46102",
+          "name": "Oglala Lakota",
+          "votes": {
+            "rounds-m": 0,
+            "bengs-b": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46103",
+          "name": "Pennington",
+          "votes": {
+            "rounds-m": 4495,
+            "bengs-b": 4384
+          },
+          "total_votes": 8879,
+          "unit_count": 1
+        },
+        {
+          "fips": "46105",
+          "name": "Perkins",
+          "votes": {
+            "rounds-m": 0,
+            "bengs-b": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46107",
+          "name": "Potter",
+          "votes": {
+            "rounds-m": 745,
+            "bengs-b": 179
+          },
+          "total_votes": 924,
+          "unit_count": 1
+        },
+        {
+          "fips": "46109",
+          "name": "Roberts",
+          "votes": {
+            "rounds-m": 925,
+            "bengs-b": 847
+          },
+          "total_votes": 1772,
+          "unit_count": 1
+        },
+        {
+          "fips": "46111",
+          "name": "Sanborn",
+          "votes": {
+            "rounds-m": 585,
+            "bengs-b": 242
+          },
+          "total_votes": 827,
+          "unit_count": 1
+        },
+        {
+          "fips": "46115",
+          "name": "Spink",
+          "votes": {
+            "rounds-m": 1539,
+            "bengs-b": 718
+          },
+          "total_votes": 2257,
+          "unit_count": 1
+        },
+        {
+          "fips": "46117",
+          "name": "Stanley",
+          "votes": {
+            "rounds-m": 126,
+            "bengs-b": 24
+          },
+          "total_votes": 150,
+          "unit_count": 1
+        },
+        {
+          "fips": "46119",
+          "name": "Sully",
+          "votes": {
+            "rounds-m": 575,
+            "bengs-b": 137
+          },
+          "total_votes": 712,
+          "unit_count": 1
+        },
+        {
+          "fips": "46121",
+          "name": "Todd",
+          "votes": {
+            "rounds-m": 0,
+            "bengs-b": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46123",
+          "name": "Tripp",
+          "votes": {
+            "rounds-m": 711,
+            "bengs-b": 171
+          },
+          "total_votes": 882,
+          "unit_count": 1
+        },
+        {
+          "fips": "46125",
+          "name": "Turner",
+          "votes": {
+            "rounds-m": 2344,
+            "bengs-b": 898
+          },
+          "total_votes": 3242,
+          "unit_count": 1
+        },
+        {
+          "fips": "46127",
+          "name": "Union",
+          "votes": {
+            "rounds-m": 3862,
+            "bengs-b": 1902
+          },
+          "total_votes": 5764,
+          "unit_count": 1
+        },
+        {
+          "fips": "46129",
+          "name": "Walworth",
+          "votes": {
+            "rounds-m": 0,
+            "bengs-b": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46135",
+          "name": "Yankton",
+          "votes": {
+            "rounds-m": 2613,
+            "bengs-b": 2076
+          },
+          "total_votes": 4689,
+          "unit_count": 1
+        },
+        {
+          "fips": "46137",
+          "name": "Ziebach",
+          "votes": {
+            "rounds-m": 0,
+            "bengs-b": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [],
+        "called_by": []
+      },
+      "reporting_count": 57,
+      "missing_fips": [],
+      "state_total_votes": 162626,
+      "county_total_votes": 162626,
+      "county_sum_reconciles": true
+    },
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "manifest_race_id": "2026-governor-sd",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "rhoden-l",
+          "name": "Larry Rhoden",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "ahlers-d",
+          "name": "Dan Ahlers",
+          "party": "Democrat"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "46003",
+          "name": "Aurora",
+          "votes": {
+            "rhoden-l": 746,
+            "ahlers-d": 230
+          },
+          "total_votes": 976,
+          "unit_count": 1
+        },
+        {
+          "fips": "46005",
+          "name": "Beadle",
+          "votes": {
+            "rhoden-l": 3041,
+            "ahlers-d": 1349
+          },
+          "total_votes": 4390,
+          "unit_count": 1
+        },
+        {
+          "fips": "46007",
+          "name": "Bennett",
+          "votes": {
+            "rhoden-l": 0,
+            "ahlers-d": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46009",
+          "name": "Bon Homme",
+          "votes": {
+            "rhoden-l": 1610,
+            "ahlers-d": 536
+          },
+          "total_votes": 2146,
+          "unit_count": 1
+        },
+        {
+          "fips": "46011",
+          "name": "Brookings",
+          "votes": {
+            "rhoden-l": 4207,
+            "ahlers-d": 3148
+          },
+          "total_votes": 7355,
+          "unit_count": 1
+        },
+        {
+          "fips": "46013",
+          "name": "Brown",
+          "votes": {
+            "rhoden-l": 4194,
+            "ahlers-d": 3057
+          },
+          "total_votes": 7251,
+          "unit_count": 1
+        },
+        {
+          "fips": "46015",
+          "name": "Brule",
+          "votes": {
+            "rhoden-l": 1267,
+            "ahlers-d": 507
+          },
+          "total_votes": 1774,
+          "unit_count": 1
+        },
+        {
+          "fips": "46017",
+          "name": "Buffalo",
+          "votes": {
+            "rhoden-l": 138,
+            "ahlers-d": 241
+          },
+          "total_votes": 379,
+          "unit_count": 1
+        },
+        {
+          "fips": "46019",
+          "name": "Butte",
+          "votes": {
+            "rhoden-l": 351,
+            "ahlers-d": 98
+          },
+          "total_votes": 449,
+          "unit_count": 1
+        },
+        {
+          "fips": "46021",
+          "name": "Campbell",
+          "votes": {
+            "rhoden-l": 521,
+            "ahlers-d": 80
+          },
+          "total_votes": 601,
+          "unit_count": 1
+        },
+        {
+          "fips": "46023",
+          "name": "Charles Mix",
+          "votes": {
+            "rhoden-l": 1912,
+            "ahlers-d": 766
+          },
+          "total_votes": 2678,
+          "unit_count": 1
+        },
+        {
+          "fips": "46025",
+          "name": "Clark",
+          "votes": {
+            "rhoden-l": 0,
+            "ahlers-d": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46027",
+          "name": "Clay",
+          "votes": {
+            "rhoden-l": 1839,
+            "ahlers-d": 2247
+          },
+          "total_votes": 4086,
+          "unit_count": 1
+        },
+        {
+          "fips": "46029",
+          "name": "Codington",
+          "votes": {
+            "rhoden-l": 4343,
+            "ahlers-d": 1862
+          },
+          "total_votes": 6205,
+          "unit_count": 1
+        },
+        {
+          "fips": "46031",
+          "name": "Corson",
+          "votes": {
+            "rhoden-l": 101,
+            "ahlers-d": 97
+          },
+          "total_votes": 198,
+          "unit_count": 1
+        },
+        {
+          "fips": "46033",
+          "name": "Custer",
+          "votes": {
+            "rhoden-l": 1016,
+            "ahlers-d": 468
+          },
+          "total_votes": 1484,
+          "unit_count": 1
+        },
+        {
+          "fips": "46035",
+          "name": "Davison",
+          "votes": {
+            "rhoden-l": 4134,
+            "ahlers-d": 1933
+          },
+          "total_votes": 6067,
+          "unit_count": 1
+        },
+        {
+          "fips": "46037",
+          "name": "Day",
+          "votes": {
+            "rhoden-l": 1325,
+            "ahlers-d": 737
+          },
+          "total_votes": 2062,
+          "unit_count": 1
+        },
+        {
+          "fips": "46039",
+          "name": "Deuel",
+          "votes": {
+            "rhoden-l": 1253,
+            "ahlers-d": 435
+          },
+          "total_votes": 1688,
+          "unit_count": 1
+        },
+        {
+          "fips": "46041",
+          "name": "Dewey",
+          "votes": {
+            "rhoden-l": 0,
+            "ahlers-d": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46043",
+          "name": "Douglas",
+          "votes": {
+            "rhoden-l": 1119,
+            "ahlers-d": 140
+          },
+          "total_votes": 1259,
+          "unit_count": 1
+        },
+        {
+          "fips": "46045",
+          "name": "Edmunds",
+          "votes": {
+            "rhoden-l": 1143,
+            "ahlers-d": 297
+          },
+          "total_votes": 1440,
+          "unit_count": 1
+        },
+        {
+          "fips": "46047",
+          "name": "Fall River",
+          "votes": {
+            "rhoden-l": 581,
+            "ahlers-d": 304
+          },
+          "total_votes": 885,
+          "unit_count": 1
+        },
+        {
+          "fips": "46049",
+          "name": "Faulk",
+          "votes": {
+            "rhoden-l": 695,
+            "ahlers-d": 129
+          },
+          "total_votes": 824,
+          "unit_count": 1
+        },
+        {
+          "fips": "46051",
+          "name": "Grant",
+          "votes": {
+            "rhoden-l": 1393,
+            "ahlers-d": 520
+          },
+          "total_votes": 1913,
+          "unit_count": 1
+        },
+        {
+          "fips": "46053",
+          "name": "Gregory",
+          "votes": {
+            "rhoden-l": 1247,
+            "ahlers-d": 329
+          },
+          "total_votes": 1576,
+          "unit_count": 1
+        },
+        {
+          "fips": "46055",
+          "name": "Haakon",
+          "votes": {
+            "rhoden-l": 722,
+            "ahlers-d": 83
+          },
+          "total_votes": 805,
+          "unit_count": 1
+        },
+        {
+          "fips": "46057",
+          "name": "Hamlin",
+          "votes": {
+            "rhoden-l": 1756,
+            "ahlers-d": 481
+          },
+          "total_votes": 2237,
+          "unit_count": 1
+        },
+        {
+          "fips": "46059",
+          "name": "Hand",
+          "votes": {
+            "rhoden-l": 0,
+            "ahlers-d": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46061",
+          "name": "Hanson",
+          "votes": {
+            "rhoden-l": 895,
+            "ahlers-d": 239
+          },
+          "total_votes": 1134,
+          "unit_count": 1
+        },
+        {
+          "fips": "46063",
+          "name": "Harding",
+          "votes": {
+            "rhoden-l": 630,
+            "ahlers-d": 33
+          },
+          "total_votes": 663,
+          "unit_count": 1
+        },
+        {
+          "fips": "46065",
+          "name": "Hughes",
+          "votes": {
+            "rhoden-l": 4484,
+            "ahlers-d": 2034
+          },
+          "total_votes": 6518,
+          "unit_count": 1
+        },
+        {
+          "fips": "46067",
+          "name": "Hutchinson",
+          "votes": {
+            "rhoden-l": 2040,
+            "ahlers-d": 517
+          },
+          "total_votes": 2557,
+          "unit_count": 1
+        },
+        {
+          "fips": "46069",
+          "name": "Hyde",
+          "votes": {
+            "rhoden-l": 418,
+            "ahlers-d": 86
+          },
+          "total_votes": 504,
+          "unit_count": 1
+        },
+        {
+          "fips": "46071",
+          "name": "Jackson",
+          "votes": {
+            "rhoden-l": 238,
+            "ahlers-d": 36
+          },
+          "total_votes": 274,
+          "unit_count": 1
+        },
+        {
+          "fips": "46073",
+          "name": "Jerauld",
+          "votes": {
+            "rhoden-l": 535,
+            "ahlers-d": 164
+          },
+          "total_votes": 699,
+          "unit_count": 1
+        },
+        {
+          "fips": "46075",
+          "name": "Jones",
+          "votes": {
+            "rhoden-l": 405,
+            "ahlers-d": 49
+          },
+          "total_votes": 454,
+          "unit_count": 1
+        },
+        {
+          "fips": "46077",
+          "name": "Kingsbury",
+          "votes": {
+            "rhoden-l": 1490,
+            "ahlers-d": 567
+          },
+          "total_votes": 2057,
+          "unit_count": 1
+        },
+        {
+          "fips": "46079",
+          "name": "Lake",
+          "votes": {
+            "rhoden-l": 2643,
+            "ahlers-d": 1292
+          },
+          "total_votes": 3935,
+          "unit_count": 1
+        },
+        {
+          "fips": "46081",
+          "name": "Lawrence",
+          "votes": {
+            "rhoden-l": 4309,
+            "ahlers-d": 2616
+          },
+          "total_votes": 6925,
+          "unit_count": 1
+        },
+        {
+          "fips": "46083",
+          "name": "Lincoln",
+          "votes": {
+            "rhoden-l": 6413,
+            "ahlers-d": 3484
+          },
+          "total_votes": 9897,
+          "unit_count": 1
+        },
+        {
+          "fips": "46085",
+          "name": "Lyman",
+          "votes": {
+            "rhoden-l": 780,
+            "ahlers-d": 343
+          },
+          "total_votes": 1123,
+          "unit_count": 1
+        },
+        {
+          "fips": "46087",
+          "name": "McCook",
+          "votes": {
+            "rhoden-l": 1562,
+            "ahlers-d": 611
+          },
+          "total_votes": 2173,
+          "unit_count": 1
+        },
+        {
+          "fips": "46089",
+          "name": "McPherson",
+          "votes": {
+            "rhoden-l": 861,
+            "ahlers-d": 137
+          },
+          "total_votes": 998,
+          "unit_count": 1
+        },
+        {
+          "fips": "46091",
+          "name": "Marshall",
+          "votes": {
+            "rhoden-l": 1056,
+            "ahlers-d": 601
+          },
+          "total_votes": 1657,
+          "unit_count": 1
+        },
+        {
+          "fips": "46093",
+          "name": "Meade",
+          "votes": {
+            "rhoden-l": 2595,
+            "ahlers-d": 952
+          },
+          "total_votes": 3547,
+          "unit_count": 1
+        },
+        {
+          "fips": "46095",
+          "name": "Mellette",
+          "votes": {
+            "rhoden-l": 403,
+            "ahlers-d": 209
+          },
+          "total_votes": 612,
+          "unit_count": 1
+        },
+        {
+          "fips": "46097",
+          "name": "Miner",
+          "votes": {
+            "rhoden-l": 662,
+            "ahlers-d": 240
+          },
+          "total_votes": 902,
+          "unit_count": 1
+        },
+        {
+          "fips": "46099",
+          "name": "Minnehaha",
+          "votes": {
+            "rhoden-l": 9976,
+            "ahlers-d": 12184
+          },
+          "total_votes": 22160,
+          "unit_count": 1
+        },
+        {
+          "fips": "46101",
+          "name": "Moody",
+          "votes": {
+            "rhoden-l": 1495,
+            "ahlers-d": 979
+          },
+          "total_votes": 2474,
+          "unit_count": 1
+        },
+        {
+          "fips": "46102",
+          "name": "Oglala Lakota",
+          "votes": {
+            "rhoden-l": 0,
+            "ahlers-d": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46103",
+          "name": "Pennington",
+          "votes": {
+            "rhoden-l": 4882,
+            "ahlers-d": 4055
+          },
+          "total_votes": 8937,
+          "unit_count": 1
+        },
+        {
+          "fips": "46105",
+          "name": "Perkins",
+          "votes": {
+            "rhoden-l": 0,
+            "ahlers-d": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46107",
+          "name": "Potter",
+          "votes": {
+            "rhoden-l": 787,
+            "ahlers-d": 141
+          },
+          "total_votes": 928,
+          "unit_count": 1
+        },
+        {
+          "fips": "46109",
+          "name": "Roberts",
+          "votes": {
+            "rhoden-l": 910,
+            "ahlers-d": 871
+          },
+          "total_votes": 1781,
+          "unit_count": 1
+        },
+        {
+          "fips": "46111",
+          "name": "Sanborn",
+          "votes": {
+            "rhoden-l": 602,
+            "ahlers-d": 229
+          },
+          "total_votes": 831,
+          "unit_count": 1
+        },
+        {
+          "fips": "46115",
+          "name": "Spink",
+          "votes": {
+            "rhoden-l": 1632,
+            "ahlers-d": 639
+          },
+          "total_votes": 2271,
+          "unit_count": 1
+        },
+        {
+          "fips": "46117",
+          "name": "Stanley",
+          "votes": {
+            "rhoden-l": 129,
+            "ahlers-d": 20
+          },
+          "total_votes": 149,
+          "unit_count": 1
+        },
+        {
+          "fips": "46119",
+          "name": "Sully",
+          "votes": {
+            "rhoden-l": 597,
+            "ahlers-d": 115
+          },
+          "total_votes": 712,
+          "unit_count": 1
+        },
+        {
+          "fips": "46121",
+          "name": "Todd",
+          "votes": {
+            "rhoden-l": 0,
+            "ahlers-d": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46123",
+          "name": "Tripp",
+          "votes": {
+            "rhoden-l": 736,
+            "ahlers-d": 154
+          },
+          "total_votes": 890,
+          "unit_count": 1
+        },
+        {
+          "fips": "46125",
+          "name": "Turner",
+          "votes": {
+            "rhoden-l": 2418,
+            "ahlers-d": 833
+          },
+          "total_votes": 3251,
+          "unit_count": 1
+        },
+        {
+          "fips": "46127",
+          "name": "Union",
+          "votes": {
+            "rhoden-l": 3894,
+            "ahlers-d": 1920
+          },
+          "total_votes": 5814,
+          "unit_count": 1
+        },
+        {
+          "fips": "46129",
+          "name": "Walworth",
+          "votes": {
+            "rhoden-l": 0,
+            "ahlers-d": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "46135",
+          "name": "Yankton",
+          "votes": {
+            "rhoden-l": 2757,
+            "ahlers-d": 1945
+          },
+          "total_votes": 4702,
+          "unit_count": 1
+        },
+        {
+          "fips": "46137",
+          "name": "Ziebach",
+          "votes": {
+            "rhoden-l": 0,
+            "ahlers-d": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [],
+        "called_by": []
+      },
+      "reporting_count": 57,
+      "missing_fips": [],
+      "state_total_votes": 162257,
+      "county_total_votes": 162257,
+      "county_sum_reconciles": true
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-south-dakota.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 66,
+  "reporting_count": 57,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:36:54.867Z",
+    "S_race_updated_at": "2026-11-04T04:36:54.867Z",
+    "G_race_updated_at": "2026-11-04T04:36:39.346Z"
+  },
+  "limitations": [
+    "Only candidates[].votes.total was used; NYT models, estimates, expected votes, and EEVP were ignored.",
+    "Exact county FIPS are matched against the local GeoJSON. Township aggregation is used only when no county-level reporting units exist, grouping by source fips_state+fips_county."
+  ],
+  "call_authority": {
+    "called_by_ap_offices": [],
+    "authority": "AP is identified only for offices whose outcome.called_by explicitly contains ap."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-south-dakota.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 66,
+    "reporting_count": 58,
+    "row_count": 132,
+    "source_time": "2026-11-04T04:46:44.748+00:00",
+    "fetched_at": "2026-11-04T04:47:03.123Z",
+    "message": "66 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

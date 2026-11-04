@@ -1,0 +1,94 @@
+{
+  "state": "MI",
+  "state_name": "Michigan",
+  "offices": [
+    "US Senate",
+    "Governor"
+  ],
+  "election": {
+    "date": "2026-11-03",
+    "name": "November 3, 2026 General Election",
+    "configured_races": [
+      "2026-senate-mi",
+      "2026-governor-mi"
+    ],
+    "configured_candidates": {
+      "US Senate": [
+        "Abdul El-Sayed",
+        "Mike Rogers"
+      ],
+      "Governor": [
+        "Jocelyn Benson",
+        "John James"
+      ]
+    }
+  },
+  "provider_family": "Michigan Secretary of State / Michigan Voter Information Center (MVIC)",
+  "endpoints": [
+    {
+      "url": "https://mvic.sos.state.mi.us/votehistory/Index?electionDate=11-3-2026&type=C",
+      "purpose": "Official Michigan page linked by the SOS for Nov. 3, 2026 general election results.",
+      "observed_http_status": 403,
+      "observed_at_utc": "2026-11-04T04:26:22Z",
+      "observation": "Cloudflare challenge response (Cf-Mitigated: challenge); no election result payload obtained."
+    },
+    {
+      "url": "https://civicapi.org/api/v2/race/search?province=MI&country=US&startDate=2026-11-03&endDate=2026-11-03",
+      "purpose": "Public multi-state race search; intended follow-up /api/v2/race/{ID}/region_results.",
+      "provider_family": "CivicAPI",
+      "observed_at_utc": "2026-11-04T04:25:36Z",
+      "observed_http_status": 502,
+      "observation": "Cloudflare 502 error; a second direct request at approximately 04:26 UTC timed out without response. No race IDs or results retrieved."
+    },
+    {
+      "url": "https://www.michigan.gov/sos/elections/election-results-and-data",
+      "purpose": "Official SOS results index; identifies a 2026 November General Election results link and describes local election data as county-posted.",
+      "observed_at_utc": "2026-11-04T04:26Z",
+      "observation": "Index page reachable, but following its results link reaches the MVIC 403 endpoint above."
+    },
+    {
+      "url": "https://mielections.us/election/results/2026GEN_CENR.html",
+      "purpose": "Potential official election result page probed as a fallback.",
+      "observed_at_utc": "2026-11-04T04:25Z",
+      "observation": "Direct request timed out after 20 seconds. Not confirmed as the operative endpoint for this election."
+    }
+  ],
+  "observed_at_utc": "2026-11-04T04:26:22Z",
+  "counties_with_real_votes": [],
+  "county_count_with_verified_votes": 0,
+  "limitations": [
+    "No live county vote totals could be independently fetched from an unauthenticated public API in this probe; do not treat missing totals as zero votes.",
+    "The official SOS site links the 2026 general results to MVIC, but the endpoint returned an automated Cloudflare challenge (HTTP 403). No attempt was made to bypass it.",
+    "CivicAPI, the preferred potentially reusable provider, returned HTTP 502 and then timed out. Its race search and region_results schema could not be verified.",
+    "Michigan SOS says local election data may be posted on county websites; its election results index does not itself provide a statewide county API contract."
+  ],
+  "license": "No data license for a machine-readable feed was verified. The SOS public pages provide public election information; confirm reuse terms for any fetched third-party or county data.",
+  "sources": [
+    "https://www.michigan.gov/sos/elections",
+    "https://www.michigan.gov/sos/elections/election-results-and-data",
+    "https://www.michigan.gov/sos/elections/election-results-and-data/candidate-listings-and-election-results-by-county",
+    "https://civicapi.org/api/v2/race/search?province=MI&country=US&startDate=2026-11-03&endDate=2026-11-03"
+  ],
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-michigan.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 83,
+    "reporting_count": 68,
+    "row_count": 166,
+    "source_time": "2026-11-04T04:46:45.821+00:00",
+    "fetched_at": "2026-11-04T04:47:03.022Z",
+    "message": "83 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

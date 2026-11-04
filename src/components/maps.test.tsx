@@ -4,12 +4,14 @@ import '@testing-library/jest-dom/vitest';
 import SenateMap from './SenateMap';
 import CountyExplorer from './CountyExplorer';
 import type {Snapshot} from '../types';
+import type {APCall} from '../lib/apCalls';
 import type {CountySelection} from './CountyExplorer';
 import CountyReport from './CountyReport';
 import races from '../../config/races.json';
 import statesGeo from '../../public/geo/states.json';
 import gaGeo from '../../public/geo/counties/GA.json';
 import meGeo from '../../public/geo/counties/ME.json';
+import meData from '../../public/data/live-counties/ME.json';
 import caGeo from '../../public/geo/counties/CA.json';
 import ncGeo from '../../public/geo/counties/NC.json';
 import caData from '../../public/data/live-counties/CA.json';
@@ -24,6 +26,7 @@ beforeEach(()=>{localStorage.clear();vi.stubGlobal('fetch',vi.fn((url:string)=>{
  if(url.includes('geo/states.json'))return response(statesGeo);
  if(url.includes('geo/counties/GA.json'))return response(gaGeo);
  if(url.includes('geo/counties/ME.json'))return response(meGeo);
+ if(url.includes('data/live-counties/ME.json'))return response(meData);
  if(url.includes('geo/counties/CA.json'))return response(caGeo);
  if(url.includes('geo/counties/NC.json'))return response(ncGeo);
  if(url.includes('data/live-counties/CA.json'))return response(caData);
@@ -66,6 +69,34 @@ describe('National map',()=>{
   expect(container.querySelector('[data-state="VA"]')).toHaveAttribute('data-race','false');
   expect(container.querySelector('[data-state="HI"]')).toHaveAttribute('data-race','true');
  });
+ it('colors a single-contest New York Governor map across the whole state',async()=>{
+  const race=snapshot.races.find(r=>r.state==='NY'&&r.office==='Governor')!;
+  const result={race_id:race.id,state:'NY',office:'Governor' as const,as_of:'2026-11-04T01:00:00Z',pct_reporting:10,total:100,candidates:[{name:'Leading candidate',party:'D',votes:60,share:.6},{name:'Other candidate',party:'R',votes:40,share:.4}],stale:false,source_url:'https://example.test'};
+  const {container}=render(<SenateMap snapshot={snapshot} office="Governor" mode="polling" selected={null} onSelect={()=>{}} results={{fetched_at:'2026-11-04T01:00:00Z',as_of:'2026-11-04T01:00:00Z',races:[result]}} showResults/>);
+  const ny=await screen.findByTestId('state-NY');
+  expect(ny).toHaveAttribute('data-contests','1');
+  expect(ny).toHaveAttribute('fill','#579bd7');
+  expect(container.querySelector('g:has(> path[data-state="NY"]) > path[fill="url(#leader-hatch)"]')).toBeInTheDocument();
+ });
+ it('uses solid party color only for explicit AP calls and hatches an uncalled reported leader',async()=>{
+  const tx=snapshot.races.find(r=>r.state==='TX'&&r.office==='Senate')!;
+  const mi=snapshot.races.find(r=>r.state==='MI'&&r.office==='Senate')!;
+  const results={fetched_at:'2026-11-04T01:00:00Z',as_of:'2026-11-04T01:00:00Z',races:[
+   {race_id:tx.id,state:'TX',office:'Senate' as const,as_of:null,pct_reporting:75,total:100,candidates:[{name:'Reported leader',party:'D',votes:60,share:.6},{name:'Other',party:'R',votes:40,share:.4}],stale:false,source_url:'https://example.test'},
+   {race_id:mi.id,state:'MI',office:'Senate' as const,as_of:null,pct_reporting:75,total:100,candidates:[{name:'Reported leader',party:'R',votes:60,share:.6},{name:'Other',party:'D',votes:40,share:.4}],stale:false,source_url:'https://example.test'},
+  ]};
+  const calls=[{race_id:tx.id,office:'Senate',state:'TX',winner_id:null,source_candidate_id:'winner',winner_name:'AP winner',party:'D',authority:'Associated Press',source_url:'https://nytimes.com/race',accepted_at:'2026-11-04T02:00:00Z',source_timestamp:'2026-11-04T02:01:00Z',fetched_at:'2026-11-04T02:02:00Z'}] as APCall[];
+  const {container}=render(<SenateMap snapshot={snapshot} office="All" mode="polling" selected="TX" onSelect={()=>{}} results={results} showResults calls={calls}/>);
+  const texas=await screen.findByTestId('state-TX');const michigan=screen.getByTestId('state-MI');
+  expect(texas).toHaveAttribute('data-ap-called-senate','true');
+  expect(texas).toHaveAttribute('fill','url(#race-split-TX)');
+  expect(michigan).toHaveAttribute('data-ap-called-senate','false');
+  expect(container.querySelector('g:has(> path[data-state="MI"]) > path[fill="url(#leader-hatch)"]')).toBeInTheDocument();
+  expect(container.querySelector('g:has(> path[data-state="TX"]) > path[fill="url(#leader-hatch)"]')).not.toBeInTheDocument();
+  expect(screen.getByTestId('map-legend')).toHaveTextContent('Solid: AP called winner');
+  expect(screen.getByTestId('map-legend')).toHaveTextContent('Hatched: reported leader, uncalled');
+  expect(texas).toHaveAttribute('aria-label',expect.stringContaining('record acceptance time, not the exact AP call time'));
+ });
 });
 
 describe('Live 2026 county explorer',()=>{
@@ -85,7 +116,7 @@ describe('Live 2026 county explorer',()=>{
   expect(screen.getByRole('link',{name:'North Carolina State Board of Elections'})).toHaveAttribute('href',expect.stringContaining('er.ncsbe.gov'));
   expect(vi.mocked(fetch).mock.calls.every(([url])=>!String(url).includes('data/counties/'))).toBe(true);
  });
- it('keeps genuinely zero California reports awaiting and never substitutes history in unsupported states',async()=>{
+ it('keeps genuinely zero California reports awaiting and shows available Maine returns',async()=>{
   const selected=vi.fn();const {container,rerender}=render(<CountyExplorer state="CA" stateName="California" fips="06" onCountyChange={selected}/>);
   await waitFor(()=>expect(container.querySelectorAll('path[data-status="awaiting"]')).toHaveLength(58));
   expect(screen.getByText('County feed connected. Awaiting reported votes.')).toBeInTheDocument();
@@ -98,8 +129,9 @@ describe('Live 2026 county explorer',()=>{
   expect(screen.getByText('The source has not reported counted votes for this county.')).toBeInTheDocument();
   expect(report.container.textContent).not.toContain('0.0%');report.unmount();
   rerender(<CountyExplorer state="ME" stateName="Maine" fips="23" onCountyChange={selected}/>);
-  await waitFor(()=>expect(container.querySelectorAll('path[data-status="unavailable"]')).toHaveLength(16));
-  expect(screen.getByText('No verified 2026 live county feed is connected for this state.')).toBeInTheDocument();
+  await waitFor(()=>expect(container.querySelectorAll('path[data-status="reporting"]')).toHaveLength(16));
+  expect(screen.getByText('16 of 16 counties have reported votes.')).toBeInTheDocument();
+  expect(screen.getByRole('link',{name:'Reported election returns via The New York Times'})).toHaveAttribute('href',expect.stringContaining('results-maine.json'));
   expect(screen.queryByLabelText('County election year')).not.toBeInTheDocument();
   expect(vi.mocked(fetch).mock.calls.every(([url])=>!String(url).includes('data/counties/'))).toBe(true);
  });

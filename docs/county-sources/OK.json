@@ -1,0 +1,2147 @@
+{
+  "state": "OK",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "Senate",
+      "manifest_race_id": "2026-senate-ok",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "hern-k",
+          "name": "Kevin Hern",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "thomas-n",
+          "name": "N\u2019Kiyla Jasmine Thomas",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "white-s",
+          "name": "Sevier White",
+          "party": "Libertarian"
+        },
+        {
+          "nyt_id": "stinnett-c",
+          "name": "Curtis Stinnett",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "meinhardt-r",
+          "name": "Ron Meinhardt",
+          "party": "Independent"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "40001",
+          "name": "Adair",
+          "votes": {
+            "hern-k": 3419,
+            "thomas-n": 1225,
+            "white-s": 38,
+            "stinnett-c": 71,
+            "meinhardt-r": 52
+          },
+          "total_votes": 4805,
+          "unit_count": 1
+        },
+        {
+          "fips": "40003",
+          "name": "Alfalfa",
+          "votes": {
+            "hern-k": 1304,
+            "thomas-n": 209,
+            "white-s": 15,
+            "stinnett-c": 28,
+            "meinhardt-r": 17
+          },
+          "total_votes": 1573,
+          "unit_count": 1
+        },
+        {
+          "fips": "40005",
+          "name": "Atoka",
+          "votes": {
+            "hern-k": 2565,
+            "thomas-n": 637,
+            "white-s": 18,
+            "stinnett-c": 38,
+            "meinhardt-r": 35
+          },
+          "total_votes": 3293,
+          "unit_count": 1
+        },
+        {
+          "fips": "40007",
+          "name": "Beaver",
+          "votes": {
+            "hern-k": 1199,
+            "thomas-n": 177,
+            "white-s": 9,
+            "stinnett-c": 28,
+            "meinhardt-r": 22
+          },
+          "total_votes": 1435,
+          "unit_count": 1
+        },
+        {
+          "fips": "40009",
+          "name": "Beckham",
+          "votes": {
+            "hern-k": 3711,
+            "thomas-n": 924,
+            "white-s": 44,
+            "stinnett-c": 39,
+            "meinhardt-r": 56
+          },
+          "total_votes": 4774,
+          "unit_count": 1
+        },
+        {
+          "fips": "40011",
+          "name": "Blaine",
+          "votes": {
+            "hern-k": 1899,
+            "thomas-n": 605,
+            "white-s": 15,
+            "stinnett-c": 26,
+            "meinhardt-r": 28
+          },
+          "total_votes": 2573,
+          "unit_count": 1
+        },
+        {
+          "fips": "40013",
+          "name": "Bryan",
+          "votes": {
+            "hern-k": 7955,
+            "thomas-n": 3207,
+            "white-s": 113,
+            "stinnett-c": 127,
+            "meinhardt-r": 103
+          },
+          "total_votes": 11505,
+          "unit_count": 1
+        },
+        {
+          "fips": "40015",
+          "name": "Caddo",
+          "votes": {
+            "hern-k": 4018,
+            "thomas-n": 2192,
+            "white-s": 53,
+            "stinnett-c": 106,
+            "meinhardt-r": 75
+          },
+          "total_votes": 6444,
+          "unit_count": 1
+        },
+        {
+          "fips": "40017",
+          "name": "Canadian",
+          "votes": {
+            "hern-k": 31509,
+            "thomas-n": 20725,
+            "white-s": 570,
+            "stinnett-c": 701,
+            "meinhardt-r": 712
+          },
+          "total_votes": 54217,
+          "unit_count": 1
+        },
+        {
+          "fips": "40019",
+          "name": "Carter",
+          "votes": {
+            "hern-k": 8147,
+            "thomas-n": 3693,
+            "white-s": 74,
+            "stinnett-c": 118,
+            "meinhardt-r": 96
+          },
+          "total_votes": 12128,
+          "unit_count": 1
+        },
+        {
+          "fips": "40021",
+          "name": "Cherokee",
+          "votes": {
+            "hern-k": 6861,
+            "thomas-n": 5204,
+            "white-s": 130,
+            "stinnett-c": 191,
+            "meinhardt-r": 138
+          },
+          "total_votes": 12524,
+          "unit_count": 1
+        },
+        {
+          "fips": "40023",
+          "name": "Choctaw",
+          "votes": {
+            "hern-k": 2630,
+            "thomas-n": 807,
+            "white-s": 20,
+            "stinnett-c": 28,
+            "meinhardt-r": 35
+          },
+          "total_votes": 3520,
+          "unit_count": 1
+        },
+        {
+          "fips": "40025",
+          "name": "Cimarron",
+          "votes": {
+            "hern-k": 552,
+            "thomas-n": 62,
+            "white-s": 2,
+            "stinnett-c": 14,
+            "meinhardt-r": 13
+          },
+          "total_votes": 643,
+          "unit_count": 1
+        },
+        {
+          "fips": "40027",
+          "name": "Cleveland",
+          "votes": {
+            "hern-k": 42720,
+            "thomas-n": 43713,
+            "white-s": 957,
+            "stinnett-c": 1229,
+            "meinhardt-r": 1178
+          },
+          "total_votes": 89797,
+          "unit_count": 1
+        },
+        {
+          "fips": "40029",
+          "name": "Coal",
+          "votes": {
+            "hern-k": 1166,
+            "thomas-n": 279,
+            "white-s": 10,
+            "stinnett-c": 18,
+            "meinhardt-r": 14
+          },
+          "total_votes": 1487,
+          "unit_count": 1
+        },
+        {
+          "fips": "40031",
+          "name": "Comanche",
+          "votes": {
+            "hern-k": 0,
+            "thomas-n": 0,
+            "white-s": 0,
+            "stinnett-c": 0,
+            "meinhardt-r": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "40033",
+          "name": "Cotton",
+          "votes": {
+            "hern-k": 1173,
+            "thomas-n": 304,
+            "white-s": 16,
+            "stinnett-c": 16,
+            "meinhardt-r": 24
+          },
+          "total_votes": 1533,
+          "unit_count": 1
+        },
+        {
+          "fips": "40035",
+          "name": "Craig",
+          "votes": {
+            "hern-k": 2778,
+            "thomas-n": 974,
+            "white-s": 30,
+            "stinnett-c": 58,
+            "meinhardt-r": 68
+          },
+          "total_votes": 3908,
+          "unit_count": 1
+        },
+        {
+          "fips": "40037",
+          "name": "Creek",
+          "votes": {
+            "hern-k": 14357,
+            "thomas-n": 5637,
+            "white-s": 193,
+            "stinnett-c": 279,
+            "meinhardt-r": 251
+          },
+          "total_votes": 20717,
+          "unit_count": 1
+        },
+        {
+          "fips": "40039",
+          "name": "Custer",
+          "votes": {
+            "hern-k": 4912,
+            "thomas-n": 2056,
+            "white-s": 66,
+            "stinnett-c": 77,
+            "meinhardt-r": 74
+          },
+          "total_votes": 7185,
+          "unit_count": 1
+        },
+        {
+          "fips": "40041",
+          "name": "Delaware",
+          "votes": {
+            "hern-k": 8652,
+            "thomas-n": 2757,
+            "white-s": 83,
+            "stinnett-c": 164,
+            "meinhardt-r": 109
+          },
+          "total_votes": 11765,
+          "unit_count": 1
+        },
+        {
+          "fips": "40043",
+          "name": "Dewey",
+          "votes": {
+            "hern-k": 1213,
+            "thomas-n": 162,
+            "white-s": 9,
+            "stinnett-c": 16,
+            "meinhardt-r": 16
+          },
+          "total_votes": 1416,
+          "unit_count": 1
+        },
+        {
+          "fips": "40045",
+          "name": "Ellis",
+          "votes": {
+            "hern-k": 1046,
+            "thomas-n": 174,
+            "white-s": 9,
+            "stinnett-c": 12,
+            "meinhardt-r": 21
+          },
+          "total_votes": 1262,
+          "unit_count": 1
+        },
+        {
+          "fips": "40047",
+          "name": "Garfield",
+          "votes": {
+            "hern-k": 10207,
+            "thomas-n": 4031,
+            "white-s": 136,
+            "stinnett-c": 220,
+            "meinhardt-r": 197
+          },
+          "total_votes": 14791,
+          "unit_count": 1
+        },
+        {
+          "fips": "40049",
+          "name": "Garvin",
+          "votes": {
+            "hern-k": 5098,
+            "thomas-n": 1648,
+            "white-s": 50,
+            "stinnett-c": 107,
+            "meinhardt-r": 72
+          },
+          "total_votes": 6975,
+          "unit_count": 1
+        },
+        {
+          "fips": "40051",
+          "name": "Grady",
+          "votes": {
+            "hern-k": 12123,
+            "thomas-n": 4136,
+            "white-s": 164,
+            "stinnett-c": 229,
+            "meinhardt-r": 195
+          },
+          "total_votes": 16847,
+          "unit_count": 1
+        },
+        {
+          "fips": "40053",
+          "name": "Grant",
+          "votes": {
+            "hern-k": 1133,
+            "thomas-n": 234,
+            "white-s": 16,
+            "stinnett-c": 12,
+            "meinhardt-r": 16
+          },
+          "total_votes": 1411,
+          "unit_count": 1
+        },
+        {
+          "fips": "40055",
+          "name": "Greer",
+          "votes": {
+            "hern-k": 980,
+            "thomas-n": 288,
+            "white-s": 7,
+            "stinnett-c": 15,
+            "meinhardt-r": 8
+          },
+          "total_votes": 1298,
+          "unit_count": 1
+        },
+        {
+          "fips": "40057",
+          "name": "Harmon",
+          "votes": {
+            "hern-k": 387,
+            "thomas-n": 148,
+            "white-s": 5,
+            "stinnett-c": 6,
+            "meinhardt-r": 2
+          },
+          "total_votes": 548,
+          "unit_count": 1
+        },
+        {
+          "fips": "40059",
+          "name": "Harper",
+          "votes": {
+            "hern-k": 846,
+            "thomas-n": 139,
+            "white-s": 9,
+            "stinnett-c": 14,
+            "meinhardt-r": 18
+          },
+          "total_votes": 1026,
+          "unit_count": 1
+        },
+        {
+          "fips": "40061",
+          "name": "Haskell",
+          "votes": {
+            "hern-k": 2243,
+            "thomas-n": 640,
+            "white-s": 17,
+            "stinnett-c": 20,
+            "meinhardt-r": 20
+          },
+          "total_votes": 2940,
+          "unit_count": 1
+        },
+        {
+          "fips": "40063",
+          "name": "Hughes",
+          "votes": {
+            "hern-k": 2109,
+            "thomas-n": 716,
+            "white-s": 15,
+            "stinnett-c": 33,
+            "meinhardt-r": 25
+          },
+          "total_votes": 2898,
+          "unit_count": 1
+        },
+        {
+          "fips": "40065",
+          "name": "Jackson",
+          "votes": {
+            "hern-k": 3619,
+            "thomas-n": 1227,
+            "white-s": 54,
+            "stinnett-c": 64,
+            "meinhardt-r": 51
+          },
+          "total_votes": 5015,
+          "unit_count": 1
+        },
+        {
+          "fips": "40067",
+          "name": "Jefferson",
+          "votes": {
+            "hern-k": 1098,
+            "thomas-n": 255,
+            "white-s": 16,
+            "stinnett-c": 16,
+            "meinhardt-r": 14
+          },
+          "total_votes": 1399,
+          "unit_count": 1
+        },
+        {
+          "fips": "40069",
+          "name": "Johnston",
+          "votes": {
+            "hern-k": 1937,
+            "thomas-n": 591,
+            "white-s": 18,
+            "stinnett-c": 23,
+            "meinhardt-r": 28
+          },
+          "total_votes": 2597,
+          "unit_count": 1
+        },
+        {
+          "fips": "40071",
+          "name": "Kay",
+          "votes": {
+            "hern-k": 7877,
+            "thomas-n": 3428,
+            "white-s": 95,
+            "stinnett-c": 178,
+            "meinhardt-r": 191
+          },
+          "total_votes": 11769,
+          "unit_count": 1
+        },
+        {
+          "fips": "40073",
+          "name": "Kingfisher",
+          "votes": {
+            "hern-k": 3502,
+            "thomas-n": 804,
+            "white-s": 37,
+            "stinnett-c": 64,
+            "meinhardt-r": 57
+          },
+          "total_votes": 4464,
+          "unit_count": 1
+        },
+        {
+          "fips": "40075",
+          "name": "Kiowa",
+          "votes": {
+            "hern-k": 1629,
+            "thomas-n": 532,
+            "white-s": 17,
+            "stinnett-c": 31,
+            "meinhardt-r": 30
+          },
+          "total_votes": 2239,
+          "unit_count": 1
+        },
+        {
+          "fips": "40077",
+          "name": "Latimer",
+          "votes": {
+            "hern-k": 1811,
+            "thomas-n": 572,
+            "white-s": 24,
+            "stinnett-c": 18,
+            "meinhardt-r": 38
+          },
+          "total_votes": 2463,
+          "unit_count": 1
+        },
+        {
+          "fips": "40079",
+          "name": "Le Flore",
+          "votes": {
+            "hern-k": 8414,
+            "thomas-n": 2609,
+            "white-s": 94,
+            "stinnett-c": 106,
+            "meinhardt-r": 145
+          },
+          "total_votes": 11368,
+          "unit_count": 1
+        },
+        {
+          "fips": "40081",
+          "name": "Lincoln",
+          "votes": {
+            "hern-k": 7659,
+            "thomas-n": 2308,
+            "white-s": 95,
+            "stinnett-c": 143,
+            "meinhardt-r": 129
+          },
+          "total_votes": 10334,
+          "unit_count": 1
+        },
+        {
+          "fips": "40083",
+          "name": "Logan",
+          "votes": {
+            "hern-k": 11833,
+            "thomas-n": 5305,
+            "white-s": 204,
+            "stinnett-c": 215,
+            "meinhardt-r": 248
+          },
+          "total_votes": 17805,
+          "unit_count": 1
+        },
+        {
+          "fips": "40085",
+          "name": "Love",
+          "votes": {
+            "hern-k": 1789,
+            "thomas-n": 639,
+            "white-s": 16,
+            "stinnett-c": 21,
+            "meinhardt-r": 23
+          },
+          "total_votes": 2488,
+          "unit_count": 1
+        },
+        {
+          "fips": "40087",
+          "name": "McClain",
+          "votes": {
+            "hern-k": 10570,
+            "thomas-n": 3745,
+            "white-s": 174,
+            "stinnett-c": 199,
+            "meinhardt-r": 169
+          },
+          "total_votes": 14857,
+          "unit_count": 1
+        },
+        {
+          "fips": "40089",
+          "name": "McCurtain",
+          "votes": {
+            "hern-k": 5174,
+            "thomas-n": 1396,
+            "white-s": 58,
+            "stinnett-c": 64,
+            "meinhardt-r": 47
+          },
+          "total_votes": 6739,
+          "unit_count": 1
+        },
+        {
+          "fips": "40091",
+          "name": "McIntosh",
+          "votes": {
+            "hern-k": 3973,
+            "thomas-n": 1579,
+            "white-s": 36,
+            "stinnett-c": 76,
+            "meinhardt-r": 68
+          },
+          "total_votes": 5732,
+          "unit_count": 1
+        },
+        {
+          "fips": "40093",
+          "name": "Major",
+          "votes": {
+            "hern-k": 1998,
+            "thomas-n": 289,
+            "white-s": 25,
+            "stinnett-c": 25,
+            "meinhardt-r": 23
+          },
+          "total_votes": 2360,
+          "unit_count": 1
+        },
+        {
+          "fips": "40095",
+          "name": "Marshall",
+          "votes": {
+            "hern-k": 3293,
+            "thomas-n": 1077,
+            "white-s": 25,
+            "stinnett-c": 64,
+            "meinhardt-r": 42
+          },
+          "total_votes": 4501,
+          "unit_count": 1
+        },
+        {
+          "fips": "40097",
+          "name": "Mayes",
+          "votes": {
+            "hern-k": 7985,
+            "thomas-n": 3005,
+            "white-s": 108,
+            "stinnett-c": 166,
+            "meinhardt-r": 225
+          },
+          "total_votes": 11489,
+          "unit_count": 1
+        },
+        {
+          "fips": "40099",
+          "name": "Murray",
+          "votes": {
+            "hern-k": 2735,
+            "thomas-n": 971,
+            "white-s": 34,
+            "stinnett-c": 41,
+            "meinhardt-r": 48
+          },
+          "total_votes": 3829,
+          "unit_count": 1
+        },
+        {
+          "fips": "40101",
+          "name": "Muskogee",
+          "votes": {
+            "hern-k": 9500,
+            "thomas-n": 6258,
+            "white-s": 156,
+            "stinnett-c": 175,
+            "meinhardt-r": 195
+          },
+          "total_votes": 16284,
+          "unit_count": 1
+        },
+        {
+          "fips": "40103",
+          "name": "Noble",
+          "votes": {
+            "hern-k": 2558,
+            "thomas-n": 879,
+            "white-s": 40,
+            "stinnett-c": 45,
+            "meinhardt-r": 58
+          },
+          "total_votes": 3580,
+          "unit_count": 1
+        },
+        {
+          "fips": "40105",
+          "name": "Nowata",
+          "votes": {
+            "hern-k": 2326,
+            "thomas-n": 623,
+            "white-s": 30,
+            "stinnett-c": 50,
+            "meinhardt-r": 48
+          },
+          "total_votes": 3077,
+          "unit_count": 1
+        },
+        {
+          "fips": "40107",
+          "name": "Okfuskee",
+          "votes": {
+            "hern-k": 1800,
+            "thomas-n": 738,
+            "white-s": 16,
+            "stinnett-c": 28,
+            "meinhardt-r": 33
+          },
+          "total_votes": 2615,
+          "unit_count": 1
+        },
+        {
+          "fips": "40109",
+          "name": "Oklahoma",
+          "votes": {
+            "hern-k": 94849,
+            "thomas-n": 125838,
+            "white-s": 1999,
+            "stinnett-c": 2944,
+            "meinhardt-r": 2778
+          },
+          "total_votes": 228408,
+          "unit_count": 1
+        },
+        {
+          "fips": "40111",
+          "name": "Okmulgee",
+          "votes": {
+            "hern-k": 5931,
+            "thomas-n": 3341,
+            "white-s": 83,
+            "stinnett-c": 120,
+            "meinhardt-r": 115
+          },
+          "total_votes": 9590,
+          "unit_count": 1
+        },
+        {
+          "fips": "40113",
+          "name": "Osage",
+          "votes": {
+            "hern-k": 8850,
+            "thomas-n": 4958,
+            "white-s": 135,
+            "stinnett-c": 174,
+            "meinhardt-r": 177
+          },
+          "total_votes": 14294,
+          "unit_count": 1
+        },
+        {
+          "fips": "40115",
+          "name": "Ottawa",
+          "votes": {
+            "hern-k": 4606,
+            "thomas-n": 2097,
+            "white-s": 63,
+            "stinnett-c": 86,
+            "meinhardt-r": 73
+          },
+          "total_votes": 6925,
+          "unit_count": 1
+        },
+        {
+          "fips": "40117",
+          "name": "Pawnee",
+          "votes": {
+            "hern-k": 3213,
+            "thomas-n": 1176,
+            "white-s": 51,
+            "stinnett-c": 63,
+            "meinhardt-r": 63
+          },
+          "total_votes": 4566,
+          "unit_count": 1
+        },
+        {
+          "fips": "40119",
+          "name": "Payne",
+          "votes": {
+            "hern-k": 11225,
+            "thomas-n": 8574,
+            "white-s": 207,
+            "stinnett-c": 292,
+            "meinhardt-r": 297
+          },
+          "total_votes": 20595,
+          "unit_count": 1
+        },
+        {
+          "fips": "40121",
+          "name": "Pittsburg",
+          "votes": {
+            "hern-k": 8362,
+            "thomas-n": 2963,
+            "white-s": 123,
+            "stinnett-c": 188,
+            "meinhardt-r": 129
+          },
+          "total_votes": 11765,
+          "unit_count": 1
+        },
+        {
+          "fips": "40123",
+          "name": "Pontotoc",
+          "votes": {
+            "hern-k": 6571,
+            "thomas-n": 3611,
+            "white-s": 105,
+            "stinnett-c": 157,
+            "meinhardt-r": 103
+          },
+          "total_votes": 10547,
+          "unit_count": 1
+        },
+        {
+          "fips": "40125",
+          "name": "Pottawatomie",
+          "votes": {
+            "hern-k": 13090,
+            "thomas-n": 6308,
+            "white-s": 229,
+            "stinnett-c": 291,
+            "meinhardt-r": 283
+          },
+          "total_votes": 20201,
+          "unit_count": 1
+        },
+        {
+          "fips": "40127",
+          "name": "Pushmataha",
+          "votes": {
+            "hern-k": 2394,
+            "thomas-n": 556,
+            "white-s": 21,
+            "stinnett-c": 31,
+            "meinhardt-r": 21
+          },
+          "total_votes": 3023,
+          "unit_count": 1
+        },
+        {
+          "fips": "40129",
+          "name": "Roger Mills",
+          "votes": {
+            "hern-k": 924,
+            "thomas-n": 141,
+            "white-s": 9,
+            "stinnett-c": 9,
+            "meinhardt-r": 12
+          },
+          "total_votes": 1095,
+          "unit_count": 1
+        },
+        {
+          "fips": "40131",
+          "name": "Rogers",
+          "votes": {
+            "hern-k": 21845,
+            "thomas-n": 8678,
+            "white-s": 313,
+            "stinnett-c": 449,
+            "meinhardt-r": 966
+          },
+          "total_votes": 32251,
+          "unit_count": 1
+        },
+        {
+          "fips": "40133",
+          "name": "Seminole",
+          "votes": {
+            "hern-k": 3562,
+            "thomas-n": 1600,
+            "white-s": 44,
+            "stinnett-c": 76,
+            "meinhardt-r": 52
+          },
+          "total_votes": 5334,
+          "unit_count": 1
+        },
+        {
+          "fips": "40135",
+          "name": "Sequoyah",
+          "votes": {
+            "hern-k": 6582,
+            "thomas-n": 2381,
+            "white-s": 72,
+            "stinnett-c": 110,
+            "meinhardt-r": 86
+          },
+          "total_votes": 9231,
+          "unit_count": 1
+        },
+        {
+          "fips": "40137",
+          "name": "Stephens",
+          "votes": {
+            "hern-k": 8990,
+            "thomas-n": 2644,
+            "white-s": 115,
+            "stinnett-c": 141,
+            "meinhardt-r": 140
+          },
+          "total_votes": 12030,
+          "unit_count": 1
+        },
+        {
+          "fips": "40139",
+          "name": "Texas",
+          "votes": {
+            "hern-k": 2570,
+            "thomas-n": 935,
+            "white-s": 33,
+            "stinnett-c": 49,
+            "meinhardt-r": 42
+          },
+          "total_votes": 3629,
+          "unit_count": 1
+        },
+        {
+          "fips": "40141",
+          "name": "Tillman",
+          "votes": {
+            "hern-k": 1145,
+            "thomas-n": 390,
+            "white-s": 10,
+            "stinnett-c": 26,
+            "meinhardt-r": 27
+          },
+          "total_votes": 1598,
+          "unit_count": 1
+        },
+        {
+          "fips": "40143",
+          "name": "Tulsa",
+          "votes": {
+            "hern-k": 93739,
+            "thomas-n": 91282,
+            "white-s": 1651,
+            "stinnett-c": 2500,
+            "meinhardt-r": 2435
+          },
+          "total_votes": 191607,
+          "unit_count": 1
+        },
+        {
+          "fips": "40145",
+          "name": "Wagoner",
+          "votes": {
+            "hern-k": 17590,
+            "thomas-n": 8265,
+            "white-s": 209,
+            "stinnett-c": 305,
+            "meinhardt-r": 413
+          },
+          "total_votes": 26782,
+          "unit_count": 1
+        },
+        {
+          "fips": "40147",
+          "name": "Washington",
+          "votes": {
+            "hern-k": 10848,
+            "thomas-n": 4613,
+            "white-s": 152,
+            "stinnett-c": 204,
+            "meinhardt-r": 245
+          },
+          "total_votes": 16062,
+          "unit_count": 1
+        },
+        {
+          "fips": "40149",
+          "name": "Washita",
+          "votes": {
+            "hern-k": 2350,
+            "thomas-n": 528,
+            "white-s": 25,
+            "stinnett-c": 36,
+            "meinhardt-r": 28
+          },
+          "total_votes": 2967,
+          "unit_count": 1
+        },
+        {
+          "fips": "40151",
+          "name": "Woods",
+          "votes": {
+            "hern-k": 1883,
+            "thomas-n": 511,
+            "white-s": 27,
+            "stinnett-c": 48,
+            "meinhardt-r": 34
+          },
+          "total_votes": 2503,
+          "unit_count": 1
+        },
+        {
+          "fips": "40153",
+          "name": "Woodward",
+          "votes": {
+            "hern-k": 3713,
+            "thomas-n": 868,
+            "white-s": 43,
+            "stinnett-c": 60,
+            "meinhardt-r": 56
+          },
+          "total_votes": 4740,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [
+          "hern-k"
+        ],
+        "called_by": [
+          "ap"
+        ]
+      },
+      "reporting_count": 76,
+      "missing_fips": [],
+      "state_total_votes": 1093985,
+      "county_total_votes": 1093985,
+      "county_sum_reconciles": true
+    },
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "manifest_race_id": "2026-governor-ok",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "mazzei-m",
+          "name": "Mike Mazzei",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "munson-c",
+          "name": "Cyndi Munson",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "griffin-j",
+          "name": "Jerry Griffin",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "brooks-r",
+          "name": "Robert E. Brooks Sr.",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "bush-o",
+          "name": "Orlando Lynn Bush",
+          "party": "Independent"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "40001",
+          "name": "Adair",
+          "votes": {
+            "mazzei-m": 3173,
+            "munson-c": 1492,
+            "griffin-j": 46,
+            "brooks-r": 71,
+            "bush-o": 25
+          },
+          "total_votes": 4807,
+          "unit_count": 1
+        },
+        {
+          "fips": "40003",
+          "name": "Alfalfa",
+          "votes": {
+            "mazzei-m": 1109,
+            "munson-c": 420,
+            "griffin-j": 13,
+            "brooks-r": 19,
+            "bush-o": 15
+          },
+          "total_votes": 1576,
+          "unit_count": 1
+        },
+        {
+          "fips": "40005",
+          "name": "Atoka",
+          "votes": {
+            "mazzei-m": 2505,
+            "munson-c": 739,
+            "griffin-j": 23,
+            "brooks-r": 35,
+            "bush-o": 8
+          },
+          "total_votes": 3310,
+          "unit_count": 1
+        },
+        {
+          "fips": "40007",
+          "name": "Beaver",
+          "votes": {
+            "mazzei-m": 1119,
+            "munson-c": 267,
+            "griffin-j": 23,
+            "brooks-r": 21,
+            "bush-o": 5
+          },
+          "total_votes": 1435,
+          "unit_count": 1
+        },
+        {
+          "fips": "40009",
+          "name": "Beckham",
+          "votes": {
+            "mazzei-m": 3397,
+            "munson-c": 1286,
+            "griffin-j": 26,
+            "brooks-r": 45,
+            "bush-o": 26
+          },
+          "total_votes": 4780,
+          "unit_count": 1
+        },
+        {
+          "fips": "40011",
+          "name": "Blaine",
+          "votes": {
+            "mazzei-m": 1641,
+            "munson-c": 866,
+            "griffin-j": 26,
+            "brooks-r": 32,
+            "bush-o": 15
+          },
+          "total_votes": 2580,
+          "unit_count": 1
+        },
+        {
+          "fips": "40013",
+          "name": "Bryan",
+          "votes": {
+            "mazzei-m": 7747,
+            "munson-c": 3616,
+            "griffin-j": 57,
+            "brooks-r": 85,
+            "bush-o": 24
+          },
+          "total_votes": 11529,
+          "unit_count": 1
+        },
+        {
+          "fips": "40015",
+          "name": "Caddo",
+          "votes": {
+            "mazzei-m": 3566,
+            "munson-c": 2712,
+            "griffin-j": 52,
+            "brooks-r": 88,
+            "bush-o": 31
+          },
+          "total_votes": 6449,
+          "unit_count": 1
+        },
+        {
+          "fips": "40017",
+          "name": "Canadian",
+          "votes": {
+            "mazzei-m": 28453,
+            "munson-c": 24927,
+            "griffin-j": 289,
+            "brooks-r": 504,
+            "bush-o": 207
+          },
+          "total_votes": 54380,
+          "unit_count": 1
+        },
+        {
+          "fips": "40019",
+          "name": "Carter",
+          "votes": {
+            "mazzei-m": 7979,
+            "munson-c": 3980,
+            "griffin-j": 63,
+            "brooks-r": 83,
+            "bush-o": 39
+          },
+          "total_votes": 12144,
+          "unit_count": 1
+        },
+        {
+          "fips": "40021",
+          "name": "Cherokee",
+          "votes": {
+            "mazzei-m": 6222,
+            "munson-c": 6009,
+            "griffin-j": 116,
+            "brooks-r": 131,
+            "bush-o": 62
+          },
+          "total_votes": 12540,
+          "unit_count": 1
+        },
+        {
+          "fips": "40023",
+          "name": "Choctaw",
+          "votes": {
+            "mazzei-m": 2600,
+            "munson-c": 868,
+            "griffin-j": 19,
+            "brooks-r": 36,
+            "bush-o": 10
+          },
+          "total_votes": 3533,
+          "unit_count": 1
+        },
+        {
+          "fips": "40025",
+          "name": "Cimarron",
+          "votes": {
+            "mazzei-m": 536,
+            "munson-c": 83,
+            "griffin-j": 5,
+            "brooks-r": 11,
+            "bush-o": 6
+          },
+          "total_votes": 641,
+          "unit_count": 1
+        },
+        {
+          "fips": "40027",
+          "name": "Cleveland",
+          "votes": {
+            "mazzei-m": 38713,
+            "munson-c": 49804,
+            "griffin-j": 470,
+            "brooks-r": 770,
+            "bush-o": 368
+          },
+          "total_votes": 90125,
+          "unit_count": 1
+        },
+        {
+          "fips": "40029",
+          "name": "Coal",
+          "votes": {
+            "mazzei-m": 1125,
+            "munson-c": 334,
+            "griffin-j": 23,
+            "brooks-r": 11,
+            "bush-o": 4
+          },
+          "total_votes": 1497,
+          "unit_count": 1
+        },
+        {
+          "fips": "40031",
+          "name": "Comanche",
+          "votes": {
+            "mazzei-m": 0,
+            "munson-c": 0,
+            "griffin-j": 0,
+            "brooks-r": 0,
+            "bush-o": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "40033",
+          "name": "Cotton",
+          "votes": {
+            "mazzei-m": 1067,
+            "munson-c": 418,
+            "griffin-j": 20,
+            "brooks-r": 23,
+            "bush-o": 6
+          },
+          "total_votes": 1534,
+          "unit_count": 1
+        },
+        {
+          "fips": "40035",
+          "name": "Craig",
+          "votes": {
+            "mazzei-m": 2502,
+            "munson-c": 1265,
+            "griffin-j": 45,
+            "brooks-r": 69,
+            "bush-o": 24
+          },
+          "total_votes": 3905,
+          "unit_count": 1
+        },
+        {
+          "fips": "40037",
+          "name": "Creek",
+          "votes": {
+            "mazzei-m": 13153,
+            "munson-c": 6954,
+            "griffin-j": 195,
+            "brooks-r": 274,
+            "bush-o": 105
+          },
+          "total_votes": 20681,
+          "unit_count": 1
+        },
+        {
+          "fips": "40039",
+          "name": "Custer",
+          "votes": {
+            "mazzei-m": 4315,
+            "munson-c": 2735,
+            "griffin-j": 36,
+            "brooks-r": 83,
+            "bush-o": 31
+          },
+          "total_votes": 7200,
+          "unit_count": 1
+        },
+        {
+          "fips": "40041",
+          "name": "Delaware",
+          "votes": {
+            "mazzei-m": 8123,
+            "munson-c": 3347,
+            "griffin-j": 84,
+            "brooks-r": 132,
+            "bush-o": 63
+          },
+          "total_votes": 11749,
+          "unit_count": 1
+        },
+        {
+          "fips": "40043",
+          "name": "Dewey",
+          "votes": {
+            "mazzei-m": 1073,
+            "munson-c": 307,
+            "griffin-j": 12,
+            "brooks-r": 23,
+            "bush-o": 9
+          },
+          "total_votes": 1424,
+          "unit_count": 1
+        },
+        {
+          "fips": "40045",
+          "name": "Ellis",
+          "votes": {
+            "mazzei-m": 923,
+            "munson-c": 292,
+            "griffin-j": 12,
+            "brooks-r": 26,
+            "bush-o": 6
+          },
+          "total_votes": 1259,
+          "unit_count": 1
+        },
+        {
+          "fips": "40047",
+          "name": "Garfield",
+          "votes": {
+            "mazzei-m": 9154,
+            "munson-c": 5270,
+            "griffin-j": 128,
+            "brooks-r": 187,
+            "bush-o": 76
+          },
+          "total_votes": 14815,
+          "unit_count": 1
+        },
+        {
+          "fips": "40049",
+          "name": "Garvin",
+          "votes": {
+            "mazzei-m": 4831,
+            "munson-c": 1995,
+            "griffin-j": 39,
+            "brooks-r": 90,
+            "bush-o": 33
+          },
+          "total_votes": 6988,
+          "unit_count": 1
+        },
+        {
+          "fips": "40051",
+          "name": "Grady",
+          "votes": {
+            "mazzei-m": 11005,
+            "munson-c": 5471,
+            "griffin-j": 124,
+            "brooks-r": 227,
+            "bush-o": 73
+          },
+          "total_votes": 16900,
+          "unit_count": 1
+        },
+        {
+          "fips": "40053",
+          "name": "Grant",
+          "votes": {
+            "mazzei-m": 962,
+            "munson-c": 403,
+            "griffin-j": 13,
+            "brooks-r": 28,
+            "bush-o": 7
+          },
+          "total_votes": 1413,
+          "unit_count": 1
+        },
+        {
+          "fips": "40055",
+          "name": "Greer",
+          "votes": {
+            "mazzei-m": 884,
+            "munson-c": 383,
+            "griffin-j": 11,
+            "brooks-r": 16,
+            "bush-o": 10
+          },
+          "total_votes": 1304,
+          "unit_count": 1
+        },
+        {
+          "fips": "40057",
+          "name": "Harmon",
+          "votes": {
+            "mazzei-m": 366,
+            "munson-c": 173,
+            "griffin-j": 2,
+            "brooks-r": 8,
+            "bush-o": 1
+          },
+          "total_votes": 550,
+          "unit_count": 1
+        },
+        {
+          "fips": "40059",
+          "name": "Harper",
+          "votes": {
+            "mazzei-m": 741,
+            "munson-c": 258,
+            "griffin-j": 13,
+            "brooks-r": 18,
+            "bush-o": 3
+          },
+          "total_votes": 1033,
+          "unit_count": 1
+        },
+        {
+          "fips": "40061",
+          "name": "Haskell",
+          "votes": {
+            "mazzei-m": 2089,
+            "munson-c": 774,
+            "griffin-j": 30,
+            "brooks-r": 35,
+            "bush-o": 12
+          },
+          "total_votes": 2940,
+          "unit_count": 1
+        },
+        {
+          "fips": "40063",
+          "name": "Hughes",
+          "votes": {
+            "mazzei-m": 1952,
+            "munson-c": 887,
+            "griffin-j": 14,
+            "brooks-r": 42,
+            "bush-o": 9
+          },
+          "total_votes": 2904,
+          "unit_count": 1
+        },
+        {
+          "fips": "40065",
+          "name": "Jackson",
+          "votes": {
+            "mazzei-m": 3439,
+            "munson-c": 1475,
+            "griffin-j": 34,
+            "brooks-r": 54,
+            "bush-o": 20
+          },
+          "total_votes": 5022,
+          "unit_count": 1
+        },
+        {
+          "fips": "40067",
+          "name": "Jefferson",
+          "votes": {
+            "mazzei-m": 1026,
+            "munson-c": 345,
+            "griffin-j": 18,
+            "brooks-r": 11,
+            "bush-o": 5
+          },
+          "total_votes": 1405,
+          "unit_count": 1
+        },
+        {
+          "fips": "40069",
+          "name": "Johnston",
+          "votes": {
+            "mazzei-m": 1879,
+            "munson-c": 662,
+            "griffin-j": 19,
+            "brooks-r": 26,
+            "bush-o": 11
+          },
+          "total_votes": 2597,
+          "unit_count": 1
+        },
+        {
+          "fips": "40071",
+          "name": "Kay",
+          "votes": {
+            "mazzei-m": 7055,
+            "munson-c": 4418,
+            "griffin-j": 104,
+            "brooks-r": 156,
+            "bush-o": 70
+          },
+          "total_votes": 11803,
+          "unit_count": 1
+        },
+        {
+          "fips": "40073",
+          "name": "Kingfisher",
+          "votes": {
+            "mazzei-m": 3095,
+            "munson-c": 1258,
+            "griffin-j": 31,
+            "brooks-r": 49,
+            "bush-o": 31
+          },
+          "total_votes": 4464,
+          "unit_count": 1
+        },
+        {
+          "fips": "40075",
+          "name": "Kiowa",
+          "votes": {
+            "mazzei-m": 1423,
+            "munson-c": 743,
+            "griffin-j": 22,
+            "brooks-r": 35,
+            "bush-o": 15
+          },
+          "total_votes": 2238,
+          "unit_count": 1
+        },
+        {
+          "fips": "40077",
+          "name": "Latimer",
+          "votes": {
+            "mazzei-m": 1671,
+            "munson-c": 716,
+            "griffin-j": 21,
+            "brooks-r": 40,
+            "bush-o": 17
+          },
+          "total_votes": 2465,
+          "unit_count": 1
+        },
+        {
+          "fips": "40079",
+          "name": "Le Flore",
+          "votes": {
+            "mazzei-m": 8156,
+            "munson-c": 2997,
+            "griffin-j": 71,
+            "brooks-r": 125,
+            "bush-o": 41
+          },
+          "total_votes": 11390,
+          "unit_count": 1
+        },
+        {
+          "fips": "40081",
+          "name": "Lincoln",
+          "votes": {
+            "mazzei-m": 6960,
+            "munson-c": 3118,
+            "griffin-j": 88,
+            "brooks-r": 149,
+            "bush-o": 39
+          },
+          "total_votes": 10354,
+          "unit_count": 1
+        },
+        {
+          "fips": "40083",
+          "name": "Logan",
+          "votes": {
+            "mazzei-m": 10954,
+            "munson-c": 6546,
+            "griffin-j": 108,
+            "brooks-r": 198,
+            "bush-o": 59
+          },
+          "total_votes": 17865,
+          "unit_count": 1
+        },
+        {
+          "fips": "40085",
+          "name": "Love",
+          "votes": {
+            "mazzei-m": 1743,
+            "munson-c": 703,
+            "griffin-j": 13,
+            "brooks-r": 23,
+            "bush-o": 11
+          },
+          "total_votes": 2493,
+          "unit_count": 1
+        },
+        {
+          "fips": "40087",
+          "name": "McClain",
+          "votes": {
+            "mazzei-m": 9831,
+            "munson-c": 4764,
+            "griffin-j": 83,
+            "brooks-r": 154,
+            "bush-o": 44
+          },
+          "total_votes": 14876,
+          "unit_count": 1
+        },
+        {
+          "fips": "40089",
+          "name": "McCurtain",
+          "votes": {
+            "mazzei-m": 5032,
+            "munson-c": 1615,
+            "griffin-j": 35,
+            "brooks-r": 55,
+            "bush-o": 19
+          },
+          "total_votes": 6756,
+          "unit_count": 1
+        },
+        {
+          "fips": "40091",
+          "name": "McIntosh",
+          "votes": {
+            "mazzei-m": 3703,
+            "munson-c": 1893,
+            "griffin-j": 44,
+            "brooks-r": 66,
+            "bush-o": 29
+          },
+          "total_votes": 5735,
+          "unit_count": 1
+        },
+        {
+          "fips": "40093",
+          "name": "Major",
+          "votes": {
+            "mazzei-m": 1824,
+            "munson-c": 472,
+            "griffin-j": 24,
+            "brooks-r": 32,
+            "bush-o": 8
+          },
+          "total_votes": 2360,
+          "unit_count": 1
+        },
+        {
+          "fips": "40095",
+          "name": "Marshall",
+          "votes": {
+            "mazzei-m": 3214,
+            "munson-c": 1199,
+            "griffin-j": 35,
+            "brooks-r": 37,
+            "bush-o": 23
+          },
+          "total_votes": 4508,
+          "unit_count": 1
+        },
+        {
+          "fips": "40097",
+          "name": "Mayes",
+          "votes": {
+            "mazzei-m": 7007,
+            "munson-c": 3950,
+            "griffin-j": 166,
+            "brooks-r": 263,
+            "bush-o": 91
+          },
+          "total_votes": 11477,
+          "unit_count": 1
+        },
+        {
+          "fips": "40099",
+          "name": "Murray",
+          "votes": {
+            "mazzei-m": 2545,
+            "munson-c": 1195,
+            "griffin-j": 25,
+            "brooks-r": 53,
+            "bush-o": 17
+          },
+          "total_votes": 3835,
+          "unit_count": 1
+        },
+        {
+          "fips": "40101",
+          "name": "Muskogee",
+          "votes": {
+            "mazzei-m": 8636,
+            "munson-c": 7280,
+            "griffin-j": 114,
+            "brooks-r": 189,
+            "bush-o": 78
+          },
+          "total_votes": 16297,
+          "unit_count": 1
+        },
+        {
+          "fips": "40103",
+          "name": "Noble",
+          "votes": {
+            "mazzei-m": 2162,
+            "munson-c": 1276,
+            "griffin-j": 41,
+            "brooks-r": 71,
+            "bush-o": 27
+          },
+          "total_votes": 3577,
+          "unit_count": 1
+        },
+        {
+          "fips": "40105",
+          "name": "Nowata",
+          "votes": {
+            "mazzei-m": 2099,
+            "munson-c": 862,
+            "griffin-j": 40,
+            "brooks-r": 54,
+            "bush-o": 19
+          },
+          "total_votes": 3074,
+          "unit_count": 1
+        },
+        {
+          "fips": "40107",
+          "name": "Okfuskee",
+          "votes": {
+            "mazzei-m": 1648,
+            "munson-c": 909,
+            "griffin-j": 24,
+            "brooks-r": 20,
+            "bush-o": 11
+          },
+          "total_votes": 2612,
+          "unit_count": 1
+        },
+        {
+          "fips": "40109",
+          "name": "Oklahoma",
+          "votes": {
+            "mazzei-m": 84518,
+            "munson-c": 141400,
+            "griffin-j": 1018,
+            "brooks-r": 1489,
+            "bush-o": 884
+          },
+          "total_votes": 229309,
+          "unit_count": 1
+        },
+        {
+          "fips": "40111",
+          "name": "Okmulgee",
+          "votes": {
+            "mazzei-m": 5409,
+            "munson-c": 3900,
+            "griffin-j": 81,
+            "brooks-r": 129,
+            "bush-o": 74
+          },
+          "total_votes": 9593,
+          "unit_count": 1
+        },
+        {
+          "fips": "40113",
+          "name": "Osage",
+          "votes": {
+            "mazzei-m": 7868,
+            "munson-c": 5985,
+            "griffin-j": 147,
+            "brooks-r": 209,
+            "bush-o": 83
+          },
+          "total_votes": 14292,
+          "unit_count": 1
+        },
+        {
+          "fips": "40115",
+          "name": "Ottawa",
+          "votes": {
+            "mazzei-m": 4266,
+            "munson-c": 2521,
+            "griffin-j": 42,
+            "brooks-r": 75,
+            "bush-o": 39
+          },
+          "total_votes": 6943,
+          "unit_count": 1
+        },
+        {
+          "fips": "40117",
+          "name": "Pawnee",
+          "votes": {
+            "mazzei-m": 2827,
+            "munson-c": 1545,
+            "griffin-j": 62,
+            "brooks-r": 88,
+            "bush-o": 32
+          },
+          "total_votes": 4554,
+          "unit_count": 1
+        },
+        {
+          "fips": "40119",
+          "name": "Payne",
+          "votes": {
+            "mazzei-m": 9552,
+            "munson-c": 10727,
+            "griffin-j": 129,
+            "brooks-r": 173,
+            "bush-o": 76
+          },
+          "total_votes": 20657,
+          "unit_count": 1
+        },
+        {
+          "fips": "40121",
+          "name": "Pittsburg",
+          "votes": {
+            "mazzei-m": 7748,
+            "munson-c": 3605,
+            "griffin-j": 144,
+            "brooks-r": 193,
+            "bush-o": 72
+          },
+          "total_votes": 11762,
+          "unit_count": 1
+        },
+        {
+          "fips": "40123",
+          "name": "Pontotoc",
+          "votes": {
+            "mazzei-m": 6019,
+            "munson-c": 4383,
+            "griffin-j": 50,
+            "brooks-r": 77,
+            "bush-o": 41
+          },
+          "total_votes": 10570,
+          "unit_count": 1
+        },
+        {
+          "fips": "40125",
+          "name": "Pottawatomie",
+          "votes": {
+            "mazzei-m": 11960,
+            "munson-c": 7811,
+            "griffin-j": 150,
+            "brooks-r": 216,
+            "bush-o": 107
+          },
+          "total_votes": 20244,
+          "unit_count": 1
+        },
+        {
+          "fips": "40127",
+          "name": "Pushmataha",
+          "votes": {
+            "mazzei-m": 2321,
+            "munson-c": 671,
+            "griffin-j": 23,
+            "brooks-r": 25,
+            "bush-o": 5
+          },
+          "total_votes": 3045,
+          "unit_count": 1
+        },
+        {
+          "fips": "40129",
+          "name": "Roger Mills",
+          "votes": {
+            "mazzei-m": 835,
+            "munson-c": 235,
+            "griffin-j": 4,
+            "brooks-r": 18,
+            "bush-o": 8
+          },
+          "total_votes": 1100,
+          "unit_count": 1
+        },
+        {
+          "fips": "40131",
+          "name": "Rogers",
+          "votes": {
+            "mazzei-m": 19613,
+            "munson-c": 11217,
+            "griffin-j": 346,
+            "brooks-r": 809,
+            "bush-o": 197
+          },
+          "total_votes": 32182,
+          "unit_count": 1
+        },
+        {
+          "fips": "40133",
+          "name": "Seminole",
+          "votes": {
+            "mazzei-m": 3249,
+            "munson-c": 1949,
+            "griffin-j": 47,
+            "brooks-r": 63,
+            "bush-o": 29
+          },
+          "total_votes": 5337,
+          "unit_count": 1
+        },
+        {
+          "fips": "40135",
+          "name": "Sequoyah",
+          "votes": {
+            "mazzei-m": 6314,
+            "munson-c": 2784,
+            "griffin-j": 64,
+            "brooks-r": 77,
+            "bush-o": 40
+          },
+          "total_votes": 9279,
+          "unit_count": 1
+        },
+        {
+          "fips": "40137",
+          "name": "Stephens",
+          "votes": {
+            "mazzei-m": 8461,
+            "munson-c": 3352,
+            "griffin-j": 83,
+            "brooks-r": 119,
+            "bush-o": 41
+          },
+          "total_votes": 12056,
+          "unit_count": 1
+        },
+        {
+          "fips": "40139",
+          "name": "Texas",
+          "votes": {
+            "mazzei-m": 2408,
+            "munson-c": 1148,
+            "griffin-j": 23,
+            "brooks-r": 39,
+            "bush-o": 23
+          },
+          "total_votes": 3641,
+          "unit_count": 1
+        },
+        {
+          "fips": "40141",
+          "name": "Tillman",
+          "votes": {
+            "mazzei-m": 1066,
+            "munson-c": 506,
+            "griffin-j": 12,
+            "brooks-r": 16,
+            "bush-o": 6
+          },
+          "total_votes": 1606,
+          "unit_count": 1
+        },
+        {
+          "fips": "40143",
+          "name": "Tulsa",
+          "votes": {
+            "mazzei-m": 84200,
+            "munson-c": 103698,
+            "griffin-j": 1254,
+            "brooks-r": 1781,
+            "bush-o": 822
+          },
+          "total_votes": 191755,
+          "unit_count": 1
+        },
+        {
+          "fips": "40145",
+          "name": "Wagoner",
+          "votes": {
+            "mazzei-m": 16027,
+            "munson-c": 9957,
+            "griffin-j": 219,
+            "brooks-r": 402,
+            "bush-o": 135
+          },
+          "total_votes": 26740,
+          "unit_count": 1
+        },
+        {
+          "fips": "40147",
+          "name": "Washington",
+          "votes": {
+            "mazzei-m": 9944,
+            "munson-c": 5699,
+            "griffin-j": 140,
+            "brooks-r": 220,
+            "bush-o": 88
+          },
+          "total_votes": 16091,
+          "unit_count": 1
+        },
+        {
+          "fips": "40149",
+          "name": "Washita",
+          "votes": {
+            "mazzei-m": 2128,
+            "munson-c": 787,
+            "griffin-j": 18,
+            "brooks-r": 30,
+            "bush-o": 11
+          },
+          "total_votes": 2974,
+          "unit_count": 1
+        },
+        {
+          "fips": "40151",
+          "name": "Woods",
+          "votes": {
+            "mazzei-m": 1598,
+            "munson-c": 833,
+            "griffin-j": 17,
+            "brooks-r": 41,
+            "bush-o": 16
+          },
+          "total_votes": 2505,
+          "unit_count": 1
+        },
+        {
+          "fips": "40153",
+          "name": "Woodward",
+          "votes": {
+            "mazzei-m": 3321,
+            "munson-c": 1292,
+            "griffin-j": 42,
+            "brooks-r": 52,
+            "bush-o": 32
+          },
+          "total_votes": 4739,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [],
+        "called_by": []
+      },
+      "reporting_count": 76,
+      "missing_fips": [],
+      "state_total_votes": 1096102,
+      "county_total_votes": 1096102,
+      "county_sum_reconciles": true
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-oklahoma.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 77,
+  "reporting_count": 76,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:23:57.358Z",
+    "S_race_updated_at": "2026-11-04T04:23:41.600Z",
+    "G_race_updated_at": "2026-11-04T04:23:41.525Z"
+  },
+  "limitations": [
+    "Only candidates[].votes.total was used; NYT models, estimates, expected votes, and EEVP were ignored.",
+    "Exact county FIPS are matched against the local GeoJSON. Township aggregation is used only when no county-level reporting units exist, grouping by source fips_state+fips_county."
+  ],
+  "call_authority": {
+    "called_by_ap_offices": [
+      "S"
+    ],
+    "authority": "AP is identified only for offices whose outcome.called_by explicitly contains ap."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-oklahoma.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 77,
+    "reporting_count": 76,
+    "row_count": 154,
+    "source_time": "2026-11-04T04:43:07.512+00:00",
+    "fetched_at": "2026-11-04T04:47:03.098Z",
+    "message": "77 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

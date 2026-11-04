@@ -1,0 +1,300 @@
+{
+  "state": "RI",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "Senate",
+      "manifest_race_id": "2026-senate-ri",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "township rollup by source county FIPS",
+      "candidates": [
+        {
+          "nyt_id": "reed-j",
+          "name": "Jack   Reed",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "mckay-r",
+          "name": "Raymond T. McKay",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "bahry-m",
+          "name": "Michael Bahry",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "total_writeins",
+          "name": "Total Write-ins",
+          "party": ""
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "44001",
+          "name": "Bristol",
+          "votes": {
+            "reed-j": 14506,
+            "mckay-r": 4997,
+            "bahry-m": 799,
+            "total_writeins": 33
+          },
+          "total_votes": 20335,
+          "unit_count": 3
+        },
+        {
+          "fips": "44003",
+          "name": "Kent",
+          "votes": {
+            "reed-j": 39245,
+            "mckay-r": 22859,
+            "bahry-m": 2288,
+            "total_writeins": 103
+          },
+          "total_votes": 64495,
+          "unit_count": 5
+        },
+        {
+          "fips": "44005",
+          "name": "Newport",
+          "votes": {
+            "reed-j": 22474,
+            "mckay-r": 8657,
+            "bahry-m": 1024,
+            "total_writeins": 55
+          },
+          "total_votes": 32210,
+          "unit_count": 6
+        },
+        {
+          "fips": "44007",
+          "name": "Providence",
+          "votes": {
+            "reed-j": 123053,
+            "mckay-r": 50572,
+            "bahry-m": 7101,
+            "total_writeins": 420
+          },
+          "total_votes": 181146,
+          "unit_count": 16
+        },
+        {
+          "fips": "44009",
+          "name": "Washington",
+          "votes": {
+            "reed-j": 36401,
+            "mckay-r": 17551,
+            "bahry-m": 2169,
+            "total_writeins": 74
+          },
+          "total_votes": 56195,
+          "unit_count": 9
+        }
+      ],
+      "outcome": {
+        "won": [
+          "reed-j"
+        ],
+        "called_by": [
+          "ap"
+        ]
+      },
+      "reporting_count": 5,
+      "missing_fips": [],
+      "state_total_votes": 355135,
+      "county_total_votes": 354381,
+      "county_sum_reconciles": false,
+      "unassigned_geography_units": [
+        {
+          "nyt_id": "RI-other-44-overseas-absentees",
+          "name": "Overseas absentee",
+          "level": "other",
+          "fips_state": "44",
+          "fips_county": null,
+          "total_votes": 754,
+          "votes": {
+            "reed-j": 729,
+            "mckay-r": 13,
+            "bahry-m": 8,
+            "total_writeins": 4
+          }
+        }
+      ],
+      "limitations": [
+        "754 votes are in an Overseas absentee reporting unit with no county FIPS and are excluded from county totals; thus county sum is 754 below statewide total."
+      ]
+    },
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "manifest_race_id": "2026-governor-ri",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "township rollup by source county FIPS",
+      "candidates": [
+        {
+          "nyt_id": "foulkes-h",
+          "name": "Helena Buonanno Foulkes",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "guckian-a",
+          "name": "Aaron C. Guckian",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "block-k",
+          "name": "Kenneth Block",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "gotra-j",
+          "name": "Jasjit S. Gotra",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "reynolds-c",
+          "name": "C. D. Reynolds",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "total_writeins",
+          "name": "Total Write-ins",
+          "party": ""
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "44001",
+          "name": "Bristol",
+          "votes": {
+            "foulkes-h": 12291,
+            "guckian-a": 1953,
+            "block-k": 5835,
+            "gotra-j": 103,
+            "reynolds-c": 88,
+            "total_writeins": 60
+          },
+          "total_votes": 20330,
+          "unit_count": 3
+        },
+        {
+          "fips": "44003",
+          "name": "Kent",
+          "votes": {
+            "foulkes-h": 32294,
+            "guckian-a": 9898,
+            "block-k": 21547,
+            "gotra-j": 293,
+            "reynolds-c": 343,
+            "total_writeins": 186
+          },
+          "total_votes": 64561,
+          "unit_count": 5
+        },
+        {
+          "fips": "44005",
+          "name": "Newport",
+          "votes": {
+            "foulkes-h": 19347,
+            "guckian-a": 4408,
+            "block-k": 7792,
+            "gotra-j": 127,
+            "reynolds-c": 195,
+            "total_writeins": 173
+          },
+          "total_votes": 32042,
+          "unit_count": 6
+        },
+        {
+          "fips": "44007",
+          "name": "Providence",
+          "votes": {
+            "foulkes-h": 109445,
+            "guckian-a": 22980,
+            "block-k": 46637,
+            "gotra-j": 854,
+            "reynolds-c": 1040,
+            "total_writeins": 552
+          },
+          "total_votes": 181508,
+          "unit_count": 16
+        },
+        {
+          "fips": "44009",
+          "name": "Washington",
+          "votes": {
+            "foulkes-h": 30517,
+            "guckian-a": 7758,
+            "block-k": 17103,
+            "gotra-j": 267,
+            "reynolds-c": 363,
+            "total_writeins": 160
+          },
+          "total_votes": 56168,
+          "unit_count": 9
+        }
+      ],
+      "outcome": {
+        "won": [
+          "foulkes-h"
+        ],
+        "called_by": [
+          "ap"
+        ]
+      },
+      "reporting_count": 5,
+      "missing_fips": [],
+      "state_total_votes": 354609,
+      "county_total_votes": 354609,
+      "county_sum_reconciles": true
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-rhode-island.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 5,
+  "reporting_count": 5,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:27:11.787Z",
+    "S_race_updated_at": "2026-11-04T04:27:03.425Z",
+    "G_race_updated_at": "2026-11-04T04:27:01.579Z"
+  },
+  "limitations": [
+    "Only candidates[].votes.total was used; NYT models, estimates, expected votes, and EEVP were ignored.",
+    "Exact county FIPS are matched against the local GeoJSON. Township aggregation is used only when no county-level reporting units exist, grouping by source fips_state+fips_county.",
+    "For Rhode Island Senate, an Overseas absentee unit has no county FIPS; its 754 votes remain unassigned rather than being distributed across counties."
+  ],
+  "call_authority": {
+    "called_by_ap_offices": [
+      "S",
+      "G"
+    ],
+    "authority": "AP is identified only for offices whose outcome.called_by explicitly contains ap."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "partial",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-rhode-island.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 5,
+    "reporting_count": 5,
+    "row_count": 10,
+    "source_time": "2026-11-04T04:27:03.425+00:00",
+    "fetched_at": "2026-11-04T04:47:03.114Z",
+    "message": "5 counties with published returns. County totals sum distinct towns using publisher-supplied county FIPS. County or district sums do not fully reconcile with the statewide snapshot; statewide cards use the separately reported state total. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

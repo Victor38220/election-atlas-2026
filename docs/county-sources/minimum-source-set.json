@@ -1,0 +1,208 @@
+{
+  "purpose": "Minimum verified source set for 2026-11-03 county and statewide election results.",
+  "verified_at": "2026-11-04T04:47:03.244Z",
+  "minimum_source_count": 1,
+  "preferred_county_source": {
+    "publisher": "The New York Times",
+    "provider_family": "nyt-public-results",
+    "implementation": "src/lib/countyNational.ts:nationalUrl(state_name)",
+    "endpoint_template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json",
+    "statewide_coverage_state_count": 45,
+    "configured_race_count": 71,
+    "statewide_office_feed_count": 2,
+    "county_compatible_state_count": 44,
+    "county_compatible_states": [
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DE",
+      "FL",
+      "GA",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MI",
+      "MN",
+      "MS",
+      "MT",
+      "NC",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "VA",
+      "VT",
+      "WI",
+      "WV",
+      "WY"
+    ],
+    "note": "One publisher family supplies all 71 statewide races and regional records in all 45 relevant states: county records in 44 and House election districts in Alaska. Individual areas can await votes or lack compatible records.",
+    "regional_coverage_state_count": 45
+  },
+  "national_office_feeds": [
+    {
+      "office": "Senate",
+      "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-senate.json",
+      "role": "National office results and explicit AP call metadata."
+    },
+    {
+      "office": "Governor",
+      "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-governor.json",
+      "role": "National office results and explicit AP call metadata."
+    }
+  ],
+  "ap_calls": {
+    "authoritative_source": "Associated Press, only when the national feed explicitly records outcome.called_by including ap.",
+    "observed_call_count": 43,
+    "observed_by_office": {
+      "Senate": 23,
+      "Governor": 20
+    },
+    "collector_output": "public/data/results.json",
+    "feed_endpoints": [
+      "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-senate.json",
+      "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-governor.json"
+    ]
+  },
+  "known_geography_and_reconciliation_limits": {
+    "AK": "Alaska regional counts are shown for all 40 House election districts on Census 2024 district boundaries. They are not mapped onto boroughs/census-area counties; no geographic vote allocation is invented.",
+    "HI": {
+      "available_counties": 4,
+      "expected_counties": 5,
+      "reporting_counties": 0,
+      "note": "Only four county rows are present; keep the missing fifth county visible and do not infer its results."
+    },
+    "ME": {
+      "county_state_discrepancies": {
+        "Governor": {
+          "county_total": 396351,
+          "state_total": 395860,
+          "county_minus_state": 491
+        },
+        "Senate": {
+          "county_total": 403359,
+          "state_total": 402870,
+          "county_minus_state": 489
+        }
+      },
+      "note": "County rollups differ from statewide totals; preserve both totals and the difference. Do not infer or allocate the discrepancy."
+    },
+    "RI": {
+      "county_state_discrepancies": {
+        "Senate": {
+          "county_total": 354381,
+          "state_total": 355135,
+          "county_minus_state": -754
+        }
+      },
+      "note": "County rollups differ from statewide totals where shown; preserve both totals and the difference. Do not infer or allocate the discrepancy."
+    }
+  },
+  "official_adapters_preserved_as_fallbacks": [
+    {
+      "state": "AZ",
+      "implementation": "src/lib/countyArizona.ts"
+    },
+    {
+      "state": "CA",
+      "implementation": "src/lib/countyCalifornia.ts"
+    },
+    {
+      "state": "CO",
+      "implementation": "src/lib/countyColorado.ts"
+    },
+    {
+      "state": "GA",
+      "implementation": "src/lib/countyGeorgia.ts"
+    },
+    {
+      "state": "MN",
+      "implementation": "scripts/refresh_minnesota.ts"
+    },
+    {
+      "state": "NC",
+      "implementation": "src/lib/countyNorthCarolina.ts"
+    },
+    {
+      "state": "OH",
+      "implementation": "src/lib/countyOhio.ts"
+    },
+    {
+      "state": "TX",
+      "implementation": "src/lib/countyTexas.ts"
+    },
+    {
+      "state": "VA",
+      "implementation": "src/lib/countyVirginia.ts"
+    }
+  ],
+  "freshness_and_request_limits": {
+    "client_request_timeout_seconds": 22,
+    "source_time": "Publisher-provided feed/race timestamp, when supplied.",
+    "fetched_at": "Client fetch time; recorded separately from source_time.",
+    "service_level": "No freshness SLA is asserted.",
+    "reuse": "No blanket reuse or licensing claim is made.",
+    "client_refresh_seconds": 30
+  },
+  "collector_coverage_file": "public/data/county-coverage.json",
+  "county_rows_file_pattern": "public/data/live-counties/{state}.json",
+  "existing_state_reports_updated": [
+    "AK",
+    "AL",
+    "AR",
+    "CT",
+    "DE",
+    "FL",
+    "HI",
+    "IA",
+    "ID",
+    "IL",
+    "KS",
+    "KY",
+    "LA",
+    "MA",
+    "MD",
+    "ME",
+    "MI",
+    "MS",
+    "MT",
+    "NE",
+    "NH",
+    "NJ",
+    "NM",
+    "NV",
+    "NY",
+    "OK",
+    "OR",
+    "PA",
+    "RI",
+    "SC",
+    "SD",
+    "TN",
+    "VT",
+    "WI",
+    "WV",
+    "WY"
+  ]
+}

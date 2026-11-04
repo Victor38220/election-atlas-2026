@@ -1,0 +1,96 @@
+{
+  "state": "Pennsylvania",
+  "state_code": "PA",
+  "offices": [
+    "Governor"
+  ],
+  "election_identity": {
+    "date": "2026-11-03",
+    "type": "general election",
+    "race_id": null,
+    "verification": "The requested date and office are the target identity; no 2026 Governor race record or provider election ID was returned by the inspected sources."
+  },
+  "provider_family": "Pennsylvania Department of State electionreturns.pa.gov (official source; live machine-readable endpoint not verified); civicAPI v2 (candidate only, unverified)",
+  "endpoints": {
+    "official_results_site": "https://www.electionreturns.pa.gov/",
+    "official_candidate_api": "https://www.electionreturns.pa.gov/api/ElectionReturn/GetGeneralElectionData (direct request without parameters returned HTTP 404; required query signature and election ID not established)",
+    "civicapi_race_search_candidate": "https://civicapi.org/api/v2/race/search?country=US&province=PA&startDate=2026-11-03&endDate=2026-11-03",
+    "civicapi_race_detail_template": "https://civicapi.org/api/v2/race/{RACE_ID}?region_results"
+  },
+  "source": {
+    "official_election_results": "https://www.pa.gov/agencies/vote/elections/election-results",
+    "official_results_claims": "Pennsylvania DOS says federal and state results are posted on electionreturns.pa.gov after 8 p.m. on election night; local county/city results may be on county election board sites.",
+    "official_data_handbook": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/resources/voting-and-elections/election%20data%20handbook%202025.pdf",
+    "handbook_claims": "County boards submit ballot-count text files; the DOS results site is continually updated as counties provide returns and displays county-level results.",
+    "civicapi_documentation": "https://civicapi.org/api-documentation",
+    "civicapi_documentation_claims": "Public, no authentication, described as free; attribution required for non-personal projects.",
+    "civicapi_faq": "https://www.civicapi.org/faq",
+    "civicapi_faq_claims": "Provider says results are aggregated from election authorities, with active-election updates every 5\u201310 seconds; free without registration or API key and requires attribution."
+  },
+  "fetches": [
+    {
+      "fetched_at_utc": "2026-11-04T04:28:26Z",
+      "url": "https://www.electionreturns.pa.gov/",
+      "http_status": 200,
+      "result": "Response body was an Incapsula anti-bot challenge page, not the election-results application; it exposed no app scripts or election metadata. No challenge bypass was attempted."
+    },
+    {
+      "fetched_at_utc": "2026-11-04T04:28:26Z",
+      "url": "https://www.electionreturns.pa.gov/api/ElectionReturn/GetGeneralElectionData",
+      "http_status": 404,
+      "result": "JSON error: no HTTP resource found for this URI (server-reported port 4106). No election ID or parameters were supplied; endpoint signature remains unknown."
+    },
+    {
+      "fetched_at_utc": "2026-11-04T04:27:07Z",
+      "url": "https://civicapi.org/api/v2/race/search?country=US&province=PA&startDate=2026-11-03&endDate=2026-11-03",
+      "http_status": null,
+      "result": "Timed out after 20 seconds with zero response bytes. Repeated against www.civicapi.org with the same timeout and result."
+    },
+    {
+      "fetched_at_utc": "2026-11-04T04:27:07Z",
+      "url": "https://civicapi.org/api/v2/status",
+      "http_status": 502,
+      "result": "Provider returned error code 502."
+    }
+  ],
+  "county_coverage": {
+    "verified": false,
+    "county_count": null,
+    "sample_counties": [],
+    "note": "Official documentation describes county-submitted, county-level election results, but no live 2026 race response or county rows could be inspected. Coverage of the requested Governor race is not verified."
+  },
+  "license": {
+    "official_source": "No reuse license for the live endpoint was established during this investigation. Access was blocked by the site challenge.",
+    "civicapi_access": "Provider documents the API as unauthenticated and free.",
+    "civicapi_attribution": "Attribution required for non-personal use; link to or name civicAPI.",
+    "civicapi_evidence": "https://civicapi.org/api-documentation and https://www.civicapi.org/faq"
+  },
+  "limitations": [
+    "No verified unauthenticated live feed for Pennsylvania's November 3, 2026 Governor race was established in this investigation.",
+    "The official homepage returned an anti-bot challenge page. The provided candidate API path returned 404 without query parameters; its correct signature and election ID could not be discovered from the page.",
+    "civicAPI race search timed out and its status endpoint returned HTTP 502, so neither its race ID nor region_results county coverage could be checked.",
+    "Do not treat either candidate API URL as a working feed until a race record and county-level live result response are observed.",
+    "The official election-results documentation describes county-submitted returns and county-level display; it does not establish that results were available at fetch time or grant a specific data license."
+  ],
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-pennsylvania.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Governor"
+    ],
+    "county_count": 67,
+    "reporting_count": 67,
+    "row_count": 67,
+    "source_time": "2026-11-04T04:46:39.755+00:00",
+    "fetched_at": "2026-11-04T04:47:03.208Z",
+    "message": "67 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

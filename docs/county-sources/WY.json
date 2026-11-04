@@ -1,0 +1,608 @@
+{
+  "state": "WY",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "Senate",
+      "manifest_race_id": "2026-senate-wy",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "hageman-h",
+          "name": "Harriet Hageman",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "byrd-j",
+          "name": "James Byrd",
+          "party": "Democrat"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "56001",
+          "name": "Albany",
+          "votes": {
+            "hageman-h": 0,
+            "byrd-j": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "56003",
+          "name": "Big Horn",
+          "votes": {
+            "hageman-h": 0,
+            "byrd-j": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "56005",
+          "name": "Campbell",
+          "votes": {
+            "hageman-h": 4288,
+            "byrd-j": 1197
+          },
+          "total_votes": 5485,
+          "unit_count": 1
+        },
+        {
+          "fips": "56007",
+          "name": "Carbon",
+          "votes": {
+            "hageman-h": 0,
+            "byrd-j": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "56009",
+          "name": "Converse",
+          "votes": {
+            "hageman-h": 3515,
+            "byrd-j": 846
+          },
+          "total_votes": 4361,
+          "unit_count": 1
+        },
+        {
+          "fips": "56011",
+          "name": "Crook",
+          "votes": {
+            "hageman-h": 2659,
+            "byrd-j": 427
+          },
+          "total_votes": 3086,
+          "unit_count": 1
+        },
+        {
+          "fips": "56013",
+          "name": "Fremont",
+          "votes": {
+            "hageman-h": 5845,
+            "byrd-j": 3497
+          },
+          "total_votes": 9342,
+          "unit_count": 1
+        },
+        {
+          "fips": "56015",
+          "name": "Goshen",
+          "votes": {
+            "hageman-h": 0,
+            "byrd-j": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "56017",
+          "name": "Hot Springs",
+          "votes": {
+            "hageman-h": 1577,
+            "byrd-j": 501
+          },
+          "total_votes": 2078,
+          "unit_count": 1
+        },
+        {
+          "fips": "56019",
+          "name": "Johnson",
+          "votes": {
+            "hageman-h": 2747,
+            "byrd-j": 804
+          },
+          "total_votes": 3551,
+          "unit_count": 1
+        },
+        {
+          "fips": "56021",
+          "name": "Laramie",
+          "votes": {
+            "hageman-h": 0,
+            "byrd-j": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "56023",
+          "name": "Lincoln",
+          "votes": {
+            "hageman-h": 0,
+            "byrd-j": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "56025",
+          "name": "Natrona",
+          "votes": {
+            "hageman-h": 14246,
+            "byrd-j": 7690
+          },
+          "total_votes": 21936,
+          "unit_count": 1
+        },
+        {
+          "fips": "56027",
+          "name": "Niobrara",
+          "votes": {
+            "hageman-h": 800,
+            "byrd-j": 125
+          },
+          "total_votes": 925,
+          "unit_count": 1
+        },
+        {
+          "fips": "56029",
+          "name": "Park",
+          "votes": {
+            "hageman-h": 8701,
+            "byrd-j": 3153
+          },
+          "total_votes": 11854,
+          "unit_count": 1
+        },
+        {
+          "fips": "56031",
+          "name": "Platte",
+          "votes": {
+            "hageman-h": 2789,
+            "byrd-j": 727
+          },
+          "total_votes": 3516,
+          "unit_count": 1
+        },
+        {
+          "fips": "56033",
+          "name": "Sheridan",
+          "votes": {
+            "hageman-h": 3850,
+            "byrd-j": 1214
+          },
+          "total_votes": 5064,
+          "unit_count": 1
+        },
+        {
+          "fips": "56035",
+          "name": "Sublette",
+          "votes": {
+            "hageman-h": 2657,
+            "byrd-j": 989
+          },
+          "total_votes": 3646,
+          "unit_count": 1
+        },
+        {
+          "fips": "56037",
+          "name": "Sweetwater",
+          "votes": {
+            "hageman-h": 7241,
+            "byrd-j": 3766
+          },
+          "total_votes": 11007,
+          "unit_count": 1
+        },
+        {
+          "fips": "56039",
+          "name": "Teton",
+          "votes": {
+            "hageman-h": 2744,
+            "byrd-j": 7557
+          },
+          "total_votes": 10301,
+          "unit_count": 1
+        },
+        {
+          "fips": "56041",
+          "name": "Uinta",
+          "votes": {
+            "hageman-h": 0,
+            "byrd-j": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "56043",
+          "name": "Washakie",
+          "votes": {
+            "hageman-h": 2161,
+            "byrd-j": 602
+          },
+          "total_votes": 2763,
+          "unit_count": 1
+        },
+        {
+          "fips": "56045",
+          "name": "Weston",
+          "votes": {
+            "hageman-h": 2077,
+            "byrd-j": 395
+          },
+          "total_votes": 2472,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [
+          "hageman-h"
+        ],
+        "called_by": [
+          "ap"
+        ]
+      },
+      "reporting_count": 16,
+      "missing_fips": [],
+      "state_total_votes": 101387,
+      "county_total_votes": 101387,
+      "county_sum_reconciles": true
+    },
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "manifest_race_id": "2026-governor-wy",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "barlow-e",
+          "name": "Eric Barlow",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "casner-k",
+          "name": "Kenneth R. Casner",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "bextel-r",
+          "name": "Rebecca Bextel",
+          "party": "Constitution"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "56001",
+          "name": "Albany",
+          "votes": {
+            "barlow-e": 0,
+            "casner-k": 0,
+            "bextel-r": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "56003",
+          "name": "Big Horn",
+          "votes": {
+            "barlow-e": 0,
+            "casner-k": 0,
+            "bextel-r": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "56005",
+          "name": "Campbell",
+          "votes": {
+            "barlow-e": 4105,
+            "casner-k": 317,
+            "bextel-r": 1080
+          },
+          "total_votes": 5502,
+          "unit_count": 1
+        },
+        {
+          "fips": "56007",
+          "name": "Carbon",
+          "votes": {
+            "barlow-e": 0,
+            "casner-k": 0,
+            "bextel-r": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "56009",
+          "name": "Converse",
+          "votes": {
+            "barlow-e": 2915,
+            "casner-k": 316,
+            "bextel-r": 1128
+          },
+          "total_votes": 4359,
+          "unit_count": 1
+        },
+        {
+          "fips": "56011",
+          "name": "Crook",
+          "votes": {
+            "barlow-e": 2201,
+            "casner-k": 143,
+            "bextel-r": 703
+          },
+          "total_votes": 3047,
+          "unit_count": 1
+        },
+        {
+          "fips": "56013",
+          "name": "Fremont",
+          "votes": {
+            "barlow-e": 6379,
+            "casner-k": 1235,
+            "bextel-r": 1719
+          },
+          "total_votes": 9333,
+          "unit_count": 1
+        },
+        {
+          "fips": "56015",
+          "name": "Goshen",
+          "votes": {
+            "barlow-e": 0,
+            "casner-k": 0,
+            "bextel-r": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "56017",
+          "name": "Hot Springs",
+          "votes": {
+            "barlow-e": 1486,
+            "casner-k": 192,
+            "bextel-r": 404
+          },
+          "total_votes": 2082,
+          "unit_count": 1
+        },
+        {
+          "fips": "56019",
+          "name": "Johnson",
+          "votes": {
+            "barlow-e": 2670,
+            "casner-k": 240,
+            "bextel-r": 665
+          },
+          "total_votes": 3575,
+          "unit_count": 1
+        },
+        {
+          "fips": "56021",
+          "name": "Laramie",
+          "votes": {
+            "barlow-e": 0,
+            "casner-k": 0,
+            "bextel-r": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "56023",
+          "name": "Lincoln",
+          "votes": {
+            "barlow-e": 0,
+            "casner-k": 0,
+            "bextel-r": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "56025",
+          "name": "Natrona",
+          "votes": {
+            "barlow-e": 14871,
+            "casner-k": 3209,
+            "bextel-r": 3893
+          },
+          "total_votes": 21973,
+          "unit_count": 1
+        },
+        {
+          "fips": "56027",
+          "name": "Niobrara",
+          "votes": {
+            "barlow-e": 659,
+            "casner-k": 44,
+            "bextel-r": 199
+          },
+          "total_votes": 902,
+          "unit_count": 1
+        },
+        {
+          "fips": "56029",
+          "name": "Park",
+          "votes": {
+            "barlow-e": 7769,
+            "casner-k": 1128,
+            "bextel-r": 3005
+          },
+          "total_votes": 11902,
+          "unit_count": 1
+        },
+        {
+          "fips": "56031",
+          "name": "Platte",
+          "votes": {
+            "barlow-e": 2283,
+            "casner-k": 334,
+            "bextel-r": 870
+          },
+          "total_votes": 3487,
+          "unit_count": 1
+        },
+        {
+          "fips": "56033",
+          "name": "Sheridan",
+          "votes": {
+            "barlow-e": 3415,
+            "casner-k": 408,
+            "bextel-r": 1222
+          },
+          "total_votes": 5045,
+          "unit_count": 1
+        },
+        {
+          "fips": "56035",
+          "name": "Sublette",
+          "votes": {
+            "barlow-e": 2779,
+            "casner-k": 305,
+            "bextel-r": 609
+          },
+          "total_votes": 3693,
+          "unit_count": 1
+        },
+        {
+          "fips": "56037",
+          "name": "Sweetwater",
+          "votes": {
+            "barlow-e": 7436,
+            "casner-k": 1951,
+            "bextel-r": 1626
+          },
+          "total_votes": 11013,
+          "unit_count": 1
+        },
+        {
+          "fips": "56039",
+          "name": "Teton",
+          "votes": {
+            "barlow-e": 6153,
+            "casner-k": 3505,
+            "bextel-r": 725
+          },
+          "total_votes": 10383,
+          "unit_count": 1
+        },
+        {
+          "fips": "56041",
+          "name": "Uinta",
+          "votes": {
+            "barlow-e": 0,
+            "casner-k": 0,
+            "bextel-r": 0
+          },
+          "total_votes": 0,
+          "unit_count": 1
+        },
+        {
+          "fips": "56043",
+          "name": "Washakie",
+          "votes": {
+            "barlow-e": 2081,
+            "casner-k": 280,
+            "bextel-r": 380
+          },
+          "total_votes": 2741,
+          "unit_count": 1
+        },
+        {
+          "fips": "56045",
+          "name": "Weston",
+          "votes": {
+            "barlow-e": 1903,
+            "casner-k": 148,
+            "bextel-r": 439
+          },
+          "total_votes": 2490,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [
+          "barlow-e"
+        ],
+        "called_by": [
+          "ap"
+        ]
+      },
+      "reporting_count": 16,
+      "missing_fips": [],
+      "state_total_votes": 101527,
+      "county_total_votes": 101527,
+      "county_sum_reconciles": true
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-wyoming.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 23,
+  "reporting_count": 16,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:36:37.092Z",
+    "S_race_updated_at": "2026-11-04T04:36:19.237Z",
+    "G_race_updated_at": "2026-11-04T04:36:19.285Z"
+  },
+  "limitations": [
+    "Only candidates[].votes.total was used; NYT models, estimates, expected votes, and EEVP were ignored.",
+    "Exact county FIPS are matched against the local GeoJSON. Township aggregation is used only when no county-level reporting units exist, grouping by source fips_state+fips_county."
+  ],
+  "call_authority": {
+    "called_by_ap_offices": [
+      "S",
+      "G"
+    ],
+    "authority": "AP is identified only for offices whose outcome.called_by explicitly contains ap."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-wyoming.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 23,
+    "reporting_count": 17,
+    "row_count": 46,
+    "source_time": "2026-11-04T04:46:24.893+00:00",
+    "fetched_at": "2026-11-04T04:47:03.157Z",
+    "message": "23 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

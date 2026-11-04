@@ -1,0 +1,814 @@
+{
+  "state": "MT",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "Senate",
+      "manifest_race_id": "2026-senate-mt",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "alme-k",
+          "name": "Kurt Alme",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "bodnar-s",
+          "name": "Seth Bodnar",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "bankhead-a",
+          "name": "Alani Bankhead",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "austin-k",
+          "name": "Kyle Austin",
+          "party": "Libertarian"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "30001",
+          "name": "Beaverhead",
+          "votes": {
+            "alme-k": 1733,
+            "bodnar-s": 728,
+            "bankhead-a": 374,
+            "austin-k": 44
+          },
+          "total_votes": 2879,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30003",
+          "name": "Big Horn",
+          "votes": {
+            "alme-k": 754,
+            "bodnar-s": 561,
+            "bankhead-a": 334,
+            "austin-k": 40
+          },
+          "total_votes": 1689,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30005",
+          "name": "Blaine",
+          "votes": {
+            "alme-k": 707,
+            "bodnar-s": 433,
+            "bankhead-a": 339,
+            "austin-k": 36
+          },
+          "total_votes": 1515,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30007",
+          "name": "Broadwater",
+          "votes": {
+            "alme-k": 1873,
+            "bodnar-s": 726,
+            "bankhead-a": 178,
+            "austin-k": 72
+          },
+          "total_votes": 2849,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30009",
+          "name": "Carbon",
+          "votes": {
+            "alme-k": 1256,
+            "bodnar-s": 804,
+            "bankhead-a": 234,
+            "austin-k": 60
+          },
+          "total_votes": 2354,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30011",
+          "name": "Carter",
+          "votes": {
+            "alme-k": 282,
+            "bodnar-s": 54,
+            "bankhead-a": 14,
+            "austin-k": 7
+          },
+          "total_votes": 357,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30013",
+          "name": "Cascade",
+          "votes": {
+            "alme-k": 12118,
+            "bodnar-s": 9637,
+            "bankhead-a": 3595,
+            "austin-k": 435
+          },
+          "total_votes": 25785,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30015",
+          "name": "Chouteau",
+          "votes": {
+            "alme-k": 1066,
+            "bodnar-s": 634,
+            "bankhead-a": 251,
+            "austin-k": 43
+          },
+          "total_votes": 1994,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30017",
+          "name": "Custer",
+          "votes": {
+            "alme-k": 60,
+            "bodnar-s": 9,
+            "bankhead-a": 1,
+            "austin-k": 1
+          },
+          "total_votes": 71,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30019",
+          "name": "Daniels",
+          "votes": {
+            "alme-k": 91,
+            "bodnar-s": 18,
+            "bankhead-a": 6,
+            "austin-k": 6
+          },
+          "total_votes": 121,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30021",
+          "name": "Dawson",
+          "votes": {
+            "alme-k": 0,
+            "bodnar-s": 0,
+            "bankhead-a": 0,
+            "austin-k": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30023",
+          "name": "Deer Lodge",
+          "votes": {
+            "alme-k": 876,
+            "bodnar-s": 1316,
+            "bankhead-a": 453,
+            "austin-k": 46
+          },
+          "total_votes": 2691,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30025",
+          "name": "Fallon",
+          "votes": {
+            "alme-k": 0,
+            "bodnar-s": 0,
+            "bankhead-a": 0,
+            "austin-k": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30027",
+          "name": "Fergus",
+          "votes": {
+            "alme-k": 2505,
+            "bodnar-s": 1174,
+            "bankhead-a": 417,
+            "austin-k": 96
+          },
+          "total_votes": 4192,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30029",
+          "name": "Flathead",
+          "votes": {
+            "alme-k": 0,
+            "bodnar-s": 0,
+            "bankhead-a": 0,
+            "austin-k": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30031",
+          "name": "Gallatin",
+          "votes": {
+            "alme-k": 0,
+            "bodnar-s": 0,
+            "bankhead-a": 0,
+            "austin-k": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30033",
+          "name": "Garfield",
+          "votes": {
+            "alme-k": 169,
+            "bodnar-s": 18,
+            "bankhead-a": 9,
+            "austin-k": 5
+          },
+          "total_votes": 201,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30035",
+          "name": "Glacier",
+          "votes": {
+            "alme-k": 188,
+            "bodnar-s": 330,
+            "bankhead-a": 245,
+            "austin-k": 11
+          },
+          "total_votes": 774,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30037",
+          "name": "Golden Valley",
+          "votes": {
+            "alme-k": 294,
+            "bodnar-s": 53,
+            "bankhead-a": 24,
+            "austin-k": 17
+          },
+          "total_votes": 388,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30039",
+          "name": "Granite",
+          "votes": {
+            "alme-k": 170,
+            "bodnar-s": 136,
+            "bankhead-a": 38,
+            "austin-k": 5
+          },
+          "total_votes": 349,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30041",
+          "name": "Hill",
+          "votes": {
+            "alme-k": 245,
+            "bodnar-s": 204,
+            "bankhead-a": 149,
+            "austin-k": 26
+          },
+          "total_votes": 624,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30043",
+          "name": "Jefferson",
+          "votes": {
+            "alme-k": 2678,
+            "bodnar-s": 1829,
+            "bankhead-a": 483,
+            "austin-k": 96
+          },
+          "total_votes": 5086,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30045",
+          "name": "Judith Basin",
+          "votes": {
+            "alme-k": 0,
+            "bodnar-s": 0,
+            "bankhead-a": 0,
+            "austin-k": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30047",
+          "name": "Lake",
+          "votes": {
+            "alme-k": 4275,
+            "bodnar-s": 3330,
+            "bankhead-a": 1151,
+            "austin-k": 105
+          },
+          "total_votes": 8861,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30049",
+          "name": "Lewis and Clark",
+          "votes": {
+            "alme-k": 9080,
+            "bodnar-s": 12797,
+            "bankhead-a": 2433,
+            "austin-k": 367
+          },
+          "total_votes": 24677,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30051",
+          "name": "Liberty",
+          "votes": {
+            "alme-k": 487,
+            "bodnar-s": 196,
+            "bankhead-a": 72,
+            "austin-k": 18
+          },
+          "total_votes": 773,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30053",
+          "name": "Lincoln",
+          "votes": {
+            "alme-k": 3001,
+            "bodnar-s": 1040,
+            "bankhead-a": 740,
+            "austin-k": 61
+          },
+          "total_votes": 4842,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30055",
+          "name": "McCone",
+          "votes": {
+            "alme-k": 210,
+            "bodnar-s": 47,
+            "bankhead-a": 7,
+            "austin-k": 7
+          },
+          "total_votes": 271,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30057",
+          "name": "Madison",
+          "votes": {
+            "alme-k": 81,
+            "bodnar-s": 68,
+            "bankhead-a": 26,
+            "austin-k": 5
+          },
+          "total_votes": 180,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30059",
+          "name": "Meagher",
+          "votes": {
+            "alme-k": 0,
+            "bodnar-s": 0,
+            "bankhead-a": 0,
+            "austin-k": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30061",
+          "name": "Mineral",
+          "votes": {
+            "alme-k": 992,
+            "bodnar-s": 484,
+            "bankhead-a": 171,
+            "austin-k": 49
+          },
+          "total_votes": 1696,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30063",
+          "name": "Missoula",
+          "votes": {
+            "alme-k": 0,
+            "bodnar-s": 0,
+            "bankhead-a": 0,
+            "austin-k": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30065",
+          "name": "Musselshell",
+          "votes": {
+            "alme-k": 739,
+            "bodnar-s": 148,
+            "bankhead-a": 62,
+            "austin-k": 30
+          },
+          "total_votes": 979,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30067",
+          "name": "Park",
+          "votes": {
+            "alme-k": 2282,
+            "bodnar-s": 2937,
+            "bankhead-a": 809,
+            "austin-k": 68
+          },
+          "total_votes": 6096,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30069",
+          "name": "Petroleum",
+          "votes": {
+            "alme-k": 199,
+            "bodnar-s": 36,
+            "bankhead-a": 4,
+            "austin-k": 11
+          },
+          "total_votes": 250,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30071",
+          "name": "Phillips",
+          "votes": {
+            "alme-k": 0,
+            "bodnar-s": 0,
+            "bankhead-a": 0,
+            "austin-k": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30073",
+          "name": "Pondera",
+          "votes": {
+            "alme-k": 633,
+            "bodnar-s": 286,
+            "bankhead-a": 112,
+            "austin-k": 31
+          },
+          "total_votes": 1062,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30075",
+          "name": "Powder River",
+          "votes": {
+            "alme-k": 437,
+            "bodnar-s": 103,
+            "bankhead-a": 26,
+            "austin-k": 17
+          },
+          "total_votes": 583,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30077",
+          "name": "Powell",
+          "votes": {
+            "alme-k": 0,
+            "bodnar-s": 0,
+            "bankhead-a": 0,
+            "austin-k": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30079",
+          "name": "Prairie",
+          "votes": {
+            "alme-k": 0,
+            "bodnar-s": 0,
+            "bankhead-a": 0,
+            "austin-k": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30081",
+          "name": "Ravalli",
+          "votes": {
+            "alme-k": 8441,
+            "bodnar-s": 5306,
+            "bankhead-a": 1436,
+            "austin-k": 244
+          },
+          "total_votes": 15427,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30083",
+          "name": "Richland",
+          "votes": {
+            "alme-k": 1400,
+            "bodnar-s": 353,
+            "bankhead-a": 196,
+            "austin-k": 57
+          },
+          "total_votes": 2006,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30085",
+          "name": "Roosevelt",
+          "votes": {
+            "alme-k": 0,
+            "bodnar-s": 0,
+            "bankhead-a": 0,
+            "austin-k": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30087",
+          "name": "Rosebud",
+          "votes": {
+            "alme-k": 1007,
+            "bodnar-s": 441,
+            "bankhead-a": 208,
+            "austin-k": 46
+          },
+          "total_votes": 1702,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30089",
+          "name": "Sanders",
+          "votes": {
+            "alme-k": 2756,
+            "bodnar-s": 974,
+            "bankhead-a": 451,
+            "austin-k": 64
+          },
+          "total_votes": 4245,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30091",
+          "name": "Sheridan",
+          "votes": {
+            "alme-k": 58,
+            "bodnar-s": 19,
+            "bankhead-a": 13,
+            "austin-k": 5
+          },
+          "total_votes": 95,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30093",
+          "name": "Silver Bow",
+          "votes": {
+            "alme-k": 3431,
+            "bodnar-s": 5694,
+            "bankhead-a": 1817,
+            "austin-k": 232
+          },
+          "total_votes": 11174,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30095",
+          "name": "Stillwater",
+          "votes": {
+            "alme-k": 0,
+            "bodnar-s": 0,
+            "bankhead-a": 0,
+            "austin-k": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30097",
+          "name": "Sweet Grass",
+          "votes": {
+            "alme-k": 861,
+            "bodnar-s": 420,
+            "bankhead-a": 118,
+            "austin-k": 37
+          },
+          "total_votes": 1436,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30099",
+          "name": "Teton",
+          "votes": {
+            "alme-k": 1132,
+            "bodnar-s": 555,
+            "bankhead-a": 213,
+            "austin-k": 37
+          },
+          "total_votes": 1937,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30101",
+          "name": "Toole",
+          "votes": {
+            "alme-k": 239,
+            "bodnar-s": 58,
+            "bankhead-a": 33,
+            "austin-k": 7
+          },
+          "total_votes": 337,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30103",
+          "name": "Treasure",
+          "votes": {
+            "alme-k": 285,
+            "bodnar-s": 53,
+            "bankhead-a": 14,
+            "austin-k": 9
+          },
+          "total_votes": 361,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30105",
+          "name": "Valley",
+          "votes": {
+            "alme-k": 0,
+            "bodnar-s": 0,
+            "bankhead-a": 0,
+            "austin-k": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30107",
+          "name": "Wheatland",
+          "votes": {
+            "alme-k": 0,
+            "bodnar-s": 0,
+            "bankhead-a": 0,
+            "austin-k": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30109",
+          "name": "Wibaux",
+          "votes": {
+            "alme-k": 349,
+            "bodnar-s": 61,
+            "bankhead-a": 27,
+            "austin-k": 16
+          },
+          "total_votes": 453,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "30111",
+          "name": "Yellowstone",
+          "votes": {
+            "alme-k": 0,
+            "bodnar-s": 0,
+            "bankhead-a": 0,
+            "austin-k": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [],
+        "called_by": []
+      },
+      "reporting_count": 41,
+      "missing_fips": [],
+      "state_total_votes": 143362,
+      "county_total_votes": 143362,
+      "county_sum_reconciles": true
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-montana.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 56,
+  "reporting_count": 41,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:34:47.244Z",
+    "S_race_updated_at": "2026-11-04T04:34:42.458Z"
+  },
+  "limitations": [
+    "Only candidates[].votes.total was used; NYT models, estimates, expected votes, and EEVP were ignored.",
+    "Exact county FIPS are matched against the local GeoJSON. Township aggregation is used only when no county-level reporting units exist, grouping by source fips_state+fips_county."
+  ],
+  "call_authority": {
+    "called_by_ap_offices": [],
+    "authority": "AP is identified only for offices whose outcome.called_by explicitly contains ap."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-montana.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate"
+    ],
+    "county_count": 56,
+    "reporting_count": 41,
+    "row_count": 56,
+    "source_time": "2026-11-04T04:42:51.372+00:00",
+    "fetched_at": "2026-11-04T04:47:03.059Z",
+    "message": "56 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

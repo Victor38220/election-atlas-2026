@@ -1,0 +1,96 @@
+{
+  "state": "Wisconsin",
+  "state_code": "WI",
+  "offices": [
+    "Governor"
+  ],
+  "election_identity": {
+    "date": "2026-11-03",
+    "type": "general election",
+    "race_id": "GOV",
+    "verification": "Verified from live results.json; race title Governor, kind statewide, election date confirmed by tracker polls_close 2026-11-03T20:00:00-06:00"
+  },
+  "provider_family": "Wausau Pilot & Review election night tracker (county-clerk aggregation; static JSON feeds)",
+  "endpoints": {
+    "statewide_race_results": "https://results.wausaupilotandreview.com/results.json",
+    "county_level_live_board": "https://results.wausaupilotandreview.com/board.json",
+    "human_readable_tracker": "https://results.wausaupilotandreview.com/",
+    "secondary_candidate_civicapi_search": "https://civicapi.org/api/v2/race/search?country=US&province=WI&startDate=2026-11-03&endDate=2026-11-03"
+  },
+  "source": {
+    "provider": "Wausau Pilot & Review",
+    "tracker": "https://results.wausaupilotandreview.com/",
+    "data_attribution_in_feed": "Unofficial results posted by Wisconsin's 72 county clerks, gathered by Wausau Pilot & Review.",
+    "official_state_context": "https://myvote.wi.gov/en-us/Election-Results",
+    "official_state_context_claim": "Wisconsin has no statewide system for reporting unofficial results Election Night; municipal results are transmitted to the 72 county clerks, which post unofficial results."
+  },
+  "fetches": [
+    {
+      "fetched_at_utc": "2026-11-04T04:26:15Z",
+      "url": "https://results.wausaupilotandreview.com/results.json",
+      "http_status": 200,
+      "bytes": 144910,
+      "feed_updated_at": "2026-11-03T22:26:40-06:00",
+      "result": "Live JSON contains race id GOV / Governor, candidates, statewide totals, reporting percent, county reporting counts and list of not-reporting counties."
+    },
+    {
+      "fetched_at_utc": "2026-11-04T04:26:15Z",
+      "url": "https://results.wausaupilotandreview.com/board.json",
+      "http_status": 200,
+      "bytes": 163855,
+      "feed_updated_at": "2026-11-03T22:26:40-06:00",
+      "result": "Live county-level board has per-county FIPS, name, vote total, live margin, percent in, and outstanding estimate."
+    },
+    {
+      "fetched_at_utc": "2026-11-04T04:26:15Z",
+      "url": "https://civicapi.org/api/v2/race/search?country=US&province=WI&startDate=2026-11-03&endDate=2026-11-03",
+      "http_status": 502,
+      "result": "Candidate shared API search unavailable; not used."
+    }
+  ],
+  "county_coverage": {
+    "verified": true,
+    "expected_counties": 72,
+    "reporting_counties": 25,
+    "fully_reporting_counties": 5,
+    "sample_counties": [
+      "Adams",
+      "Dane"
+    ],
+    "note": "results.json reports 25 counties reporting (5 final); board.json includes county-level aggregate vote totals, live margins and reporting percentages by county FIPS. Candidate vote counts are aggregated statewide in results.json; county board values are aggregate counts/margins, not per-candidate county tallies."
+  },
+  "license": {
+    "access": "Public unauthenticated HTTPS JSON endpoints; no API key required",
+    "terms": "No explicit reuse license or rate limit found during this check. Attribute Wausau Pilot & Review and the county clerks as the tracker does; confirm terms for production/commercial reuse.",
+    "attribution": "Unofficial results posted by Wisconsin's 72 county clerks, gathered by Wausau Pilot & Review."
+  },
+  "limitations": [
+    "Unofficial election-night results aggregated by Wausau Pilot & Review from county clerk postings; not an official statewide Wisconsin feed.",
+    "Wisconsin official guidance says unofficial results are posted by county clerks; source completeness and update timing vary by county.",
+    "Statewide race candidate votes are in results.json; board.json provides per-county aggregate votes, live margin and percent reporting, not candidate-by-candidate county counts.",
+    "At last checked, 25 of 72 counties reported and five were final; stale/partial data must be labeled as such.",
+    "Provider reuse/license terms and rate limits were not stated in the JSON or checked documentation.",
+    "civicAPI candidate race search returned HTTP 502 and was not used."
+  ],
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-wisconsin.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Governor"
+    ],
+    "county_count": 72,
+    "reporting_count": 69,
+    "row_count": 72,
+    "source_time": "2026-11-04T04:46:44.83+00:00",
+    "fetched_at": "2026-11-04T04:47:03.219Z",
+    "message": "72 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

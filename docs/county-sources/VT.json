@@ -1,0 +1,292 @@
+{
+  "state": "VT",
+  "offices": [
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "manifest_race_id": "2026-governor-vt",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "township rollup by source county FIPS",
+      "candidates": [
+        {
+          "nyt_id": "scott-p",
+          "name": "Phil Scott",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "janoo-a",
+          "name": "Amanda Janoo",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "goodband-j",
+          "name": "June Goodband",
+          "party": "Other"
+        },
+        {
+          "nyt_id": "judd-b",
+          "name": "Brian Judd",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "roy-d",
+          "name": "Dean Roy",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "total_writeins",
+          "name": "Total Write-ins",
+          "party": ""
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "50001",
+          "name": "Addison",
+          "votes": {
+            "scott-p": 10016,
+            "janoo-a": 9495,
+            "goodband-j": 64,
+            "judd-b": 113,
+            "roy-d": 49,
+            "total_writeins": 29
+          },
+          "total_votes": 19766,
+          "unit_count": 23
+        },
+        {
+          "fips": "50003",
+          "name": "Bennington",
+          "votes": {
+            "scott-p": 6522,
+            "janoo-a": 5865,
+            "goodband-j": 94,
+            "judd-b": 209,
+            "roy-d": 73,
+            "total_writeins": 17
+          },
+          "total_votes": 12780,
+          "unit_count": 16
+        },
+        {
+          "fips": "50005",
+          "name": "Caledonia",
+          "votes": {
+            "scott-p": 7413,
+            "janoo-a": 4829,
+            "goodband-j": 65,
+            "judd-b": 132,
+            "roy-d": 63,
+            "total_writeins": 21
+          },
+          "total_votes": 12523,
+          "unit_count": 17
+        },
+        {
+          "fips": "50007",
+          "name": "Chittenden",
+          "votes": {
+            "scott-p": 38831,
+            "janoo-a": 44404,
+            "goodband-j": 209,
+            "judd-b": 315,
+            "roy-d": 185,
+            "total_writeins": 140
+          },
+          "total_votes": 84084,
+          "unit_count": 18
+        },
+        {
+          "fips": "50009",
+          "name": "Essex",
+          "votes": {
+            "scott-p": 1807,
+            "janoo-a": 665,
+            "goodband-j": 11,
+            "judd-b": 73,
+            "roy-d": 22,
+            "total_writeins": 2
+          },
+          "total_votes": 2580,
+          "unit_count": 13
+        },
+        {
+          "fips": "50011",
+          "name": "Franklin",
+          "votes": {
+            "scott-p": 13947,
+            "janoo-a": 6301,
+            "goodband-j": 74,
+            "judd-b": 233,
+            "roy-d": 95,
+            "total_writeins": 52
+          },
+          "total_votes": 20702,
+          "unit_count": 15
+        },
+        {
+          "fips": "50013",
+          "name": "Grand Isle",
+          "votes": {
+            "scott-p": 2720,
+            "janoo-a": 1495,
+            "goodband-j": 12,
+            "judd-b": 27,
+            "roy-d": 20,
+            "total_writeins": 6
+          },
+          "total_votes": 4280,
+          "unit_count": 5
+        },
+        {
+          "fips": "50015",
+          "name": "Lamoille",
+          "votes": {
+            "scott-p": 5518,
+            "janoo-a": 4498,
+            "goodband-j": 23,
+            "judd-b": 71,
+            "roy-d": 61,
+            "total_writeins": 16
+          },
+          "total_votes": 10187,
+          "unit_count": 10
+        },
+        {
+          "fips": "50017",
+          "name": "Orange",
+          "votes": {
+            "scott-p": 7318,
+            "janoo-a": 5703,
+            "goodband-j": 41,
+            "judd-b": 138,
+            "roy-d": 49,
+            "total_writeins": 30
+          },
+          "total_votes": 13279,
+          "unit_count": 17
+        },
+        {
+          "fips": "50019",
+          "name": "Orleans",
+          "votes": {
+            "scott-p": 5370,
+            "janoo-a": 2749,
+            "goodband-j": 37,
+            "judd-b": 116,
+            "roy-d": 37,
+            "total_writeins": 16
+          },
+          "total_votes": 8325,
+          "unit_count": 19
+        },
+        {
+          "fips": "50021",
+          "name": "Rutland",
+          "votes": {
+            "scott-p": 17281,
+            "janoo-a": 8942,
+            "goodband-j": 121,
+            "judd-b": 281,
+            "roy-d": 122,
+            "total_writeins": 46
+          },
+          "total_votes": 26793,
+          "unit_count": 28
+        },
+        {
+          "fips": "50023",
+          "name": "Washington",
+          "votes": {
+            "scott-p": 15149,
+            "janoo-a": 15401,
+            "goodband-j": 67,
+            "judd-b": 235,
+            "roy-d": 94,
+            "total_writeins": 56
+          },
+          "total_votes": 31002,
+          "unit_count": 20
+        },
+        {
+          "fips": "50025",
+          "name": "Windham",
+          "votes": {
+            "scott-p": 8359,
+            "janoo-a": 12659,
+            "goodband-j": 146,
+            "judd-b": 171,
+            "roy-d": 75,
+            "total_writeins": 9
+          },
+          "total_votes": 21419,
+          "unit_count": 22
+        },
+        {
+          "fips": "50027",
+          "name": "Windsor",
+          "votes": {
+            "scott-p": 13189,
+            "janoo-a": 12600,
+            "goodband-j": 202,
+            "judd-b": 318,
+            "roy-d": 97,
+            "total_writeins": 30
+          },
+          "total_votes": 26436,
+          "unit_count": 24
+        }
+      ],
+      "outcome": {
+        "won": [],
+        "called_by": []
+      },
+      "reporting_count": 14,
+      "missing_fips": [],
+      "state_total_votes": 294156,
+      "county_total_votes": 294156,
+      "county_sum_reconciles": true
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-vermont.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 14,
+  "reporting_count": 14,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:37:03.287Z",
+    "G_race_updated_at": "2026-11-04T04:35:10.487Z"
+  },
+  "limitations": [
+    "Only candidates[].votes.total was used; NYT models, estimates, expected votes, and EEVP were ignored.",
+    "Exact county FIPS are matched against the local GeoJSON. Township aggregation is used only when no county-level reporting units exist, grouping by source fips_state+fips_county."
+  ],
+  "call_authority": {
+    "called_by_ap_offices": [],
+    "authority": "AP is identified only for offices whose outcome.called_by explicitly contains ap."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-vermont.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Governor"
+    ],
+    "county_count": 14,
+    "reporting_count": 14,
+    "row_count": 14,
+    "source_time": "2026-11-04T04:46:17.421+00:00",
+    "fetched_at": "2026-11-04T04:47:03.212Z",
+    "message": "14 counties with published returns. County totals sum distinct towns using publisher-supplied county FIPS. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

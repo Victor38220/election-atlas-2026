@@ -1,9 +1,12 @@
 import type {Office,Race} from '../types';
 import manifest from '../../config/races.json';
 import {getJSON,numeric,probability} from './live';
+import {normalizeNationalResults} from './countyNational';
+import {normalizeApCalls} from './apCalls';
+import type {APCall} from './apCalls';
 export interface ResultCandidate{name:string;party:string;votes:number;share:number|null}
 export interface RaceResult{race_id:string;state:string;office:Office;as_of:string|null;pct_reporting:number|null;total:number;candidates:ResultCandidate[];stale:boolean;source_url:string}
-export interface ResultsData{fetched_at:string;as_of:string|null;races:RaceResult[];status?:'ok'|'partial';errors?:string[]}
+export interface ResultsData{fetched_at:string;as_of:string|null;races:RaceResult[];calls?:APCall[];status?:'ok'|'partial';errors?:string[]}
 export const RESULTS_ATTRIBUTION='Official state election offices via Open America';
 export const RESULTS_DOCS='https://openamerica.io/elections/api/';
 export const RESULTS_STATES=['AR','AZ','CO','CT','FL','GA','IA','ID','IN','LA','MI','MN','NC','PA','RI','SC','TX','UT','VA','VT','WA','WV'];
@@ -30,14 +33,14 @@ export function normalizeResults(payload:unknown,office:Office,races:Race[]=mani
  return result;
 }
 export async function fetchResults(previous:ResultsData|null,signal?:AbortSignal):Promise<ResultsData>{
- const fetched_at=new Date().toISOString();const errors:string[]=[];let races=[...(previous?.races??[])];
+ const fetched_at=new Date().toISOString();const errors:string[]=[];let races=[...(previous?.races??[])];let calls=[...(previous?.calls??[])];
  const offices=['Senate','Governor'] as const;
- const payload=await getJSON('/api/batch?'+new URLSearchParams({paths:JSON.stringify(offices.map(office=>'/api/results/'+office))}),signal);
+ const payload=await getJSON('/api/batch?'+new URLSearchParams({paths:JSON.stringify(offices.map(office=>'/api/national/'+office))}),signal);
  if(!Array.isArray(payload)||payload.length!==2)throw new Error('Incomplete results batch');
- const outcomes=await Promise.allSettled(offices.map(async(office,index)=>{const raw=record(payload[index]);if(raw.error)throw new Error(String(raw.error));return {office,races:normalizeResults(raw,office)}}));
- for(let index=0;index<outcomes.length;index++){const value=outcomes[index];const office=index===0?'Senate':'Governor';if(value.status==='fulfilled')races=[...races.filter(r=>r.office!==value.value.office),...value.value.races];else errors.push(`${office}: ${String(value.reason)}`)}
+ const outcomes=await Promise.allSettled(offices.map(async(office,index)=>{const raw=record(payload[index]);if(raw.error)throw new Error(String(raw.error));const normalized=normalizeNationalResults(raw,office,manifest as Race[]);if(!normalized.length)throw new Error('No matching 2026 race counts');return {office,races:normalized,calls:normalizeApCalls(raw,office,manifest as Race[],fetched_at).calls}}));
+ for(let index=0;index<outcomes.length;index++){const value=outcomes[index];const office=index===0?'Senate':'Governor';if(value.status==='fulfilled'){races=[...races.filter(r=>r.office!==value.value.office),...value.value.races];calls=[...calls.filter(c=>c.office!==value.value.office),...value.value.calls]}else errors.push(`${office}: ${String(value.reason)}`)}
  if(errors.length===2)throw new Error(errors.join('; '));
- return {fetched_at,as_of:races.map(r=>r.as_of).filter((value):value is string=>value!==null).sort().at(-1)??null,races,status:errors.length?'partial':'ok',errors};
+ return {fetched_at,as_of:races.map(r=>r.as_of).filter((value):value is string=>value!==null).sort().at(-1)??null,races,calls,status:errors.length?'partial':'ok',errors};
 }
 
 export function reportedLeader(result:RaceResult|undefined){

@@ -1,0 +1,2645 @@
+{
+  "state": "NE",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "Senate",
+      "manifest_race_id": "2026-senate-ne",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "ricketts-p",
+          "name": "Pete Ricketts",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "osborn-d",
+          "name": "Dan Osborn",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "marvin-m",
+          "name": "Mike Marvin",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "richards-r",
+          "name": "Robin Richards",
+          "party": "Other"
+        },
+        {
+          "nyt_id": "conboy-c",
+          "name": "Chuck Conboy",
+          "party": "Other"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "31001",
+          "name": "Adams",
+          "votes": {
+            "ricketts-p": 4392,
+            "osborn-d": 2487,
+            "marvin-m": 125,
+            "richards-r": 167,
+            "conboy-c": 85
+          },
+          "total_votes": 7256,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31003",
+          "name": "Antelope",
+          "votes": {
+            "ricketts-p": 256,
+            "osborn-d": 84,
+            "marvin-m": 4,
+            "richards-r": 3,
+            "conboy-c": 2
+          },
+          "total_votes": 349,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31005",
+          "name": "Arthur",
+          "votes": {
+            "ricketts-p": 189,
+            "osborn-d": 23,
+            "marvin-m": 2,
+            "richards-r": 11,
+            "conboy-c": 1
+          },
+          "total_votes": 226,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31007",
+          "name": "Banner",
+          "votes": {
+            "ricketts-p": 263,
+            "osborn-d": 39,
+            "marvin-m": 1,
+            "richards-r": 4,
+            "conboy-c": 7
+          },
+          "total_votes": 314,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31009",
+          "name": "Blaine",
+          "votes": {
+            "ricketts-p": 192,
+            "osborn-d": 30,
+            "marvin-m": 5,
+            "richards-r": 3,
+            "conboy-c": 6
+          },
+          "total_votes": 236,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31011",
+          "name": "Boone",
+          "votes": {
+            "ricketts-p": 1812,
+            "osborn-d": 501,
+            "marvin-m": 34,
+            "richards-r": 70,
+            "conboy-c": 46
+          },
+          "total_votes": 2463,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31013",
+          "name": "Box Butte",
+          "votes": {
+            "ricketts-p": 338,
+            "osborn-d": 311,
+            "marvin-m": 9,
+            "richards-r": 27,
+            "conboy-c": 8
+          },
+          "total_votes": 693,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31015",
+          "name": "Boyd",
+          "votes": {
+            "ricketts-p": 711,
+            "osborn-d": 132,
+            "marvin-m": 10,
+            "richards-r": 19,
+            "conboy-c": 15
+          },
+          "total_votes": 887,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31017",
+          "name": "Brown",
+          "votes": {
+            "ricketts-p": 996,
+            "osborn-d": 189,
+            "marvin-m": 26,
+            "richards-r": 39,
+            "conboy-c": 25
+          },
+          "total_votes": 1275,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31019",
+          "name": "Buffalo",
+          "votes": {
+            "ricketts-p": 8328,
+            "osborn-d": 4704,
+            "marvin-m": 169,
+            "richards-r": 258,
+            "conboy-c": 156
+          },
+          "total_votes": 13615,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31021",
+          "name": "Burt",
+          "votes": {
+            "ricketts-p": 235,
+            "osborn-d": 225,
+            "marvin-m": 5,
+            "richards-r": 9,
+            "conboy-c": 5
+          },
+          "total_votes": 479,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31023",
+          "name": "Butler",
+          "votes": {
+            "ricketts-p": 809,
+            "osborn-d": 309,
+            "marvin-m": 24,
+            "richards-r": 30,
+            "conboy-c": 21
+          },
+          "total_votes": 1193,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31025",
+          "name": "Cass",
+          "votes": {
+            "ricketts-p": 1289,
+            "osborn-d": 1332,
+            "marvin-m": 82,
+            "richards-r": 78,
+            "conboy-c": 33
+          },
+          "total_votes": 2814,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31027",
+          "name": "Cedar",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31029",
+          "name": "Chase",
+          "votes": {
+            "ricketts-p": 172,
+            "osborn-d": 69,
+            "marvin-m": 2,
+            "richards-r": 8,
+            "conboy-c": 3
+          },
+          "total_votes": 254,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31031",
+          "name": "Cherry",
+          "votes": {
+            "ricketts-p": 1923,
+            "osborn-d": 344,
+            "marvin-m": 56,
+            "richards-r": 70,
+            "conboy-c": 53
+          },
+          "total_votes": 2446,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31033",
+          "name": "Cheyenne",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31035",
+          "name": "Clay",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31037",
+          "name": "Colfax",
+          "votes": {
+            "ricketts-p": 228,
+            "osborn-d": 237,
+            "marvin-m": 6,
+            "richards-r": 17,
+            "conboy-c": 4
+          },
+          "total_votes": 492,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31039",
+          "name": "Cuming",
+          "votes": {
+            "ricketts-p": 711,
+            "osborn-d": 279,
+            "marvin-m": 13,
+            "richards-r": 34,
+            "conboy-c": 14
+          },
+          "total_votes": 1051,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31041",
+          "name": "Custer",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31043",
+          "name": "Dakota",
+          "votes": {
+            "ricketts-p": 1173,
+            "osborn-d": 1208,
+            "marvin-m": 132,
+            "richards-r": 227,
+            "conboy-c": 53
+          },
+          "total_votes": 2793,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31045",
+          "name": "Dawes",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31047",
+          "name": "Dawson",
+          "votes": {
+            "ricketts-p": 521,
+            "osborn-d": 517,
+            "marvin-m": 12,
+            "richards-r": 29,
+            "conboy-c": 14
+          },
+          "total_votes": 1093,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31049",
+          "name": "Deuel",
+          "votes": {
+            "ricketts-p": 439,
+            "osborn-d": 94,
+            "marvin-m": 8,
+            "richards-r": 15,
+            "conboy-c": 7
+          },
+          "total_votes": 563,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31051",
+          "name": "Dixon",
+          "votes": {
+            "ricketts-p": 1580,
+            "osborn-d": 484,
+            "marvin-m": 56,
+            "richards-r": 98,
+            "conboy-c": 49
+          },
+          "total_votes": 2267,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31053",
+          "name": "Dodge",
+          "votes": {
+            "ricketts-p": 3541,
+            "osborn-d": 2927,
+            "marvin-m": 190,
+            "richards-r": 203,
+            "conboy-c": 93
+          },
+          "total_votes": 6954,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31055",
+          "name": "Douglas",
+          "votes": {
+            "ricketts-p": 57404,
+            "osborn-d": 90627,
+            "marvin-m": 3413,
+            "richards-r": 4013,
+            "conboy-c": 1371
+          },
+          "total_votes": 156828,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31057",
+          "name": "Dundy",
+          "votes": {
+            "ricketts-p": 535,
+            "osborn-d": 102,
+            "marvin-m": 9,
+            "richards-r": 26,
+            "conboy-c": 11
+          },
+          "total_votes": 683,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31059",
+          "name": "Fillmore",
+          "votes": {
+            "ricketts-p": 694,
+            "osborn-d": 355,
+            "marvin-m": 13,
+            "richards-r": 31,
+            "conboy-c": 14
+          },
+          "total_votes": 1107,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31061",
+          "name": "Franklin",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31063",
+          "name": "Frontier",
+          "votes": {
+            "ricketts-p": 878,
+            "osborn-d": 190,
+            "marvin-m": 16,
+            "richards-r": 17,
+            "conboy-c": 20
+          },
+          "total_votes": 1121,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31065",
+          "name": "Furnas",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31067",
+          "name": "Gage",
+          "votes": {
+            "ricketts-p": 2001,
+            "osborn-d": 1716,
+            "marvin-m": 89,
+            "richards-r": 137,
+            "conboy-c": 59
+          },
+          "total_votes": 4002,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31069",
+          "name": "Garden",
+          "votes": {
+            "ricketts-p": 667,
+            "osborn-d": 145,
+            "marvin-m": 27,
+            "richards-r": 25,
+            "conboy-c": 29
+          },
+          "total_votes": 893,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31071",
+          "name": "Garfield",
+          "votes": {
+            "ricketts-p": 666,
+            "osborn-d": 124,
+            "marvin-m": 8,
+            "richards-r": 14,
+            "conboy-c": 12
+          },
+          "total_votes": 824,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31073",
+          "name": "Gosper",
+          "votes": {
+            "ricketts-p": 674,
+            "osborn-d": 183,
+            "marvin-m": 13,
+            "richards-r": 12,
+            "conboy-c": 17
+          },
+          "total_votes": 899,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31075",
+          "name": "Grant",
+          "votes": {
+            "ricketts-p": 253,
+            "osborn-d": 12,
+            "marvin-m": 2,
+            "richards-r": 9,
+            "conboy-c": 9
+          },
+          "total_votes": 285,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31077",
+          "name": "Greeley",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31079",
+          "name": "Hall",
+          "votes": {
+            "ricketts-p": 3518,
+            "osborn-d": 3471,
+            "marvin-m": 117,
+            "richards-r": 209,
+            "conboy-c": 76
+          },
+          "total_votes": 7391,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31081",
+          "name": "Hamilton",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31083",
+          "name": "Harlan",
+          "votes": {
+            "ricketts-p": 1069,
+            "osborn-d": 264,
+            "marvin-m": 19,
+            "richards-r": 28,
+            "conboy-c": 26
+          },
+          "total_votes": 1406,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31085",
+          "name": "Hayes",
+          "votes": {
+            "ricketts-p": 339,
+            "osborn-d": 27,
+            "marvin-m": 4,
+            "richards-r": 7,
+            "conboy-c": 5
+          },
+          "total_votes": 382,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31087",
+          "name": "Hitchcock",
+          "votes": {
+            "ricketts-p": 809,
+            "osborn-d": 175,
+            "marvin-m": 40,
+            "richards-r": 30,
+            "conboy-c": 17
+          },
+          "total_votes": 1071,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31089",
+          "name": "Holt",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31091",
+          "name": "Hooker",
+          "votes": {
+            "ricketts-p": 264,
+            "osborn-d": 57,
+            "marvin-m": 7,
+            "richards-r": 6,
+            "conboy-c": 2
+          },
+          "total_votes": 336,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31093",
+          "name": "Howard",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31095",
+          "name": "Jefferson",
+          "votes": {
+            "ricketts-p": 266,
+            "osborn-d": 199,
+            "marvin-m": 9,
+            "richards-r": 11,
+            "conboy-c": 5
+          },
+          "total_votes": 490,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31097",
+          "name": "Johnson",
+          "votes": {
+            "ricketts-p": 1040,
+            "osborn-d": 638,
+            "marvin-m": 43,
+            "richards-r": 74,
+            "conboy-c": 25
+          },
+          "total_votes": 1820,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31099",
+          "name": "Kearney",
+          "votes": {
+            "ricketts-p": 2050,
+            "osborn-d": 698,
+            "marvin-m": 40,
+            "richards-r": 76,
+            "conboy-c": 41
+          },
+          "total_votes": 2905,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31101",
+          "name": "Keith",
+          "votes": {
+            "ricketts-p": 2322,
+            "osborn-d": 699,
+            "marvin-m": 86,
+            "richards-r": 95,
+            "conboy-c": 56
+          },
+          "total_votes": 3258,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31103",
+          "name": "Keya Paha",
+          "votes": {
+            "ricketts-p": 369,
+            "osborn-d": 43,
+            "marvin-m": 2,
+            "richards-r": 6,
+            "conboy-c": 7
+          },
+          "total_votes": 427,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31105",
+          "name": "Kimball",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31107",
+          "name": "Knox",
+          "votes": {
+            "ricketts-p": 2684,
+            "osborn-d": 696,
+            "marvin-m": 86,
+            "richards-r": 146,
+            "conboy-c": 99
+          },
+          "total_votes": 3711,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31109",
+          "name": "Lancaster",
+          "votes": {
+            "ricketts-p": 16055,
+            "osborn-d": 33308,
+            "marvin-m": 720,
+            "richards-r": 1032,
+            "conboy-c": 387
+          },
+          "total_votes": 51502,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31111",
+          "name": "Lincoln",
+          "votes": {
+            "ricketts-p": 2566,
+            "osborn-d": 1455,
+            "marvin-m": 82,
+            "richards-r": 119,
+            "conboy-c": 50
+          },
+          "total_votes": 4272,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31113",
+          "name": "Logan",
+          "votes": {
+            "ricketts-p": 280,
+            "osborn-d": 29,
+            "marvin-m": 2,
+            "richards-r": 13,
+            "conboy-c": 3
+          },
+          "total_votes": 327,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31115",
+          "name": "Loup",
+          "votes": {
+            "ricketts-p": 261,
+            "osborn-d": 67,
+            "marvin-m": 3,
+            "richards-r": 4,
+            "conboy-c": 4
+          },
+          "total_votes": 339,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31117",
+          "name": "McPherson",
+          "votes": {
+            "ricketts-p": 202,
+            "osborn-d": 17,
+            "marvin-m": 1,
+            "richards-r": 8,
+            "conboy-c": 2
+          },
+          "total_votes": 230,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31119",
+          "name": "Madison",
+          "votes": {
+            "ricketts-p": 3438,
+            "osborn-d": 1719,
+            "marvin-m": 123,
+            "richards-r": 130,
+            "conboy-c": 59
+          },
+          "total_votes": 5469,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31121",
+          "name": "Merrick",
+          "votes": {
+            "ricketts-p": 2514,
+            "osborn-d": 777,
+            "marvin-m": 72,
+            "richards-r": 79,
+            "conboy-c": 79
+          },
+          "total_votes": 3521,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31123",
+          "name": "Morrill",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31125",
+          "name": "Nance",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31127",
+          "name": "Nemaha",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31129",
+          "name": "Nuckolls",
+          "votes": {
+            "ricketts-p": 127,
+            "osborn-d": 96,
+            "marvin-m": 4,
+            "richards-r": 6,
+            "conboy-c": 4
+          },
+          "total_votes": 237,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31131",
+          "name": "Otoe",
+          "votes": {
+            "ricketts-p": 673,
+            "osborn-d": 696,
+            "marvin-m": 22,
+            "richards-r": 26,
+            "conboy-c": 16
+          },
+          "total_votes": 1433,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31133",
+          "name": "Pawnee",
+          "votes": {
+            "ricketts-p": 97,
+            "osborn-d": 82,
+            "marvin-m": 5,
+            "richards-r": 10,
+            "conboy-c": 4
+          },
+          "total_votes": 198,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31135",
+          "name": "Perkins",
+          "votes": {
+            "ricketts-p": 856,
+            "osborn-d": 215,
+            "marvin-m": 20,
+            "richards-r": 41,
+            "conboy-c": 30
+          },
+          "total_votes": 1162,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31137",
+          "name": "Phelps",
+          "votes": {
+            "ricketts-p": 2849,
+            "osborn-d": 718,
+            "marvin-m": 93,
+            "richards-r": 85,
+            "conboy-c": 67
+          },
+          "total_votes": 3812,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31139",
+          "name": "Pierce",
+          "votes": {
+            "ricketts-p": 322,
+            "osborn-d": 78,
+            "marvin-m": 10,
+            "richards-r": 16,
+            "conboy-c": 3
+          },
+          "total_votes": 429,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31141",
+          "name": "Platte",
+          "votes": {
+            "ricketts-p": 3774,
+            "osborn-d": 1795,
+            "marvin-m": 94,
+            "richards-r": 133,
+            "conboy-c": 66
+          },
+          "total_votes": 5862,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31143",
+          "name": "Polk",
+          "votes": {
+            "ricketts-p": 310,
+            "osborn-d": 153,
+            "marvin-m": 13,
+            "richards-r": 11,
+            "conboy-c": 7
+          },
+          "total_votes": 494,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31145",
+          "name": "Red Willow",
+          "votes": {
+            "ricketts-p": 2601,
+            "osborn-d": 721,
+            "marvin-m": 61,
+            "richards-r": 97,
+            "conboy-c": 54
+          },
+          "total_votes": 3534,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31147",
+          "name": "Richardson",
+          "votes": {
+            "ricketts-p": 1932,
+            "osborn-d": 823,
+            "marvin-m": 103,
+            "richards-r": 99,
+            "conboy-c": 41
+          },
+          "total_votes": 2998,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31149",
+          "name": "Rock",
+          "votes": {
+            "ricketts-p": 587,
+            "osborn-d": 96,
+            "marvin-m": 12,
+            "richards-r": 11,
+            "conboy-c": 9
+          },
+          "total_votes": 715,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31151",
+          "name": "Saline",
+          "votes": {
+            "ricketts-p": 221,
+            "osborn-d": 418,
+            "marvin-m": 12,
+            "richards-r": 28,
+            "conboy-c": 8
+          },
+          "total_votes": 687,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31153",
+          "name": "Sarpy",
+          "votes": {
+            "ricketts-p": 27668,
+            "osborn-d": 31536,
+            "marvin-m": 1175,
+            "richards-r": 1480,
+            "conboy-c": 692
+          },
+          "total_votes": 62551,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31155",
+          "name": "Saunders",
+          "votes": {
+            "ricketts-p": 843,
+            "osborn-d": 912,
+            "marvin-m": 35,
+            "richards-r": 50,
+            "conboy-c": 10
+          },
+          "total_votes": 1850,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31157",
+          "name": "Scotts Bluff",
+          "votes": {
+            "ricketts-p": 783,
+            "osborn-d": 757,
+            "marvin-m": 29,
+            "richards-r": 65,
+            "conboy-c": 19
+          },
+          "total_votes": 1653,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31159",
+          "name": "Seward",
+          "votes": {
+            "ricketts-p": 2767,
+            "osborn-d": 1590,
+            "marvin-m": 78,
+            "richards-r": 79,
+            "conboy-c": 51
+          },
+          "total_votes": 4565,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31161",
+          "name": "Sheridan",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31163",
+          "name": "Sherman",
+          "votes": {
+            "ricketts-p": 130,
+            "osborn-d": 71,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 2
+          },
+          "total_votes": 203,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31165",
+          "name": "Sioux",
+          "votes": {
+            "ricketts-p": 395,
+            "osborn-d": 76,
+            "marvin-m": 4,
+            "richards-r": 13,
+            "conboy-c": 12
+          },
+          "total_votes": 500,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31167",
+          "name": "Stanton",
+          "votes": {
+            "ricketts-p": 1059,
+            "osborn-d": 299,
+            "marvin-m": 35,
+            "richards-r": 40,
+            "conboy-c": 30
+          },
+          "total_votes": 1463,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31169",
+          "name": "Thayer",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31171",
+          "name": "Thomas",
+          "votes": {
+            "ricketts-p": 254,
+            "osborn-d": 48,
+            "marvin-m": 7,
+            "richards-r": 5,
+            "conboy-c": 5
+          },
+          "total_votes": 319,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31173",
+          "name": "Thurston",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31175",
+          "name": "Valley",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31177",
+          "name": "Washington",
+          "votes": {
+            "ricketts-p": 1973,
+            "osborn-d": 1508,
+            "marvin-m": 68,
+            "richards-r": 81,
+            "conboy-c": 217
+          },
+          "total_votes": 3847,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31179",
+          "name": "Wayne",
+          "votes": {
+            "ricketts-p": 0,
+            "osborn-d": 0,
+            "marvin-m": 0,
+            "richards-r": 0,
+            "conboy-c": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31181",
+          "name": "Webster",
+          "votes": {
+            "ricketts-p": 994,
+            "osborn-d": 271,
+            "marvin-m": 29,
+            "richards-r": 31,
+            "conboy-c": 23
+          },
+          "total_votes": 1348,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31183",
+          "name": "Wheeler",
+          "votes": {
+            "ricketts-p": 303,
+            "osborn-d": 62,
+            "marvin-m": 4,
+            "richards-r": 11,
+            "conboy-c": 11
+          },
+          "total_votes": 391,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31185",
+          "name": "York",
+          "votes": {
+            "ricketts-p": 794,
+            "osborn-d": 481,
+            "marvin-m": 11,
+            "richards-r": 29,
+            "conboy-c": 17
+          },
+          "total_votes": 1332,
+          "units_aggregated": 1,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [],
+        "called_by": []
+      },
+      "reporting_count": 73,
+      "missing_fips": [],
+      "state_total_votes": 406795,
+      "county_total_votes": 406795,
+      "county_sum_reconciles": true
+    },
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "manifest_race_id": "2026-governor-ne",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "pillen-j",
+          "name": "Jim Pillen",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "walz-l",
+          "name": "Lynne Walz",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "beard-r",
+          "name": "Rick Beard",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "lindstrom-b",
+          "name": "Brett Lindstrom",
+          "party": "Other"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "31001",
+          "name": "Adams",
+          "votes": {
+            "pillen-j": 4492,
+            "walz-l": 2274,
+            "beard-r": 168,
+            "lindstrom-b": 328
+          },
+          "total_votes": 7262,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31003",
+          "name": "Antelope",
+          "votes": {
+            "pillen-j": 252,
+            "walz-l": 85,
+            "beard-r": 2,
+            "lindstrom-b": 8
+          },
+          "total_votes": 347,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31005",
+          "name": "Arthur",
+          "votes": {
+            "pillen-j": 191,
+            "walz-l": 21,
+            "beard-r": 1,
+            "lindstrom-b": 14
+          },
+          "total_votes": 227,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31007",
+          "name": "Banner",
+          "votes": {
+            "pillen-j": 277,
+            "walz-l": 31,
+            "beard-r": 4,
+            "lindstrom-b": 12
+          },
+          "total_votes": 324,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31009",
+          "name": "Blaine",
+          "votes": {
+            "pillen-j": 177,
+            "walz-l": 32,
+            "beard-r": 5,
+            "lindstrom-b": 17
+          },
+          "total_votes": 231,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31011",
+          "name": "Boone",
+          "votes": {
+            "pillen-j": 1856,
+            "walz-l": 444,
+            "beard-r": 40,
+            "lindstrom-b": 159
+          },
+          "total_votes": 2499,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31013",
+          "name": "Box Butte",
+          "votes": {
+            "pillen-j": 350,
+            "walz-l": 305,
+            "beard-r": 13,
+            "lindstrom-b": 29
+          },
+          "total_votes": 697,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31015",
+          "name": "Boyd",
+          "votes": {
+            "pillen-j": 735,
+            "walz-l": 115,
+            "beard-r": 9,
+            "lindstrom-b": 29
+          },
+          "total_votes": 888,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31017",
+          "name": "Brown",
+          "votes": {
+            "pillen-j": 1000,
+            "walz-l": 172,
+            "beard-r": 24,
+            "lindstrom-b": 72
+          },
+          "total_votes": 1268,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31019",
+          "name": "Buffalo",
+          "votes": {
+            "pillen-j": 8331,
+            "walz-l": 4387,
+            "beard-r": 257,
+            "lindstrom-b": 655
+          },
+          "total_votes": 13630,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31021",
+          "name": "Burt",
+          "votes": {
+            "pillen-j": 232,
+            "walz-l": 210,
+            "beard-r": 7,
+            "lindstrom-b": 31
+          },
+          "total_votes": 480,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31023",
+          "name": "Butler",
+          "votes": {
+            "pillen-j": 817,
+            "walz-l": 301,
+            "beard-r": 21,
+            "lindstrom-b": 72
+          },
+          "total_votes": 1211,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31025",
+          "name": "Cass",
+          "votes": {
+            "pillen-j": 1511,
+            "walz-l": 1501,
+            "beard-r": 71,
+            "lindstrom-b": 188
+          },
+          "total_votes": 3271,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31027",
+          "name": "Cedar",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31029",
+          "name": "Chase",
+          "votes": {
+            "pillen-j": 179,
+            "walz-l": 73,
+            "beard-r": 1,
+            "lindstrom-b": 7
+          },
+          "total_votes": 260,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31031",
+          "name": "Cherry",
+          "votes": {
+            "pillen-j": 1936,
+            "walz-l": 332,
+            "beard-r": 61,
+            "lindstrom-b": 129
+          },
+          "total_votes": 2458,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31033",
+          "name": "Cheyenne",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31035",
+          "name": "Clay",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31037",
+          "name": "Colfax",
+          "votes": {
+            "pillen-j": 239,
+            "walz-l": 250,
+            "beard-r": 4,
+            "lindstrom-b": 11
+          },
+          "total_votes": 504,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31039",
+          "name": "Cuming",
+          "votes": {
+            "pillen-j": 694,
+            "walz-l": 284,
+            "beard-r": 14,
+            "lindstrom-b": 68
+          },
+          "total_votes": 1060,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31041",
+          "name": "Custer",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31043",
+          "name": "Dakota",
+          "votes": {
+            "pillen-j": 1223,
+            "walz-l": 1468,
+            "beard-r": 84,
+            "lindstrom-b": 63
+          },
+          "total_votes": 2838,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31045",
+          "name": "Dawes",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31047",
+          "name": "Dawson",
+          "votes": {
+            "pillen-j": 527,
+            "walz-l": 497,
+            "beard-r": 19,
+            "lindstrom-b": 55
+          },
+          "total_votes": 1098,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31049",
+          "name": "Deuel",
+          "votes": {
+            "pillen-j": 443,
+            "walz-l": 89,
+            "beard-r": 6,
+            "lindstrom-b": 19
+          },
+          "total_votes": 557,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31051",
+          "name": "Dixon",
+          "votes": {
+            "pillen-j": 1604,
+            "walz-l": 513,
+            "beard-r": 49,
+            "lindstrom-b": 127
+          },
+          "total_votes": 2293,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31053",
+          "name": "Dodge",
+          "votes": {
+            "pillen-j": 3421,
+            "walz-l": 3183,
+            "beard-r": 150,
+            "lindstrom-b": 262
+          },
+          "total_votes": 7016,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31055",
+          "name": "Douglas",
+          "votes": {
+            "pillen-j": 56721,
+            "walz-l": 90898,
+            "beard-r": 3903,
+            "lindstrom-b": 5622
+          },
+          "total_votes": 157144,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31057",
+          "name": "Dundy",
+          "votes": {
+            "pillen-j": 547,
+            "walz-l": 86,
+            "beard-r": 11,
+            "lindstrom-b": 40
+          },
+          "total_votes": 684,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31059",
+          "name": "Fillmore",
+          "votes": {
+            "pillen-j": 721,
+            "walz-l": 319,
+            "beard-r": 24,
+            "lindstrom-b": 54
+          },
+          "total_votes": 1118,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31061",
+          "name": "Franklin",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31063",
+          "name": "Frontier",
+          "votes": {
+            "pillen-j": 898,
+            "walz-l": 168,
+            "beard-r": 15,
+            "lindstrom-b": 48
+          },
+          "total_votes": 1129,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31065",
+          "name": "Furnas",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31067",
+          "name": "Gage",
+          "votes": {
+            "pillen-j": 2060,
+            "walz-l": 1594,
+            "beard-r": 115,
+            "lindstrom-b": 241
+          },
+          "total_votes": 4010,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31069",
+          "name": "Garden",
+          "votes": {
+            "pillen-j": 698,
+            "walz-l": 122,
+            "beard-r": 30,
+            "lindstrom-b": 50
+          },
+          "total_votes": 900,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31071",
+          "name": "Garfield",
+          "votes": {
+            "pillen-j": 673,
+            "walz-l": 101,
+            "beard-r": 10,
+            "lindstrom-b": 39
+          },
+          "total_votes": 823,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31073",
+          "name": "Gosper",
+          "votes": {
+            "pillen-j": 692,
+            "walz-l": 156,
+            "beard-r": 23,
+            "lindstrom-b": 39
+          },
+          "total_votes": 910,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31075",
+          "name": "Grant",
+          "votes": {
+            "pillen-j": 241,
+            "walz-l": 20,
+            "beard-r": 4,
+            "lindstrom-b": 18
+          },
+          "total_votes": 283,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31077",
+          "name": "Greeley",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31079",
+          "name": "Hall",
+          "votes": {
+            "pillen-j": 3570,
+            "walz-l": 3289,
+            "beard-r": 171,
+            "lindstrom-b": 363
+          },
+          "total_votes": 7393,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31081",
+          "name": "Hamilton",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31083",
+          "name": "Harlan",
+          "votes": {
+            "pillen-j": 1070,
+            "walz-l": 231,
+            "beard-r": 23,
+            "lindstrom-b": 79
+          },
+          "total_votes": 1403,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31085",
+          "name": "Hayes",
+          "votes": {
+            "pillen-j": 335,
+            "walz-l": 26,
+            "beard-r": 4,
+            "lindstrom-b": 18
+          },
+          "total_votes": 383,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31087",
+          "name": "Hitchcock",
+          "votes": {
+            "pillen-j": 837,
+            "walz-l": 133,
+            "beard-r": 42,
+            "lindstrom-b": 52
+          },
+          "total_votes": 1064,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31089",
+          "name": "Holt",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31091",
+          "name": "Hooker",
+          "votes": {
+            "pillen-j": 275,
+            "walz-l": 53,
+            "beard-r": 3,
+            "lindstrom-b": 8
+          },
+          "total_votes": 339,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31093",
+          "name": "Howard",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31095",
+          "name": "Jefferson",
+          "votes": {
+            "pillen-j": 260,
+            "walz-l": 194,
+            "beard-r": 8,
+            "lindstrom-b": 29
+          },
+          "total_votes": 491,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31097",
+          "name": "Johnson",
+          "votes": {
+            "pillen-j": 1034,
+            "walz-l": 585,
+            "beard-r": 55,
+            "lindstrom-b": 143
+          },
+          "total_votes": 1817,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31099",
+          "name": "Kearney",
+          "votes": {
+            "pillen-j": 2052,
+            "walz-l": 612,
+            "beard-r": 55,
+            "lindstrom-b": 177
+          },
+          "total_votes": 2896,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31101",
+          "name": "Keith",
+          "votes": {
+            "pillen-j": 2410,
+            "walz-l": 614,
+            "beard-r": 80,
+            "lindstrom-b": 155
+          },
+          "total_votes": 3259,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31103",
+          "name": "Keya Paha",
+          "votes": {
+            "pillen-j": 360,
+            "walz-l": 42,
+            "beard-r": 2,
+            "lindstrom-b": 17
+          },
+          "total_votes": 421,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31105",
+          "name": "Kimball",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31107",
+          "name": "Knox",
+          "votes": {
+            "pillen-j": 2692,
+            "walz-l": 751,
+            "beard-r": 92,
+            "lindstrom-b": 203
+          },
+          "total_votes": 3738,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31109",
+          "name": "Lancaster",
+          "votes": {
+            "pillen-j": 15926,
+            "walz-l": 32981,
+            "beard-r": 966,
+            "lindstrom-b": 1749
+          },
+          "total_votes": 51622,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31111",
+          "name": "Lincoln",
+          "votes": {
+            "pillen-j": 2589,
+            "walz-l": 1377,
+            "beard-r": 118,
+            "lindstrom-b": 190
+          },
+          "total_votes": 4274,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31113",
+          "name": "Logan",
+          "votes": {
+            "pillen-j": 277,
+            "walz-l": 26,
+            "beard-r": 4,
+            "lindstrom-b": 14
+          },
+          "total_votes": 321,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31115",
+          "name": "Loup",
+          "votes": {
+            "pillen-j": 248,
+            "walz-l": 62,
+            "beard-r": 4,
+            "lindstrom-b": 22
+          },
+          "total_votes": 336,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31117",
+          "name": "McPherson",
+          "votes": {
+            "pillen-j": 200,
+            "walz-l": 13,
+            "beard-r": 2,
+            "lindstrom-b": 15
+          },
+          "total_votes": 230,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31119",
+          "name": "Madison",
+          "votes": {
+            "pillen-j": 3365,
+            "walz-l": 1753,
+            "beard-r": 134,
+            "lindstrom-b": 220
+          },
+          "total_votes": 5472,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31121",
+          "name": "Merrick",
+          "votes": {
+            "pillen-j": 2569,
+            "walz-l": 642,
+            "beard-r": 109,
+            "lindstrom-b": 222
+          },
+          "total_votes": 3542,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31123",
+          "name": "Morrill",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31125",
+          "name": "Nance",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31127",
+          "name": "Nemaha",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31129",
+          "name": "Nuckolls",
+          "votes": {
+            "pillen-j": 133,
+            "walz-l": 92,
+            "beard-r": 4,
+            "lindstrom-b": 11
+          },
+          "total_votes": 240,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31131",
+          "name": "Otoe",
+          "votes": {
+            "pillen-j": 659,
+            "walz-l": 679,
+            "beard-r": 28,
+            "lindstrom-b": 73
+          },
+          "total_votes": 1439,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31133",
+          "name": "Pawnee",
+          "votes": {
+            "pillen-j": 101,
+            "walz-l": 77,
+            "beard-r": 7,
+            "lindstrom-b": 12
+          },
+          "total_votes": 197,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31135",
+          "name": "Perkins",
+          "votes": {
+            "pillen-j": 904,
+            "walz-l": 174,
+            "beard-r": 20,
+            "lindstrom-b": 69
+          },
+          "total_votes": 1167,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31137",
+          "name": "Phelps",
+          "votes": {
+            "pillen-j": 2873,
+            "walz-l": 648,
+            "beard-r": 86,
+            "lindstrom-b": 218
+          },
+          "total_votes": 3825,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31139",
+          "name": "Pierce",
+          "votes": {
+            "pillen-j": 317,
+            "walz-l": 86,
+            "beard-r": 9,
+            "lindstrom-b": 13
+          },
+          "total_votes": 425,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31141",
+          "name": "Platte",
+          "votes": {
+            "pillen-j": 3873,
+            "walz-l": 1683,
+            "beard-r": 104,
+            "lindstrom-b": 242
+          },
+          "total_votes": 5902,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31143",
+          "name": "Polk",
+          "votes": {
+            "pillen-j": 309,
+            "walz-l": 153,
+            "beard-r": 15,
+            "lindstrom-b": 27
+          },
+          "total_votes": 504,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31145",
+          "name": "Red Willow",
+          "votes": {
+            "pillen-j": 2598,
+            "walz-l": 656,
+            "beard-r": 68,
+            "lindstrom-b": 193
+          },
+          "total_votes": 3515,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31147",
+          "name": "Richardson",
+          "votes": {
+            "pillen-j": 1940,
+            "walz-l": 825,
+            "beard-r": 81,
+            "lindstrom-b": 167
+          },
+          "total_votes": 3013,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31149",
+          "name": "Rock",
+          "votes": {
+            "pillen-j": 566,
+            "walz-l": 77,
+            "beard-r": 9,
+            "lindstrom-b": 56
+          },
+          "total_votes": 708,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31151",
+          "name": "Saline",
+          "votes": {
+            "pillen-j": 234,
+            "walz-l": 402,
+            "beard-r": 19,
+            "lindstrom-b": 32
+          },
+          "total_votes": 687,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31153",
+          "name": "Sarpy",
+          "votes": {
+            "pillen-j": 27854,
+            "walz-l": 30787,
+            "beard-r": 1396,
+            "lindstrom-b": 2537
+          },
+          "total_votes": 62574,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31155",
+          "name": "Saunders",
+          "votes": {
+            "pillen-j": 833,
+            "walz-l": 895,
+            "beard-r": 34,
+            "lindstrom-b": 90
+          },
+          "total_votes": 1852,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31157",
+          "name": "Scotts Bluff",
+          "votes": {
+            "pillen-j": 778,
+            "walz-l": 791,
+            "beard-r": 32,
+            "lindstrom-b": 55
+          },
+          "total_votes": 1656,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31159",
+          "name": "Seward",
+          "votes": {
+            "pillen-j": 2764,
+            "walz-l": 1467,
+            "beard-r": 116,
+            "lindstrom-b": 215
+          },
+          "total_votes": 4562,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31161",
+          "name": "Sheridan",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31163",
+          "name": "Sherman",
+          "votes": {
+            "pillen-j": 126,
+            "walz-l": 65,
+            "beard-r": 4,
+            "lindstrom-b": 10
+          },
+          "total_votes": 205,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31165",
+          "name": "Sioux",
+          "votes": {
+            "pillen-j": 409,
+            "walz-l": 65,
+            "beard-r": 5,
+            "lindstrom-b": 26
+          },
+          "total_votes": 505,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31167",
+          "name": "Stanton",
+          "votes": {
+            "pillen-j": 1074,
+            "walz-l": 295,
+            "beard-r": 33,
+            "lindstrom-b": 76
+          },
+          "total_votes": 1478,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31169",
+          "name": "Thayer",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31171",
+          "name": "Thomas",
+          "votes": {
+            "pillen-j": 259,
+            "walz-l": 34,
+            "beard-r": 8,
+            "lindstrom-b": 15
+          },
+          "total_votes": 316,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31173",
+          "name": "Thurston",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31175",
+          "name": "Valley",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31177",
+          "name": "Washington",
+          "votes": {
+            "pillen-j": 1947,
+            "walz-l": 1484,
+            "beard-r": 57,
+            "lindstrom-b": 119
+          },
+          "total_votes": 3607,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31179",
+          "name": "Wayne",
+          "votes": {
+            "pillen-j": 0,
+            "walz-l": 0,
+            "beard-r": 0,
+            "lindstrom-b": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31181",
+          "name": "Webster",
+          "votes": {
+            "pillen-j": 993,
+            "walz-l": 245,
+            "beard-r": 36,
+            "lindstrom-b": 73
+          },
+          "total_votes": 1347,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31183",
+          "name": "Wheeler",
+          "votes": {
+            "pillen-j": 316,
+            "walz-l": 51,
+            "beard-r": 1,
+            "lindstrom-b": 19
+          },
+          "total_votes": 387,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "31185",
+          "name": "York",
+          "votes": {
+            "pillen-j": 777,
+            "walz-l": 489,
+            "beard-r": 13,
+            "lindstrom-b": 64
+          },
+          "total_votes": 1343,
+          "units_aggregated": 1,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [],
+        "called_by": []
+      },
+      "reporting_count": 73,
+      "missing_fips": [],
+      "state_total_votes": 407875,
+      "county_total_votes": 407875,
+      "county_sum_reconciles": true
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-nebraska.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 93,
+  "reporting_count": 73,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:36:45.092Z",
+    "S_race_updated_at": "2026-11-04T04:35:54.582Z",
+    "G_race_updated_at": "2026-11-04T04:35:53.927Z"
+  },
+  "limitations": [
+    "Only candidates[].votes.total was used; NYT models, estimates, expected votes, and EEVP were ignored.",
+    "Exact county FIPS are matched against the local GeoJSON. Township aggregation is used only when no county-level reporting units exist, grouping by source fips_state+fips_county."
+  ],
+  "call_authority": {
+    "called_by_ap_offices": [],
+    "authority": "AP is identified only for offices whose outcome.called_by explicitly contains ap."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-nebraska.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 93,
+    "reporting_count": 75,
+    "row_count": 186,
+    "source_time": "2026-11-04T04:46:45.36+00:00",
+    "fetched_at": "2026-11-04T04:47:03.067Z",
+    "message": "93 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

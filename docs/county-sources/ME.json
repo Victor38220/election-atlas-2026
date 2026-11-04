@@ -1,0 +1,808 @@
+{
+  "state": "ME",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "U.S. Senate",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "candidates": [
+        {
+          "nyt_id": "collins-s",
+          "name": "Susan M. Collins",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "jackson-t",
+          "name": "Troy D. Jackson",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "olson_writein-s",
+          "name": "Sigrid Ann Olson (write-in)",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "webb_writein-a",
+          "name": "Ashley J. Webb (write-in)",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "andrews_writein-b",
+          "name": "Brent Andrews (write-in)",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "oswald_writein-g",
+          "name": "Gina Oswald (write-in)",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "steinberger_writein-j",
+          "name": "Joseph Steinberger (write-in)",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "turcotte_writein-m",
+          "name": "Michael Turcotte (write-in)",
+          "party": "Unenrolled"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "23005",
+          "name": "Cumberland",
+          "unit_count": 28,
+          "votes": {
+            "jackson-t": 41973,
+            "collins-s": 21172,
+            "andrews_writein-b": 21,
+            "steinberger_writein-j": 7,
+            "webb_writein-a": 10,
+            "oswald_writein-g": 8,
+            "olson_writein-s": 8,
+            "turcotte_writein-m": 0
+          },
+          "total_votes": 63199,
+          "precincts_reporting": 28,
+          "precincts_total": 58,
+          "eevp": 48.28
+        },
+        {
+          "fips": "23001",
+          "name": "Androscoggin",
+          "unit_count": 14,
+          "votes": {
+            "jackson-t": 10494,
+            "collins-s": 14173,
+            "olson_writein-s": 2,
+            "webb_writein-a": 0,
+            "andrews_writein-b": 9,
+            "oswald_writein-g": 1,
+            "steinberger_writein-j": 0,
+            "turcotte_writein-m": 0
+          },
+          "total_votes": 24679,
+          "precincts_reporting": 14,
+          "precincts_total": 26,
+          "eevp": 53.85
+        },
+        {
+          "fips": "23031",
+          "name": "York",
+          "unit_count": 29,
+          "votes": {
+            "jackson-t": 37277,
+            "collins-s": 30464,
+            "andrews_writein-b": 37,
+            "webb_writein-a": 8,
+            "olson_writein-s": 5,
+            "oswald_writein-g": 7,
+            "steinberger_writein-j": 2,
+            "turcotte_writein-m": 6
+          },
+          "total_votes": 67806,
+          "precincts_reporting": 27,
+          "precincts_total": 38,
+          "eevp": 71.05
+        },
+        {
+          "fips": "23011",
+          "name": "Kennebec",
+          "unit_count": 30,
+          "votes": {
+            "jackson-t": 19309,
+            "collins-s": 22861,
+            "olson_writein-s": 0,
+            "webb_writein-a": 0,
+            "andrews_writein-b": 6,
+            "oswald_writein-g": 0,
+            "steinberger_writein-j": 0,
+            "turcotte_writein-m": 2
+          },
+          "total_votes": 42178,
+          "precincts_reporting": 22,
+          "precincts_total": 34,
+          "eevp": 64.71
+        },
+        {
+          "fips": "23019",
+          "name": "Penobscot",
+          "unit_count": 73,
+          "votes": {
+            "jackson-t": 10958,
+            "collins-s": 19214,
+            "olson_writein-s": 4,
+            "webb_writein-a": 1,
+            "andrews_writein-b": 10,
+            "oswald_writein-g": 2,
+            "steinberger_writein-j": 1,
+            "turcotte_writein-m": 1
+          },
+          "total_votes": 30191,
+          "precincts_reporting": 35,
+          "precincts_total": 79,
+          "eevp": 44.3
+        },
+        {
+          "fips": "23025",
+          "name": "Somerset",
+          "unit_count": 47,
+          "votes": {
+            "collins-s": 9985,
+            "jackson-t": 5466,
+            "andrews_writein-b": 5,
+            "turcotte_writein-m": 2,
+            "olson_writein-s": 0,
+            "webb_writein-a": 6,
+            "oswald_writein-g": 5,
+            "steinberger_writein-j": 0
+          },
+          "total_votes": 15469,
+          "precincts_reporting": 21,
+          "precincts_total": 53,
+          "eevp": 39.62
+        },
+        {
+          "fips": "23007",
+          "name": "Franklin",
+          "unit_count": 31,
+          "votes": {
+            "jackson-t": 5442,
+            "collins-s": 6379,
+            "olson_writein-s": 0,
+            "webb_writein-a": 2,
+            "andrews_writein-b": 11,
+            "oswald_writein-g": 1,
+            "steinberger_writein-j": 3,
+            "turcotte_writein-m": 0
+          },
+          "total_votes": 11838,
+          "precincts_reporting": 13,
+          "precincts_total": 34,
+          "eevp": 38.24
+        },
+        {
+          "fips": "23017",
+          "name": "Oxford",
+          "unit_count": 42,
+          "votes": {
+            "collins-s": 10580,
+            "jackson-t": 7572,
+            "oswald_writein-g": 3,
+            "olson_writein-s": 0,
+            "webb_writein-a": 0,
+            "andrews_writein-b": 5,
+            "steinberger_writein-j": 0,
+            "turcotte_writein-m": 0
+          },
+          "total_votes": 18160,
+          "precincts_reporting": 26,
+          "precincts_total": 44,
+          "eevp": 59.09
+        },
+        {
+          "fips": "23015",
+          "name": "Lincoln",
+          "unit_count": 20,
+          "votes": {
+            "collins-s": 9024,
+            "jackson-t": 10751,
+            "webb_writein-a": 2,
+            "olson_writein-s": 0,
+            "andrews_writein-b": 1,
+            "oswald_writein-g": 1,
+            "steinberger_writein-j": 0,
+            "turcotte_writein-m": 0
+          },
+          "total_votes": 19779,
+          "precincts_reporting": 15,
+          "precincts_total": 20,
+          "eevp": 75.0
+        },
+        {
+          "fips": "23013",
+          "name": "Knox",
+          "unit_count": 19,
+          "votes": {
+            "jackson-t": 6376,
+            "collins-s": 5669,
+            "oswald_writein-g": 3,
+            "olson_writein-s": 0,
+            "webb_writein-a": 1,
+            "andrews_writein-b": 2,
+            "steinberger_writein-j": 2,
+            "turcotte_writein-m": 2
+          },
+          "total_votes": 12055,
+          "precincts_reporting": 12,
+          "precincts_total": 19,
+          "eevp": 63.16
+        },
+        {
+          "fips": "23003",
+          "name": "Aroostook",
+          "unit_count": 88,
+          "votes": {
+            "collins-s": 8114,
+            "jackson-t": 4492,
+            "olson_writein-s": 2,
+            "webb_writein-a": 1,
+            "andrews_writein-b": 5,
+            "oswald_writein-g": 1,
+            "steinberger_writein-j": 1,
+            "turcotte_writein-m": 2
+          },
+          "total_votes": 12618,
+          "precincts_reporting": 31,
+          "precincts_total": 104,
+          "eevp": 29.81
+        },
+        {
+          "fips": "23021",
+          "name": "Piscataquis",
+          "unit_count": 35,
+          "votes": {
+            "collins-s": 4570,
+            "jackson-t": 2135,
+            "andrews_writein-b": 1,
+            "steinberger_writein-j": 2,
+            "olson_writein-s": 0,
+            "webb_writein-a": 2,
+            "oswald_writein-g": 0,
+            "turcotte_writein-m": 0
+          },
+          "total_votes": 6710,
+          "precincts_reporting": 12,
+          "precincts_total": 45,
+          "eevp": 26.67
+        },
+        {
+          "fips": "23023",
+          "name": "Sagadahoc",
+          "unit_count": 10,
+          "votes": {
+            "collins-s": 3883,
+            "jackson-t": 3992,
+            "olson_writein-s": 0,
+            "webb_writein-a": 1,
+            "andrews_writein-b": 0,
+            "oswald_writein-g": 1,
+            "steinberger_writein-j": 0,
+            "turcotte_writein-m": 0
+          },
+          "total_votes": 7877,
+          "precincts_reporting": 6,
+          "precincts_total": 10,
+          "eevp": 60.0
+        },
+        {
+          "fips": "23009",
+          "name": "Hancock",
+          "unit_count": 43,
+          "votes": {
+            "jackson-t": 10949,
+            "collins-s": 9015,
+            "webb_writein-a": 3,
+            "andrews_writein-b": 4,
+            "turcotte_writein-m": 2,
+            "olson_writein-s": 3,
+            "oswald_writein-g": 1,
+            "steinberger_writein-j": 0
+          },
+          "total_votes": 19977,
+          "precincts_reporting": 28,
+          "precincts_total": 50,
+          "eevp": 56.0
+        },
+        {
+          "fips": "23027",
+          "name": "Waldo",
+          "unit_count": 26,
+          "votes": {
+            "jackson-t": 6567,
+            "collins-s": 6848,
+            "olson_writein-s": 1,
+            "webb_writein-a": 1,
+            "andrews_writein-b": 2,
+            "oswald_writein-g": 3,
+            "steinberger_writein-j": 0,
+            "turcotte_writein-m": 1
+          },
+          "total_votes": 13423,
+          "precincts_reporting": 19,
+          "precincts_total": 29,
+          "eevp": 65.52
+        },
+        {
+          "fips": "23029",
+          "name": "Washington",
+          "unit_count": 66,
+          "votes": {
+            "collins-s": 6447,
+            "jackson-t": 3699,
+            "webb_writein-a": 3,
+            "olson_writein-s": 0,
+            "andrews_writein-b": 0,
+            "oswald_writein-g": 2,
+            "steinberger_writein-j": 0,
+            "turcotte_writein-m": 2
+          },
+          "total_votes": 10153,
+          "precincts_reporting": 24,
+          "precincts_total": 83,
+          "eevp": 28.92
+        }
+      ],
+      "outcome": {
+        "won": [],
+        "advanced_to_runoff": [],
+        "called_by": [],
+        "runoff_accepted_at": [],
+        "winner_accepted_at": [],
+        "gained": null,
+        "electoral_votes": null
+      },
+      "audit": {
+        "unit_strategy": "township_units_aggregated_by_county_fips",
+        "source_updated_at": "2026-11-04T04:38:22.293Z",
+        "source_unit_count": 601,
+        "county_count": 16,
+        "nonzero_counties": 16,
+        "source_coverage_pct": 100.0,
+        "county_precincts_reporting_sum": 333,
+        "county_precincts_total_sum": 726,
+        "county_candidate_vote_sums": {
+          "collins-s": 188398,
+          "jackson-t": 187452,
+          "olson_writein-s": 25,
+          "webb_writein-a": 41,
+          "andrews_writein-b": 119,
+          "oswald_writein-g": 39,
+          "steinberger_writein-j": 18,
+          "turcotte_writein-m": 20
+        },
+        "state_candidate_votes": {
+          "collins-s": 188098,
+          "jackson-t": 187263,
+          "andrews_writein-b": 119,
+          "webb_writein-a": 41,
+          "oswald_writein-g": 39,
+          "olson_writein-s": 25,
+          "turcotte_writein-m": 20,
+          "steinberger_writein-j": 18
+        },
+        "candidate_vote_sums_match_state": false,
+        "county_total_votes_sum": 376112,
+        "state_total_votes": 375623,
+        "county_total_votes_match_state": false,
+        "called_by": [],
+        "ap_call_recorded": false
+      }
+    },
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "candidates": [
+        {
+          "nyt_id": "pingree-h",
+          "name": "Hannah M. Pingree",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "charles-r",
+          "name": "Bobby   Charles",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "wilcox_writein-r",
+          "name": "Randy Wilcox (write-in)",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "bennett-r",
+          "name": "Rick Bennett",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "glowa_writein-j",
+          "name": "John Glowa (write-in)",
+          "party": "Independent"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "23005",
+          "name": "Cumberland",
+          "unit_count": 28,
+          "votes": {
+            "pingree-h": 42322,
+            "charles-r": 15908,
+            "bennett-r": 5123,
+            "wilcox_writein-r": 2,
+            "glowa_writein-j": 5
+          },
+          "total_votes": 63360,
+          "precincts_reporting": 28,
+          "precincts_total": 58,
+          "eevp": 48.28
+        },
+        {
+          "fips": "23001",
+          "name": "Androscoggin",
+          "unit_count": 14,
+          "votes": {
+            "pingree-h": 10656,
+            "charles-r": 11728,
+            "bennett-r": 2410,
+            "wilcox_writein-r": 2,
+            "glowa_writein-j": 3
+          },
+          "total_votes": 24799,
+          "precincts_reporting": 14,
+          "precincts_total": 26,
+          "eevp": 53.85
+        },
+        {
+          "fips": "23031",
+          "name": "York",
+          "unit_count": 29,
+          "votes": {
+            "pingree-h": 34984,
+            "charles-r": 21801,
+            "bennett-r": 4885,
+            "glowa_writein-j": 1,
+            "wilcox_writein-r": 1
+          },
+          "total_votes": 61672,
+          "precincts_reporting": 20,
+          "precincts_total": 38,
+          "eevp": 52.63
+        },
+        {
+          "fips": "23011",
+          "name": "Kennebec",
+          "unit_count": 30,
+          "votes": {
+            "pingree-h": 20058,
+            "charles-r": 18997,
+            "bennett-r": 3534,
+            "wilcox_writein-r": 1,
+            "glowa_writein-j": 2
+          },
+          "total_votes": 42592,
+          "precincts_reporting": 22,
+          "precincts_total": 34,
+          "eevp": 64.71
+        },
+        {
+          "fips": "23019",
+          "name": "Penobscot",
+          "unit_count": 73,
+          "votes": {
+            "pingree-h": 11785,
+            "charles-r": 16385,
+            "bennett-r": 2114,
+            "wilcox_writein-r": 0,
+            "glowa_writein-j": 0
+          },
+          "total_votes": 30284,
+          "precincts_reporting": 35,
+          "precincts_total": 79,
+          "eevp": 44.3
+        },
+        {
+          "fips": "23025",
+          "name": "Somerset",
+          "unit_count": 47,
+          "votes": {
+            "charles-r": 8492,
+            "pingree-h": 5846,
+            "bennett-r": 1214,
+            "wilcox_writein-r": 1,
+            "glowa_writein-j": 4
+          },
+          "total_votes": 15557,
+          "precincts_reporting": 21,
+          "precincts_total": 53,
+          "eevp": 39.62
+        },
+        {
+          "fips": "23007",
+          "name": "Franklin",
+          "unit_count": 31,
+          "votes": {
+            "pingree-h": 5619,
+            "charles-r": 5216,
+            "bennett-r": 1095,
+            "wilcox_writein-r": 0,
+            "glowa_writein-j": 0
+          },
+          "total_votes": 11930,
+          "precincts_reporting": 13,
+          "precincts_total": 34,
+          "eevp": 38.24
+        },
+        {
+          "fips": "23017",
+          "name": "Oxford",
+          "unit_count": 42,
+          "votes": {
+            "pingree-h": 7191,
+            "charles-r": 8111,
+            "bennett-r": 3064,
+            "wilcox_writein-r": 0,
+            "glowa_writein-j": 0
+          },
+          "total_votes": 18366,
+          "precincts_reporting": 26,
+          "precincts_total": 44,
+          "eevp": 59.09
+        },
+        {
+          "fips": "23015",
+          "name": "Lincoln",
+          "unit_count": 20,
+          "votes": {
+            "pingree-h": 11094,
+            "charles-r": 7306,
+            "bennett-r": 1479,
+            "wilcox_writein-r": 12,
+            "glowa_writein-j": 0
+          },
+          "total_votes": 19891,
+          "precincts_reporting": 15,
+          "precincts_total": 20,
+          "eevp": 75.0
+        },
+        {
+          "fips": "23013",
+          "name": "Knox",
+          "unit_count": 19,
+          "votes": {
+            "pingree-h": 7124,
+            "charles-r": 4676,
+            "bennett-r": 752,
+            "wilcox_writein-r": 0,
+            "glowa_writein-j": 3
+          },
+          "total_votes": 12555,
+          "precincts_reporting": 12,
+          "precincts_total": 19,
+          "eevp": 63.16
+        },
+        {
+          "fips": "23003",
+          "name": "Aroostook",
+          "unit_count": 88,
+          "votes": {
+            "charles-r": 6997,
+            "pingree-h": 4720,
+            "bennett-r": 827,
+            "wilcox_writein-r": 1,
+            "glowa_writein-j": 9
+          },
+          "total_votes": 12554,
+          "precincts_reporting": 31,
+          "precincts_total": 104,
+          "eevp": 29.81
+        },
+        {
+          "fips": "23021",
+          "name": "Piscataquis",
+          "unit_count": 35,
+          "votes": {
+            "charles-r": 3943,
+            "pingree-h": 2330,
+            "bennett-r": 444,
+            "glowa_writein-j": 4,
+            "wilcox_writein-r": 0
+          },
+          "total_votes": 6721,
+          "precincts_reporting": 12,
+          "precincts_total": 45,
+          "eevp": 26.67
+        },
+        {
+          "fips": "23023",
+          "name": "Sagadahoc",
+          "unit_count": 10,
+          "votes": {
+            "pingree-h": 4072,
+            "charles-r": 3226,
+            "bennett-r": 646,
+            "wilcox_writein-r": 0,
+            "glowa_writein-j": 0
+          },
+          "total_votes": 7944,
+          "precincts_reporting": 6,
+          "precincts_total": 10,
+          "eevp": 60.0
+        },
+        {
+          "fips": "23009",
+          "name": "Hancock",
+          "unit_count": 43,
+          "votes": {
+            "pingree-h": 11284,
+            "charles-r": 7434,
+            "bennett-r": 1191,
+            "wilcox_writein-r": 0,
+            "glowa_writein-j": 0
+          },
+          "total_votes": 19909,
+          "precincts_reporting": 28,
+          "precincts_total": 50,
+          "eevp": 56.0
+        },
+        {
+          "fips": "23027",
+          "name": "Waldo",
+          "unit_count": 26,
+          "votes": {
+            "pingree-h": 6821,
+            "charles-r": 5896,
+            "bennett-r": 791,
+            "wilcox_writein-r": 2,
+            "glowa_writein-j": 2
+          },
+          "total_votes": 13512,
+          "precincts_reporting": 19,
+          "precincts_total": 29,
+          "eevp": 65.52
+        },
+        {
+          "fips": "23029",
+          "name": "Washington",
+          "unit_count": 66,
+          "votes": {
+            "charles-r": 5702,
+            "pingree-h": 3895,
+            "bennett-r": 572,
+            "wilcox_writein-r": 5,
+            "glowa_writein-j": 0
+          },
+          "total_votes": 10174,
+          "precincts_reporting": 24,
+          "precincts_total": 83,
+          "eevp": 28.92
+        }
+      ],
+      "outcome": {
+        "won": [
+          "pingree-h"
+        ],
+        "advanced_to_runoff": [],
+        "called_by": [
+          "ap"
+        ],
+        "runoff_accepted_at": [],
+        "winner_accepted_at": [
+          "2026-11-04T04:29:35.791077+00:00"
+        ],
+        "gained": false,
+        "electoral_votes": null
+      },
+      "audit": {
+        "unit_strategy": "township_units_aggregated_by_county_fips",
+        "source_updated_at": "2026-11-04T04:38:34.032Z",
+        "source_unit_count": 601,
+        "county_count": 16,
+        "nonzero_counties": 16,
+        "source_coverage_pct": 100.0,
+        "county_precincts_reporting_sum": 326,
+        "county_precincts_total_sum": 726,
+        "county_candidate_vote_sums": {
+          "pingree-h": 189801,
+          "charles-r": 151818,
+          "wilcox_writein-r": 27,
+          "bennett-r": 30141,
+          "glowa_writein-j": 33
+        },
+        "state_candidate_votes": {
+          "pingree-h": 189628,
+          "charles-r": 151591,
+          "bennett-r": 30050,
+          "glowa_writein-j": 33,
+          "wilcox_writein-r": 27
+        },
+        "candidate_vote_sums_match_state": false,
+        "county_total_votes_sum": 371820,
+        "state_total_votes": 371329,
+        "county_total_votes_match_state": false,
+        "called_by": [
+          "ap"
+        ],
+        "ap_call_recorded": true
+      }
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-maine.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 16,
+  "reporting_count": 16,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:38:35.572Z",
+    "county_provider_updated_at": "not present",
+    "S_race_updated_at": "2026-11-04T04:38:22.293Z",
+    "G_race_updated_at": "2026-11-04T04:38:34.032Z"
+  },
+  "office_audit": [
+    {
+      "office_id": "S",
+      "office": "U.S. Senate",
+      "county_count": 16,
+      "nonzero_counties": 16,
+      "source_coverage_pct": 100.0,
+      "unit_strategy": "township_units_aggregated_by_county_fips",
+      "candidate_vote_sums_match_state": false,
+      "county_total_votes_match_state": false,
+      "called_by": []
+    },
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "county_count": 16,
+      "nonzero_counties": 16,
+      "source_coverage_pct": 100.0,
+      "unit_strategy": "township_units_aggregated_by_county_fips",
+      "candidate_vote_sums_match_state": false,
+      "county_total_votes_match_state": false,
+      "called_by": [
+        "ap"
+      ]
+    }
+  ],
+  "limitations": [
+    "Candidate county vote totals use only reporting_units candidates[].votes.total. NYT model estimates, expected vote, and calls were not substituted for vote counts.",
+    "When source units are township or municipality records, each unit is included once and summed into a county using fips_state + fips_county.",
+    "No blanket license is asserted; factual counts are attributed to The New York Times. AP is credited only when the race outcome records called_by including ap."
+  ],
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "partial",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-maine.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 16,
+    "reporting_count": 16,
+    "row_count": 32,
+    "source_time": "2026-11-04T04:46:35.269+00:00",
+    "fetched_at": "2026-11-04T04:47:03.018Z",
+    "message": "16 counties with published returns. County totals sum distinct towns using publisher-supplied county FIPS. County or district sums do not fully reconcile with the statewide snapshot; statewide cards use the separately reported state total. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

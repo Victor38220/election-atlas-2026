@@ -1,0 +1,126 @@
+{
+  "state": "IA",
+  "state_name": "Iowa",
+  "offices": [
+    "US Senate",
+    "Governor"
+  ],
+  "election": {
+    "date": "2026-11-03",
+    "name": "November 3, 2026 General Election",
+    "election_id": "127077",
+    "data_version": "385082",
+    "configured_races": [
+      "United States Senator",
+      "Governor and Lt. Governor"
+    ],
+    "configured_candidates": {
+      "US Senate": [
+        "Ashley Hinson",
+        "Josh Turek",
+        "Thomas Laehn",
+        "Write-in"
+      ],
+      "Governor": [
+        "Zach Lahn and Derek Wulf",
+        "Rob Sand and Dave Muhlbauer",
+        "Write-in"
+      ]
+    }
+  },
+  "provider_family": "Iowa Secretary of State / Clarity Elections",
+  "endpoints": [
+    {
+      "url": "https://results.enr.clarityelections.com/IA/elections.json",
+      "purpose": "Clarity elections index; live entry identifies election 127077 as the Nov. 3, 2026 Iowa general election.",
+      "observed_at_utc": "2026-11-04T04:29:17Z",
+      "observation": "Index was publicly reachable through Civic Live Results MCP (the direct local index request was blocked with HTTP 403). Current entry resolves to data version 385082."
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/IA/127077/385082/json/details.json",
+      "purpose": "Live detailed contest results with per-county candidate vote arrays and county names.",
+      "observed_at_utc": "2026-11-04T04:29:17Z",
+      "observed_http_status": 200,
+      "bytes": 133424,
+      "observation": "Contests include United States Senator (K=1000) and Governor and Lt. Governor (K=1500). For both races, P is a 99-element county-name list and V/T are aligned county candidate-vote and total-vote arrays."
+    },
+    {
+      "url": "https://results.enr.clarityelections.com/IA/127077/385082/json/en/summary.json",
+      "purpose": "Live human-readable contest summary, candidate names, statewide totals, and reporting metadata.",
+      "observed_at_utc": "2026-11-04T04:29:17Z",
+      "observed_http_status": 200,
+      "bytes": 235236,
+      "observation": "Summary independently identifies both statewide contests and reports TP=99 and PR=78 for each. Candidate vote totals reconcile to the detailed county arrays."
+    }
+  ],
+  "observed_at_utc": "2026-11-04T04:29:17Z",
+  "county_coverage": {
+    "verified": true,
+    "expected_counties": 99,
+    "county_names_in_feed": 99,
+    "unique_county_names": 99,
+    "counties_with_nonzero_total_in_snapshot": 86,
+    "counties_with_zero_total_in_snapshot": 13,
+    "county_identity_check": "The detailed feed's P array contains the 99 distinct Iowa county names, including county-name edge cases O'Brien and Cerro Gordo, matching Iowa's 99-county geography. Candidate V arrays and total T arrays align by the same county-index order. County Cid values in these contests are mixed-area codes and should not be interpreted as county FIPS identifiers.",
+    "note": "The feed has 99 county slots; zero totals in a live snapshot indicate no votes reported for that county at capture time and must not be treated as verified final zero votes. Summary PR=78 is preserved as the provider's reporting field; it is not a county count."
+  },
+  "race_snapshot": {
+    "US Senate": {
+      "race_label": "United States Senator",
+      "contest_key": "1000",
+      "statewide_candidate_votes": [
+        525103,
+        576989,
+        34418,
+        1373
+      ],
+      "statewide_total_votes": 1137883,
+      "county_array_sum_reconciles": true
+    },
+    "Governor": {
+      "race_label": "Governor and Lt. Governor",
+      "contest_key": "1500",
+      "statewide_candidate_votes": [
+        504512,
+        637346,
+        1450
+      ],
+      "statewide_total_votes": 1143308,
+      "county_array_sum_reconciles": true
+    }
+  },
+  "source": {
+    "provider": "Iowa Secretary of State, via Clarity Elections results host",
+    "official_state_context": "https://sos.iowa.gov/elections/election-results",
+    "attribution": "Attribute live election results to the Iowa Secretary of State and Clarity Elections.",
+    "license": "Public unauthenticated HTTPS JSON feed; no explicit machine-readable reuse license was verified. Confirm terms before commercial redistribution."
+  },
+  "limitations": [
+    "This is an unofficial election-night live snapshot, not certified results. Values can change as counties report and the Clarity data version updates.",
+    "The local index and electionsettings.json requests returned HTTP 403 during this check. The election ID and version were observed via the publicly callable Civic Live Results MCP; the versioned detailed and summary JSON payloads had been fetched successfully and saved locally at 2026-11-04T04:29:17Z.",
+    "The county-name array aligns county votes but the associated Cid values are not county FIPS codes. Use county names or an independently validated name-to-FIPS crosswalk.",
+    "The summary reports TP=99 and PR=78; retain these provider fields without assuming PR means 78 counties."
+  ],
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-iowa.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 99,
+    "reporting_count": 93,
+    "row_count": 198,
+    "source_time": "2026-11-04T04:46:45.094+00:00",
+    "fetched_at": "2026-11-04T04:47:02.955Z",
+    "message": "99 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

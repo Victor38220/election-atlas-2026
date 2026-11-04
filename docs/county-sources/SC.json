@@ -1,0 +1,1339 @@
+{
+  "state": "SC",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "Senate",
+      "manifest_race_id": "2026-senate-sc",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "graham-d",
+          "name": "Darline Graham",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "andrews-a",
+          "name": "Annie Andrews",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "whitener-k",
+          "name": "Kasie Whitener",
+          "party": "Libertarian"
+        },
+        {
+          "nyt_id": "hackett-m",
+          "name": "Mark Hackett",
+          "party": "Constitution"
+        },
+        {
+          "nyt_id": "total_writeins",
+          "name": "Total Write-ins",
+          "party": ""
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "45001",
+          "name": "Abbeville",
+          "votes": {
+            "graham-d": 5362,
+            "andrews-a": 3415,
+            "whitener-k": 111,
+            "hackett-m": 110,
+            "total_writeins": 26
+          },
+          "total_votes": 9024,
+          "unit_count": 1
+        },
+        {
+          "fips": "45003",
+          "name": "Aiken",
+          "votes": {
+            "graham-d": 34679,
+            "andrews-a": 31600,
+            "whitener-k": 777,
+            "hackett-m": 538,
+            "total_writeins": 120
+          },
+          "total_votes": 67714,
+          "unit_count": 1
+        },
+        {
+          "fips": "45005",
+          "name": "Allendale",
+          "votes": {
+            "graham-d": 533,
+            "andrews-a": 1952,
+            "whitener-k": 9,
+            "hackett-m": 13,
+            "total_writeins": 0
+          },
+          "total_votes": 2507,
+          "unit_count": 1
+        },
+        {
+          "fips": "45007",
+          "name": "Anderson",
+          "votes": {
+            "graham-d": 44590,
+            "andrews-a": 27303,
+            "whitener-k": 937,
+            "hackett-m": 736,
+            "total_writeins": 246
+          },
+          "total_votes": 73812,
+          "unit_count": 1
+        },
+        {
+          "fips": "45009",
+          "name": "Bamberg",
+          "votes": {
+            "graham-d": 1531,
+            "andrews-a": 3024,
+            "whitener-k": 29,
+            "hackett-m": 42,
+            "total_writeins": 5
+          },
+          "total_votes": 4631,
+          "unit_count": 1
+        },
+        {
+          "fips": "45011",
+          "name": "Barnwell",
+          "votes": {
+            "graham-d": 3631,
+            "andrews-a": 3915,
+            "whitener-k": 57,
+            "hackett-m": 52,
+            "total_writeins": 9
+          },
+          "total_votes": 7664,
+          "unit_count": 1
+        },
+        {
+          "fips": "45013",
+          "name": "Beaufort",
+          "votes": {
+            "graham-d": 43447,
+            "andrews-a": 41064,
+            "whitener-k": 905,
+            "hackett-m": 524,
+            "total_writeins": 118
+          },
+          "total_votes": 86058,
+          "unit_count": 1
+        },
+        {
+          "fips": "45015",
+          "name": "Berkeley",
+          "votes": {
+            "graham-d": 40072,
+            "andrews-a": 48634,
+            "whitener-k": 1213,
+            "hackett-m": 797,
+            "total_writeins": 159
+          },
+          "total_votes": 90875,
+          "unit_count": 1
+        },
+        {
+          "fips": "45017",
+          "name": "Calhoun",
+          "votes": {
+            "graham-d": 2659,
+            "andrews-a": 3076,
+            "whitener-k": 72,
+            "hackett-m": 72,
+            "total_writeins": 11
+          },
+          "total_votes": 5890,
+          "unit_count": 1
+        },
+        {
+          "fips": "45019",
+          "name": "Charleston",
+          "votes": {
+            "graham-d": 62940,
+            "andrews-a": 108573,
+            "whitener-k": 2076,
+            "hackett-m": 925,
+            "total_writeins": 336
+          },
+          "total_votes": 174850,
+          "unit_count": 1
+        },
+        {
+          "fips": "45021",
+          "name": "Cherokee",
+          "votes": {
+            "graham-d": 11149,
+            "andrews-a": 6071,
+            "whitener-k": 163,
+            "hackett-m": 185,
+            "total_writeins": 77
+          },
+          "total_votes": 17645,
+          "unit_count": 1
+        },
+        {
+          "fips": "45023",
+          "name": "Chester",
+          "votes": {
+            "graham-d": 5508,
+            "andrews-a": 6258,
+            "whitener-k": 124,
+            "hackett-m": 124,
+            "total_writeins": 34
+          },
+          "total_votes": 12048,
+          "unit_count": 1
+        },
+        {
+          "fips": "45025",
+          "name": "Chesterfield",
+          "votes": {
+            "graham-d": 7134,
+            "andrews-a": 6384,
+            "whitener-k": 119,
+            "hackett-m": 168,
+            "total_writeins": 16
+          },
+          "total_votes": 13821,
+          "unit_count": 1
+        },
+        {
+          "fips": "45027",
+          "name": "Clarendon",
+          "votes": {
+            "graham-d": 6297,
+            "andrews-a": 7049,
+            "whitener-k": 123,
+            "hackett-m": 101,
+            "total_writeins": 18
+          },
+          "total_votes": 13588,
+          "unit_count": 1
+        },
+        {
+          "fips": "45029",
+          "name": "Colleton",
+          "votes": {
+            "graham-d": 6388,
+            "andrews-a": 6969,
+            "whitener-k": 151,
+            "hackett-m": 169,
+            "total_writeins": 28
+          },
+          "total_votes": 13705,
+          "unit_count": 1
+        },
+        {
+          "fips": "45031",
+          "name": "Darlington",
+          "votes": {
+            "graham-d": 10400,
+            "andrews-a": 12693,
+            "whitener-k": 226,
+            "hackett-m": 172,
+            "total_writeins": 42
+          },
+          "total_votes": 23533,
+          "unit_count": 1
+        },
+        {
+          "fips": "45033",
+          "name": "Dillon",
+          "votes": {
+            "graham-d": 3920,
+            "andrews-a": 4796,
+            "whitener-k": 35,
+            "hackett-m": 59,
+            "total_writeins": 10
+          },
+          "total_votes": 8820,
+          "unit_count": 1
+        },
+        {
+          "fips": "45035",
+          "name": "Dorchester",
+          "votes": {
+            "graham-d": 24991,
+            "andrews-a": 29223,
+            "whitener-k": 790,
+            "hackett-m": 574,
+            "total_writeins": 84
+          },
+          "total_votes": 55662,
+          "unit_count": 1
+        },
+        {
+          "fips": "45037",
+          "name": "Edgefield",
+          "votes": {
+            "graham-d": 5972,
+            "andrews-a": 4593,
+            "whitener-k": 127,
+            "hackett-m": 101,
+            "total_writeins": 28
+          },
+          "total_votes": 10821,
+          "unit_count": 1
+        },
+        {
+          "fips": "45039",
+          "name": "Fairfield",
+          "votes": {
+            "graham-d": 3386,
+            "andrews-a": 6099,
+            "whitener-k": 91,
+            "hackett-m": 72,
+            "total_writeins": 18
+          },
+          "total_votes": 9666,
+          "unit_count": 1
+        },
+        {
+          "fips": "45041",
+          "name": "Florence",
+          "votes": {
+            "graham-d": 20253,
+            "andrews-a": 27264,
+            "whitener-k": 446,
+            "hackett-m": 360,
+            "total_writeins": 69
+          },
+          "total_votes": 48392,
+          "unit_count": 1
+        },
+        {
+          "fips": "45043",
+          "name": "Georgetown",
+          "votes": {
+            "graham-d": 15829,
+            "andrews-a": 14643,
+            "whitener-k": 259,
+            "hackett-m": 189,
+            "total_writeins": 38
+          },
+          "total_votes": 30958,
+          "unit_count": 1
+        },
+        {
+          "fips": "45045",
+          "name": "Greenville",
+          "votes": {
+            "graham-d": 102314,
+            "andrews-a": 107111,
+            "whitener-k": 3034,
+            "hackett-m": 2073,
+            "total_writeins": 754
+          },
+          "total_votes": 215286,
+          "unit_count": 1
+        },
+        {
+          "fips": "45047",
+          "name": "Greenwood",
+          "votes": {
+            "graham-d": 12618,
+            "andrews-a": 11333,
+            "whitener-k": 314,
+            "hackett-m": 259,
+            "total_writeins": 63
+          },
+          "total_votes": 24587,
+          "unit_count": 1
+        },
+        {
+          "fips": "45049",
+          "name": "Hampton",
+          "votes": {
+            "graham-d": 2652,
+            "andrews-a": 3890,
+            "whitener-k": 41,
+            "hackett-m": 43,
+            "total_writeins": 8
+          },
+          "total_votes": 6634,
+          "unit_count": 1
+        },
+        {
+          "fips": "45051",
+          "name": "Horry",
+          "votes": {
+            "graham-d": 98496,
+            "andrews-a": 63208,
+            "whitener-k": 1185,
+            "hackett-m": 919,
+            "total_writeins": 195
+          },
+          "total_votes": 164003,
+          "unit_count": 1
+        },
+        {
+          "fips": "45053",
+          "name": "Jasper",
+          "votes": {
+            "graham-d": 8402,
+            "andrews-a": 8757,
+            "whitener-k": 134,
+            "hackett-m": 107,
+            "total_writeins": 16
+          },
+          "total_votes": 17416,
+          "unit_count": 1
+        },
+        {
+          "fips": "45055",
+          "name": "Kershaw",
+          "votes": {
+            "graham-d": 12728,
+            "andrews-a": 12435,
+            "whitener-k": 320,
+            "hackett-m": 289,
+            "total_writeins": 104
+          },
+          "total_votes": 25876,
+          "unit_count": 1
+        },
+        {
+          "fips": "45057",
+          "name": "Lancaster",
+          "votes": {
+            "graham-d": 22006,
+            "andrews-a": 19743,
+            "whitener-k": 533,
+            "hackett-m": 348,
+            "total_writeins": 116
+          },
+          "total_votes": 42746,
+          "unit_count": 1
+        },
+        {
+          "fips": "45059",
+          "name": "Laurens",
+          "votes": {
+            "graham-d": 13267,
+            "andrews-a": 9454,
+            "whitener-k": 285,
+            "hackett-m": 284,
+            "total_writeins": 90
+          },
+          "total_votes": 23380,
+          "unit_count": 1
+        },
+        {
+          "fips": "45061",
+          "name": "Lee",
+          "votes": {
+            "graham-d": 1957,
+            "andrews-a": 4269,
+            "whitener-k": 42,
+            "hackett-m": 52,
+            "total_writeins": 9
+          },
+          "total_votes": 6329,
+          "unit_count": 1
+        },
+        {
+          "fips": "45063",
+          "name": "Lexington",
+          "votes": {
+            "graham-d": 60738,
+            "andrews-a": 51741,
+            "whitener-k": 1693,
+            "hackett-m": 1196,
+            "total_writeins": 317
+          },
+          "total_votes": 115685,
+          "unit_count": 1
+        },
+        {
+          "fips": "45065",
+          "name": "McCormick",
+          "votes": {
+            "graham-d": 2828,
+            "andrews-a": 2518,
+            "whitener-k": 50,
+            "hackett-m": 61,
+            "total_writeins": 12
+          },
+          "total_votes": 5469,
+          "unit_count": 1
+        },
+        {
+          "fips": "45067",
+          "name": "Marion",
+          "votes": {
+            "graham-d": 4026,
+            "andrews-a": 7064,
+            "whitener-k": 85,
+            "hackett-m": 52,
+            "total_writeins": 5
+          },
+          "total_votes": 11232,
+          "unit_count": 1
+        },
+        {
+          "fips": "45069",
+          "name": "Marlboro",
+          "votes": {
+            "graham-d": 2709,
+            "andrews-a": 4390,
+            "whitener-k": 49,
+            "hackett-m": 48,
+            "total_writeins": 6
+          },
+          "total_votes": 7202,
+          "unit_count": 1
+        },
+        {
+          "fips": "45071",
+          "name": "Newberry",
+          "votes": {
+            "graham-d": 7870,
+            "andrews-a": 6130,
+            "whitener-k": 189,
+            "hackett-m": 145,
+            "total_writeins": 53
+          },
+          "total_votes": 14387,
+          "unit_count": 1
+        },
+        {
+          "fips": "45073",
+          "name": "Oconee",
+          "votes": {
+            "graham-d": 21025,
+            "andrews-a": 10687,
+            "whitener-k": 390,
+            "hackett-m": 281,
+            "total_writeins": 87
+          },
+          "total_votes": 32470,
+          "unit_count": 1
+        },
+        {
+          "fips": "45075",
+          "name": "Orangeburg",
+          "votes": {
+            "graham-d": 8457,
+            "andrews-a": 22007,
+            "whitener-k": 200,
+            "hackett-m": 172,
+            "total_writeins": 31
+          },
+          "total_votes": 30867,
+          "unit_count": 1
+        },
+        {
+          "fips": "45077",
+          "name": "Pickens",
+          "votes": {
+            "graham-d": 28223,
+            "andrews-a": 15104,
+            "whitener-k": 714,
+            "hackett-m": 459,
+            "total_writeins": 183
+          },
+          "total_votes": 44683,
+          "unit_count": 1
+        },
+        {
+          "fips": "45079",
+          "name": "Richland",
+          "votes": {
+            "graham-d": 35891,
+            "andrews-a": 118814,
+            "whitener-k": 1594,
+            "hackett-m": 803,
+            "total_writeins": 270
+          },
+          "total_votes": 157372,
+          "unit_count": 1
+        },
+        {
+          "fips": "45081",
+          "name": "Saluda",
+          "votes": {
+            "graham-d": 4244,
+            "andrews-a": 2570,
+            "whitener-k": 86,
+            "hackett-m": 103,
+            "total_writeins": 20
+          },
+          "total_votes": 7023,
+          "unit_count": 1
+        },
+        {
+          "fips": "45083",
+          "name": "Spartanburg",
+          "votes": {
+            "graham-d": 60872,
+            "andrews-a": 55218,
+            "whitener-k": 1588,
+            "hackett-m": 1396,
+            "total_writeins": 438
+          },
+          "total_votes": 119512,
+          "unit_count": 1
+        },
+        {
+          "fips": "45085",
+          "name": "Sumter",
+          "votes": {
+            "graham-d": 13014,
+            "andrews-a": 22805,
+            "whitener-k": 306,
+            "hackett-m": 271,
+            "total_writeins": 62
+          },
+          "total_votes": 36458,
+          "unit_count": 1
+        },
+        {
+          "fips": "45087",
+          "name": "Union",
+          "votes": {
+            "graham-d": 5116,
+            "andrews-a": 4046,
+            "whitener-k": 103,
+            "hackett-m": 111,
+            "total_writeins": 40
+          },
+          "total_votes": 9416,
+          "unit_count": 1
+        },
+        {
+          "fips": "45089",
+          "name": "Williamsburg",
+          "votes": {
+            "graham-d": 3510,
+            "andrews-a": 8044,
+            "whitener-k": 67,
+            "hackett-m": 60,
+            "total_writeins": 13
+          },
+          "total_votes": 11694,
+          "unit_count": 1
+        },
+        {
+          "fips": "45091",
+          "name": "York",
+          "votes": {
+            "graham-d": 54227,
+            "andrews-a": 58255,
+            "whitener-k": 1587,
+            "hackett-m": 1097,
+            "total_writeins": 490
+          },
+          "total_votes": 115656,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [
+          "andrews-a"
+        ],
+        "called_by": [
+          "nyt"
+        ]
+      },
+      "reporting_count": 46,
+      "missing_fips": [],
+      "state_total_votes": 2027067,
+      "county_total_votes": 2027067,
+      "county_sum_reconciles": true
+    },
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "manifest_race_id": "2026-governor-sc",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "johnson-j",
+          "name": "Jermaine Johnson",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "wilson-a",
+          "name": "Alan Wilson",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "addison-m",
+          "name": "Michael Addison",
+          "party": "Other"
+        },
+        {
+          "nyt_id": "hakim-w",
+          "name": "Walid Hakim",
+          "party": "Green"
+        },
+        {
+          "nyt_id": "total_writeins",
+          "name": "Total Write-ins",
+          "party": ""
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "45001",
+          "name": "Abbeville",
+          "votes": {
+            "johnson-j": 3158,
+            "wilson-a": 5739,
+            "addison-m": 72,
+            "hakim-w": 36,
+            "total_writeins": 5
+          },
+          "total_votes": 9010,
+          "unit_count": 1
+        },
+        {
+          "fips": "45003",
+          "name": "Aiken",
+          "votes": {
+            "johnson-j": 29244,
+            "wilson-a": 37335,
+            "addison-m": 630,
+            "hakim-w": 322,
+            "total_writeins": 32
+          },
+          "total_votes": 67563,
+          "unit_count": 1
+        },
+        {
+          "fips": "45005",
+          "name": "Allendale",
+          "votes": {
+            "johnson-j": 1910,
+            "wilson-a": 546,
+            "addison-m": 45,
+            "hakim-w": 5,
+            "total_writeins": 0
+          },
+          "total_votes": 2506,
+          "unit_count": 1
+        },
+        {
+          "fips": "45007",
+          "name": "Anderson",
+          "votes": {
+            "johnson-j": 24241,
+            "wilson-a": 48580,
+            "addison-m": 556,
+            "hakim-w": 299,
+            "total_writeins": 44
+          },
+          "total_votes": 73720,
+          "unit_count": 1
+        },
+        {
+          "fips": "45009",
+          "name": "Bamberg",
+          "votes": {
+            "johnson-j": 2912,
+            "wilson-a": 1641,
+            "addison-m": 51,
+            "hakim-w": 13,
+            "total_writeins": 1
+          },
+          "total_votes": 4618,
+          "unit_count": 1
+        },
+        {
+          "fips": "45011",
+          "name": "Barnwell",
+          "votes": {
+            "johnson-j": 3729,
+            "wilson-a": 3821,
+            "addison-m": 65,
+            "hakim-w": 30,
+            "total_writeins": 1
+          },
+          "total_votes": 7646,
+          "unit_count": 1
+        },
+        {
+          "fips": "45013",
+          "name": "Beaufort",
+          "votes": {
+            "johnson-j": 37154,
+            "wilson-a": 47590,
+            "addison-m": 626,
+            "hakim-w": 389,
+            "total_writeins": 41
+          },
+          "total_votes": 85800,
+          "unit_count": 1
+        },
+        {
+          "fips": "45015",
+          "name": "Berkeley",
+          "votes": {
+            "johnson-j": 45102,
+            "wilson-a": 44401,
+            "addison-m": 775,
+            "hakim-w": 444,
+            "total_writeins": 49
+          },
+          "total_votes": 90771,
+          "unit_count": 1
+        },
+        {
+          "fips": "45017",
+          "name": "Calhoun",
+          "votes": {
+            "johnson-j": 2867,
+            "wilson-a": 2938,
+            "addison-m": 46,
+            "hakim-w": 25,
+            "total_writeins": 5
+          },
+          "total_votes": 5881,
+          "unit_count": 1
+        },
+        {
+          "fips": "45019",
+          "name": "Charleston",
+          "votes": {
+            "johnson-j": 97406,
+            "wilson-a": 74755,
+            "addison-m": 1116,
+            "hakim-w": 957,
+            "total_writeins": 111
+          },
+          "total_votes": 174345,
+          "unit_count": 1
+        },
+        {
+          "fips": "45021",
+          "name": "Cherokee",
+          "votes": {
+            "johnson-j": 5579,
+            "wilson-a": 11846,
+            "addison-m": 156,
+            "hakim-w": 64,
+            "total_writeins": 11
+          },
+          "total_votes": 17656,
+          "unit_count": 1
+        },
+        {
+          "fips": "45023",
+          "name": "Chester",
+          "votes": {
+            "johnson-j": 5935,
+            "wilson-a": 5877,
+            "addison-m": 123,
+            "hakim-w": 67,
+            "total_writeins": 12
+          },
+          "total_votes": 12014,
+          "unit_count": 1
+        },
+        {
+          "fips": "45025",
+          "name": "Chesterfield",
+          "votes": {
+            "johnson-j": 5968,
+            "wilson-a": 7528,
+            "addison-m": 221,
+            "hakim-w": 65,
+            "total_writeins": 13
+          },
+          "total_votes": 13795,
+          "unit_count": 1
+        },
+        {
+          "fips": "45027",
+          "name": "Clarendon",
+          "votes": {
+            "johnson-j": 6697,
+            "wilson-a": 6710,
+            "addison-m": 117,
+            "hakim-w": 45,
+            "total_writeins": 4
+          },
+          "total_votes": 13573,
+          "unit_count": 1
+        },
+        {
+          "fips": "45029",
+          "name": "Colleton",
+          "votes": {
+            "johnson-j": 6474,
+            "wilson-a": 7017,
+            "addison-m": 130,
+            "hakim-w": 77,
+            "total_writeins": 8
+          },
+          "total_votes": 13706,
+          "unit_count": 1
+        },
+        {
+          "fips": "45031",
+          "name": "Darlington",
+          "votes": {
+            "johnson-j": 11780,
+            "wilson-a": 11396,
+            "addison-m": 238,
+            "hakim-w": 68,
+            "total_writeins": 21
+          },
+          "total_votes": 23503,
+          "unit_count": 1
+        },
+        {
+          "fips": "45033",
+          "name": "Dillon",
+          "votes": {
+            "johnson-j": 4529,
+            "wilson-a": 4180,
+            "addison-m": 62,
+            "hakim-w": 28,
+            "total_writeins": 3
+          },
+          "total_votes": 8802,
+          "unit_count": 1
+        },
+        {
+          "fips": "45035",
+          "name": "Dorchester",
+          "votes": {
+            "johnson-j": 27077,
+            "wilson-a": 27672,
+            "addison-m": 497,
+            "hakim-w": 296,
+            "total_writeins": 29
+          },
+          "total_votes": 55571,
+          "unit_count": 1
+        },
+        {
+          "fips": "45037",
+          "name": "Edgefield",
+          "votes": {
+            "johnson-j": 4330,
+            "wilson-a": 6346,
+            "addison-m": 83,
+            "hakim-w": 41,
+            "total_writeins": 5
+          },
+          "total_votes": 10805,
+          "unit_count": 1
+        },
+        {
+          "fips": "45039",
+          "name": "Fairfield",
+          "votes": {
+            "johnson-j": 5813,
+            "wilson-a": 3713,
+            "addison-m": 89,
+            "hakim-w": 45,
+            "total_writeins": 1
+          },
+          "total_votes": 9661,
+          "unit_count": 1
+        },
+        {
+          "fips": "45041",
+          "name": "Florence",
+          "votes": {
+            "johnson-j": 25096,
+            "wilson-a": 22632,
+            "addison-m": 431,
+            "hakim-w": 172,
+            "total_writeins": 28
+          },
+          "total_votes": 48359,
+          "unit_count": 1
+        },
+        {
+          "fips": "45043",
+          "name": "Georgetown",
+          "votes": {
+            "johnson-j": 13313,
+            "wilson-a": 17223,
+            "addison-m": 226,
+            "hakim-w": 137,
+            "total_writeins": 12
+          },
+          "total_votes": 30911,
+          "unit_count": 1
+        },
+        {
+          "fips": "45045",
+          "name": "Greenville",
+          "votes": {
+            "johnson-j": 96278,
+            "wilson-a": 115848,
+            "addison-m": 1505,
+            "hakim-w": 1166,
+            "total_writeins": 118
+          },
+          "total_votes": 214915,
+          "unit_count": 1
+        },
+        {
+          "fips": "45047",
+          "name": "Greenwood",
+          "votes": {
+            "johnson-j": 10334,
+            "wilson-a": 13935,
+            "addison-m": 228,
+            "hakim-w": 97,
+            "total_writeins": 8
+          },
+          "total_votes": 24602,
+          "unit_count": 1
+        },
+        {
+          "fips": "45049",
+          "name": "Hampton",
+          "votes": {
+            "johnson-j": 3720,
+            "wilson-a": 2821,
+            "addison-m": 81,
+            "hakim-w": 20,
+            "total_writeins": 5
+          },
+          "total_votes": 6647,
+          "unit_count": 1
+        },
+        {
+          "fips": "45051",
+          "name": "Horry",
+          "votes": {
+            "johnson-j": 57072,
+            "wilson-a": 104249,
+            "addison-m": 1289,
+            "hakim-w": 643,
+            "total_writeins": 105
+          },
+          "total_votes": 163358,
+          "unit_count": 1
+        },
+        {
+          "fips": "45053",
+          "name": "Jasper",
+          "votes": {
+            "johnson-j": 8247,
+            "wilson-a": 8933,
+            "addison-m": 136,
+            "hakim-w": 67,
+            "total_writeins": 4
+          },
+          "total_votes": 17387,
+          "unit_count": 1
+        },
+        {
+          "fips": "45055",
+          "name": "Kershaw",
+          "votes": {
+            "johnson-j": 11504,
+            "wilson-a": 14045,
+            "addison-m": 218,
+            "hakim-w": 105,
+            "total_writeins": 20
+          },
+          "total_votes": 25892,
+          "unit_count": 1
+        },
+        {
+          "fips": "45057",
+          "name": "Lancaster",
+          "votes": {
+            "johnson-j": 18562,
+            "wilson-a": 23554,
+            "addison-m": 331,
+            "hakim-w": 214,
+            "total_writeins": 16
+          },
+          "total_votes": 42677,
+          "unit_count": 1
+        },
+        {
+          "fips": "45059",
+          "name": "Laurens",
+          "votes": {
+            "johnson-j": 8704,
+            "wilson-a": 14388,
+            "addison-m": 206,
+            "hakim-w": 84,
+            "total_writeins": 12
+          },
+          "total_votes": 23394,
+          "unit_count": 1
+        },
+        {
+          "fips": "45061",
+          "name": "Lee",
+          "votes": {
+            "johnson-j": 4130,
+            "wilson-a": 2105,
+            "addison-m": 63,
+            "hakim-w": 30,
+            "total_writeins": 2
+          },
+          "total_votes": 6330,
+          "unit_count": 1
+        },
+        {
+          "fips": "45063",
+          "name": "Lexington",
+          "votes": {
+            "johnson-j": 45893,
+            "wilson-a": 68265,
+            "addison-m": 862,
+            "hakim-w": 508,
+            "total_writeins": 79
+          },
+          "total_votes": 115607,
+          "unit_count": 1
+        },
+        {
+          "fips": "45065",
+          "name": "McCormick",
+          "votes": {
+            "johnson-j": 2339,
+            "wilson-a": 3036,
+            "addison-m": 60,
+            "hakim-w": 18,
+            "total_writeins": 2
+          },
+          "total_votes": 5455,
+          "unit_count": 1
+        },
+        {
+          "fips": "45067",
+          "name": "Marion",
+          "votes": {
+            "johnson-j": 6773,
+            "wilson-a": 4298,
+            "addison-m": 108,
+            "hakim-w": 36,
+            "total_writeins": 1
+          },
+          "total_votes": 11216,
+          "unit_count": 1
+        },
+        {
+          "fips": "45069",
+          "name": "Marlboro",
+          "votes": {
+            "johnson-j": 4188,
+            "wilson-a": 2885,
+            "addison-m": 86,
+            "hakim-w": 21,
+            "total_writeins": 3
+          },
+          "total_votes": 7183,
+          "unit_count": 1
+        },
+        {
+          "fips": "45071",
+          "name": "Newberry",
+          "votes": {
+            "johnson-j": 5501,
+            "wilson-a": 8687,
+            "addison-m": 118,
+            "hakim-w": 57,
+            "total_writeins": 12
+          },
+          "total_votes": 14375,
+          "unit_count": 1
+        },
+        {
+          "fips": "45073",
+          "name": "Oconee",
+          "votes": {
+            "johnson-j": 9115,
+            "wilson-a": 22957,
+            "addison-m": 210,
+            "hakim-w": 136,
+            "total_writeins": 21
+          },
+          "total_votes": 32439,
+          "unit_count": 1
+        },
+        {
+          "fips": "45075",
+          "name": "Orangeburg",
+          "votes": {
+            "johnson-j": 21441,
+            "wilson-a": 9020,
+            "addison-m": 309,
+            "hakim-w": 84,
+            "total_writeins": 6
+          },
+          "total_votes": 30860,
+          "unit_count": 1
+        },
+        {
+          "fips": "45077",
+          "name": "Pickens",
+          "votes": {
+            "johnson-j": 13137,
+            "wilson-a": 30918,
+            "addison-m": 307,
+            "hakim-w": 211,
+            "total_writeins": 33
+          },
+          "total_votes": 44606,
+          "unit_count": 1
+        },
+        {
+          "fips": "45079",
+          "name": "Richland",
+          "votes": {
+            "johnson-j": 113092,
+            "wilson-a": 42368,
+            "addison-m": 1128,
+            "hakim-w": 605,
+            "total_writeins": 86
+          },
+          "total_votes": 157279,
+          "unit_count": 1
+        },
+        {
+          "fips": "45081",
+          "name": "Saluda",
+          "votes": {
+            "johnson-j": 2317,
+            "wilson-a": 4612,
+            "addison-m": 77,
+            "hakim-w": 39,
+            "total_writeins": 2
+          },
+          "total_votes": 7047,
+          "unit_count": 1
+        },
+        {
+          "fips": "45083",
+          "name": "Spartanburg",
+          "votes": {
+            "johnson-j": 50816,
+            "wilson-a": 67105,
+            "addison-m": 917,
+            "hakim-w": 488,
+            "total_writeins": 63
+          },
+          "total_votes": 119389,
+          "unit_count": 1
+        },
+        {
+          "fips": "45085",
+          "name": "Sumter",
+          "votes": {
+            "johnson-j": 21948,
+            "wilson-a": 14069,
+            "addison-m": 308,
+            "hakim-w": 107,
+            "total_writeins": 11
+          },
+          "total_votes": 36443,
+          "unit_count": 1
+        },
+        {
+          "fips": "45087",
+          "name": "Union",
+          "votes": {
+            "johnson-j": 3809,
+            "wilson-a": 5479,
+            "addison-m": 79,
+            "hakim-w": 42,
+            "total_writeins": 5
+          },
+          "total_votes": 9414,
+          "unit_count": 1
+        },
+        {
+          "fips": "45089",
+          "name": "Williamsburg",
+          "votes": {
+            "johnson-j": 7832,
+            "wilson-a": 3689,
+            "addison-m": 134,
+            "hakim-w": 31,
+            "total_writeins": 5
+          },
+          "total_votes": 11691,
+          "unit_count": 1
+        },
+        {
+          "fips": "45091",
+          "name": "York",
+          "votes": {
+            "johnson-j": 54155,
+            "wilson-a": 59681,
+            "addison-m": 919,
+            "hakim-w": 573,
+            "total_writeins": 80
+          },
+          "total_votes": 115408,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [],
+        "called_by": []
+      },
+      "reporting_count": 46,
+      "missing_fips": [],
+      "state_total_votes": 2023830,
+      "county_total_votes": 2023830,
+      "county_sum_reconciles": true
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-south-carolina.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 46,
+  "reporting_count": 46,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:36:58.045Z",
+    "S_race_updated_at": "2026-11-04T04:34:35.916Z",
+    "G_race_updated_at": "2026-11-04T04:34:26.437Z"
+  },
+  "limitations": [
+    "Only candidates[].votes.total was used; NYT models, estimates, expected votes, and EEVP were ignored.",
+    "Exact county FIPS are matched against the local GeoJSON. Township aggregation is used only when no county-level reporting units exist, grouping by source fips_state+fips_county."
+  ],
+  "call_authority": {
+    "called_by_ap_offices": [],
+    "authority": "AP is identified only for offices whose outcome.called_by explicitly contains ap."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-south-carolina.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 46,
+    "reporting_count": 46,
+    "row_count": 92,
+    "source_time": "2026-11-04T04:41:02.719+00:00",
+    "fetched_at": "2026-11-04T04:47:03.119Z",
+    "message": "46 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

@@ -1,0 +1,591 @@
+{
+  "state": "MA",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "U.S. Senate",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "candidates": [
+        {
+          "nyt_id": "markey-e",
+          "name": "Edward J. Markey",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "deaton-j",
+          "name": "John Deaton",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "ayyadurai-s",
+          "name": "Shiva Ayyadurai",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "tache-j",
+          "name": "Joe Tache",
+          "party": "Other"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "25025",
+          "name": "Suffolk",
+          "votes": {
+            "markey-e": 110319,
+            "deaton-j": 21366,
+            "tache-j": 6085,
+            "ayyadurai-s": 2251
+          },
+          "total_votes": 140021,
+          "precincts_reporting": 226,
+          "precincts_total": 316,
+          "eevp": 71.52,
+          "township_units": 4
+        },
+        {
+          "fips": "25027",
+          "name": "Worcester",
+          "votes": {
+            "markey-e": 106579,
+            "deaton-j": 67627,
+            "tache-j": 3973,
+            "ayyadurai-s": 4535
+          },
+          "total_votes": 182714,
+          "precincts_reporting": 164,
+          "precincts_total": 267,
+          "eevp": 61.42,
+          "township_units": 60
+        },
+        {
+          "fips": "25017",
+          "name": "Middlesex",
+          "votes": {
+            "markey-e": 205119,
+            "deaton-j": 70109,
+            "tache-j": 7865,
+            "ayyadurai-s": 6189
+          },
+          "total_votes": 289282,
+          "precincts_reporting": 248,
+          "precincts_total": 557,
+          "eevp": 44.52,
+          "township_units": 54
+        },
+        {
+          "fips": "25021",
+          "name": "Norfolk",
+          "votes": {
+            "markey-e": 120941,
+            "deaton-j": 54525,
+            "tache-j": 3369,
+            "ayyadurai-s": 3852
+          },
+          "total_votes": 182687,
+          "precincts_reporting": 142,
+          "precincts_total": 229,
+          "eevp": 62.01,
+          "township_units": 28
+        },
+        {
+          "fips": "25013",
+          "name": "Hampden",
+          "votes": {
+            "markey-e": 53134,
+            "deaton-j": 29152,
+            "ayyadurai-s": 2592,
+            "tache-j": 2073
+          },
+          "total_votes": 86951,
+          "precincts_reporting": 104,
+          "precincts_total": 181,
+          "eevp": 57.46,
+          "township_units": 23
+        },
+        {
+          "fips": "25005",
+          "name": "Bristol",
+          "votes": {
+            "markey-e": 49806,
+            "deaton-j": 34357,
+            "ayyadurai-s": 2155,
+            "tache-j": 1826
+          },
+          "total_votes": 88144,
+          "precincts_reporting": 75,
+          "precincts_total": 185,
+          "eevp": 40.54,
+          "township_units": 20
+        },
+        {
+          "fips": "25009",
+          "name": "Essex",
+          "votes": {
+            "markey-e": 82233,
+            "deaton-j": 43456,
+            "ayyadurai-s": 3111,
+            "tache-j": 2249
+          },
+          "total_votes": 131049,
+          "precincts_reporting": 104,
+          "precincts_total": 258,
+          "eevp": 40.31,
+          "township_units": 34
+        },
+        {
+          "fips": "25001",
+          "name": "Barnstable",
+          "votes": {
+            "markey-e": 44609,
+            "deaton-j": 27764,
+            "ayyadurai-s": 1535,
+            "tache-j": 1059
+          },
+          "total_votes": 74967,
+          "precincts_reporting": 40,
+          "precincts_total": 70,
+          "eevp": 57.14,
+          "township_units": 15
+        },
+        {
+          "fips": "25003",
+          "name": "Berkshire",
+          "votes": {
+            "markey-e": 19591,
+            "deaton-j": 6302,
+            "ayyadurai-s": 938,
+            "tache-j": 719
+          },
+          "total_votes": 27550,
+          "precincts_reporting": 27,
+          "precincts_total": 59,
+          "eevp": 45.76,
+          "township_units": 32
+        },
+        {
+          "fips": "25023",
+          "name": "Plymouth",
+          "votes": {
+            "markey-e": 30240,
+            "deaton-j": 26093,
+            "ayyadurai-s": 1305,
+            "tache-j": 675
+          },
+          "total_votes": 58313,
+          "precincts_reporting": 39,
+          "precincts_total": 156,
+          "eevp": 25.0,
+          "township_units": 27
+        },
+        {
+          "fips": "25015",
+          "name": "Hampshire",
+          "votes": {
+            "markey-e": 17098,
+            "deaton-j": 4056,
+            "tache-j": 793,
+            "ayyadurai-s": 443
+          },
+          "total_votes": 22390,
+          "precincts_reporting": 23,
+          "precincts_total": 58,
+          "eevp": 39.66,
+          "township_units": 20
+        },
+        {
+          "fips": "25011",
+          "name": "Franklin",
+          "votes": {
+            "markey-e": 10932,
+            "deaton-j": 4486,
+            "tache-j": 512,
+            "ayyadurai-s": 442
+          },
+          "total_votes": 16372,
+          "precincts_reporting": 17,
+          "precincts_total": 40,
+          "eevp": 42.5,
+          "township_units": 26
+        },
+        {
+          "fips": "25019",
+          "name": "Nantucket",
+          "votes": {
+            "markey-e": 3556,
+            "deaton-j": 1289,
+            "ayyadurai-s": 103,
+            "tache-j": 72
+          },
+          "total_votes": 5020,
+          "precincts_reporting": 1,
+          "precincts_total": 1,
+          "eevp": 100.0,
+          "township_units": 1
+        },
+        {
+          "fips": "25007",
+          "name": "Dukes",
+          "votes": {
+            "markey-e": 39,
+            "deaton-j": 11,
+            "ayyadurai-s": 1,
+            "tache-j": 0
+          },
+          "total_votes": 51,
+          "precincts_reporting": 1,
+          "precincts_total": 7,
+          "eevp": 14.29,
+          "township_units": 7
+        }
+      ],
+      "outcome": {
+        "won": [
+          "markey-e"
+        ],
+        "advanced_to_runoff": [],
+        "called_by": [
+          "ap"
+        ],
+        "runoff_accepted_at": [],
+        "winner_accepted_at": [
+          "2026-11-04T01:01:32.549465+00:00"
+        ],
+        "gained": false,
+        "electoral_votes": null
+      },
+      "audit": {
+        "source_updated_at": "2026-11-04T04:33:26.173Z",
+        "state_votes": {
+          "markey-e": 854196,
+          "deaton-j": 390593,
+          "tache-j": 31270,
+          "ayyadurai-s": 29452
+        },
+        "county_vote_sums": {
+          "markey-e": 854196,
+          "deaton-j": 390593,
+          "ayyadurai-s": 29452,
+          "tache-j": 31270
+        },
+        "county_vote_sums_match_state_candidates": true,
+        "township_units_aggregated_once": 351
+      }
+    },
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "candidates": [
+        {
+          "nyt_id": "healey-m",
+          "name": "Maura Healey",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "minogue-m",
+          "name": "Michael Roger Minogue",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "james-a",
+          "name": "Andrea James",
+          "party": "Independent"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "25025",
+          "name": "Suffolk",
+          "votes": {
+            "healey-m": 111064,
+            "minogue-m": 24699,
+            "james-a": 5188
+          },
+          "total_votes": 140951,
+          "precincts_reporting": 226,
+          "precincts_total": 316,
+          "eevp": 71.52,
+          "township_units": 4
+        },
+        {
+          "fips": "25027",
+          "name": "Worcester",
+          "votes": {
+            "healey-m": 99129,
+            "minogue-m": 66852,
+            "james-a": 6933
+          },
+          "total_votes": 172914,
+          "precincts_reporting": 153,
+          "precincts_total": 267,
+          "eevp": 57.3,
+          "township_units": 60
+        },
+        {
+          "fips": "25017",
+          "name": "Middlesex",
+          "votes": {
+            "healey-m": 201397,
+            "minogue-m": 73901,
+            "james-a": 8664
+          },
+          "total_votes": 283962,
+          "precincts_reporting": 243,
+          "precincts_total": 557,
+          "eevp": 43.63,
+          "township_units": 54
+        },
+        {
+          "fips": "25021",
+          "name": "Norfolk",
+          "votes": {
+            "healey-m": 120373,
+            "minogue-m": 58646,
+            "james-a": 5185
+          },
+          "total_votes": 184204,
+          "precincts_reporting": 142,
+          "precincts_total": 229,
+          "eevp": 62.01,
+          "township_units": 28
+        },
+        {
+          "fips": "25013",
+          "name": "Hampden",
+          "votes": {
+            "healey-m": 50898,
+            "minogue-m": 33174,
+            "james-a": 3957
+          },
+          "total_votes": 88029,
+          "precincts_reporting": 105,
+          "precincts_total": 181,
+          "eevp": 58.01,
+          "township_units": 23
+        },
+        {
+          "fips": "25005",
+          "name": "Bristol",
+          "votes": {
+            "healey-m": 46673,
+            "minogue-m": 38476,
+            "james-a": 3537
+          },
+          "total_votes": 88686,
+          "precincts_reporting": 75,
+          "precincts_total": 185,
+          "eevp": 40.54,
+          "township_units": 20
+        },
+        {
+          "fips": "25009",
+          "name": "Essex",
+          "votes": {
+            "healey-m": 76350,
+            "minogue-m": 45413,
+            "james-a": 3091
+          },
+          "total_votes": 124854,
+          "precincts_reporting": 98,
+          "precincts_total": 258,
+          "eevp": 37.98,
+          "township_units": 34
+        },
+        {
+          "fips": "25001",
+          "name": "Barnstable",
+          "votes": {
+            "healey-m": 44097,
+            "minogue-m": 29314,
+            "james-a": 2033
+          },
+          "total_votes": 75444,
+          "precincts_reporting": 40,
+          "precincts_total": 70,
+          "eevp": 57.14,
+          "township_units": 15
+        },
+        {
+          "fips": "25003",
+          "name": "Berkshire",
+          "votes": {
+            "healey-m": 19073,
+            "minogue-m": 7205,
+            "james-a": 1393
+          },
+          "total_votes": 27671,
+          "precincts_reporting": 27,
+          "precincts_total": 59,
+          "eevp": 45.76,
+          "township_units": 32
+        },
+        {
+          "fips": "25023",
+          "name": "Plymouth",
+          "votes": {
+            "minogue-m": 28169,
+            "healey-m": 28805,
+            "james-a": 1829
+          },
+          "total_votes": 58803,
+          "precincts_reporting": 39,
+          "precincts_total": 156,
+          "eevp": 25.0,
+          "township_units": 27
+        },
+        {
+          "fips": "25015",
+          "name": "Hampshire",
+          "votes": {
+            "healey-m": 17095,
+            "minogue-m": 4483,
+            "james-a": 898
+          },
+          "total_votes": 22476,
+          "precincts_reporting": 23,
+          "precincts_total": 58,
+          "eevp": 39.66,
+          "township_units": 20
+        },
+        {
+          "fips": "25011",
+          "name": "Franklin",
+          "votes": {
+            "healey-m": 10798,
+            "minogue-m": 4864,
+            "james-a": 806
+          },
+          "total_votes": 16468,
+          "precincts_reporting": 17,
+          "precincts_total": 40,
+          "eevp": 42.5,
+          "township_units": 26
+        },
+        {
+          "fips": "25019",
+          "name": "Nantucket",
+          "votes": {
+            "healey-m": 3502,
+            "minogue-m": 1409,
+            "james-a": 124
+          },
+          "total_votes": 5035,
+          "precincts_reporting": 1,
+          "precincts_total": 1,
+          "eevp": 100.0,
+          "township_units": 1
+        },
+        {
+          "fips": "25007",
+          "name": "Dukes",
+          "votes": {
+            "healey-m": 38,
+            "minogue-m": 10,
+            "james-a": 3
+          },
+          "total_votes": 51,
+          "precincts_reporting": 1,
+          "precincts_total": 7,
+          "eevp": 14.29,
+          "township_units": 7
+        }
+      ],
+      "outcome": {
+        "won": [
+          "healey-m"
+        ],
+        "advanced_to_runoff": [],
+        "called_by": [
+          "ap"
+        ],
+        "runoff_accepted_at": [],
+        "winner_accepted_at": [
+          "2026-11-04T01:01:32.549465+00:00"
+        ],
+        "gained": false,
+        "electoral_votes": null
+      },
+      "audit": {
+        "source_updated_at": "2026-11-04T04:33:28.047Z",
+        "state_votes": {
+          "healey-m": 829292,
+          "minogue-m": 416615,
+          "james-a": 43641
+        },
+        "county_vote_sums": {
+          "healey-m": 829292,
+          "minogue-m": 416615,
+          "james-a": 43641
+        },
+        "county_vote_sums_match_state_candidates": true,
+        "township_units_aggregated_once": 351
+      }
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-massachusetts.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 14,
+  "reporting_count": 14,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:33:31.779Z",
+    "senate_race_updated_at": "2026-11-04T04:33:26.173Z",
+    "governor_race_updated_at": "2026-11-04T04:33:28.047Z",
+    "county_provider_updated_at": "not present"
+  },
+  "office_audit": [
+    {
+      "office_id": "S",
+      "county_count": 14,
+      "nonzero_counties": 14,
+      "township_units_aggregated": 351,
+      "candidate_vote_sums_match_state": true
+    },
+    {
+      "office_id": "G",
+      "county_count": 14,
+      "nonzero_counties": 14,
+      "township_units_aggregated": 351,
+      "candidate_vote_sums_match_state": true
+    }
+  ],
+  "limitations": [
+    "Feed reports Massachusetts municipalities as township units, each with a county FIPS. The 351 units are aggregated once to 14 counties using fips_state + fips_county.",
+    "County candidate totals use only candidates[].votes.total. Model estimates, expected votes and other projected values were excluded.",
+    "Aggregated candidate vote totals match the state-level candidates[].votes.total for each race.",
+    "No blanket license is asserted; factual counts are attributed to The New York Times and AP."
+  ],
+  "call_authority": {
+    "called_by": [
+      "ap"
+    ],
+    "authority": "Associated Press (AP) is the recorded caller."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-massachusetts.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 14,
+    "reporting_count": 14,
+    "row_count": 28,
+    "source_time": "2026-11-04T04:46:38.613+00:00",
+    "fetched_at": "2026-11-04T04:47:03.015Z",
+    "message": "14 counties with published returns. County totals sum distinct towns using publisher-supplied county FIPS. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

@@ -1,0 +1,943 @@
+{
+  "state": "LA",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "U.S. Senate",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "candidates": [
+        {
+          "nyt_id": "davis-j",
+          "name": "Jamie Davis",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "letlow-j",
+          "name": "Julia Letlow",
+          "party": "Republican"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "22051",
+          "name": "Jefferson",
+          "unit_count": 1,
+          "votes": {
+            "davis-j": 70300,
+            "letlow-j": 60561
+          },
+          "total_votes": 130861,
+          "precincts_reporting": 268,
+          "precincts_total": 268,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22103",
+          "name": "St. Tammany",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 63967,
+            "davis-j": 37646
+          },
+          "total_votes": 101613,
+          "precincts_reporting": 171,
+          "precincts_total": 171,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22033",
+          "name": "East Baton Rouge",
+          "unit_count": 1,
+          "votes": {
+            "davis-j": 58053,
+            "letlow-j": 34556
+          },
+          "total_votes": 92609,
+          "precincts_reporting": 317,
+          "precincts_total": 329,
+          "eevp": 96.35
+        },
+        {
+          "fips": "22071",
+          "name": "Orleans",
+          "unit_count": 1,
+          "votes": {
+            "davis-j": 70480,
+            "letlow-j": 10813
+          },
+          "total_votes": 81293,
+          "precincts_reporting": 341,
+          "precincts_total": 349,
+          "eevp": 97.71
+        },
+        {
+          "fips": "22017",
+          "name": "Caddo",
+          "unit_count": 1,
+          "votes": {
+            "davis-j": 42171,
+            "letlow-j": 29338
+          },
+          "total_votes": 71509,
+          "precincts_reporting": 128,
+          "precincts_total": 128,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22019",
+          "name": "Calcasieu",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 33195,
+            "davis-j": 22726
+          },
+          "total_votes": 55921,
+          "precincts_reporting": 123,
+          "precincts_total": 123,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22055",
+          "name": "Lafayette",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 29677,
+            "davis-j": 22325
+          },
+          "total_votes": 52002,
+          "precincts_reporting": 131,
+          "precincts_total": 131,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22073",
+          "name": "Ouachita",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 25451,
+            "davis-j": 20791
+          },
+          "total_votes": 46242,
+          "precincts_reporting": 85,
+          "precincts_total": 85,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22063",
+          "name": "Livingston",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 31575,
+            "davis-j": 11953
+          },
+          "total_votes": 43528,
+          "precincts_reporting": 80,
+          "precincts_total": 80,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22005",
+          "name": "Ascension",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 23386,
+            "davis-j": 19559
+          },
+          "total_votes": 42945,
+          "precincts_reporting": 72,
+          "precincts_total": 72,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22105",
+          "name": "Tangipahoa",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 23252,
+            "davis-j": 16279
+          },
+          "total_votes": 39531,
+          "precincts_reporting": 73,
+          "precincts_total": 73,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22079",
+          "name": "Rapides",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 21802,
+            "davis-j": 15692
+          },
+          "total_votes": 37494,
+          "precincts_reporting": 113,
+          "precincts_total": 113,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22015",
+          "name": "Bossier",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 23158,
+            "davis-j": 12647
+          },
+          "total_votes": 35805,
+          "precincts_reporting": 85,
+          "precincts_total": 85,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22057",
+          "name": "Lafourche",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 20123,
+            "davis-j": 8411
+          },
+          "total_votes": 28534,
+          "precincts_reporting": 72,
+          "precincts_total": 72,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22109",
+          "name": "Terrebonne",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 19053,
+            "davis-j": 9364
+          },
+          "total_votes": 28417,
+          "precincts_reporting": 64,
+          "precincts_total": 64,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22097",
+          "name": "St. Landry",
+          "unit_count": 1,
+          "votes": {
+            "davis-j": 13625,
+            "letlow-j": 12810
+          },
+          "total_votes": 26435,
+          "precincts_reporting": 91,
+          "precincts_total": 91,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22045",
+          "name": "Iberia",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 11160,
+            "davis-j": 8162
+          },
+          "total_votes": 19322,
+          "precincts_reporting": 55,
+          "precincts_total": 55,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22089",
+          "name": "St. Charles",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 10283,
+            "davis-j": 8378
+          },
+          "total_votes": 18661,
+          "precincts_reporting": 42,
+          "precincts_total": 42,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22001",
+          "name": "Acadia",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 13351,
+            "davis-j": 4699
+          },
+          "total_votes": 18050,
+          "precincts_reporting": 47,
+          "precincts_total": 47,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22113",
+          "name": "Vermilion",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 12501,
+            "davis-j": 4864
+          },
+          "total_votes": 17365,
+          "precincts_reporting": 66,
+          "precincts_total": 66,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22099",
+          "name": "St. Martin",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 10413,
+            "davis-j": 6668
+          },
+          "total_votes": 17081,
+          "precincts_reporting": 43,
+          "precincts_total": 43,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22101",
+          "name": "St. Mary",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 8424,
+            "davis-j": 6451
+          },
+          "total_votes": 14875,
+          "precincts_reporting": 46,
+          "precincts_total": 46,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22095",
+          "name": "St. John the Baptist",
+          "unit_count": 1,
+          "votes": {
+            "davis-j": 10440,
+            "letlow-j": 3766
+          },
+          "total_votes": 14206,
+          "precincts_reporting": 36,
+          "precincts_total": 36,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22061",
+          "name": "Lincoln",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 7702,
+            "davis-j": 6037
+          },
+          "total_votes": 13739,
+          "precincts_reporting": 50,
+          "precincts_total": 50,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22117",
+          "name": "Washington",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 7765,
+            "davis-j": 5279
+          },
+          "total_votes": 13044,
+          "precincts_reporting": 41,
+          "precincts_total": 41,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22009",
+          "name": "Avoyelles",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 7656,
+            "davis-j": 4591
+          },
+          "total_votes": 12247,
+          "precincts_reporting": 41,
+          "precincts_total": 41,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22047",
+          "name": "Iberville",
+          "unit_count": 1,
+          "votes": {
+            "davis-j": 7159,
+            "letlow-j": 4981
+          },
+          "total_votes": 12140,
+          "precincts_reporting": 31,
+          "precincts_total": 31,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22119",
+          "name": "Webster",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 7208,
+            "davis-j": 4651
+          },
+          "total_votes": 11859,
+          "precincts_reporting": 40,
+          "precincts_total": 40,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22087",
+          "name": "St. Bernard",
+          "unit_count": 1,
+          "votes": {
+            "davis-j": 5760,
+            "letlow-j": 5748
+          },
+          "total_votes": 11508,
+          "precincts_reporting": 31,
+          "precincts_total": 31,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22069",
+          "name": "Natchitoches",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 5791,
+            "davis-j": 5443
+          },
+          "total_votes": 11234,
+          "precincts_reporting": 50,
+          "precincts_total": 50,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22115",
+          "name": "Vernon",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 8388,
+            "davis-j": 2634
+          },
+          "total_votes": 11022,
+          "precincts_reporting": 60,
+          "precincts_total": 60,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22053",
+          "name": "Jefferson Davis",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 7249,
+            "davis-j": 3113
+          },
+          "total_votes": 10362,
+          "precincts_reporting": 26,
+          "precincts_total": 26,
+          "eevp": 100.0,
+          "source_name": "Jeff Davis"
+        },
+        {
+          "fips": "22039",
+          "name": "Evangeline",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 6243,
+            "davis-j": 4055
+          },
+          "total_votes": 10298,
+          "precincts_reporting": 55,
+          "precincts_total": 55,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22011",
+          "name": "Beauregard",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 7987,
+            "davis-j": 2259
+          },
+          "total_votes": 10246,
+          "precincts_reporting": 37,
+          "precincts_total": 37,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22121",
+          "name": "West Baton Rouge",
+          "unit_count": 1,
+          "votes": {
+            "davis-j": 5541,
+            "letlow-j": 4489
+          },
+          "total_votes": 10030,
+          "precincts_reporting": 29,
+          "precincts_total": 29,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22031",
+          "name": "De Soto",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 5829,
+            "davis-j": 4087
+          },
+          "total_votes": 9916,
+          "precincts_reporting": 26,
+          "precincts_total": 26,
+          "eevp": 100.0,
+          "source_name": "DeSoto"
+        },
+        {
+          "fips": "22093",
+          "name": "St. James",
+          "unit_count": 1,
+          "votes": {
+            "davis-j": 5298,
+            "letlow-j": 3988
+          },
+          "total_votes": 9286,
+          "precincts_reporting": 20,
+          "precincts_total": 20,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22077",
+          "name": "Pointe Coupee",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 4432,
+            "davis-j": 3915
+          },
+          "total_votes": 8347,
+          "precincts_reporting": 24,
+          "precincts_total": 24,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22075",
+          "name": "Plaquemines",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 4616,
+            "davis-j": 3185
+          },
+          "total_votes": 7801,
+          "precincts_reporting": 17,
+          "precincts_total": 17,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22085",
+          "name": "Sabine",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 6006,
+            "davis-j": 1770
+          },
+          "total_votes": 7776,
+          "precincts_reporting": 27,
+          "precincts_total": 27,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22111",
+          "name": "Union",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 5397,
+            "davis-j": 2047
+          },
+          "total_votes": 7444,
+          "precincts_reporting": 29,
+          "precincts_total": 29,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22037",
+          "name": "East Feliciana",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 3998,
+            "davis-j": 3387
+          },
+          "total_votes": 7385,
+          "precincts_reporting": 23,
+          "precincts_total": 23,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22007",
+          "name": "Assumption",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 3944,
+            "davis-j": 3131
+          },
+          "total_votes": 7075,
+          "precincts_reporting": 28,
+          "precincts_total": 28,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22067",
+          "name": "Morehouse",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 3540,
+            "davis-j": 3442
+          },
+          "total_votes": 6982,
+          "precincts_reporting": 30,
+          "precincts_total": 30,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22003",
+          "name": "Allen",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 4511,
+            "davis-j": 2026
+          },
+          "total_votes": 6537,
+          "precincts_reporting": 18,
+          "precincts_total": 18,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22043",
+          "name": "Grant",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 5175,
+            "davis-j": 1243
+          },
+          "total_votes": 6418,
+          "precincts_reporting": 31,
+          "precincts_total": 31,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22083",
+          "name": "Richland",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 3628,
+            "davis-j": 2509
+          },
+          "total_votes": 6137,
+          "precincts_reporting": 23,
+          "precincts_total": 23,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22041",
+          "name": "Franklin",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 3660,
+            "davis-j": 2111
+          },
+          "total_votes": 5771,
+          "precincts_reporting": 23,
+          "precincts_total": 23,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22029",
+          "name": "Concordia",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 3035,
+            "davis-j": 2720
+          },
+          "total_votes": 5755,
+          "precincts_reporting": 17,
+          "precincts_total": 17,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22049",
+          "name": "Jackson",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 3600,
+            "davis-j": 1988
+          },
+          "total_votes": 5588,
+          "precincts_reporting": 31,
+          "precincts_total": 31,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22013",
+          "name": "Bienville",
+          "unit_count": 1,
+          "votes": {
+            "davis-j": 2568,
+            "letlow-j": 2422
+          },
+          "total_votes": 4990,
+          "precincts_reporting": 33,
+          "precincts_total": 33,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22027",
+          "name": "Claiborne",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 2603,
+            "davis-j": 2109
+          },
+          "total_votes": 4712,
+          "precincts_reporting": 25,
+          "precincts_total": 25,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22125",
+          "name": "West Feliciana",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 2831,
+            "davis-j": 1878
+          },
+          "total_votes": 4709,
+          "precincts_reporting": 27,
+          "precincts_total": 27,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22091",
+          "name": "St. Helena",
+          "unit_count": 1,
+          "votes": {
+            "davis-j": 2665,
+            "letlow-j": 1899
+          },
+          "total_votes": 4564,
+          "precincts_reporting": 11,
+          "precincts_total": 11,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22059",
+          "name": "LaSalle",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 3693,
+            "davis-j": 702
+          },
+          "total_votes": 4395,
+          "precincts_reporting": 21,
+          "precincts_total": 21,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22127",
+          "name": "Winn",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 2891,
+            "davis-j": 1276
+          },
+          "total_votes": 4167,
+          "precincts_reporting": 26,
+          "precincts_total": 26,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22025",
+          "name": "Catahoula",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 1945,
+            "davis-j": 1220
+          },
+          "total_votes": 3165,
+          "precincts_reporting": 28,
+          "precincts_total": 28,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22021",
+          "name": "Caldwell",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 2459,
+            "davis-j": 680
+          },
+          "total_votes": 3139,
+          "precincts_reporting": 19,
+          "precincts_total": 19,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22065",
+          "name": "Madison",
+          "unit_count": 1,
+          "votes": {
+            "davis-j": 1822,
+            "letlow-j": 1228
+          },
+          "total_votes": 3050,
+          "precincts_reporting": 26,
+          "precincts_total": 26,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22123",
+          "name": "West Carroll",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 2242,
+            "davis-j": 576
+          },
+          "total_votes": 2818,
+          "precincts_reporting": 23,
+          "precincts_total": 23,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22081",
+          "name": "Red River",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 1326,
+            "davis-j": 1240
+          },
+          "total_votes": 2566,
+          "precincts_reporting": 18,
+          "precincts_total": 18,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22035",
+          "name": "East Carroll",
+          "unit_count": 1,
+          "votes": {
+            "davis-j": 1333,
+            "letlow-j": 751
+          },
+          "total_votes": 2084,
+          "precincts_reporting": 17,
+          "precincts_total": 17,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22023",
+          "name": "Cameron",
+          "unit_count": 1,
+          "votes": {
+            "letlow-j": 1683,
+            "davis-j": 274
+          },
+          "total_votes": 1957,
+          "precincts_reporting": 11,
+          "precincts_total": 11,
+          "eevp": 100.0
+        },
+        {
+          "fips": "22107",
+          "name": "Tensas",
+          "unit_count": 1,
+          "votes": {
+            "davis-j": 1105,
+            "letlow-j": 702
+          },
+          "total_votes": 1807,
+          "precincts_reporting": 10,
+          "precincts_total": 10,
+          "eevp": 100.0
+        }
+      ],
+      "outcome": {
+        "won": [],
+        "advanced_to_runoff": [],
+        "called_by": [],
+        "runoff_accepted_at": [],
+        "winner_accepted_at": [],
+        "gained": null,
+        "electoral_votes": null
+      },
+      "audit": {
+        "unit_strategy": "county_units",
+        "source_updated_at": "2026-11-04T04:37:05.115Z",
+        "source_unit_count": 64,
+        "county_count": 64,
+        "nonzero_counties": 64,
+        "source_coverage_pct": 100.0,
+        "county_precincts_reporting_sum": 3702,
+        "county_precincts_total_sum": 3722,
+        "county_candidate_vote_sums": {
+          "davis-j": 620513,
+          "letlow-j": 707856
+        },
+        "state_candidate_votes": {
+          "letlow-j": 707856,
+          "davis-j": 620513
+        },
+        "candidate_vote_sums_match_state": true,
+        "county_total_votes_sum": 1328369,
+        "state_total_votes": 1328369,
+        "county_total_votes_match_state": true,
+        "called_by": [],
+        "ap_call_recorded": false
+      }
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-louisiana.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 64,
+  "reporting_count": 64,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:37:52.713Z",
+    "county_provider_updated_at": "not present",
+    "S_race_updated_at": "2026-11-04T04:37:05.115Z"
+  },
+  "office_audit": [
+    {
+      "office_id": "S",
+      "office": "U.S. Senate",
+      "county_count": 64,
+      "nonzero_counties": 64,
+      "source_coverage_pct": 100.0,
+      "unit_strategy": "county_units",
+      "candidate_vote_sums_match_state": true,
+      "county_total_votes_match_state": true,
+      "called_by": []
+    }
+  ],
+  "limitations": [
+    "Candidate county vote totals use only reporting_units candidates[].votes.total. NYT model estimates, expected vote, and calls were not substituted for vote counts.",
+    "When source units are township or municipality records, each unit is included once and summed into a county using fips_state + fips_county.",
+    "No blanket license is asserted; factual counts are attributed to The New York Times. AP is credited only when the race outcome records called_by including ap."
+  ],
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-louisiana.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate"
+    ],
+    "county_count": 64,
+    "reporting_count": 64,
+    "row_count": 64,
+    "source_time": "2026-11-04T04:46:41.842+00:00",
+    "fetched_at": "2026-11-04T04:47:03.004Z",
+    "message": "64 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

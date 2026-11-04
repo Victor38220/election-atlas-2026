@@ -1,0 +1,1065 @@
+{
+  "state": "MS",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "Senate",
+      "manifest_race_id": "2026-senate-ms",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "aggregation_method": "county reporting units",
+      "candidates": [
+        {
+          "nyt_id": "hydesmith-c",
+          "name": "Cindy Hyde-Smith",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "colom-s",
+          "name": "Scott Colom",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "pinkins-t",
+          "name": "Ty Pinkins",
+          "party": "Independent"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "28001",
+          "name": "Adams",
+          "votes": {
+            "hydesmith-c": 3434,
+            "colom-s": 6164,
+            "pinkins-t": 132
+          },
+          "total_votes": 9730,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28003",
+          "name": "Alcorn",
+          "votes": {
+            "hydesmith-c": 8356,
+            "colom-s": 2494,
+            "pinkins-t": 190
+          },
+          "total_votes": 11040,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28005",
+          "name": "Amite",
+          "votes": {
+            "hydesmith-c": 0,
+            "colom-s": 0,
+            "pinkins-t": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28007",
+          "name": "Attala",
+          "votes": {
+            "hydesmith-c": 2983,
+            "colom-s": 2829,
+            "pinkins-t": 92
+          },
+          "total_votes": 5904,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28009",
+          "name": "Benton",
+          "votes": {
+            "hydesmith-c": 1479,
+            "colom-s": 1246,
+            "pinkins-t": 61
+          },
+          "total_votes": 2786,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28011",
+          "name": "Bolivar",
+          "votes": {
+            "hydesmith-c": 2855,
+            "colom-s": 6933,
+            "pinkins-t": 107
+          },
+          "total_votes": 9895,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28013",
+          "name": "Calhoun",
+          "votes": {
+            "hydesmith-c": 2873,
+            "colom-s": 1631,
+            "pinkins-t": 83
+          },
+          "total_votes": 4587,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28015",
+          "name": "Carroll",
+          "votes": {
+            "hydesmith-c": 2511,
+            "colom-s": 1500,
+            "pinkins-t": 52
+          },
+          "total_votes": 4063,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28017",
+          "name": "Chickasaw",
+          "votes": {
+            "hydesmith-c": 2871,
+            "colom-s": 3381,
+            "pinkins-t": 86
+          },
+          "total_votes": 6338,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28019",
+          "name": "Choctaw",
+          "votes": {
+            "hydesmith-c": 1941,
+            "colom-s": 1012,
+            "pinkins-t": 57
+          },
+          "total_votes": 3010,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28021",
+          "name": "Claiborne",
+          "votes": {
+            "hydesmith-c": 0,
+            "colom-s": 0,
+            "pinkins-t": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28023",
+          "name": "Clarke",
+          "votes": {
+            "hydesmith-c": 3117,
+            "colom-s": 2384,
+            "pinkins-t": 129
+          },
+          "total_votes": 5630,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28025",
+          "name": "Clay",
+          "votes": {
+            "hydesmith-c": 1974,
+            "colom-s": 4189,
+            "pinkins-t": 91
+          },
+          "total_votes": 6254,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28027",
+          "name": "Coahoma",
+          "votes": {
+            "hydesmith-c": 1280,
+            "colom-s": 4736,
+            "pinkins-t": 50
+          },
+          "total_votes": 6066,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28029",
+          "name": "Copiah",
+          "votes": {
+            "hydesmith-c": 4183,
+            "colom-s": 5512,
+            "pinkins-t": 174
+          },
+          "total_votes": 9869,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28031",
+          "name": "Covington",
+          "votes": {
+            "hydesmith-c": 3234,
+            "colom-s": 2344,
+            "pinkins-t": 182
+          },
+          "total_votes": 5760,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28033",
+          "name": "DeSoto",
+          "votes": {
+            "hydesmith-c": 18809,
+            "colom-s": 20287,
+            "pinkins-t": 1032
+          },
+          "total_votes": 40128,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28035",
+          "name": "Forrest",
+          "votes": {
+            "hydesmith-c": 9749,
+            "colom-s": 12064,
+            "pinkins-t": 620
+          },
+          "total_votes": 22433,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28037",
+          "name": "Franklin",
+          "votes": {
+            "hydesmith-c": 1974,
+            "colom-s": 1205,
+            "pinkins-t": 48
+          },
+          "total_votes": 3227,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28039",
+          "name": "George",
+          "votes": {
+            "hydesmith-c": 5406,
+            "colom-s": 1107,
+            "pinkins-t": 246
+          },
+          "total_votes": 6759,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28041",
+          "name": "Greene",
+          "votes": {
+            "hydesmith-c": 2575,
+            "colom-s": 775,
+            "pinkins-t": 126
+          },
+          "total_votes": 3476,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28043",
+          "name": "Grenada",
+          "votes": {
+            "hydesmith-c": 3605,
+            "colom-s": 3841,
+            "pinkins-t": 107
+          },
+          "total_votes": 7553,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28045",
+          "name": "Hancock",
+          "votes": {
+            "hydesmith-c": 11441,
+            "colom-s": 4538,
+            "pinkins-t": 753
+          },
+          "total_votes": 16732,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28047",
+          "name": "Harrison",
+          "votes": {
+            "hydesmith-c": 29638,
+            "colom-s": 27470,
+            "pinkins-t": 1742
+          },
+          "total_votes": 58850,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28049",
+          "name": "Hinds",
+          "votes": {
+            "hydesmith-c": 14176,
+            "colom-s": 58724,
+            "pinkins-t": 919
+          },
+          "total_votes": 73819,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28051",
+          "name": "Holmes",
+          "votes": {
+            "hydesmith-c": 0,
+            "colom-s": 0,
+            "pinkins-t": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28053",
+          "name": "Humphreys",
+          "votes": {
+            "hydesmith-c": 697,
+            "colom-s": 2640,
+            "pinkins-t": 45
+          },
+          "total_votes": 3382,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28055",
+          "name": "Issaquena",
+          "votes": {
+            "hydesmith-c": 192,
+            "colom-s": 188,
+            "pinkins-t": 20
+          },
+          "total_votes": 400,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28057",
+          "name": "Itawamba",
+          "votes": {
+            "hydesmith-c": 5904,
+            "colom-s": 1109,
+            "pinkins-t": 209
+          },
+          "total_votes": 7222,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28059",
+          "name": "Jackson",
+          "votes": {
+            "hydesmith-c": 15874,
+            "colom-s": 11503,
+            "pinkins-t": 780
+          },
+          "total_votes": 28157,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28061",
+          "name": "Jasper",
+          "votes": {
+            "hydesmith-c": 2604,
+            "colom-s": 3452,
+            "pinkins-t": 107
+          },
+          "total_votes": 6163,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28063",
+          "name": "Jefferson",
+          "votes": {
+            "hydesmith-c": 0,
+            "colom-s": 0,
+            "pinkins-t": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28065",
+          "name": "Jefferson Davis",
+          "votes": {
+            "hydesmith-c": 1534,
+            "colom-s": 2943,
+            "pinkins-t": 81
+          },
+          "total_votes": 4558,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28067",
+          "name": "Jones",
+          "votes": {
+            "hydesmith-c": 12213,
+            "colom-s": 7424,
+            "pinkins-t": 671
+          },
+          "total_votes": 20308,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28069",
+          "name": "Kemper",
+          "votes": {
+            "hydesmith-c": 1117,
+            "colom-s": 2259,
+            "pinkins-t": 37
+          },
+          "total_votes": 3413,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28071",
+          "name": "Lafayette",
+          "votes": {
+            "hydesmith-c": 8265,
+            "colom-s": 8383,
+            "pinkins-t": 368
+          },
+          "total_votes": 17016,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28073",
+          "name": "Lamar",
+          "votes": {
+            "hydesmith-c": 12914,
+            "colom-s": 7481,
+            "pinkins-t": 625
+          },
+          "total_votes": 21020,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28075",
+          "name": "Lauderdale",
+          "votes": {
+            "hydesmith-c": 10185,
+            "colom-s": 9310,
+            "pinkins-t": 413
+          },
+          "total_votes": 19908,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28077",
+          "name": "Lawrence",
+          "votes": {
+            "hydesmith-c": 2720,
+            "colom-s": 1826,
+            "pinkins-t": 73
+          },
+          "total_votes": 4619,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28079",
+          "name": "Leake",
+          "votes": {
+            "hydesmith-c": 3310,
+            "colom-s": 3030,
+            "pinkins-t": 92
+          },
+          "total_votes": 6432,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28081",
+          "name": "Lee",
+          "votes": {
+            "hydesmith-c": 14447,
+            "colom-s": 10052,
+            "pinkins-t": 494
+          },
+          "total_votes": 24993,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28083",
+          "name": "Leflore",
+          "votes": {
+            "hydesmith-c": 0,
+            "colom-s": 0,
+            "pinkins-t": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28085",
+          "name": "Lincoln",
+          "votes": {
+            "hydesmith-c": 7985,
+            "colom-s": 4264,
+            "pinkins-t": 142
+          },
+          "total_votes": 12391,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28087",
+          "name": "Lowndes",
+          "votes": {
+            "hydesmith-c": 0,
+            "colom-s": 0,
+            "pinkins-t": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28089",
+          "name": "Madison",
+          "votes": {
+            "hydesmith-c": 22256,
+            "colom-s": 22540,
+            "pinkins-t": 685
+          },
+          "total_votes": 45481,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28091",
+          "name": "Marion",
+          "votes": {
+            "hydesmith-c": 4998,
+            "colom-s": 3191,
+            "pinkins-t": 236
+          },
+          "total_votes": 8425,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28093",
+          "name": "Marshall",
+          "votes": {
+            "hydesmith-c": 4738,
+            "colom-s": 6577,
+            "pinkins-t": 219
+          },
+          "total_votes": 11534,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28095",
+          "name": "Monroe",
+          "votes": {
+            "hydesmith-c": 6624,
+            "colom-s": 4653,
+            "pinkins-t": 161
+          },
+          "total_votes": 11438,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28097",
+          "name": "Montgomery",
+          "votes": {
+            "hydesmith-c": 1702,
+            "colom-s": 1414,
+            "pinkins-t": 41
+          },
+          "total_votes": 3157,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28099",
+          "name": "Neshoba",
+          "votes": {
+            "hydesmith-c": 5099,
+            "colom-s": 2825,
+            "pinkins-t": 137
+          },
+          "total_votes": 8061,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28101",
+          "name": "Newton",
+          "votes": {
+            "hydesmith-c": 4203,
+            "colom-s": 2526,
+            "pinkins-t": 131
+          },
+          "total_votes": 6860,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28103",
+          "name": "Noxubee",
+          "votes": {
+            "hydesmith-c": 787,
+            "colom-s": 3473,
+            "pinkins-t": 27
+          },
+          "total_votes": 4287,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28105",
+          "name": "Oktibbeha",
+          "votes": {
+            "hydesmith-c": 5907,
+            "colom-s": 9123,
+            "pinkins-t": 174
+          },
+          "total_votes": 15204,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28107",
+          "name": "Panola",
+          "votes": {
+            "hydesmith-c": 4865,
+            "colom-s": 6267,
+            "pinkins-t": 232
+          },
+          "total_votes": 11364,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28109",
+          "name": "Pearl River",
+          "votes": {
+            "hydesmith-c": 10609,
+            "colom-s": 3688,
+            "pinkins-t": 621
+          },
+          "total_votes": 14918,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28111",
+          "name": "Perry",
+          "votes": {
+            "hydesmith-c": 2514,
+            "colom-s": 1084,
+            "pinkins-t": 153
+          },
+          "total_votes": 3751,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28113",
+          "name": "Pike",
+          "votes": {
+            "hydesmith-c": 5123,
+            "colom-s": 7291,
+            "pinkins-t": 196
+          },
+          "total_votes": 12610,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28115",
+          "name": "Pontotoc",
+          "votes": {
+            "hydesmith-c": 0,
+            "colom-s": 0,
+            "pinkins-t": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28117",
+          "name": "Prentiss",
+          "votes": {
+            "hydesmith-c": 5282,
+            "colom-s": 1815,
+            "pinkins-t": 171
+          },
+          "total_votes": 7268,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28119",
+          "name": "Quitman",
+          "votes": {
+            "hydesmith-c": 523,
+            "colom-s": 1654,
+            "pinkins-t": 28
+          },
+          "total_votes": 2205,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28121",
+          "name": "Rankin",
+          "votes": {
+            "hydesmith-c": 28716,
+            "colom-s": 17351,
+            "pinkins-t": 1057
+          },
+          "total_votes": 47124,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28123",
+          "name": "Scott",
+          "votes": {
+            "hydesmith-c": 3917,
+            "colom-s": 3745,
+            "pinkins-t": 128
+          },
+          "total_votes": 7790,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28125",
+          "name": "Sharkey",
+          "votes": {
+            "hydesmith-c": 416,
+            "colom-s": 1004,
+            "pinkins-t": 177
+          },
+          "total_votes": 1597,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28127",
+          "name": "Simpson",
+          "votes": {
+            "hydesmith-c": 4905,
+            "colom-s": 3307,
+            "pinkins-t": 165
+          },
+          "total_votes": 8377,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28129",
+          "name": "Smith",
+          "votes": {
+            "hydesmith-c": 0,
+            "colom-s": 0,
+            "pinkins-t": 0
+          },
+          "total_votes": 0,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28131",
+          "name": "Stone",
+          "votes": {
+            "hydesmith-c": 3451,
+            "colom-s": 1360,
+            "pinkins-t": 169
+          },
+          "total_votes": 4980,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28133",
+          "name": "Sunflower",
+          "votes": {
+            "hydesmith-c": 1655,
+            "colom-s": 5296,
+            "pinkins-t": 79
+          },
+          "total_votes": 7030,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28135",
+          "name": "Tallahatchie",
+          "votes": {
+            "hydesmith-c": 1503,
+            "colom-s": 2756,
+            "pinkins-t": 64
+          },
+          "total_votes": 4323,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28137",
+          "name": "Tate",
+          "votes": {
+            "hydesmith-c": 5393,
+            "colom-s": 3605,
+            "pinkins-t": 217
+          },
+          "total_votes": 9215,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28139",
+          "name": "Tippah",
+          "votes": {
+            "hydesmith-c": 5378,
+            "colom-s": 1823,
+            "pinkins-t": 171
+          },
+          "total_votes": 7372,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28141",
+          "name": "Tishomingo",
+          "votes": {
+            "hydesmith-c": 5078,
+            "colom-s": 1033,
+            "pinkins-t": 189
+          },
+          "total_votes": 6300,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28143",
+          "name": "Tunica",
+          "votes": {
+            "hydesmith-c": 543,
+            "colom-s": 1750,
+            "pinkins-t": 40
+          },
+          "total_votes": 2333,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28145",
+          "name": "Union",
+          "votes": {
+            "hydesmith-c": 6718,
+            "colom-s": 2023,
+            "pinkins-t": 198
+          },
+          "total_votes": 8939,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28147",
+          "name": "Walthall",
+          "votes": {
+            "hydesmith-c": 2786,
+            "colom-s": 2348,
+            "pinkins-t": 87
+          },
+          "total_votes": 5221,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28149",
+          "name": "Warren",
+          "votes": {
+            "hydesmith-c": 6061,
+            "colom-s": 7639,
+            "pinkins-t": 371
+          },
+          "total_votes": 14071,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28151",
+          "name": "Washington",
+          "votes": {
+            "hydesmith-c": 2369,
+            "colom-s": 8660,
+            "pinkins-t": 162
+          },
+          "total_votes": 11191,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28153",
+          "name": "Wayne",
+          "votes": {
+            "hydesmith-c": 3754,
+            "colom-s": 3075,
+            "pinkins-t": 179
+          },
+          "total_votes": 7008,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28155",
+          "name": "Webster",
+          "votes": {
+            "hydesmith-c": 2816,
+            "colom-s": 931,
+            "pinkins-t": 79
+          },
+          "total_votes": 3826,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28157",
+          "name": "Wilkinson",
+          "votes": {
+            "hydesmith-c": 779,
+            "colom-s": 1830,
+            "pinkins-t": 22
+          },
+          "total_votes": 2631,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28159",
+          "name": "Winston",
+          "votes": {
+            "hydesmith-c": 3421,
+            "colom-s": 3718,
+            "pinkins-t": 79
+          },
+          "total_votes": 7218,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28161",
+          "name": "Yalobusha",
+          "votes": {
+            "hydesmith-c": 2296,
+            "colom-s": 2386,
+            "pinkins-t": 128
+          },
+          "total_votes": 4810,
+          "units_aggregated": 1,
+          "unit_count": 1
+        },
+        {
+          "fips": "28163",
+          "name": "Yazoo",
+          "votes": {
+            "hydesmith-c": 2998,
+            "colom-s": 4457,
+            "pinkins-t": 94
+          },
+          "total_votes": 7549,
+          "units_aggregated": 1,
+          "unit_count": 1
+        }
+      ],
+      "outcome": {
+        "won": [],
+        "called_by": []
+      },
+      "reporting_count": 74,
+      "missing_fips": [],
+      "state_total_votes": 849359,
+      "county_total_votes": 849359,
+      "county_sum_reconciles": true
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-mississippi.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 82,
+  "reporting_count": 74,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:36:18.254Z",
+    "S_race_updated_at": "2026-11-04T04:36:18.254Z"
+  },
+  "limitations": [
+    "Only candidates[].votes.total was used; NYT models, estimates, expected votes, and EEVP were ignored.",
+    "Exact county FIPS are matched against the local GeoJSON. Township aggregation is used only when no county-level reporting units exist, grouping by source fips_state+fips_county."
+  ],
+  "call_authority": {
+    "called_by_ap_offices": [],
+    "authority": "AP is identified only for offices whose outcome.called_by explicitly contains ap."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-mississippi.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate"
+    ],
+    "county_count": 82,
+    "reporting_count": 76,
+    "row_count": 82,
+    "source_time": "2026-11-04T04:45:12.476+00:00",
+    "fetched_at": "2026-11-04T04:47:03.044Z",
+    "message": "82 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

@@ -1,9 +1,12 @@
+import raceManifest from '../config/races.json';
 interface Env{ASSETS:Fetcher}
 const HOSTS:Record<string,string>={polling:'https://www.pollingforecast.com/api/us',kalshi:'https://external-api.kalshi.com/trade-api/v2',polymarket:'https://gamma-api.polymarket.com',votehub:'https://api.votehub.com',clob:'https://clob.polymarket.com'};
 const PATHS:Record<string,RegExp>={polling:/^\/(senate|governors|polls|pollsters|race\/[A-Z0-9-]+)$/,kalshi:/^\/(markets(?:\/[A-Z0-9-]+)?|events\/[A-Z0-9-]+|series(?:\/[A-Z0-9-]+)?)$/,polymarket:/^\/(markets(?:\/\d+)?|events(?:\/\d+)?|public-search|tags)$/,votehub:/^\/(polls|poll-types|pollsters|subjects)$/,clob:/^\/(midpoint|price)$/};
 function targetFor(incoming:URL):{target:URL;provider:string}|null{
  const [,,provider,...rest]=incoming.pathname.split('/');const path='/'+rest.join('/');
  if(incoming.search.length>12000)return null;
+ if(provider==='national'&&/^\/(Senate|Governor)$/.test(path))return {target:new URL('https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-'+(path==='/Senate'?'senate':'governor')+'.json'),provider:'countyTX'};
+ if(provider==='counties'&&/^\/national\/[A-Z]{2}$/.test(path)){const state=path.split('/')[2];const race=raceManifest.find(r=>r.state===state);if(!race)return null;return {target:new URL('https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-'+race.state_name.toLowerCase().replace(/\s+/g,'-')+'.json'),provider:'countyTX'}}
  if(provider==='counties'&&/^\/TX\/(Senate|Governor)$/.test(path)){const race=path.endsWith('/Senate')?'us-senate':'governor';return {target:new URL('https://texianpartisan.com/api/results/election/tx-2026-general/counties?race='+race),provider:'countyTX'}}
  if(provider==='counties'&&path==='/VA')return {target:new URL('https://enr.elections.virginia.gov/results/public/api/elections/virginia/2026-November-General/data/ballot-item/01000000-f030-c43d-d69c-08df1fee529a?lang=en'),provider};
  if(provider==='counties'&&path==='/AZ')return {target:new URL('https://app.enhancedvoting.com/results/public/api/elections/Arizona/110326GeneralElection/data/ballot-item/248c0000-c0a3-7204-3acd-08df11bc03cf?lang=en'),provider:'countyAZ'};

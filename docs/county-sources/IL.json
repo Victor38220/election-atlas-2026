@@ -1,0 +1,3069 @@
+{
+  "state": "IL",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "U.S. Senate",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "candidates": [
+        {
+          "nyt_id": "stratton-j",
+          "name": "Juliana Stratton",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "tracy-d",
+          "name": "Don Tracy",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "harrington-w",
+          "name": "Whitfield Harrington Jr.",
+          "party": "Other"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "17031",
+          "name": "Cook",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 1014042,
+            "tracy-d": 262140,
+            "harrington-w": 19001
+          },
+          "total_votes": 1295183,
+          "precincts_reporting": 2548,
+          "precincts_total": 2721,
+          "eevp": 93.64
+        },
+        {
+          "fips": "17043",
+          "name": "DuPage",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 187572,
+            "tracy-d": 100575,
+            "harrington-w": 5328
+          },
+          "total_votes": 293475,
+          "precincts_reporting": 471,
+          "precincts_total": 601,
+          "eevp": 78.37
+        },
+        {
+          "fips": "17197",
+          "name": "Will",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 134797,
+            "tracy-d": 90564,
+            "harrington-w": 3828
+          },
+          "total_votes": 229189,
+          "precincts_reporting": 310,
+          "precincts_total": 310,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17097",
+          "name": "Lake",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 74875,
+            "tracy-d": 40468,
+            "harrington-w": 1931
+          },
+          "total_votes": 117274,
+          "precincts_reporting": 200,
+          "precincts_total": 431,
+          "eevp": 46.4
+        },
+        {
+          "fips": "17111",
+          "name": "McHenry",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 56606,
+            "tracy-d": 42538,
+            "harrington-w": 1578
+          },
+          "total_votes": 100722,
+          "precincts_reporting": 164,
+          "precincts_total": 223,
+          "eevp": 73.54
+        },
+        {
+          "fips": "17119",
+          "name": "Madison",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 48644,
+            "stratton-j": 47954,
+            "harrington-w": 2011
+          },
+          "total_votes": 98609,
+          "precincts_reporting": 191,
+          "precincts_total": 191,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17089",
+          "name": "Kane",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 64155,
+            "tracy-d": 29785,
+            "harrington-w": 1067
+          },
+          "total_votes": 95007,
+          "precincts_reporting": 0,
+          "precincts_total": 292,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17163",
+          "name": "St. Clair",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 45660,
+            "tracy-d": 34348,
+            "harrington-w": 1603
+          },
+          "total_votes": 81611,
+          "precincts_reporting": 148,
+          "precincts_total": 162,
+          "eevp": 91.36
+        },
+        {
+          "fips": "17167",
+          "name": "Sangamon",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 38266,
+            "tracy-d": 37212,
+            "harrington-w": 1230
+          },
+          "total_votes": 76708,
+          "precincts_reporting": 160,
+          "precincts_total": 166,
+          "eevp": 96.39
+        },
+        {
+          "fips": "17113",
+          "name": "McLean",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 37942,
+            "tracy-d": 27779,
+            "harrington-w": 1061
+          },
+          "total_votes": 66782,
+          "precincts_reporting": 141,
+          "precincts_total": 141,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17143",
+          "name": "Peoria",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 33468,
+            "tracy-d": 24711,
+            "harrington-w": 757
+          },
+          "total_votes": 58936,
+          "precincts_reporting": 105,
+          "precincts_total": 116,
+          "eevp": 90.52
+        },
+        {
+          "fips": "17179",
+          "name": "Tazewell",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 29722,
+            "stratton-j": 20011,
+            "harrington-w": 872
+          },
+          "total_votes": 50605,
+          "precincts_reporting": 82,
+          "precincts_total": 82,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17201",
+          "name": "Winnebago",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 30741,
+            "tracy-d": 16949,
+            "harrington-w": 694
+          },
+          "total_votes": 48384,
+          "precincts_reporting": 89,
+          "precincts_total": 183,
+          "eevp": 48.63
+        },
+        {
+          "fips": "17161",
+          "name": "Rock Island",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 29593,
+            "tracy-d": 17415,
+            "harrington-w": 811
+          },
+          "total_votes": 47819,
+          "precincts_reporting": 108,
+          "precincts_total": 120,
+          "eevp": 90.0
+        },
+        {
+          "fips": "17019",
+          "name": "Champaign",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 30857,
+            "tracy-d": 15613,
+            "harrington-w": 748
+          },
+          "total_votes": 47218,
+          "precincts_reporting": 106,
+          "precincts_total": 118,
+          "eevp": 89.83
+        },
+        {
+          "fips": "17093",
+          "name": "Kendall",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 21234,
+            "tracy-d": 14070,
+            "harrington-w": 563
+          },
+          "total_votes": 35867,
+          "precincts_reporting": 46,
+          "precincts_total": 78,
+          "eevp": 58.97
+        },
+        {
+          "fips": "17037",
+          "name": "DeKalb",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 19249,
+            "tracy-d": 14515,
+            "harrington-w": 674
+          },
+          "total_votes": 34438,
+          "precincts_reporting": 69,
+          "precincts_total": 69,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17091",
+          "name": "Kankakee",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 18030,
+            "stratton-j": 15760,
+            "harrington-w": 518
+          },
+          "total_votes": 34308,
+          "precincts_reporting": 60,
+          "precincts_total": 60,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17115",
+          "name": "Macon",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 18322,
+            "stratton-j": 14672,
+            "harrington-w": 495
+          },
+          "total_votes": 33489,
+          "precincts_reporting": 64,
+          "precincts_total": 64,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17199",
+          "name": "Williamson",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 15493,
+            "stratton-j": 8230,
+            "harrington-w": 349
+          },
+          "total_votes": 24072,
+          "precincts_reporting": 56,
+          "precincts_total": 56,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17099",
+          "name": "LaSalle",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 14334,
+            "stratton-j": 9126,
+            "harrington-w": 385
+          },
+          "total_votes": 23845,
+          "precincts_reporting": 102,
+          "precincts_total": 119,
+          "eevp": 85.71
+        },
+        {
+          "fips": "17141",
+          "name": "Ogle",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 11699,
+            "stratton-j": 7471,
+            "harrington-w": 282
+          },
+          "total_votes": 19452,
+          "precincts_reporting": 51,
+          "precincts_total": 51,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17073",
+          "name": "Henry",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 11199,
+            "stratton-j": 7768,
+            "harrington-w": 331
+          },
+          "total_votes": 19298,
+          "precincts_reporting": 52,
+          "precincts_total": 52,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17195",
+          "name": "Whiteside",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 10044,
+            "stratton-j": 8888,
+            "harrington-w": 298
+          },
+          "total_votes": 19230,
+          "precincts_reporting": 60,
+          "precincts_total": 60,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17077",
+          "name": "Jackson",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 9988,
+            "tracy-d": 7537,
+            "harrington-w": 309
+          },
+          "total_votes": 17834,
+          "precincts_reporting": 56,
+          "precincts_total": 56,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17007",
+          "name": "Boone",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 8983,
+            "stratton-j": 8447,
+            "harrington-w": 232
+          },
+          "total_votes": 17662,
+          "precincts_reporting": 37,
+          "precincts_total": 37,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17117",
+          "name": "Macoupin",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 11239,
+            "stratton-j": 5803,
+            "harrington-w": 291
+          },
+          "total_votes": 17333,
+          "precincts_reporting": 45,
+          "precincts_total": 45,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17029",
+          "name": "Coles",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 10093,
+            "stratton-j": 6360,
+            "harrington-w": 232
+          },
+          "total_votes": 16685,
+          "precincts_reporting": 44,
+          "precincts_total": 44,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17203",
+          "name": "Woodford",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 11210,
+            "stratton-j": 4738,
+            "harrington-w": 228
+          },
+          "total_votes": 16176,
+          "precincts_reporting": 32,
+          "precincts_total": 37,
+          "eevp": 86.49
+        },
+        {
+          "fips": "17177",
+          "name": "Stephenson",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 8929,
+            "stratton-j": 6598,
+            "harrington-w": 223
+          },
+          "total_votes": 15750,
+          "precincts_reporting": 36,
+          "precincts_total": 36,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17133",
+          "name": "Monroe",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 9794,
+            "stratton-j": 5370,
+            "harrington-w": 229
+          },
+          "total_votes": 15393,
+          "precincts_reporting": 26,
+          "precincts_total": 26,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17183",
+          "name": "Vermilion",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 10823,
+            "stratton-j": 4222,
+            "harrington-w": 200
+          },
+          "total_votes": 15245,
+          "precincts_reporting": 38,
+          "precincts_total": 60,
+          "eevp": 63.33
+        },
+        {
+          "fips": "17027",
+          "name": "Clinton",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 10522,
+            "stratton-j": 3585,
+            "harrington-w": 258
+          },
+          "total_votes": 14365,
+          "precincts_reporting": 34,
+          "precincts_total": 34,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17055",
+          "name": "Franklin",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 9094,
+            "stratton-j": 3521,
+            "harrington-w": 199
+          },
+          "total_votes": 12814,
+          "precincts_reporting": 35,
+          "precincts_total": 35,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17081",
+          "name": "Jefferson",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 8840,
+            "stratton-j": 3482,
+            "harrington-w": 163
+          },
+          "total_votes": 12485,
+          "precincts_reporting": 33,
+          "precincts_total": 33,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17105",
+          "name": "Livingston",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 8723,
+            "stratton-j": 3457,
+            "harrington-w": 157
+          },
+          "total_votes": 12337,
+          "precincts_reporting": 46,
+          "precincts_total": 46,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17103",
+          "name": "Lee",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 6925,
+            "stratton-j": 4987,
+            "harrington-w": 167
+          },
+          "total_votes": 12079,
+          "precincts_reporting": 45,
+          "precincts_total": 45,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17121",
+          "name": "Marion",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 8837,
+            "stratton-j": 3007,
+            "harrington-w": 216
+          },
+          "total_votes": 12060,
+          "precincts_reporting": 37,
+          "precincts_total": 37,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17011",
+          "name": "Bureau",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 7057,
+            "stratton-j": 4741,
+            "harrington-w": 208
+          },
+          "total_votes": 12006,
+          "precincts_reporting": 50,
+          "precincts_total": 50,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17057",
+          "name": "Fulton",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 6841,
+            "stratton-j": 4876,
+            "harrington-w": 246
+          },
+          "total_votes": 11963,
+          "precincts_reporting": 44,
+          "precincts_total": 44,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17021",
+          "name": "Christian",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 7961,
+            "stratton-j": 3403,
+            "harrington-w": 174
+          },
+          "total_votes": 11538,
+          "precincts_reporting": 29,
+          "precincts_total": 29,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17137",
+          "name": "Morgan",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 7166,
+            "stratton-j": 3700,
+            "harrington-w": 161
+          },
+          "total_votes": 11027,
+          "precincts_reporting": 27,
+          "precincts_total": 27,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17157",
+          "name": "Randolph",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 7495,
+            "stratton-j": 2896,
+            "harrington-w": 148
+          },
+          "total_votes": 10539,
+          "precincts_reporting": 34,
+          "precincts_total": 34,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17049",
+          "name": "Effingham",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 8009,
+            "stratton-j": 2351,
+            "harrington-w": 153
+          },
+          "total_votes": 10513,
+          "precincts_reporting": 23,
+          "precincts_total": 38,
+          "eevp": 60.53
+        },
+        {
+          "fips": "17085",
+          "name": "Jo Daviess",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 5612,
+            "stratton-j": 4430,
+            "harrington-w": 173
+          },
+          "total_votes": 10215,
+          "precincts_reporting": 28,
+          "precincts_total": 28,
+          "eevp": 100.0,
+          "source_name": "JoDaviess"
+        },
+        {
+          "fips": "17135",
+          "name": "Montgomery",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 6720,
+            "stratton-j": 3149,
+            "harrington-w": 186
+          },
+          "total_votes": 10055,
+          "precincts_reporting": 38,
+          "precincts_total": 38,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17107",
+          "name": "Logan",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 6465,
+            "stratton-j": 2829,
+            "harrington-w": 129
+          },
+          "total_votes": 9423,
+          "precincts_reporting": 29,
+          "precincts_total": 29,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17109",
+          "name": "McDonough",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 5411,
+            "stratton-j": 3755,
+            "harrington-w": 137
+          },
+          "total_votes": 9303,
+          "precincts_reporting": 27,
+          "precincts_total": 27,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17173",
+          "name": "Shelby",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 7058,
+            "stratton-j": 1889,
+            "harrington-w": 146
+          },
+          "total_votes": 9093,
+          "precincts_reporting": 33,
+          "precincts_total": 33,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17083",
+          "name": "Jersey",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 6176,
+            "stratton-j": 2347,
+            "harrington-w": 161
+          },
+          "total_votes": 8684,
+          "precincts_reporting": 22,
+          "precincts_total": 22,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17095",
+          "name": "Knox",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 5085,
+            "stratton-j": 2869,
+            "harrington-w": 136
+          },
+          "total_votes": 8090,
+          "precincts_reporting": 28,
+          "precincts_total": 48,
+          "eevp": 58.33
+        },
+        {
+          "fips": "17165",
+          "name": "Saline",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 5418,
+            "stratton-j": 2032,
+            "harrington-w": 125
+          },
+          "total_votes": 7575,
+          "precincts_reporting": 28,
+          "precincts_total": 28,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17147",
+          "name": "Piatt",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 4456,
+            "stratton-j": 2776,
+            "harrington-w": 133
+          },
+          "total_votes": 7365,
+          "precincts_reporting": 15,
+          "precincts_total": 15,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17033",
+          "name": "Crawford",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 4853,
+            "stratton-j": 1635,
+            "harrington-w": 92
+          },
+          "total_votes": 6580,
+          "precincts_reporting": 24,
+          "precincts_total": 24,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17191",
+          "name": "Wayne",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 5399,
+            "stratton-j": 998,
+            "harrington-w": 91
+          },
+          "total_votes": 6488,
+          "precincts_reporting": 27,
+          "precincts_total": 27,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17145",
+          "name": "Perry",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 4862,
+            "stratton-j": 1449,
+            "harrington-w": 102
+          },
+          "total_votes": 6413,
+          "precincts_reporting": 27,
+          "precincts_total": 27,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17041",
+          "name": "Douglas",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 4378,
+            "stratton-j": 1820,
+            "harrington-w": 111
+          },
+          "total_votes": 6309,
+          "precincts_reporting": 17,
+          "precincts_total": 17,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17023",
+          "name": "Clark",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 4604,
+            "stratton-j": 1612,
+            "harrington-w": 83
+          },
+          "total_votes": 6299,
+          "precincts_reporting": 23,
+          "precincts_total": 23,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17131",
+          "name": "Mercer",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 3734,
+            "stratton-j": 2403,
+            "harrington-w": 99
+          },
+          "total_votes": 6236,
+          "precincts_reporting": 24,
+          "precincts_total": 24,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17005",
+          "name": "Bond",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 4196,
+            "stratton-j": 1854,
+            "harrington-w": 105
+          },
+          "total_votes": 6155,
+          "precincts_reporting": 20,
+          "precincts_total": 20,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17015",
+          "name": "Carroll",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 3898,
+            "stratton-j": 2114,
+            "harrington-w": 88
+          },
+          "total_votes": 6100,
+          "precincts_reporting": 18,
+          "precincts_total": 18,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17039",
+          "name": "De Witt",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 3997,
+            "stratton-j": 1760,
+            "harrington-w": 93
+          },
+          "total_votes": 5850,
+          "precincts_reporting": 23,
+          "precincts_total": 23,
+          "eevp": 100.0,
+          "source_name": "DeWitt"
+        },
+        {
+          "fips": "17187",
+          "name": "Warren",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 3507,
+            "stratton-j": 2176,
+            "harrington-w": 91
+          },
+          "total_votes": 5774,
+          "precincts_reporting": 24,
+          "precincts_total": 28,
+          "eevp": 85.71
+        },
+        {
+          "fips": "17045",
+          "name": "Edgar",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 4181,
+            "stratton-j": 1496,
+            "harrington-w": 81
+          },
+          "total_votes": 5758,
+          "precincts_reporting": 31,
+          "precincts_total": 31,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17149",
+          "name": "Pike",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 4593,
+            "stratton-j": 1053,
+            "harrington-w": 98
+          },
+          "total_votes": 5744,
+          "precincts_reporting": 31,
+          "precincts_total": 31,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17181",
+          "name": "Union",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 3885,
+            "stratton-j": 1603,
+            "harrington-w": 87
+          },
+          "total_votes": 5575,
+          "precincts_reporting": 15,
+          "precincts_total": 15,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17025",
+          "name": "Clay",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 4442,
+            "stratton-j": 896,
+            "harrington-w": 83
+          },
+          "total_votes": 5421,
+          "precincts_reporting": 18,
+          "precincts_total": 18,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17067",
+          "name": "Hancock",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 4187,
+            "stratton-j": 1057,
+            "harrington-w": 93
+          },
+          "total_votes": 5337,
+          "precincts_reporting": 33,
+          "precincts_total": 33,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17129",
+          "name": "Menard",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 3381,
+            "stratton-j": 1584,
+            "harrington-w": 55
+          },
+          "total_votes": 5020,
+          "precincts_reporting": 14,
+          "precincts_total": 14,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17139",
+          "name": "Moultrie",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 3599,
+            "stratton-j": 1315,
+            "harrington-w": 77
+          },
+          "total_votes": 4991,
+          "precincts_reporting": 16,
+          "precincts_total": 16,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17075",
+          "name": "Iroquois",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 3915,
+            "stratton-j": 876,
+            "harrington-w": 72
+          },
+          "total_votes": 4863,
+          "precincts_reporting": 25,
+          "precincts_total": 37,
+          "eevp": 67.57
+        },
+        {
+          "fips": "17125",
+          "name": "Mason",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 3182,
+            "stratton-j": 1577,
+            "harrington-w": 54
+          },
+          "total_votes": 4813,
+          "precincts_reporting": 21,
+          "precincts_total": 21,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17123",
+          "name": "Marshall",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 3029,
+            "stratton-j": 1570,
+            "harrington-w": 90
+          },
+          "total_votes": 4689,
+          "precincts_reporting": 14,
+          "precincts_total": 14,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17087",
+          "name": "Johnson",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 3534,
+            "stratton-j": 1029,
+            "harrington-w": 78
+          },
+          "total_votes": 4641,
+          "precincts_reporting": 16,
+          "precincts_total": 16,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17127",
+          "name": "Massac",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 3211,
+            "stratton-j": 1318,
+            "harrington-w": 61
+          },
+          "total_votes": 4590,
+          "precincts_reporting": 17,
+          "precincts_total": 17,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17061",
+          "name": "Greene",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 3477,
+            "stratton-j": 1003,
+            "harrington-w": 59
+          },
+          "total_votes": 4539,
+          "precincts_reporting": 22,
+          "precincts_total": 22,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17101",
+          "name": "Lawrence",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 3246,
+            "stratton-j": 1116,
+            "harrington-w": 59
+          },
+          "total_votes": 4421,
+          "precincts_reporting": 13,
+          "precincts_total": 17,
+          "eevp": 76.47
+        },
+        {
+          "fips": "17079",
+          "name": "Jasper",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 3571,
+            "stratton-j": 770,
+            "harrington-w": 63
+          },
+          "total_votes": 4404,
+          "precincts_reporting": 15,
+          "precincts_total": 15,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17017",
+          "name": "Cass",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 2699,
+            "stratton-j": 1331,
+            "harrington-w": 57
+          },
+          "total_votes": 4087,
+          "precincts_reporting": 21,
+          "precincts_total": 21,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17185",
+          "name": "Wabash",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 2861,
+            "stratton-j": 983,
+            "harrington-w": 57
+          },
+          "total_votes": 3901,
+          "precincts_reporting": 16,
+          "precincts_total": 16,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17065",
+          "name": "Hamilton",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 2507,
+            "stratton-j": 656,
+            "harrington-w": 54
+          },
+          "total_votes": 3217,
+          "precincts_reporting": 13,
+          "precincts_total": 16,
+          "eevp": 81.25
+        },
+        {
+          "fips": "17071",
+          "name": "Henderson",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 1738,
+            "stratton-j": 885,
+            "harrington-w": 50
+          },
+          "total_votes": 2673,
+          "precincts_reporting": 13,
+          "precincts_total": 13,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17047",
+          "name": "Edwards",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 2150,
+            "stratton-j": 402,
+            "harrington-w": 35
+          },
+          "total_votes": 2587,
+          "precincts_reporting": 12,
+          "precincts_total": 12,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17155",
+          "name": "Putnam",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 1295,
+            "stratton-j": 1079,
+            "harrington-w": 36
+          },
+          "total_votes": 2410,
+          "precincts_reporting": 8,
+          "precincts_total": 8,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17171",
+          "name": "Scott",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 1733,
+            "stratton-j": 403,
+            "harrington-w": 15
+          },
+          "total_votes": 2151,
+          "precincts_reporting": 10,
+          "precincts_total": 10,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17153",
+          "name": "Pulaski",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 1378,
+            "stratton-j": 711,
+            "harrington-w": 35
+          },
+          "total_votes": 2124,
+          "precincts_reporting": 12,
+          "precincts_total": 12,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17053",
+          "name": "Ford",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 1603,
+            "stratton-j": 438,
+            "harrington-w": 30
+          },
+          "total_votes": 2071,
+          "precincts_reporting": 14,
+          "precincts_total": 22,
+          "eevp": 63.64
+        },
+        {
+          "fips": "17175",
+          "name": "Stark",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 1438,
+            "stratton-j": 564,
+            "harrington-w": 44
+          },
+          "total_votes": 2046,
+          "precincts_reporting": 9,
+          "precincts_total": 9,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17169",
+          "name": "Schuyler",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 1630,
+            "stratton-j": 366,
+            "harrington-w": 29
+          },
+          "total_votes": 2025,
+          "precincts_reporting": 17,
+          "precincts_total": 17,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17013",
+          "name": "Calhoun",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 1247,
+            "stratton-j": 463,
+            "harrington-w": 39
+          },
+          "total_votes": 1749,
+          "precincts_reporting": 5,
+          "precincts_total": 6,
+          "eevp": 83.33
+        },
+        {
+          "fips": "17151",
+          "name": "Pope",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 1213,
+            "stratton-j": 354,
+            "harrington-w": 21
+          },
+          "total_votes": 1588,
+          "precincts_reporting": 6,
+          "precincts_total": 6,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17069",
+          "name": "Hardin",
+          "unit_count": 1,
+          "votes": {
+            "tracy-d": 1046,
+            "stratton-j": 307,
+            "harrington-w": 15
+          },
+          "total_votes": 1368,
+          "precincts_reporting": 6,
+          "precincts_total": 6,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17001",
+          "name": "Adams",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 0,
+            "tracy-d": 0,
+            "harrington-w": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 74,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17003",
+          "name": "Alexander",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 0,
+            "tracy-d": 0,
+            "harrington-w": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 10,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17009",
+          "name": "Brown",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 0,
+            "tracy-d": 0,
+            "harrington-w": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 14,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17035",
+          "name": "Cumberland",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 0,
+            "tracy-d": 0,
+            "harrington-w": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 12,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17051",
+          "name": "Fayette",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 0,
+            "tracy-d": 0,
+            "harrington-w": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 28,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17059",
+          "name": "Gallatin",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 0,
+            "tracy-d": 0,
+            "harrington-w": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 11,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17063",
+          "name": "Grundy",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 0,
+            "tracy-d": 0,
+            "harrington-w": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 40,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17159",
+          "name": "Richland",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 0,
+            "tracy-d": 0,
+            "harrington-w": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 21,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17189",
+          "name": "Washington",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 0,
+            "tracy-d": 0,
+            "harrington-w": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 19,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17193",
+          "name": "White",
+          "unit_count": 1,
+          "votes": {
+            "stratton-j": 0,
+            "tracy-d": 0,
+            "harrington-w": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 18,
+          "eevp": 0.0
+        }
+      ],
+      "outcome": {
+        "won": [
+          "stratton-j"
+        ],
+        "advanced_to_runoff": [],
+        "called_by": [
+          "ap"
+        ],
+        "runoff_accepted_at": [],
+        "winner_accepted_at": [
+          "2026-11-04T01:01:05.343166+00:00"
+        ],
+        "gained": false,
+        "electoral_votes": null
+      },
+      "audit": {
+        "unit_strategy": "county_units",
+        "source_updated_at": "2026-11-04T04:37:40.746Z",
+        "source_unit_count": 102,
+        "county_count": 102,
+        "nonzero_counties": 92,
+        "source_coverage_pct": 100.0,
+        "county_precincts_reporting_sum": 7072,
+        "county_precincts_total_sum": 8496,
+        "county_candidate_vote_sums": {
+          "stratton-j": 2125571,
+          "tracy-d": 1298047,
+          "harrington-w": 54517
+        },
+        "state_candidate_votes": {
+          "stratton-j": 2125571,
+          "tracy-d": 1298047,
+          "harrington-w": 54517
+        },
+        "candidate_vote_sums_match_state": true,
+        "county_total_votes_sum": 3478135,
+        "state_total_votes": 3478135,
+        "county_total_votes_match_state": true,
+        "called_by": [
+          "ap"
+        ],
+        "ap_call_recorded": true
+      }
+    },
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "candidates": [
+        {
+          "nyt_id": "pritzker-j",
+          "name": "JB Pritzker",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "bailey-d",
+          "name": "Darren Bailey",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "corbett-c",
+          "name": "Collin Corbett",
+          "party": "Independent"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "17031",
+          "name": "Cook",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 1014585,
+            "bailey-d": 247909,
+            "corbett-c": 36945
+          },
+          "total_votes": 1299439,
+          "precincts_reporting": 2548,
+          "precincts_total": 2721,
+          "eevp": 93.64
+        },
+        {
+          "fips": "17043",
+          "name": "DuPage",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 201949,
+            "bailey-d": 105708,
+            "corbett-c": 12916
+          },
+          "total_votes": 320573,
+          "precincts_reporting": 514,
+          "precincts_total": 601,
+          "eevp": 85.52
+        },
+        {
+          "fips": "17197",
+          "name": "Will",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 131990,
+            "bailey-d": 89187,
+            "corbett-c": 8358
+          },
+          "total_votes": 229535,
+          "precincts_reporting": 310,
+          "precincts_total": 310,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17097",
+          "name": "Lake",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 74640,
+            "bailey-d": 37964,
+            "corbett-c": 4555
+          },
+          "total_votes": 117159,
+          "precincts_reporting": 200,
+          "precincts_total": 431,
+          "eevp": 46.4
+        },
+        {
+          "fips": "17111",
+          "name": "McHenry",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 55102,
+            "bailey-d": 40899,
+            "corbett-c": 4566
+          },
+          "total_votes": 100567,
+          "precincts_reporting": 164,
+          "precincts_total": 223,
+          "eevp": 73.54
+        },
+        {
+          "fips": "17119",
+          "name": "Madison",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 49604,
+            "pritzker-j": 45518,
+            "corbett-c": 3684
+          },
+          "total_votes": 98806,
+          "precincts_reporting": 191,
+          "precincts_total": 191,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17089",
+          "name": "Kane",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 63785,
+            "bailey-d": 28202,
+            "corbett-c": 3148
+          },
+          "total_votes": 95135,
+          "precincts_reporting": 0,
+          "precincts_total": 292,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17163",
+          "name": "St. Clair",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 44176,
+            "bailey-d": 34583,
+            "corbett-c": 3184
+          },
+          "total_votes": 81943,
+          "precincts_reporting": 148,
+          "precincts_total": 162,
+          "eevp": 91.36
+        },
+        {
+          "fips": "17167",
+          "name": "Sangamon",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 38690,
+            "bailey-d": 35303,
+            "corbett-c": 2662
+          },
+          "total_votes": 76655,
+          "precincts_reporting": 160,
+          "precincts_total": 166,
+          "eevp": 96.39
+        },
+        {
+          "fips": "17113",
+          "name": "McLean",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 36993,
+            "bailey-d": 27344,
+            "corbett-c": 2354
+          },
+          "total_votes": 66691,
+          "precincts_reporting": 141,
+          "precincts_total": 141,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17143",
+          "name": "Peoria",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 32784,
+            "bailey-d": 25036,
+            "corbett-c": 2120
+          },
+          "total_votes": 59940,
+          "precincts_reporting": 107,
+          "precincts_total": 116,
+          "eevp": 92.24
+        },
+        {
+          "fips": "17179",
+          "name": "Tazewell",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 30200,
+            "pritzker-j": 18665,
+            "corbett-c": 1921
+          },
+          "total_votes": 50786,
+          "precincts_reporting": 82,
+          "precincts_total": 82,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17201",
+          "name": "Winnebago",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 29905,
+            "bailey-d": 16682,
+            "corbett-c": 1816
+          },
+          "total_votes": 48403,
+          "precincts_reporting": 89,
+          "precincts_total": 183,
+          "eevp": 48.63
+        },
+        {
+          "fips": "17161",
+          "name": "Rock Island",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 28378,
+            "bailey-d": 17608,
+            "corbett-c": 1888
+          },
+          "total_votes": 47874,
+          "precincts_reporting": 120,
+          "precincts_total": 120,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17093",
+          "name": "Kendall",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 20722,
+            "bailey-d": 13886,
+            "corbett-c": 1281
+          },
+          "total_votes": 35889,
+          "precincts_reporting": 46,
+          "precincts_total": 78,
+          "eevp": 58.97
+        },
+        {
+          "fips": "17037",
+          "name": "DeKalb",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 18607,
+            "bailey-d": 14478,
+            "corbett-c": 1400
+          },
+          "total_votes": 34485,
+          "precincts_reporting": 69,
+          "precincts_total": 69,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17115",
+          "name": "Macon",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 18459,
+            "pritzker-j": 14025,
+            "corbett-c": 1119
+          },
+          "total_votes": 33603,
+          "precincts_reporting": 64,
+          "precincts_total": 64,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17091",
+          "name": "Kankakee",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 16516,
+            "pritzker-j": 14121,
+            "corbett-c": 1187
+          },
+          "total_votes": 31824,
+          "precincts_reporting": 53,
+          "precincts_total": 60,
+          "eevp": 88.33
+        },
+        {
+          "fips": "17199",
+          "name": "Williamson",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 16315,
+            "pritzker-j": 7131,
+            "corbett-c": 743
+          },
+          "total_votes": 24189,
+          "precincts_reporting": 56,
+          "precincts_total": 56,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17099",
+          "name": "LaSalle",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 14613,
+            "pritzker-j": 8356,
+            "corbett-c": 959
+          },
+          "total_votes": 23928,
+          "precincts_reporting": 102,
+          "precincts_total": 119,
+          "eevp": 85.71
+        },
+        {
+          "fips": "17141",
+          "name": "Ogle",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 11874,
+            "pritzker-j": 6895,
+            "corbett-c": 798
+          },
+          "total_votes": 19567,
+          "precincts_reporting": 51,
+          "precincts_total": 51,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17073",
+          "name": "Henry",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 11476,
+            "pritzker-j": 7150,
+            "corbett-c": 761
+          },
+          "total_votes": 19387,
+          "precincts_reporting": 52,
+          "precincts_total": 52,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17195",
+          "name": "Whiteside",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 10374,
+            "pritzker-j": 8176,
+            "corbett-c": 780
+          },
+          "total_votes": 19330,
+          "precincts_reporting": 60,
+          "precincts_total": 60,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17077",
+          "name": "Jackson",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 9387,
+            "bailey-d": 7930,
+            "corbett-c": 555
+          },
+          "total_votes": 17872,
+          "precincts_reporting": 56,
+          "precincts_total": 56,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17007",
+          "name": "Boone",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 9022,
+            "pritzker-j": 8071,
+            "corbett-c": 641
+          },
+          "total_votes": 17734,
+          "precincts_reporting": 37,
+          "precincts_total": 37,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17117",
+          "name": "Macoupin",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 11701,
+            "pritzker-j": 5216,
+            "corbett-c": 553
+          },
+          "total_votes": 17470,
+          "precincts_reporting": 45,
+          "precincts_total": 45,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17029",
+          "name": "Coles",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 10337,
+            "pritzker-j": 5958,
+            "corbett-c": 498
+          },
+          "total_votes": 16793,
+          "precincts_reporting": 44,
+          "precincts_total": 44,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17203",
+          "name": "Woodford",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 11399,
+            "pritzker-j": 4446,
+            "corbett-c": 414
+          },
+          "total_votes": 16259,
+          "precincts_reporting": 32,
+          "precincts_total": 37,
+          "eevp": 86.49
+        },
+        {
+          "fips": "17177",
+          "name": "Stephenson",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 9032,
+            "pritzker-j": 6180,
+            "corbett-c": 650
+          },
+          "total_votes": 15862,
+          "precincts_reporting": 36,
+          "precincts_total": 36,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17133",
+          "name": "Monroe",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 9961,
+            "pritzker-j": 4989,
+            "corbett-c": 510
+          },
+          "total_votes": 15460,
+          "precincts_reporting": 26,
+          "precincts_total": 26,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17183",
+          "name": "Vermilion",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 11114,
+            "pritzker-j": 3686,
+            "corbett-c": 558
+          },
+          "total_votes": 15358,
+          "precincts_reporting": 38,
+          "precincts_total": 60,
+          "eevp": 63.33
+        },
+        {
+          "fips": "17027",
+          "name": "Clinton",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 11012,
+            "pritzker-j": 3124,
+            "corbett-c": 392
+          },
+          "total_votes": 14528,
+          "precincts_reporting": 34,
+          "precincts_total": 34,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17055",
+          "name": "Franklin",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 9665,
+            "pritzker-j": 2866,
+            "corbett-c": 393
+          },
+          "total_votes": 12924,
+          "precincts_reporting": 35,
+          "precincts_total": 35,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17081",
+          "name": "Jefferson",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 9276,
+            "pritzker-j": 2937,
+            "corbett-c": 352
+          },
+          "total_votes": 12565,
+          "precincts_reporting": 33,
+          "precincts_total": 33,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17105",
+          "name": "Livingston",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 8885,
+            "pritzker-j": 3223,
+            "corbett-c": 348
+          },
+          "total_votes": 12456,
+          "precincts_reporting": 46,
+          "precincts_total": 46,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17121",
+          "name": "Marion",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 9300,
+            "pritzker-j": 2630,
+            "corbett-c": 279
+          },
+          "total_votes": 12209,
+          "precincts_reporting": 37,
+          "precincts_total": 37,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17103",
+          "name": "Lee",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 7041,
+            "pritzker-j": 4649,
+            "corbett-c": 493
+          },
+          "total_votes": 12183,
+          "precincts_reporting": 45,
+          "precincts_total": 45,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17011",
+          "name": "Bureau",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 7343,
+            "pritzker-j": 4352,
+            "corbett-c": 423
+          },
+          "total_votes": 12118,
+          "precincts_reporting": 50,
+          "precincts_total": 50,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17057",
+          "name": "Fulton",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 7104,
+            "pritzker-j": 4408,
+            "corbett-c": 538
+          },
+          "total_votes": 12050,
+          "precincts_reporting": 44,
+          "precincts_total": 44,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17021",
+          "name": "Christian",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 8220,
+            "pritzker-j": 3074,
+            "corbett-c": 369
+          },
+          "total_votes": 11663,
+          "precincts_reporting": 29,
+          "precincts_total": 29,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17137",
+          "name": "Morgan",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 7100,
+            "pritzker-j": 3613,
+            "corbett-c": 318
+          },
+          "total_votes": 11031,
+          "precincts_reporting": 27,
+          "precincts_total": 27,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17157",
+          "name": "Randolph",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 7831,
+            "pritzker-j": 2537,
+            "corbett-c": 302
+          },
+          "total_votes": 10670,
+          "precincts_reporting": 34,
+          "precincts_total": 34,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17049",
+          "name": "Effingham",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 8288,
+            "pritzker-j": 2063,
+            "corbett-c": 238
+          },
+          "total_votes": 10589,
+          "precincts_reporting": 23,
+          "precincts_total": 38,
+          "eevp": 60.53
+        },
+        {
+          "fips": "17085",
+          "name": "Jo Daviess",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 5799,
+            "pritzker-j": 4115,
+            "corbett-c": 402
+          },
+          "total_votes": 10316,
+          "precincts_reporting": 28,
+          "precincts_total": 28,
+          "eevp": 100.0,
+          "source_name": "JoDaviess"
+        },
+        {
+          "fips": "17135",
+          "name": "Montgomery",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 7050,
+            "pritzker-j": 2787,
+            "corbett-c": 312
+          },
+          "total_votes": 10149,
+          "precincts_reporting": 38,
+          "precincts_total": 38,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17107",
+          "name": "Logan",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 6544,
+            "pritzker-j": 2612,
+            "corbett-c": 333
+          },
+          "total_votes": 9489,
+          "precincts_reporting": 29,
+          "precincts_total": 29,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17109",
+          "name": "McDonough",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 5528,
+            "pritzker-j": 3516,
+            "corbett-c": 309
+          },
+          "total_votes": 9353,
+          "precincts_reporting": 27,
+          "precincts_total": 27,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17173",
+          "name": "Shelby",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 7384,
+            "pritzker-j": 1647,
+            "corbett-c": 208
+          },
+          "total_votes": 9239,
+          "precincts_reporting": 33,
+          "precincts_total": 33,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17083",
+          "name": "Jersey",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 6315,
+            "pritzker-j": 2134,
+            "corbett-c": 315
+          },
+          "total_votes": 8764,
+          "precincts_reporting": 22,
+          "precincts_total": 22,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17095",
+          "name": "Knox",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 5231,
+            "pritzker-j": 2622,
+            "corbett-c": 282
+          },
+          "total_votes": 8135,
+          "precincts_reporting": 28,
+          "precincts_total": 48,
+          "eevp": 58.33
+        },
+        {
+          "fips": "17165",
+          "name": "Saline",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 6019,
+            "pritzker-j": 1674,
+            "corbett-c": 192
+          },
+          "total_votes": 7885,
+          "precincts_reporting": 28,
+          "precincts_total": 28,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17147",
+          "name": "Piatt",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 4505,
+            "pritzker-j": 2621,
+            "corbett-c": 289
+          },
+          "total_votes": 7415,
+          "precincts_reporting": 15,
+          "precincts_total": 15,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17033",
+          "name": "Crawford",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 5131,
+            "pritzker-j": 1345,
+            "corbett-c": 181
+          },
+          "total_votes": 6657,
+          "precincts_reporting": 24,
+          "precincts_total": 24,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17191",
+          "name": "Wayne",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 5673,
+            "pritzker-j": 790,
+            "corbett-c": 142
+          },
+          "total_votes": 6605,
+          "precincts_reporting": 27,
+          "precincts_total": 27,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17145",
+          "name": "Perry",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 5121,
+            "pritzker-j": 1193,
+            "corbett-c": 149
+          },
+          "total_votes": 6463,
+          "precincts_reporting": 27,
+          "precincts_total": 27,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17041",
+          "name": "Douglas",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 4473,
+            "pritzker-j": 1678,
+            "corbett-c": 224
+          },
+          "total_votes": 6375,
+          "precincts_reporting": 17,
+          "precincts_total": 17,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17023",
+          "name": "Clark",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 4856,
+            "pritzker-j": 1333,
+            "corbett-c": 159
+          },
+          "total_votes": 6348,
+          "precincts_reporting": 23,
+          "precincts_total": 23,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17131",
+          "name": "Mercer",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 3898,
+            "pritzker-j": 2137,
+            "corbett-c": 269
+          },
+          "total_votes": 6304,
+          "precincts_reporting": 24,
+          "precincts_total": 24,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17005",
+          "name": "Bond",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 4409,
+            "pritzker-j": 1599,
+            "corbett-c": 231
+          },
+          "total_votes": 6239,
+          "precincts_reporting": 20,
+          "precincts_total": 20,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17015",
+          "name": "Carroll",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 4034,
+            "pritzker-j": 1873,
+            "corbett-c": 238
+          },
+          "total_votes": 6145,
+          "precincts_reporting": 18,
+          "precincts_total": 18,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17039",
+          "name": "De Witt",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 4104,
+            "pritzker-j": 1626,
+            "corbett-c": 195
+          },
+          "total_votes": 5925,
+          "precincts_reporting": 23,
+          "precincts_total": 23,
+          "eevp": 100.0,
+          "source_name": "DeWitt"
+        },
+        {
+          "fips": "17045",
+          "name": "Edgar",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 4311,
+            "pritzker-j": 1314,
+            "corbett-c": 196
+          },
+          "total_votes": 5821,
+          "precincts_reporting": 31,
+          "precincts_total": 31,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17149",
+          "name": "Pike",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 4742,
+            "pritzker-j": 913,
+            "corbett-c": 162
+          },
+          "total_votes": 5817,
+          "precincts_reporting": 31,
+          "precincts_total": 31,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17187",
+          "name": "Warren",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 3546,
+            "pritzker-j": 2007,
+            "corbett-c": 246
+          },
+          "total_votes": 5799,
+          "precincts_reporting": 24,
+          "precincts_total": 28,
+          "eevp": 85.71
+        },
+        {
+          "fips": "17181",
+          "name": "Union",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 4126,
+            "pritzker-j": 1335,
+            "corbett-c": 153
+          },
+          "total_votes": 5614,
+          "precincts_reporting": 15,
+          "precincts_total": 15,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17025",
+          "name": "Clay",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 4712,
+            "pritzker-j": 733,
+            "corbett-c": 101
+          },
+          "total_votes": 5546,
+          "precincts_reporting": 18,
+          "precincts_total": 18,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17067",
+          "name": "Hancock",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 4318,
+            "pritzker-j": 880,
+            "corbett-c": 167
+          },
+          "total_votes": 5365,
+          "precincts_reporting": 33,
+          "precincts_total": 33,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17129",
+          "name": "Menard",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 3406,
+            "pritzker-j": 1505,
+            "corbett-c": 146
+          },
+          "total_votes": 5057,
+          "precincts_reporting": 14,
+          "precincts_total": 14,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17139",
+          "name": "Moultrie",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 3702,
+            "pritzker-j": 1185,
+            "corbett-c": 140
+          },
+          "total_votes": 5027,
+          "precincts_reporting": 16,
+          "precincts_total": 16,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17075",
+          "name": "Iroquois",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 4035,
+            "pritzker-j": 728,
+            "corbett-c": 118
+          },
+          "total_votes": 4881,
+          "precincts_reporting": 25,
+          "precincts_total": 37,
+          "eevp": 67.57
+        },
+        {
+          "fips": "17125",
+          "name": "Mason",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 3331,
+            "pritzker-j": 1368,
+            "corbett-c": 179
+          },
+          "total_votes": 4878,
+          "precincts_reporting": 21,
+          "precincts_total": 21,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17087",
+          "name": "Johnson",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 3752,
+            "pritzker-j": 878,
+            "corbett-c": 106
+          },
+          "total_votes": 4736,
+          "precincts_reporting": 16,
+          "precincts_total": 16,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17123",
+          "name": "Marshall",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 3098,
+            "pritzker-j": 1455,
+            "corbett-c": 169
+          },
+          "total_votes": 4722,
+          "precincts_reporting": 14,
+          "precincts_total": 14,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17061",
+          "name": "Greene",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 3711,
+            "pritzker-j": 867,
+            "corbett-c": 110
+          },
+          "total_votes": 4688,
+          "precincts_reporting": 22,
+          "precincts_total": 22,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17127",
+          "name": "Massac",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 3320,
+            "pritzker-j": 1200,
+            "corbett-c": 111
+          },
+          "total_votes": 4631,
+          "precincts_reporting": 17,
+          "precincts_total": 17,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17079",
+          "name": "Jasper",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 3878,
+            "pritzker-j": 606,
+            "corbett-c": 121
+          },
+          "total_votes": 4605,
+          "precincts_reporting": 15,
+          "precincts_total": 15,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17101",
+          "name": "Lawrence",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 3486,
+            "pritzker-j": 858,
+            "corbett-c": 133
+          },
+          "total_votes": 4477,
+          "precincts_reporting": 13,
+          "precincts_total": 17,
+          "eevp": 76.47
+        },
+        {
+          "fips": "17017",
+          "name": "Cass",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 2777,
+            "pritzker-j": 1230,
+            "corbett-c": 131
+          },
+          "total_votes": 4138,
+          "precincts_reporting": 21,
+          "precincts_total": 21,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17185",
+          "name": "Wabash",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 3052,
+            "pritzker-j": 820,
+            "corbett-c": 70
+          },
+          "total_votes": 3942,
+          "precincts_reporting": 16,
+          "precincts_total": 16,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17065",
+          "name": "Hamilton",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 2728,
+            "pritzker-j": 532,
+            "corbett-c": 70
+          },
+          "total_votes": 3330,
+          "precincts_reporting": 14,
+          "precincts_total": 16,
+          "eevp": 87.5
+        },
+        {
+          "fips": "17071",
+          "name": "Henderson",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 1870,
+            "pritzker-j": 743,
+            "corbett-c": 103
+          },
+          "total_votes": 2716,
+          "precincts_reporting": 13,
+          "precincts_total": 13,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17047",
+          "name": "Edwards",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 2277,
+            "pritzker-j": 317,
+            "corbett-c": 51
+          },
+          "total_votes": 2645,
+          "precincts_reporting": 12,
+          "precincts_total": 12,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17155",
+          "name": "Putnam",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 1384,
+            "pritzker-j": 970,
+            "corbett-c": 90
+          },
+          "total_votes": 2444,
+          "precincts_reporting": 8,
+          "precincts_total": 8,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17171",
+          "name": "Scott",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 1786,
+            "pritzker-j": 364,
+            "corbett-c": 40
+          },
+          "total_votes": 2190,
+          "precincts_reporting": 10,
+          "precincts_total": 10,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17153",
+          "name": "Pulaski",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 1511,
+            "pritzker-j": 612,
+            "corbett-c": 66
+          },
+          "total_votes": 2189,
+          "precincts_reporting": 12,
+          "precincts_total": 12,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17053",
+          "name": "Ford",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 1636,
+            "pritzker-j": 400,
+            "corbett-c": 51
+          },
+          "total_votes": 2087,
+          "precincts_reporting": 14,
+          "precincts_total": 22,
+          "eevp": 63.64
+        },
+        {
+          "fips": "17169",
+          "name": "Schuyler",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 1682,
+            "pritzker-j": 329,
+            "corbett-c": 47
+          },
+          "total_votes": 2058,
+          "precincts_reporting": 17,
+          "precincts_total": 17,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17175",
+          "name": "Stark",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 1472,
+            "pritzker-j": 498,
+            "corbett-c": 88
+          },
+          "total_votes": 2058,
+          "precincts_reporting": 9,
+          "precincts_total": 9,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17013",
+          "name": "Calhoun",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 1393,
+            "pritzker-j": 360,
+            "corbett-c": 62
+          },
+          "total_votes": 1815,
+          "precincts_reporting": 5,
+          "precincts_total": 6,
+          "eevp": 83.33
+        },
+        {
+          "fips": "17151",
+          "name": "Pope",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 1287,
+            "pritzker-j": 316,
+            "corbett-c": 28
+          },
+          "total_votes": 1631,
+          "precincts_reporting": 6,
+          "precincts_total": 6,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17069",
+          "name": "Hardin",
+          "unit_count": 1,
+          "votes": {
+            "bailey-d": 1110,
+            "pritzker-j": 257,
+            "corbett-c": 39
+          },
+          "total_votes": 1406,
+          "precincts_reporting": 6,
+          "precincts_total": 6,
+          "eevp": 100.0
+        },
+        {
+          "fips": "17001",
+          "name": "Adams",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 0,
+            "bailey-d": 0,
+            "corbett-c": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 74,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17003",
+          "name": "Alexander",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 0,
+            "bailey-d": 0,
+            "corbett-c": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 10,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17009",
+          "name": "Brown",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 0,
+            "bailey-d": 0,
+            "corbett-c": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 14,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17019",
+          "name": "Champaign",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 0,
+            "bailey-d": 0,
+            "corbett-c": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 118,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17035",
+          "name": "Cumberland",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 0,
+            "bailey-d": 0,
+            "corbett-c": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 12,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17051",
+          "name": "Fayette",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 0,
+            "bailey-d": 0,
+            "corbett-c": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 28,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17059",
+          "name": "Gallatin",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 0,
+            "bailey-d": 0,
+            "corbett-c": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 11,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17063",
+          "name": "Grundy",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 0,
+            "bailey-d": 0,
+            "corbett-c": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 40,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17159",
+          "name": "Richland",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 0,
+            "bailey-d": 0,
+            "corbett-c": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 21,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17189",
+          "name": "Washington",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 0,
+            "bailey-d": 0,
+            "corbett-c": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 19,
+          "eevp": 0.0
+        },
+        {
+          "fips": "17193",
+          "name": "White",
+          "unit_count": 1,
+          "votes": {
+            "pritzker-j": 0,
+            "bailey-d": 0,
+            "corbett-c": 0
+          },
+          "total_votes": 0,
+          "precincts_reporting": 0,
+          "precincts_total": 18,
+          "eevp": 0.0
+        }
+      ],
+      "outcome": {
+        "won": [
+          "pritzker-j"
+        ],
+        "advanced_to_runoff": [],
+        "called_by": [
+          "ap"
+        ],
+        "runoff_accepted_at": [],
+        "winner_accepted_at": [
+          "2026-11-04T01:01:05.343166+00:00"
+        ],
+        "gained": false,
+        "electoral_votes": null
+      },
+      "audit": {
+        "unit_strategy": "county_units",
+        "source_updated_at": "2026-11-04T04:37:22.458Z",
+        "source_unit_count": 102,
+        "county_count": 102,
+        "nonzero_counties": 91,
+        "source_coverage_pct": 100.0,
+        "county_precincts_reporting_sum": 7017,
+        "county_precincts_total_sum": 8496,
+        "county_candidate_vote_sums": {
+          "pritzker-j": 2072634,
+          "bailey-d": 1279294,
+          "corbett-c": 115693
+        },
+        "state_candidate_votes": {
+          "pritzker-j": 2072634,
+          "bailey-d": 1279294,
+          "corbett-c": 115693
+        },
+        "candidate_vote_sums_match_state": true,
+        "county_total_votes_sum": 3467621,
+        "state_total_votes": 3467621,
+        "county_total_votes_match_state": true,
+        "called_by": [
+          "ap"
+        ],
+        "ap_call_recorded": true
+      }
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-illinois.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 102,
+  "reporting_count": 92,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:38:08.649Z",
+    "county_provider_updated_at": "not present",
+    "S_race_updated_at": "2026-11-04T04:37:40.746Z",
+    "G_race_updated_at": "2026-11-04T04:37:22.458Z"
+  },
+  "office_audit": [
+    {
+      "office_id": "S",
+      "office": "U.S. Senate",
+      "county_count": 102,
+      "nonzero_counties": 92,
+      "source_coverage_pct": 100.0,
+      "unit_strategy": "county_units",
+      "candidate_vote_sums_match_state": true,
+      "county_total_votes_match_state": true,
+      "called_by": [
+        "ap"
+      ]
+    },
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "county_count": 102,
+      "nonzero_counties": 91,
+      "source_coverage_pct": 100.0,
+      "unit_strategy": "county_units",
+      "candidate_vote_sums_match_state": true,
+      "county_total_votes_match_state": true,
+      "called_by": [
+        "ap"
+      ]
+    }
+  ],
+  "limitations": [
+    "Candidate county vote totals use only reporting_units candidates[].votes.total. NYT model estimates, expected vote, and calls were not substituted for vote counts.",
+    "When source units are township or municipality records, each unit is included once and summed into a county using fips_state + fips_county.",
+    "No blanket license is asserted; factual counts are attributed to The New York Times. AP is credited only when the race outcome records called_by including ap."
+  ],
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-illinois.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 102,
+    "reporting_count": 93,
+    "row_count": 204,
+    "source_time": "2026-11-04T04:45:23.702+00:00",
+    "fetched_at": "2026-11-04T04:47:02.976Z",
+    "message": "102 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

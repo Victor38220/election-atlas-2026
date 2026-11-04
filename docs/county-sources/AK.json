@@ -1,0 +1,182 @@
+{
+  "state": "AK",
+  "state_name": "Alaska",
+  "offices": [
+    "US Senate",
+    "Governor"
+  ],
+  "election": {
+    "date": "2026-11-03",
+    "name": "November 3, 2026 General Election",
+    "race_ids": [
+      "AK-G-S-2026-11-03",
+      "AK-G-G-2026-11-03"
+    ],
+    "configured_races": [
+      "U.S. Senate",
+      "Governor"
+    ],
+    "tabulation_method": "ranked-choice",
+    "initial_round_data": "The NYT feed identifies both races as ranked-choice, but its rounds field is null at the observed snapshot. The official Alaska summary page says its Summary Report shows 1st Choice results from Round 1.",
+    "final_rcv_data": "Not available in the observed snapshot; Alaska's official page describes a separate RCV Detailed Report to be published after final absentee ballots are received."
+  },
+  "provider_family": "New York Times election data JSON; Alaska Division of Elections official election-night reports",
+  "endpoints": [
+    {
+      "url": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-alaska.json",
+      "purpose": "Public live election JSON, including statewide and reporting-unit candidate vote totals.",
+      "observed_at_utc": "2026-11-04T04:32:10Z",
+      "observed_http_status": 200,
+      "bytes": 690956,
+      "observation": "Contains 2026-11-03 Senate and Governor races. Both are marked ranked-choice and race_call_status=too_early, certified=false, rounds=null. Statewide candidate votes.total are all 0, and the statewide reporting unit shows 0 of 403 precincts reporting. Do not substitute nyt_model_estimates or estimated votes for counted votes."
+    },
+    {
+      "url": "https://www.elections.alaska.gov/election-results/e/",
+      "purpose": "Official Alaska election-results listing and links to 2026 General Election reporting files.",
+      "observed_at_utc": "2026-11-04T04:31:00Z",
+      "observed_http_status": 200,
+      "observation": "The official page labels the 2026 General Election results unofficial and says the page was last updated November 3, 2026 at 1:45 pm. It links a first-choice Round 1 summary CSV, Summary PDF, precinct reports, and a future RCV Detailed Report."
+    },
+    {
+      "url": "https://www.elections.alaska.gov/enr/26GENR/results/GA_ENR_Precinct_State_of_Alaska.csv",
+      "purpose": "Official Alaska precinct-level results CSV linked from the 2026 General Election page.",
+      "observed_at_utc": "2026-11-04T04:31:00Z",
+      "observed_http_status": 200,
+      "bytes": 3165963,
+      "observation": "The downloaded file has 20,046 rows, 444 distinct Pct_Id values and 523 precinct names. Every total_votes value is 0 and every Reporting_flag is 0. Candidate and contest rows appear stale or test data (for example, the Senate list includes Mary Peltola and Daniel Sullivan while other contests include candidates from prior cycles); do not use these rows as verified 2026 results."
+    },
+    {
+      "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
+      "purpose": "Official 2026 General Election Summary Report link.",
+      "observed_at_utc": "2026-11-04T04:31:00Z",
+      "observed_http_status": 200,
+      "bytes": 270129,
+      "observation": "The page says the summary contains Round 1 first-choice results. PDF contents were not verified in this capture."
+    }
+  ],
+  "county_coverage": {
+    "verified": false,
+    "county_votes_available": false,
+    "reason": "The accessible NYT reporting units are one state unit, 40 state_house_district units, and one other unit (overseas absentee). None has county-level identity or FIPS. Alaska's state House districts do not provide a verified borough/Census county-equivalent crosswalk, so votes cannot be safely assigned to boroughs or census areas.",
+    "observed_reporting_unit_levels": [
+      "state",
+      "state_house_district",
+      "other"
+    ],
+    "statewide_precincts_reporting": 0,
+    "statewide_precincts_total": 403,
+    "note": "The NYT feed's per-district unit counts are zero at capture time. No live county-equivalent candidate vote rows are available from the verified sources observed."
+  },
+  "race_snapshot": {
+    "US Senate": {
+      "race_id": "AK-G-S-2026-11-03",
+      "race_call_status": "too_early",
+      "certified": false,
+      "rounds_available": false,
+      "statewide_candidate_votes": 0,
+      "statewide_total_votes": 0,
+      "precincts_reporting": 0,
+      "precincts_total": 403
+    },
+    "Governor": {
+      "race_id": "AK-G-G-2026-11-03",
+      "race_call_status": "too_early",
+      "certified": false,
+      "rounds_available": false,
+      "statewide_candidate_votes": 0,
+      "statewide_total_votes": 0,
+      "precincts_reporting": 0,
+      "precincts_total": 403
+    }
+  },
+  "source": {
+    "provider": "New York Times; Alaska Division of Elections",
+    "official_state_context": "https://www.elections.alaska.gov/election-results/e/",
+    "attribution": "Attribute official result materials to the Alaska Division of Elections. Attribute the live JSON to The New York Times.",
+    "license": "The NYT JSON endpoint is publicly accessible without authentication. No explicit machine-readable reuse license was verified for NYT or the Alaska results files; confirm terms before redistribution or commercial use."
+  },
+  "limitations": [
+    "No positive counted votes were present in the observed NYT snapshot; model estimates are not votes and must not be presented as results.",
+    "The public NYT feed has state House district reporting units rather than borough or Census county-equivalent units. No verified crosswalk was found, so county-level totals cannot be derived safely.",
+    "No RCV rounds were present in the feed snapshot. The official page describes the first-choice summary and a later RCV Detailed Report; initial-round and final-transfer totals must not be conflated.",
+    "The official linked CSV was accessible but all rows were zero and the contest/candidate labels showed apparent prior-cycle or test data. It is not accepted as a verified 2026 vote feed.",
+    "Observed results are unofficial, mutable election-night data, not certified results."
+  ],
+  "district_geography": {
+    "available": true,
+    "file": "public/geo/districts/AK.json",
+    "geography_type": "state_house_district",
+    "feature_count": 40,
+    "district_ids": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005",
+      "006",
+      "007",
+      "008",
+      "009",
+      "010",
+      "011",
+      "012",
+      "013",
+      "014",
+      "015",
+      "016",
+      "017",
+      "018",
+      "019",
+      "020",
+      "021",
+      "022",
+      "023",
+      "024",
+      "025",
+      "026",
+      "027",
+      "028",
+      "029",
+      "030",
+      "031",
+      "032",
+      "033",
+      "034",
+      "035",
+      "036",
+      "037",
+      "038",
+      "039",
+      "040"
+    ],
+    "nyt_crosswalk": "Exact match: NYT reporting_units with level=state_house_district have fips_state=02 and fips_suffix=001..040; nyt_id is AK-state_house_district-02-{fips_suffix}. GeoJSON feature id is the Census GEOID formed as state code 02 + district_id, and the separate geography_type makes clear this is a legislative district identifier, not a county FIPS.",
+    "boundary_source": "U.S. Census Bureau 2024 Cartographic Boundary File, State Legislative District (SLD) Lower Chamber, Alaska, 1:500,000.",
+    "boundary_vintage": "2024 election-year state legislative boundaries; source metadata says boundaries were collected for the 2024 election year from state-level participants. These are suitable as the 40 current NYT 2026 reporting districts based on the continuing 2020-cycle district plan.",
+    "source_url": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_02_sldl_500k.zip",
+    "metadata_url": "https://meta.geo.census.gov/data/existing/decennial/GEO/CPMB/boundary/2024/19115/shp/cb_2024_02_sldl_500k.shp.iso.xml",
+    "download_observed_at_utc": "2026-11-04T04:33:00Z",
+    "source_license": "Public U.S. Census Bureau cartographic boundary data; metadata notes simplified small-scale boundaries. No county-equivalent assignment is made."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-alaska.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 0,
+    "reporting_count": 0,
+    "row_count": 80,
+    "source_time": "2026-11-03T18:18:36.045+00:00",
+    "fetched_at": "2026-11-04T04:47:02.877Z",
+    "message": "40 election districts with published returns. Alaska publishes House election districts, not borough/census-area county totals. Ranked-choice source counts do not establish a final-round winner. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

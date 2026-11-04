@@ -1,0 +1,951 @@
+{
+  "state": "NY",
+  "offices": [
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "candidates": [
+        {
+          "nyt_id": "hochul-k",
+          "name": "Kathy C. Hochul",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "blakeman-b",
+          "name": "Bruce A. Blakeman",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "total_writeins",
+          "name": "Total Write-ins",
+          "party": ""
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "36047",
+          "name": "Kings",
+          "source_name": "Brooklyn",
+          "votes": {
+            "hochul-k": 490633,
+            "blakeman-b": 126120,
+            "total_writeins": 1385
+          },
+          "total_votes": 618138,
+          "precincts_reporting": 1300,
+          "precincts_total": 1366,
+          "eevp": 95.18
+        },
+        {
+          "fips": "36103",
+          "name": "Suffolk",
+          "source_name": "Suffolk",
+          "votes": {
+            "hochul-k": 262445,
+            "blakeman-b": 256686,
+            "total_writeins": 680
+          },
+          "total_votes": 519811,
+          "precincts_reporting": 865,
+          "precincts_total": 1070,
+          "eevp": 80.89
+        },
+        {
+          "fips": "36081",
+          "name": "Queens",
+          "source_name": "Queens",
+          "votes": {
+            "hochul-k": 353616,
+            "blakeman-b": 136949,
+            "total_writeins": 1022
+          },
+          "total_votes": 491587,
+          "precincts_reporting": 1063,
+          "precincts_total": 1123,
+          "eevp": 94.67
+        },
+        {
+          "fips": "36061",
+          "name": "New York",
+          "source_name": "Manhattan",
+          "votes": {
+            "hochul-k": 395455,
+            "blakeman-b": 84719,
+            "total_writeins": 1189
+          },
+          "total_votes": 481363,
+          "precincts_reporting": 845,
+          "precincts_total": 896,
+          "eevp": 94.33
+        },
+        {
+          "fips": "36029",
+          "name": "Erie",
+          "source_name": "Erie",
+          "votes": {
+            "hochul-k": 186751,
+            "blakeman-b": 152237,
+            "total_writeins": 1165
+          },
+          "total_votes": 340153,
+          "precincts_reporting": 581,
+          "precincts_total": 652,
+          "eevp": 89.21
+        },
+        {
+          "fips": "36059",
+          "name": "Nassau",
+          "source_name": "Nassau",
+          "votes": {
+            "hochul-k": 157915,
+            "blakeman-b": 141442,
+            "total_writeins": 291
+          },
+          "total_votes": 299648,
+          "precincts_reporting": 535,
+          "precincts_total": 1083,
+          "eevp": 49.45
+        },
+        {
+          "fips": "36055",
+          "name": "Monroe",
+          "source_name": "Monroe",
+          "votes": {
+            "hochul-k": 164102,
+            "blakeman-b": 103635,
+            "total_writeins": 733
+          },
+          "total_votes": 268470,
+          "precincts_reporting": 484,
+          "precincts_total": 659,
+          "eevp": 73.54
+        },
+        {
+          "fips": "36005",
+          "name": "Bronx",
+          "source_name": "Bronx",
+          "votes": {
+            "hochul-k": 201657,
+            "blakeman-b": 40260,
+            "total_writeins": 436
+          },
+          "total_votes": 242353,
+          "precincts_reporting": 627,
+          "precincts_total": 646,
+          "eevp": 97.08
+        },
+        {
+          "fips": "36087",
+          "name": "Rockland",
+          "source_name": "Rockland",
+          "votes": {
+            "hochul-k": 119418,
+            "blakeman-b": 54566,
+            "total_writeins": 155
+          },
+          "total_votes": 174139,
+          "precincts_reporting": 242,
+          "precincts_total": 307,
+          "eevp": 78.97
+        },
+        {
+          "fips": "36119",
+          "name": "Westchester",
+          "source_name": "Westchester",
+          "votes": {
+            "hochul-k": 97003,
+            "blakeman-b": 37625,
+            "total_writeins": 143
+          },
+          "total_votes": 134771,
+          "precincts_reporting": 307,
+          "precincts_total": 906,
+          "eevp": 33.96
+        },
+        {
+          "fips": "36085",
+          "name": "Richmond",
+          "source_name": "Staten Island",
+          "votes": {
+            "blakeman-b": 78743,
+            "hochul-k": 55770,
+            "total_writeins": 214
+          },
+          "total_votes": 134727,
+          "precincts_reporting": 246,
+          "precincts_total": 254,
+          "eevp": 97.14
+        },
+        {
+          "fips": "36067",
+          "name": "Onondaga",
+          "source_name": "Onondaga",
+          "votes": {
+            "hochul-k": 74482,
+            "blakeman-b": 47708,
+            "total_writeins": 315
+          },
+          "total_votes": 122505,
+          "precincts_reporting": 258,
+          "precincts_total": 449,
+          "eevp": 57.65
+        },
+        {
+          "fips": "36027",
+          "name": "Dutchess",
+          "source_name": "Dutchess",
+          "votes": {
+            "hochul-k": 63452,
+            "blakeman-b": 49458,
+            "total_writeins": 198
+          },
+          "total_votes": 113108,
+          "precincts_reporting": 140,
+          "precincts_total": 156,
+          "eevp": 89.88
+        },
+        {
+          "fips": "36071",
+          "name": "Orange",
+          "source_name": "Orange",
+          "votes": {
+            "hochul-k": 60102,
+            "blakeman-b": 48732,
+            "total_writeins": 190
+          },
+          "total_votes": 109024,
+          "precincts_reporting": 252,
+          "precincts_total": 340,
+          "eevp": 74.3
+        },
+        {
+          "fips": "36001",
+          "name": "Albany",
+          "source_name": "Albany",
+          "votes": {
+            "hochul-k": 63900,
+            "blakeman-b": 30885,
+            "total_writeins": 366
+          },
+          "total_votes": 95151,
+          "precincts_reporting": 163,
+          "precincts_total": 234,
+          "eevp": 69.97
+        },
+        {
+          "fips": "36065",
+          "name": "Oneida",
+          "source_name": "Oneida",
+          "votes": {
+            "blakeman-b": 47849,
+            "hochul-k": 28767,
+            "total_writeins": 173
+          },
+          "total_votes": 76789,
+          "precincts_reporting": 69,
+          "precincts_total": 193,
+          "eevp": 36.02
+        },
+        {
+          "fips": "36111",
+          "name": "Ulster",
+          "source_name": "Ulster",
+          "votes": {
+            "hochul-k": 47295,
+            "blakeman-b": 28601,
+            "total_writeins": 192
+          },
+          "total_votes": 76088,
+          "precincts_reporting": 152,
+          "precincts_total": 165,
+          "eevp": 92.27
+        },
+        {
+          "fips": "36063",
+          "name": "Niagara",
+          "source_name": "Niagara",
+          "votes": {
+            "blakeman-b": 42888,
+            "hochul-k": 32360,
+            "total_writeins": 184
+          },
+          "total_votes": 75432,
+          "precincts_reporting": 112,
+          "precincts_total": 121,
+          "eevp": 93.38
+        },
+        {
+          "fips": "36091",
+          "name": "Saratoga",
+          "source_name": "Saratoga",
+          "votes": {
+            "hochul-k": 38419,
+            "blakeman-b": 33148,
+            "total_writeins": 163
+          },
+          "total_votes": 71730,
+          "precincts_reporting": 130,
+          "precincts_total": 204,
+          "eevp": 64.08
+        },
+        {
+          "fips": "36007",
+          "name": "Broome",
+          "source_name": "Broome",
+          "votes": {
+            "hochul-k": 33887,
+            "blakeman-b": 33670,
+            "total_writeins": 134
+          },
+          "total_votes": 67691,
+          "precincts_reporting": 107,
+          "precincts_total": 126,
+          "eevp": 85.36
+        },
+        {
+          "fips": "36083",
+          "name": "Rensselaer",
+          "source_name": "Rensselaer",
+          "votes": {
+            "hochul-k": 32577,
+            "blakeman-b": 29310,
+            "total_writeins": 222
+          },
+          "total_votes": 62109,
+          "precincts_reporting": 100,
+          "precincts_total": 117,
+          "eevp": 85.85
+        },
+        {
+          "fips": "36093",
+          "name": "Schenectady",
+          "source_name": "Schenectady",
+          "votes": {
+            "hochul-k": 31104,
+            "blakeman-b": 21575,
+            "total_writeins": 158
+          },
+          "total_votes": 52837,
+          "precincts_reporting": 86,
+          "precincts_total": 102,
+          "eevp": 84.73
+        },
+        {
+          "fips": "36069",
+          "name": "Ontario",
+          "source_name": "Ontario",
+          "votes": {
+            "blakeman-b": 23590,
+            "hochul-k": 23330,
+            "total_writeins": 99
+          },
+          "total_votes": 47019,
+          "precincts_reporting": 82,
+          "precincts_total": 92,
+          "eevp": 89.85
+        },
+        {
+          "fips": "36013",
+          "name": "Chautauqua",
+          "source_name": "Chautauqua",
+          "votes": {
+            "blakeman-b": 26355,
+            "hochul-k": 16278,
+            "total_writeins": 107
+          },
+          "total_votes": 42740,
+          "precincts_reporting": 88,
+          "precincts_total": 91,
+          "eevp": 97.5
+        },
+        {
+          "fips": "36079",
+          "name": "Putnam",
+          "source_name": "Putnam",
+          "votes": {
+            "blakeman-b": 21864,
+            "hochul-k": 20238,
+            "total_writeins": 38
+          },
+          "total_votes": 42140,
+          "precincts_reporting": 53,
+          "precincts_total": 81,
+          "eevp": 66.28
+        },
+        {
+          "fips": "36075",
+          "name": "Oswego",
+          "source_name": "Oswego",
+          "votes": {
+            "blakeman-b": 25433,
+            "hochul-k": 15330,
+            "total_writeins": 106
+          },
+          "total_votes": 40869,
+          "precincts_reporting": 96,
+          "precincts_total": 104,
+          "eevp": 92.39
+        },
+        {
+          "fips": "36109",
+          "name": "Tompkins",
+          "source_name": "Tompkins",
+          "votes": {
+            "hochul-k": 26737,
+            "blakeman-b": 8385,
+            "total_writeins": 118
+          },
+          "total_votes": 35240,
+          "precincts_reporting": 48,
+          "precincts_total": 61,
+          "eevp": 79.9
+        },
+        {
+          "fips": "36089",
+          "name": "St. Lawrence",
+          "source_name": "Saint Lawrence",
+          "votes": {
+            "blakeman-b": 21422,
+            "hochul-k": 12931,
+            "total_writeins": 64
+          },
+          "total_votes": 34417,
+          "precincts_reporting": 64,
+          "precincts_total": 70,
+          "eevp": 92.78
+        },
+        {
+          "fips": "36117",
+          "name": "Wayne",
+          "source_name": "Wayne",
+          "votes": {
+            "blakeman-b": 20263,
+            "hochul-k": 12685,
+            "total_writeins": 81
+          },
+          "total_votes": 33029,
+          "precincts_reporting": 61,
+          "precincts_total": 67,
+          "eevp": 92.47
+        },
+        {
+          "fips": "36045",
+          "name": "Jefferson",
+          "source_name": "Jefferson",
+          "votes": {
+            "blakeman-b": 20129,
+            "hochul-k": 10240,
+            "total_writeins": 64
+          },
+          "total_votes": 30433,
+          "precincts_reporting": 64,
+          "precincts_total": 66,
+          "eevp": 98.05
+        },
+        {
+          "fips": "36113",
+          "name": "Warren",
+          "source_name": "Warren",
+          "votes": {
+            "blakeman-b": 14553,
+            "hochul-k": 14050,
+            "total_writeins": 65
+          },
+          "total_votes": 28668,
+          "precincts_reporting": 39,
+          "precincts_total": 40,
+          "eevp": 98
+        },
+        {
+          "fips": "36019",
+          "name": "Clinton",
+          "source_name": "Clinton",
+          "votes": {
+            "blakeman-b": 15644,
+            "hochul-k": 12926,
+            "total_writeins": 40
+          },
+          "total_votes": 28610,
+          "precincts_reporting": 40,
+          "precincts_total": 51,
+          "eevp": 78.8
+        },
+        {
+          "fips": "36021",
+          "name": "Columbia",
+          "source_name": "Columbia",
+          "votes": {
+            "hochul-k": 17011,
+            "blakeman-b": 11521,
+            "total_writeins": 75
+          },
+          "total_votes": 28607,
+          "precincts_reporting": 57,
+          "precincts_total": 62,
+          "eevp": 92.98
+        },
+        {
+          "fips": "36015",
+          "name": "Chemung",
+          "source_name": "Chemung",
+          "votes": {
+            "blakeman-b": 17684,
+            "hochul-k": 10528,
+            "total_writeins": 60
+          },
+          "total_votes": 28272,
+          "precincts_reporting": 88,
+          "precincts_total": 89,
+          "eevp": 99
+        },
+        {
+          "fips": "36011",
+          "name": "Cayuga",
+          "source_name": "Cayuga",
+          "votes": {
+            "blakeman-b": 15954,
+            "hochul-k": 11633,
+            "total_writeins": 70
+          },
+          "total_votes": 27657,
+          "precincts_reporting": 39,
+          "precincts_total": 41,
+          "eevp": 96.53
+        },
+        {
+          "fips": "36053",
+          "name": "Madison",
+          "source_name": "Madison",
+          "votes": {
+            "blakeman-b": 15108,
+            "hochul-k": 10891,
+            "total_writeins": 68
+          },
+          "total_votes": 26067,
+          "precincts_reporting": 41,
+          "precincts_total": 53,
+          "eevp": 77.43
+        },
+        {
+          "fips": "36101",
+          "name": "Steuben",
+          "source_name": "Steuben",
+          "votes": {
+            "blakeman-b": 17479,
+            "hochul-k": 7928,
+            "total_writeins": 56
+          },
+          "total_votes": 25463,
+          "precincts_reporting": 42,
+          "precincts_total": 63,
+          "eevp": 67.9
+        },
+        {
+          "fips": "36051",
+          "name": "Livingston",
+          "source_name": "Livingston",
+          "votes": {
+            "blakeman-b": 14992,
+            "hochul-k": 9486,
+            "total_writeins": 75
+          },
+          "total_votes": 24553,
+          "precincts_reporting": 38,
+          "precincts_total": 40,
+          "eevp": 95.57
+        },
+        {
+          "fips": "36105",
+          "name": "Sullivan",
+          "source_name": "Sullivan",
+          "votes": {
+            "blakeman-b": 13190,
+            "hochul-k": 11182,
+            "total_writeins": 36
+          },
+          "total_votes": 24408,
+          "precincts_reporting": 88,
+          "precincts_total": 96,
+          "eevp": 91.92
+        },
+        {
+          "fips": "36043",
+          "name": "Herkimer",
+          "source_name": "Herkimer",
+          "votes": {
+            "blakeman-b": 15381,
+            "hochul-k": 6444,
+            "total_writeins": 0
+          },
+          "total_votes": 21825,
+          "precincts_reporting": 43,
+          "precincts_total": 44,
+          "eevp": 98
+        },
+        {
+          "fips": "36115",
+          "name": "Washington",
+          "source_name": "Washington",
+          "votes": {
+            "blakeman-b": 13370,
+            "hochul-k": 8390,
+            "total_writeins": 0
+          },
+          "total_votes": 21760,
+          "precincts_reporting": 80,
+          "precincts_total": 100,
+          "eevp": 80.19
+        },
+        {
+          "fips": "36037",
+          "name": "Genesee",
+          "source_name": "Genesee",
+          "votes": {
+            "blakeman-b": 14766,
+            "hochul-k": 6728,
+            "total_writeins": 67
+          },
+          "total_votes": 21561,
+          "precincts_reporting": 49,
+          "precincts_total": 52,
+          "eevp": 96
+        },
+        {
+          "fips": "36077",
+          "name": "Otsego",
+          "source_name": "Otsego",
+          "votes": {
+            "blakeman-b": 11265,
+            "hochul-k": 8695,
+            "total_writeins": 0
+          },
+          "total_votes": 19960,
+          "precincts_reporting": 37,
+          "precincts_total": 50,
+          "eevp": 75.75
+        },
+        {
+          "fips": "36039",
+          "name": "Greene",
+          "source_name": "Greene",
+          "votes": {
+            "blakeman-b": 10617,
+            "hochul-k": 8374,
+            "total_writeins": 44
+          },
+          "total_votes": 19035,
+          "precincts_reporting": 51,
+          "precincts_total": 52,
+          "eevp": 99
+        },
+        {
+          "fips": "36107",
+          "name": "Tioga",
+          "source_name": "Tioga",
+          "votes": {
+            "blakeman-b": 11605,
+            "hochul-k": 7025,
+            "total_writeins": 24
+          },
+          "total_votes": 18654,
+          "precincts_reporting": 31,
+          "precincts_total": 34,
+          "eevp": 91.5
+        },
+        {
+          "fips": "36035",
+          "name": "Fulton",
+          "source_name": "Fulton",
+          "votes": {
+            "blakeman-b": 12173,
+            "hochul-k": 6175,
+            "total_writeins": 31
+          },
+          "total_votes": 18379,
+          "precincts_reporting": 28,
+          "precincts_total": 32,
+          "eevp": 89.23
+        },
+        {
+          "fips": "36025",
+          "name": "Delaware",
+          "source_name": "Delaware",
+          "votes": {
+            "blakeman-b": 10772,
+            "hochul-k": 7054,
+            "total_writeins": 45
+          },
+          "total_votes": 17871,
+          "precincts_reporting": 50,
+          "precincts_total": 55,
+          "eevp": 92
+        },
+        {
+          "fips": "36009",
+          "name": "Cattaraugus",
+          "source_name": "Cattaraugus",
+          "votes": {
+            "blakeman-b": 12037,
+            "hochul-k": 5625,
+            "total_writeins": 40
+          },
+          "total_votes": 17702,
+          "precincts_reporting": 36,
+          "precincts_total": 55,
+          "eevp": 66.17
+        },
+        {
+          "fips": "36023",
+          "name": "Cortland",
+          "source_name": "Cortland",
+          "votes": {
+            "blakeman-b": 8479,
+            "hochul-k": 7662,
+            "total_writeins": 37
+          },
+          "total_votes": 16178,
+          "precincts_reporting": 49,
+          "precincts_total": 51,
+          "eevp": 98
+        },
+        {
+          "fips": "36057",
+          "name": "Montgomery",
+          "source_name": "Montgomery",
+          "votes": {
+            "blakeman-b": 9594,
+            "hochul-k": 5646,
+            "total_writeins": 36
+          },
+          "total_votes": 15276,
+          "precincts_reporting": 29,
+          "precincts_total": 33,
+          "eevp": 89.59
+        },
+        {
+          "fips": "36031",
+          "name": "Essex",
+          "source_name": "Essex",
+          "votes": {
+            "blakeman-b": 7778,
+            "hochul-k": 6922,
+            "total_writeins": 17
+          },
+          "total_votes": 14717,
+          "precincts_reporting": 25,
+          "precincts_total": 33,
+          "eevp": 76.29
+        },
+        {
+          "fips": "36017",
+          "name": "Chenango",
+          "source_name": "Chenango",
+          "votes": {
+            "blakeman-b": 8823,
+            "hochul-k": 4877,
+            "total_writeins": 33
+          },
+          "total_votes": 13733,
+          "precincts_reporting": 22,
+          "precincts_total": 31,
+          "eevp": 73.03
+        },
+        {
+          "fips": "36073",
+          "name": "Orleans",
+          "source_name": "Orleans",
+          "votes": {
+            "blakeman-b": 9679,
+            "hochul-k": 3872,
+            "total_writeins": 31
+          },
+          "total_votes": 13582,
+          "precincts_reporting": 38,
+          "precincts_total": 40,
+          "eevp": 95.49
+        },
+        {
+          "fips": "36095",
+          "name": "Schoharie",
+          "source_name": "Schoharie",
+          "votes": {
+            "blakeman-b": 8007,
+            "hochul-k": 4515,
+            "total_writeins": 34
+          },
+          "total_votes": 12556,
+          "precincts_reporting": 21,
+          "precincts_total": 22,
+          "eevp": 96
+        },
+        {
+          "fips": "36099",
+          "name": "Seneca",
+          "source_name": "Seneca",
+          "votes": {
+            "blakeman-b": 6623,
+            "hochul-k": 5021,
+            "total_writeins": 33
+          },
+          "total_votes": 11677,
+          "precincts_reporting": 22,
+          "precincts_total": 27,
+          "eevp": 84.03
+        },
+        {
+          "fips": "36033",
+          "name": "Franklin",
+          "source_name": "Franklin",
+          "votes": {
+            "blakeman-b": 6799,
+            "hochul-k": 4107,
+            "total_writeins": 27
+          },
+          "total_votes": 10933,
+          "precincts_reporting": 17,
+          "precincts_total": 29,
+          "eevp": 59.56
+        },
+        {
+          "fips": "36003",
+          "name": "Allegany",
+          "source_name": "Allegany",
+          "votes": {
+            "blakeman-b": 7776,
+            "hochul-k": 2634,
+            "total_writeins": 33
+          },
+          "total_votes": 10443,
+          "precincts_reporting": 22,
+          "precincts_total": 38,
+          "eevp": 59.88
+        },
+        {
+          "fips": "36049",
+          "name": "Lewis",
+          "source_name": "Lewis",
+          "votes": {
+            "blakeman-b": 7644,
+            "hochul-k": 2365,
+            "total_writeins": 15
+          },
+          "total_votes": 10024,
+          "precincts_reporting": 31,
+          "precincts_total": 33,
+          "eevp": 94
+        },
+        {
+          "fips": "36121",
+          "name": "Wyoming",
+          "source_name": "Wyoming",
+          "votes": {
+            "blakeman-b": 6158,
+            "hochul-k": 2337,
+            "total_writeins": 29
+          },
+          "total_votes": 8524,
+          "precincts_reporting": 21,
+          "precincts_total": 40,
+          "eevp": 54.96
+        },
+        {
+          "fips": "36123",
+          "name": "Yates",
+          "source_name": "Yates",
+          "votes": {
+            "blakeman-b": 4851,
+            "hochul-k": 3345,
+            "total_writeins": 0
+          },
+          "total_votes": 8196,
+          "precincts_reporting": 35,
+          "precincts_total": 40,
+          "eevp": 88.98
+        },
+        {
+          "fips": "36097",
+          "name": "Schuyler",
+          "source_name": "Schuyler",
+          "votes": {
+            "blakeman-b": 4793,
+            "hochul-k": 2775,
+            "total_writeins": 22
+          },
+          "total_votes": 7590,
+          "precincts_reporting": 17,
+          "precincts_total": 19,
+          "eevp": 93.19
+        },
+        {
+          "fips": "36041",
+          "name": "Hamilton",
+          "source_name": "Hamilton",
+          "votes": {
+            "blakeman-b": 1353,
+            "hochul-k": 629,
+            "total_writeins": 0
+          },
+          "total_votes": 1982,
+          "precincts_reporting": 13,
+          "precincts_total": 22,
+          "eevp": 62.31
+        }
+      ],
+      "outcome": {
+        "won": [
+          "hochul-k"
+        ],
+        "called_by": [
+          "ap"
+        ]
+      }
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-new-york.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 62,
+  "reporting_count": 62,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:32:34.974Z",
+    "race_updated_at": "2026-11-04T04:31:50.151Z",
+    "county_provider_updated_at": "not present"
+  },
+  "limitations": [
+    "County votes use only candidates[].votes.total; no NYT model estimates were used.",
+    "All 62 county FIPS values matched public/geo/counties/NY.json exactly; all 62 had nonzero vote totals.",
+    "NYT county display names differ from local map names for NYC borough counties; county identity is mapped by exact FIPS.",
+    "County-level provider timestamps are absent in this feed; source times are feed and race timestamps."
+  ],
+  "call_authority": {
+    "called_by": [
+      "ap"
+    ],
+    "authority": "Associated Press (AP) is the recorded caller."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-new-york.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Governor"
+    ],
+    "county_count": 62,
+    "reporting_count": 62,
+    "row_count": 62,
+    "source_time": "2026-11-04T04:45:50.619+00:00",
+    "fetched_at": "2026-11-04T04:47:03.201Z",
+    "message": "62 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

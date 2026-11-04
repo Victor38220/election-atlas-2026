@@ -1,0 +1,158 @@
+{
+  "state": "DE",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "U.S. Senate",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "candidates": [
+        {
+          "nyt_id": "coons-c",
+          "name": "Chris Coons",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "katz-m",
+          "name": "Mike Katz",
+          "party": "Republican"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "10003",
+          "name": "New Castle",
+          "unit_count": 1,
+          "votes": {
+            "coons-c": 144328,
+            "katz-m": 54642
+          },
+          "total_votes": 198970,
+          "precincts_reporting": 310,
+          "precincts_total": 318,
+          "eevp": 97.48
+        },
+        {
+          "fips": "10005",
+          "name": "Sussex",
+          "unit_count": 1,
+          "votes": {
+            "coons-c": 59086,
+            "katz-m": 55813
+          },
+          "total_votes": 114899,
+          "precincts_reporting": 116,
+          "precincts_total": 118,
+          "eevp": 98.31
+        },
+        {
+          "fips": "10001",
+          "name": "Kent",
+          "unit_count": 1,
+          "votes": {
+            "coons-c": 36399,
+            "katz-m": 27009
+          },
+          "total_votes": 63408,
+          "precincts_reporting": 96,
+          "precincts_total": 97,
+          "eevp": 98.97
+        }
+      ],
+      "outcome": {
+        "won": [
+          "coons-c"
+        ],
+        "advanced_to_runoff": [],
+        "called_by": [
+          "ap"
+        ],
+        "runoff_accepted_at": [],
+        "winner_accepted_at": [
+          "2026-11-04T01:00:39.789097+00:00"
+        ],
+        "gained": false,
+        "electoral_votes": null
+      },
+      "audit": {
+        "unit_strategy": "county_units",
+        "source_updated_at": "2026-11-04T04:10:10.136Z",
+        "source_unit_count": 3,
+        "county_count": 3,
+        "nonzero_counties": 3,
+        "source_coverage_pct": 100.0,
+        "county_precincts_reporting_sum": 522,
+        "county_precincts_total_sum": 533,
+        "county_candidate_vote_sums": {
+          "coons-c": 239813,
+          "katz-m": 137464
+        },
+        "state_candidate_votes": {
+          "coons-c": 239813,
+          "katz-m": 137464
+        },
+        "candidate_vote_sums_match_state": true,
+        "county_total_votes_sum": 377277,
+        "state_total_votes": 377277,
+        "county_total_votes_match_state": true,
+        "called_by": [
+          "ap"
+        ],
+        "ap_call_recorded": true
+      }
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-delaware.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 3,
+  "reporting_count": 3,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:14:18.565Z",
+    "county_provider_updated_at": "not present",
+    "S_race_updated_at": "2026-11-04T04:10:10.136Z"
+  },
+  "office_audit": [
+    {
+      "office_id": "S",
+      "office": "U.S. Senate",
+      "county_count": 3,
+      "nonzero_counties": 3,
+      "source_coverage_pct": 100.0,
+      "unit_strategy": "county_units",
+      "candidate_vote_sums_match_state": true,
+      "county_total_votes_match_state": true,
+      "called_by": [
+        "ap"
+      ]
+    }
+  ],
+  "limitations": [
+    "Candidate county vote totals use only reporting_units candidates[].votes.total. NYT model estimates, expected vote, and calls were not substituted for vote counts.",
+    "When source units are township or municipality records, each unit is included once and summed into a county using fips_state + fips_county.",
+    "No blanket license is asserted; factual counts are attributed to The New York Times. AP is credited only when the race outcome records called_by including ap."
+  ],
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-delaware.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate"
+    ],
+    "county_count": 3,
+    "reporting_count": 3,
+    "row_count": 3,
+    "source_time": "2026-11-04T04:10:10.136+00:00",
+    "fetched_at": "2026-11-04T04:47:02.941Z",
+    "message": "3 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

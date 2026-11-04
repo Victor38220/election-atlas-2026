@@ -1,0 +1,112 @@
+{
+  "state": "Arkansas",
+  "provider_family": "KnowInk Tally Election Night Reporting / TotalResults API",
+  "official_source_page": "https://www.sos.arkansas.gov/elections/research/election-results",
+  "official_results_page": "https://arkansas.tally-enr.com/",
+  "client_id": "arkansas",
+  "election": {
+    "name": "2026 General Election & Judical Runoff",
+    "date": "2026-11-03",
+    "election_id": "11b07106-031e-4d7c-911a-d01fb473d6dd",
+    "is_official": false
+  },
+  "endpoints": {
+    "client_config": "https://enr-results-api.totalresults.com/Client/GetClientConfig?cId=arkansas",
+    "election_list": "https://enr-results-api.totalresults.com/Election/GetElectionList?cid=arkansas",
+    "current_election_metadata": "https://enr-results-api.totalresults.com/Election/GetElectionInfo?electionID=11b07106-031e-4d7c-911a-d01fb473d6dd&cId=arkansas",
+    "contest_list": "https://enr-results-api.totalresults.com/Contest/GetContestSearchList?cid=arkansas&electionID=11b07106-031e-4d7c-911a-d01fb473d6dd",
+    "contest_results_template": "https://enr-results-api.totalresults.com/Contest/GetSingleContestResults?cId=arkansas&electionID=11b07106-031e-4d7c-911a-d01fb473d6dd&contestType={contestType}&contestID={contestID}",
+    "senate_county_results": "https://enr-results-api.totalresults.com/Contest/GetSingleContestResults?cId=arkansas&electionID=11b07106-031e-4d7c-911a-d01fb473d6dd&contestType=Federal&contestID=eafd140a-9378-43a2-bd6d-f8661524139b",
+    "governor_county_results": "https://enr-results-api.totalresults.com/Contest/GetSingleContestResults?cId=arkansas&electionID=11b07106-031e-4d7c-911a-d01fb473d6dd&contestType=Statewide&contestID=91ed4546-acf4-4ac7-9f2c-300dcb7f2a5a",
+    "optional_county_filter_parameter": "locationId"
+  },
+  "source_clock": {
+    "retrieved_at_utc": "2026-11-04T04:31:20Z",
+    "api_last_updated": "2026-11-04T04:29:28.6459015Z",
+    "metadata_version_id": "v158"
+  },
+  "county_coverage": {
+    "count": 75,
+    "coverage": "All Arkansas counties represented as county FIPS locations in each tested statewide race response.",
+    "location_id_examples": [
+      "05001",
+      "05003",
+      "05005"
+    ],
+    "notes": "Contest response includes county aggregate candidate vote totals under response.locations; it also reports reporting precinct counts. Use the statewide race endpoint once per race rather than requesting each county separately."
+  },
+  "offices": [
+    {
+      "office": "U.S. Senate",
+      "contest_type": "Federal",
+      "contest_id": "eafd140a-9378-43a2-bd6d-f8661524139b",
+      "sample_candidates": [
+        "Tom Cotton",
+        "Jeff Wadlin",
+        "Hallie Shoffner"
+      ]
+    },
+    {
+      "office": "Governor",
+      "contest_type": "Statewide",
+      "contest_id": "91ed4546-acf4-4ac7-9f2c-300dcb7f2a5a",
+      "sample_candidates": [
+        "Fred Love",
+        "Colt Shelby",
+        "Sarah Huckabee Sanders"
+      ]
+    }
+  ],
+  "license": {
+    "status": "No separate API/data license identified on the SOS results page, Tally ENR page, app configuration, or tested API responses.",
+    "source_terms": "SOS page is the official public entry point. The SOS page states the Secretary of State site is copyrighted; follow applicable state/vendor terms and verify reuse rights before redistribution."
+  },
+  "status": "Working, live, unofficial election-night results. Responses tested successfully; 2026 race is not marked official.",
+  "evidence": [
+    {
+      "claim": "SOS links the 2026 General Election & Judicial Runoff to arkansas.tally-enr.com and notes the transition to a new election-night reporting vendor.",
+      "url": "https://www.sos.arkansas.gov/elections/research/election-results"
+    },
+    {
+      "claim": "Public site app configuration identifies the TotalResults API and public results hosts.",
+      "url": "https://arkansas.tally-enr.com/appConfig.json"
+    },
+    {
+      "claim": "The API election list supplied the 2026 election ID, which was then used for metadata and contest requests.",
+      "url": "https://enr-results-api.totalresults.com/Election/GetElectionList?cid=arkansas"
+    },
+    {
+      "claim": "Live metadata reports the current election, update time, version, and unofficial status.",
+      "url": "https://enr-results-api.totalresults.com/Election/GetElectionInfo?electionID=11b07106-031e-4d7c-911a-d01fb473d6dd&cId=arkansas"
+    },
+    {
+      "claim": "Both tested single-contest endpoints return county aggregate candidate counts for 75 locations.",
+      "urls": [
+        "https://enr-results-api.totalresults.com/Contest/GetSingleContestResults?cId=arkansas&electionID=11b07106-031e-4d7c-911a-d01fb473d6dd&contestType=Federal&contestID=eafd140a-9378-43a2-bd6d-f8661524139b",
+        "https://enr-results-api.totalresults.com/Contest/GetSingleContestResults?cId=arkansas&electionID=11b07106-031e-4d7c-911a-d01fb473d6dd&contestType=Statewide&contestID=91ed4546-acf4-4ac7-9f2c-300dcb7f2a5a"
+      ]
+    }
+  ],
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-arkansas.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 75,
+    "reporting_count": 72,
+    "row_count": 150,
+    "source_time": "2026-11-04T04:46:46.329+00:00",
+    "fetched_at": "2026-11-04T04:47:02.878Z",
+    "message": "75 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

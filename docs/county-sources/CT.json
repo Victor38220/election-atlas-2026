@@ -1,0 +1,172 @@
+{
+  "state": "CT",
+  "offices": [
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "candidates": [
+        {
+          "nyt_id": "lamont-n",
+          "name": "Ned Lamont",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "fazio-r",
+          "name": "Ryan Fazio",
+          "party": "Republican"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "09001",
+          "name": "Fairfield",
+          "township_reporting_units": 23,
+          "votes": {
+            "lamont-n": 65242,
+            "fazio-r": 41714
+          },
+          "total_votes": 106956,
+          "precincts_reporting": 63,
+          "precincts_total": 183
+        },
+        {
+          "fips": "09003",
+          "name": "Hartford",
+          "township_reporting_units": 29,
+          "votes": {
+            "lamont-n": 88410,
+            "fazio-r": 52814
+          },
+          "total_votes": 141224,
+          "precincts_reporting": 82,
+          "precincts_total": 172
+        },
+        {
+          "fips": "09005",
+          "name": "Litchfield",
+          "township_reporting_units": 26,
+          "votes": {
+            "lamont-n": 21816,
+            "fazio-r": 21718
+          },
+          "total_votes": 43534,
+          "precincts_reporting": 33,
+          "precincts_total": 51
+        },
+        {
+          "fips": "09007",
+          "name": "Middlesex",
+          "township_reporting_units": 15,
+          "votes": {
+            "lamont-n": 31160,
+            "fazio-r": 23186
+          },
+          "total_votes": 54346,
+          "precincts_reporting": 32,
+          "precincts_total": 36
+        },
+        {
+          "fips": "09009",
+          "name": "New Haven",
+          "township_reporting_units": 27,
+          "votes": {
+            "lamont-n": 76899,
+            "fazio-r": 64738
+          },
+          "total_votes": 141637,
+          "precincts_reporting": 93,
+          "precincts_total": 210
+        },
+        {
+          "fips": "09011",
+          "name": "New London",
+          "township_reporting_units": 21,
+          "votes": {
+            "lamont-n": 44512,
+            "fazio-r": 31752
+          },
+          "total_votes": 76264,
+          "precincts_reporting": 43,
+          "precincts_total": 57
+        },
+        {
+          "fips": "09013",
+          "name": "Tolland",
+          "township_reporting_units": 13,
+          "votes": {
+            "lamont-n": 18956,
+            "fazio-r": 17110
+          },
+          "total_votes": 36066,
+          "precincts_reporting": 18,
+          "precincts_total": 31
+        },
+        {
+          "fips": "09015",
+          "name": "Windham",
+          "township_reporting_units": 15,
+          "votes": {
+            "lamont-n": 15631,
+            "fazio-r": 15804
+          },
+          "total_votes": 31435,
+          "precincts_reporting": 25,
+          "precincts_total": 38
+        }
+      ],
+      "outcome": {
+        "won": [
+          "lamont-n"
+        ],
+        "called_by": [
+          "ap"
+        ]
+      }
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-connecticut.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 8,
+  "reporting_count": 8,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:34:28.962Z",
+    "race_updated_at": "2026-11-04T04:34:00.960Z",
+    "county_provider_updated_at": "not present"
+  },
+  "limitations": [
+    "No county-level reporting units are present. County vote totals are computed by summing candidates[].votes.total across the disjoint township units sharing each exact legacy county FIPS; the 169 township totals sum exactly to statewide votes. No NYT estimates were used.",
+    "Local county GeoJSON contains the eight legacy counties and all eight FIPS matched. Connecticut now has nine planning regions; this source and local geometry do not provide a defensible planning-region crosswalk, so no planning-region mapping was created."
+  ],
+  "call_authority": {
+    "called_by": [
+      "ap"
+    ],
+    "authority": "Associated Press (AP) is the recorded caller."
+  },
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-connecticut.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Governor"
+    ],
+    "county_count": 8,
+    "reporting_count": 8,
+    "row_count": 8,
+    "source_time": "2026-11-04T04:46:41.648+00:00",
+    "fetched_at": "2026-11-04T04:47:03.179Z",
+    "message": "8 counties with published returns. County totals sum distinct towns using publisher-supplied county FIPS. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

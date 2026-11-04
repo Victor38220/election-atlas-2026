@@ -1,0 +1,448 @@
+{
+  "state": "NJ",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "U.S. Senate",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "candidates": [
+        {
+          "nyt_id": "booker-c",
+          "name": "Cory Booker",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "murphy-j",
+          "name": "Justin Murphy",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "fernandez-v",
+          "name": "Veronica Fernandez",
+          "party": "Independent"
+        },
+        {
+          "nyt_id": "kuniansky-j",
+          "name": "Joanne Kuniansky",
+          "party": "Independent"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "34003",
+          "name": "Bergen",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 188979,
+            "murphy-j": 113333,
+            "fernandez-v": 5829,
+            "kuniansky-j": 2134
+          },
+          "total_votes": 310275,
+          "precincts_reporting": 530,
+          "precincts_total": 563,
+          "eevp": 94.14
+        },
+        {
+          "fips": "34025",
+          "name": "Monmouth",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 120178,
+            "murphy-j": 107035,
+            "fernandez-v": 3084,
+            "kuniansky-j": 1446
+          },
+          "total_votes": 231743,
+          "precincts_reporting": 457,
+          "precincts_total": 485,
+          "eevp": 94.23
+        },
+        {
+          "fips": "34023",
+          "name": "Middlesex",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 149048,
+            "murphy-j": 69209,
+            "fernandez-v": 4591,
+            "kuniansky-j": 2725
+          },
+          "total_votes": 225573,
+          "precincts_reporting": 546,
+          "precincts_total": 618,
+          "eevp": 88.35
+        },
+        {
+          "fips": "34029",
+          "name": "Ocean",
+          "unit_count": 1,
+          "votes": {
+            "murphy-j": 112933,
+            "booker-c": 93938,
+            "fernandez-v": 2658,
+            "kuniansky-j": 1232
+          },
+          "total_votes": 210761,
+          "precincts_reporting": 400,
+          "precincts_total": 420,
+          "eevp": 95.24
+        },
+        {
+          "fips": "34013",
+          "name": "Essex",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 166100,
+            "murphy-j": 37815,
+            "fernandez-v": 2931,
+            "kuniansky-j": 2588
+          },
+          "total_votes": 209434,
+          "precincts_reporting": 517,
+          "precincts_total": 575,
+          "eevp": 89.91
+        },
+        {
+          "fips": "34027",
+          "name": "Morris",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 106354,
+            "murphy-j": 82820,
+            "fernandez-v": 2674,
+            "kuniansky-j": 1724
+          },
+          "total_votes": 193572,
+          "precincts_reporting": 367,
+          "precincts_total": 400,
+          "eevp": 91.75
+        },
+        {
+          "fips": "34039",
+          "name": "Union",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 122384,
+            "murphy-j": 44577,
+            "fernandez-v": 3296,
+            "kuniansky-j": 1479
+          },
+          "total_votes": 171736,
+          "precincts_reporting": 399,
+          "precincts_total": 434,
+          "eevp": 91.94
+        },
+        {
+          "fips": "34007",
+          "name": "Camden",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 119503,
+            "murphy-j": 42379,
+            "fernandez-v": 2067,
+            "kuniansky-j": 1583
+          },
+          "total_votes": 165532,
+          "precincts_reporting": 312,
+          "precincts_total": 343,
+          "eevp": 90.96
+        },
+        {
+          "fips": "34005",
+          "name": "Burlington",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 101036,
+            "murphy-j": 52497,
+            "fernandez-v": 1575,
+            "kuniansky-j": 1251
+          },
+          "total_votes": 156359,
+          "precincts_reporting": 391,
+          "precincts_total": 445,
+          "eevp": 87.87
+        },
+        {
+          "fips": "34017",
+          "name": "Hudson",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 106820,
+            "murphy-j": 25164,
+            "fernandez-v": 4064,
+            "kuniansky-j": 2980
+          },
+          "total_votes": 139028,
+          "precincts_reporting": 416,
+          "precincts_total": 468,
+          "eevp": 88.89
+        },
+        {
+          "fips": "34035",
+          "name": "Somerset",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 81952,
+            "murphy-j": 42721,
+            "fernandez-v": 2049,
+            "kuniansky-j": 1103
+          },
+          "total_votes": 127825,
+          "precincts_reporting": 245,
+          "precincts_total": 267,
+          "eevp": 91.76
+        },
+        {
+          "fips": "34021",
+          "name": "Mercer",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 81241,
+            "murphy-j": 24792,
+            "fernandez-v": 2002,
+            "kuniansky-j": 1093
+          },
+          "total_votes": 109128,
+          "precincts_reporting": 221,
+          "precincts_total": 249,
+          "eevp": 88.76
+        },
+        {
+          "fips": "34031",
+          "name": "Passaic",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 55813,
+            "murphy-j": 33658,
+            "fernandez-v": 2056,
+            "kuniansky-j": 933
+          },
+          "total_votes": 92460,
+          "precincts_reporting": 187,
+          "precincts_total": 283,
+          "eevp": 66.08
+        },
+        {
+          "fips": "34001",
+          "name": "Atlantic",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 51378,
+            "murphy-j": 38536,
+            "fernandez-v": 1406,
+            "kuniansky-j": 685
+          },
+          "total_votes": 92005,
+          "precincts_reporting": 134,
+          "precincts_total": 145,
+          "eevp": 92.41
+        },
+        {
+          "fips": "34015",
+          "name": "Gloucester",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 52371,
+            "murphy-j": 32426,
+            "fernandez-v": 927,
+            "kuniansky-j": 612
+          },
+          "total_votes": 86336,
+          "precincts_reporting": 162,
+          "precincts_total": 229,
+          "eevp": 70.74
+        },
+        {
+          "fips": "34019",
+          "name": "Hunterdon",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 31992,
+            "murphy-j": 27633,
+            "fernandez-v": 1007,
+            "kuniansky-j": 536
+          },
+          "total_votes": 61168,
+          "precincts_reporting": 109,
+          "precincts_total": 117,
+          "eevp": 93.16
+        },
+        {
+          "fips": "34037",
+          "name": "Sussex",
+          "unit_count": 1,
+          "votes": {
+            "murphy-j": 29147,
+            "booker-c": 25512,
+            "fernandez-v": 918,
+            "kuniansky-j": 535
+          },
+          "total_votes": 56112,
+          "precincts_reporting": 113,
+          "precincts_total": 119,
+          "eevp": 94.96
+        },
+        {
+          "fips": "34041",
+          "name": "Warren",
+          "unit_count": 1,
+          "votes": {
+            "murphy-j": 19871,
+            "booker-c": 19120,
+            "fernandez-v": 743,
+            "kuniansky-j": 408
+          },
+          "total_votes": 40142,
+          "precincts_reporting": 77,
+          "precincts_total": 86,
+          "eevp": 89.53
+        },
+        {
+          "fips": "34009",
+          "name": "Cape May",
+          "unit_count": 1,
+          "votes": {
+            "murphy-j": 20803,
+            "booker-c": 17497,
+            "fernandez-v": 301,
+            "kuniansky-j": 208
+          },
+          "total_votes": 38809,
+          "precincts_reporting": 124,
+          "precincts_total": 127,
+          "eevp": 97.64
+        },
+        {
+          "fips": "34011",
+          "name": "Cumberland",
+          "unit_count": 1,
+          "votes": {
+            "booker-c": 20076,
+            "murphy-j": 13559,
+            "fernandez-v": 514,
+            "kuniansky-j": 225
+          },
+          "total_votes": 34374,
+          "precincts_reporting": 78,
+          "precincts_total": 92,
+          "eevp": 84.78
+        },
+        {
+          "fips": "34033",
+          "name": "Salem",
+          "unit_count": 1,
+          "votes": {
+            "murphy-j": 9455,
+            "booker-c": 7814,
+            "fernandez-v": 317,
+            "kuniansky-j": 112
+          },
+          "total_votes": 17698,
+          "precincts_reporting": 34,
+          "precincts_total": 43,
+          "eevp": 79.07
+        }
+      ],
+      "outcome": {
+        "won": [
+          "booker-c"
+        ],
+        "advanced_to_runoff": [],
+        "called_by": [
+          "ap"
+        ],
+        "runoff_accepted_at": [],
+        "winner_accepted_at": [
+          "2026-11-04T01:00:55.717106+00:00"
+        ],
+        "gained": false,
+        "electoral_votes": null
+      },
+      "audit": {
+        "unit_strategy": "county_units",
+        "source_updated_at": "2026-11-04T04:39:26.453Z",
+        "source_unit_count": 21,
+        "county_count": 21,
+        "nonzero_counties": 21,
+        "source_coverage_pct": 100.0,
+        "county_precincts_reporting_sum": 5819,
+        "county_precincts_total_sum": 6508,
+        "county_candidate_vote_sums": {
+          "booker-c": 1719106,
+          "murphy-j": 980363,
+          "fernandez-v": 45009,
+          "kuniansky-j": 25592
+        },
+        "state_candidate_votes": {
+          "booker-c": 1719106,
+          "murphy-j": 980363,
+          "fernandez-v": 45009,
+          "kuniansky-j": 25592
+        },
+        "candidate_vote_sums_match_state": true,
+        "county_total_votes_sum": 2770070,
+        "state_total_votes": 2770070,
+        "county_total_votes_match_state": true,
+        "called_by": [
+          "ap"
+        ],
+        "ap_call_recorded": true
+      }
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-new-jersey.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 21,
+  "reporting_count": 21,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:39:26.453Z",
+    "county_provider_updated_at": "not present",
+    "S_race_updated_at": "2026-11-04T04:39:26.453Z"
+  },
+  "office_audit": [
+    {
+      "office_id": "S",
+      "office": "U.S. Senate",
+      "county_count": 21,
+      "nonzero_counties": 21,
+      "source_coverage_pct": 100.0,
+      "unit_strategy": "county_units",
+      "candidate_vote_sums_match_state": true,
+      "county_total_votes_match_state": true,
+      "called_by": [
+        "ap"
+      ]
+    }
+  ],
+  "limitations": [
+    "Candidate county vote totals use only reporting_units candidates[].votes.total. NYT model estimates, expected vote, and calls were not substituted for vote counts.",
+    "When source units are township or municipality records, each unit is included once and summed into a county using fips_state + fips_county.",
+    "No blanket license is asserted; factual counts are attributed to The New York Times. AP is credited only when the race outcome records called_by including ap."
+  ],
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-new-jersey.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate"
+    ],
+    "county_count": 21,
+    "reporting_count": 21,
+    "row_count": 21,
+    "source_time": "2026-11-04T04:45:26.117+00:00",
+    "fetched_at": "2026-11-04T04:47:03.081Z",
+    "message": "21 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

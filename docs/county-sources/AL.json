@@ -1,0 +1,88 @@
+{
+  "state": "Alabama",
+  "state_code": "AL",
+  "offices": [
+    "Governor",
+    "U.S. Senate"
+  ],
+  "election_identity": {
+    "date": "2026-11-03",
+    "type": "general election",
+    "race_id": "1001305",
+    "verification": "The official Alabama Votes election-night page labels ecode=1001305 as 2026 GENERAL ELECTION and presents statewide Governor and United States Senator contests. The ecode is observed on the live page; it is not inferred."
+  },
+  "provider_family": "Alabama Secretary of State / Alabama Votes electionNight ASP.NET Web Forms site (official; server-rendered HTML, export action present but machine-readable format not verified)",
+  "endpoints": {
+    "official_statewide": "https://www2.alabamavotes.gov/electionNight/statewideResultsByContest.aspx?ecode=1001305",
+    "official_county_index": "https://www2.alabamavotes.gov/electionNight/chooseCounty.aspx?ecode=1001305",
+    "official_county_result_template": "https://www2.alabamavotes.gov/electionNight/countyResultsByContest.aspx?cid={observed_county_id}&ecode=1001305",
+    "export_action": "Statewide page includes an Export Data link invoking ASP.NET postback hlnkExportData. It requires form state; resulting file format/body has not been verified."
+  },
+  "source": {
+    "official_results_page": "https://www.sos.alabama.gov/alabama-votes/voter/election-night-unofficial-results",
+    "official_live_application": "https://www2.alabamavotes.gov/electionNight/statewideResultsByContest.aspx?ecode=1001305",
+    "official_disclaimer": "Results are unofficial and presented as a courtesy of the Alabama Secretary of State and Probate Judges; accuracy is the responsibility of each reporting county's Probate Judge.",
+    "page_metadata": "Live HTML contains statewide election title, total ballots, registered voters, turnout, counties reported, and last-updated timestamp. County HTML contains county name, ballots, registered voters, turnout, boxes reported, timestamp, and contest candidates/counts."
+  },
+  "fetches": [
+    {
+      "fetched_at_local": "2026-11-03 (America/New_York; command-line GET, time not recorded)",
+      "url": "https://www2.alabamavotes.gov/electionNight/statewideResultsByContest.aspx?ecode=1001305",
+      "http_status": 200,
+      "result": "Retrieved 112440-byte HTML. Observed current HTML metadata: 2026 GENERAL ELECTION; 66 counties reported at 11/03/2026 10:26:54 PM; statewide totals and contest rows embedded in HTML. For Governor: Doug Jones 713,359, Tommy Tuberville 807,653, write-in 5,365. For U.S. Senator: Everett Wess 671,111, Barry Moore 848,047, write-in 1,736. Values are live snapshot counts and will change."
+    },
+    {
+      "fetched_at_local": "2026-11-03 (America/New_York; command-line GET, time not recorded)",
+      "url": "https://www2.alabamavotes.gov/electionNight/chooseCounty.aspx?ecode=1001305",
+      "http_status": 200,
+      "result": "Retrieved county index HTML containing county links and observed county IDs. County result links follow countyResultsByContest.aspx?cid={id}&ecode=1001305."
+    },
+    {
+      "fetched_at_local": "2026-11-03 (America/New_York; command-line GET, time not recorded)",
+      "url": "https://www2.alabamavotes.gov/electionNight/countyResultsByContest.aspx?cid=01&ecode=1001305",
+      "http_status": 200,
+      "result": "Live county HTML identifies cid=01 as Jefferson County, reports 103623 ballots, 497469 registered voters, 20.83% turnout, boxes reported 53.93%, last updated 11/03/2026 09:43:04 PM. Governor and U.S. Senate contests are present; Governor Doug Jones 83076 votes in this snapshot."
+    }
+  ],
+  "county_coverage": {
+    "verified": true,
+    "county_count": 67,
+    "counties_reporting_in_observed_statewide_snapshot": 66,
+    "sample_counties": [
+      "Jefferson County (cid=01 observed)"
+    ],
+    "note": "Official county index exposes county result links across 67 county entries. Statewide live page reports 66 counties reporting in the fetched snapshot. Other counties may have zero/unreported totals; per-county fetch coverage was not exhaustively enumerated."
+  },
+  "license": {
+    "status": "No explicit reuse license located for election-night HTML/export in this investigation.",
+    "terms": "Site labels figures unofficial and attributes submissions to Alabama's Probate Judges; public accessibility alone does not establish a separate redistribution license."
+  },
+  "limitations": [
+    "The live source is public, official server-rendered HTML. Although an Export Data control exists, the output was not retrieved; no CSV/XML/JSON feed is claimed.",
+    "Counts and timestamps are transient snapshots. Fetch time was not logged precisely, and numbers may have advanced since retrieval.",
+    "County index and one county page were directly inspected; all 67 individual county pages were not fetched.",
+    "County results are explicitly unofficial and county probate judges are responsible for reported accuracy."
+  ],
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-alabama.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 67,
+    "reporting_count": 67,
+    "row_count": 134,
+    "source_time": "2026-11-04T04:45:31.06+00:00",
+    "fetched_at": "2026-11-04T04:47:02.877Z",
+    "message": "67 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

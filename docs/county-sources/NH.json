@@ -1,0 +1,479 @@
+{
+  "state": "NH",
+  "offices": [
+    {
+      "office_id": "S",
+      "office": "U.S. Senate",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "candidates": [
+        {
+          "nyt_id": "pappas-c",
+          "name": "Chris Pappas",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "sununu-j",
+          "name": "John E. Sununu",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "laplante-e",
+          "name": "Edmond Laplante",
+          "party": "Constitution"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "33011",
+          "name": "Hillsborough",
+          "unit_count": 31,
+          "votes": {
+            "pappas-c": 83696,
+            "sununu-j": 63841,
+            "laplante-e": 2777
+          },
+          "total_votes": 150314,
+          "precincts_reporting": 43,
+          "precincts_total": 55,
+          "eevp": 78.18
+        },
+        {
+          "fips": "33013",
+          "name": "Merrimack",
+          "unit_count": 27,
+          "votes": {
+            "pappas-c": 33504,
+            "sununu-j": 21946,
+            "laplante-e": 1149
+          },
+          "total_votes": 56599,
+          "precincts_reporting": 28,
+          "precincts_total": 39,
+          "eevp": 71.79
+        },
+        {
+          "fips": "33017",
+          "name": "Strafford",
+          "unit_count": 13,
+          "votes": {
+            "pappas-c": 32502,
+            "sununu-j": 17802,
+            "laplante-e": 860
+          },
+          "total_votes": 51164,
+          "precincts_reporting": 23,
+          "precincts_total": 27,
+          "eevp": 85.19
+        },
+        {
+          "fips": "33015",
+          "name": "Rockingham",
+          "unit_count": 37,
+          "votes": {
+            "pappas-c": 77333,
+            "sununu-j": 66121,
+            "laplante-e": 2241
+          },
+          "total_votes": 145695,
+          "precincts_reporting": 44,
+          "precincts_total": 53,
+          "eevp": 83.02
+        },
+        {
+          "fips": "33009",
+          "name": "Grafton",
+          "unit_count": 39,
+          "votes": {
+            "pappas-c": 23754,
+            "sununu-j": 12050,
+            "laplante-e": 633
+          },
+          "total_votes": 36437,
+          "precincts_reporting": 31,
+          "precincts_total": 41,
+          "eevp": 75.61
+        },
+        {
+          "fips": "33001",
+          "name": "Belknap",
+          "unit_count": 11,
+          "votes": {
+            "pappas-c": 12332,
+            "sununu-j": 13109,
+            "laplante-e": 542
+          },
+          "total_votes": 25983,
+          "precincts_reporting": 14,
+          "precincts_total": 16,
+          "eevp": 87.5
+        },
+        {
+          "fips": "33003",
+          "name": "Carroll",
+          "unit_count": 19,
+          "votes": {
+            "pappas-c": 9470,
+            "sununu-j": 7665,
+            "laplante-e": 253
+          },
+          "total_votes": 17388,
+          "precincts_reporting": 10,
+          "precincts_total": 19,
+          "eevp": 52.63
+        },
+        {
+          "fips": "33019",
+          "name": "Sullivan",
+          "unit_count": 15,
+          "votes": {
+            "pappas-c": 8184,
+            "sununu-j": 6107,
+            "laplante-e": 369
+          },
+          "total_votes": 14660,
+          "precincts_reporting": 13,
+          "precincts_total": 17,
+          "eevp": 76.47
+        },
+        {
+          "fips": "33005",
+          "name": "Cheshire",
+          "unit_count": 23,
+          "votes": {
+            "pappas-c": 12995,
+            "sununu-j": 8915,
+            "laplante-e": 559
+          },
+          "total_votes": 22469,
+          "precincts_reporting": 18,
+          "precincts_total": 27,
+          "eevp": 66.67
+        },
+        {
+          "fips": "33007",
+          "name": "Coos",
+          "unit_count": 23,
+          "votes": {
+            "pappas-c": 4770,
+            "sununu-j": 4831,
+            "laplante-e": 279
+          },
+          "total_votes": 9880,
+          "precincts_reporting": 16,
+          "precincts_total": 24,
+          "eevp": 66.67
+        }
+      ],
+      "outcome": {
+        "won": [
+          "pappas-c"
+        ],
+        "advanced_to_runoff": [],
+        "called_by": [
+          "ap"
+        ],
+        "runoff_accepted_at": [],
+        "winner_accepted_at": [
+          "2026-11-04T01:21:28.872+00:00"
+        ],
+        "gained": false,
+        "electoral_votes": null
+      },
+      "audit": {
+        "unit_strategy": "township_units_aggregated_by_county_fips",
+        "source_updated_at": "2026-11-04T04:38:59.171Z",
+        "source_unit_count": 238,
+        "county_count": 10,
+        "nonzero_counties": 10,
+        "source_coverage_pct": 100.0,
+        "county_precincts_reporting_sum": 240,
+        "county_precincts_total_sum": 318,
+        "county_candidate_vote_sums": {
+          "pappas-c": 298540,
+          "sununu-j": 222387,
+          "laplante-e": 9662
+        },
+        "state_candidate_votes": {
+          "pappas-c": 298540,
+          "sununu-j": 222387,
+          "laplante-e": 9662
+        },
+        "candidate_vote_sums_match_state": true,
+        "county_total_votes_sum": 530589,
+        "state_total_votes": 530589,
+        "county_total_votes_match_state": true,
+        "called_by": [
+          "ap"
+        ],
+        "ap_call_recorded": true
+      }
+    },
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "election_date": "2026-11-03",
+      "type": "General",
+      "candidates": [
+        {
+          "nyt_id": "ayotte-k",
+          "name": "Kelly Ayotte",
+          "party": "Republican"
+        },
+        {
+          "nyt_id": "warmington-c",
+          "name": "Cinde Warmington",
+          "party": "Democrat"
+        },
+        {
+          "nyt_id": "villee-s",
+          "name": "Stephen Villee",
+          "party": "Libertarian"
+        }
+      ],
+      "county_results": [
+        {
+          "fips": "33011",
+          "name": "Hillsborough",
+          "unit_count": 31,
+          "votes": {
+            "warmington-c": 70015,
+            "ayotte-k": 78629,
+            "villee-s": 2100
+          },
+          "total_votes": 150744,
+          "precincts_reporting": 44,
+          "precincts_total": 55,
+          "eevp": 80.0
+        },
+        {
+          "fips": "33013",
+          "name": "Merrimack",
+          "unit_count": 27,
+          "votes": {
+            "warmington-c": 29741,
+            "ayotte-k": 26907,
+            "villee-s": 971
+          },
+          "total_votes": 57619,
+          "precincts_reporting": 29,
+          "precincts_total": 39,
+          "eevp": 74.36
+        },
+        {
+          "fips": "33017",
+          "name": "Strafford",
+          "unit_count": 13,
+          "votes": {
+            "warmington-c": 27943,
+            "ayotte-k": 22030,
+            "villee-s": 1746
+          },
+          "total_votes": 51719,
+          "precincts_reporting": 23,
+          "precincts_total": 27,
+          "eevp": 85.19
+        },
+        {
+          "fips": "33015",
+          "name": "Rockingham",
+          "unit_count": 37,
+          "votes": {
+            "ayotte-k": 78774,
+            "warmington-c": 64036,
+            "villee-s": 1963
+          },
+          "total_votes": 144773,
+          "precincts_reporting": 44,
+          "precincts_total": 53,
+          "eevp": 83.02
+        },
+        {
+          "fips": "33001",
+          "name": "Belknap",
+          "unit_count": 11,
+          "votes": {
+            "ayotte-k": 15519,
+            "warmington-c": 9236,
+            "villee-s": 433
+          },
+          "total_votes": 25188,
+          "precincts_reporting": 14,
+          "precincts_total": 16,
+          "eevp": 87.5
+        },
+        {
+          "fips": "33009",
+          "name": "Grafton",
+          "unit_count": 39,
+          "votes": {
+            "warmington-c": 20488,
+            "ayotte-k": 15192,
+            "villee-s": 505
+          },
+          "total_votes": 36185,
+          "precincts_reporting": 31,
+          "precincts_total": 41,
+          "eevp": 75.61
+        },
+        {
+          "fips": "33003",
+          "name": "Carroll",
+          "unit_count": 19,
+          "votes": {
+            "warmington-c": 7810,
+            "ayotte-k": 9453,
+            "villee-s": 207
+          },
+          "total_votes": 17470,
+          "precincts_reporting": 10,
+          "precincts_total": 19,
+          "eevp": 52.63
+        },
+        {
+          "fips": "33019",
+          "name": "Sullivan",
+          "unit_count": 15,
+          "votes": {
+            "ayotte-k": 7361,
+            "warmington-c": 6997,
+            "villee-s": 264
+          },
+          "total_votes": 14622,
+          "precincts_reporting": 13,
+          "precincts_total": 17,
+          "eevp": 76.47
+        },
+        {
+          "fips": "33005",
+          "name": "Cheshire",
+          "unit_count": 23,
+          "votes": {
+            "warmington-c": 11622,
+            "ayotte-k": 10312,
+            "villee-s": 383
+          },
+          "total_votes": 22317,
+          "precincts_reporting": 18,
+          "precincts_total": 27,
+          "eevp": 66.67
+        },
+        {
+          "fips": "33007",
+          "name": "Coos",
+          "unit_count": 23,
+          "votes": {
+            "ayotte-k": 5916,
+            "warmington-c": 3734,
+            "villee-s": 160
+          },
+          "total_votes": 9810,
+          "precincts_reporting": 16,
+          "precincts_total": 24,
+          "eevp": 66.67
+        }
+      ],
+      "outcome": {
+        "won": [],
+        "advanced_to_runoff": [],
+        "called_by": [],
+        "runoff_accepted_at": [],
+        "winner_accepted_at": [],
+        "gained": null,
+        "electoral_votes": null
+      },
+      "audit": {
+        "unit_strategy": "township_units_aggregated_by_county_fips",
+        "source_updated_at": "2026-11-04T04:39:01.836Z",
+        "source_unit_count": 238,
+        "county_count": 10,
+        "nonzero_counties": 10,
+        "source_coverage_pct": 100.0,
+        "county_precincts_reporting_sum": 242,
+        "county_precincts_total_sum": 318,
+        "county_candidate_vote_sums": {
+          "ayotte-k": 270093,
+          "warmington-c": 251622,
+          "villee-s": 8732
+        },
+        "state_candidate_votes": {
+          "ayotte-k": 270093,
+          "warmington-c": 251622,
+          "villee-s": 8732
+        },
+        "candidate_vote_sums_match_state": true,
+        "county_total_votes_sum": 530447,
+        "state_total_votes": 530447,
+        "county_total_votes_match_state": true,
+        "called_by": [],
+        "ap_call_recorded": false
+      }
+    }
+  ],
+  "provider_family": "nyt-public-results",
+  "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-new-hampshire.json",
+  "http_status": 200,
+  "election_date": "2026-11-03",
+  "county_count": 10,
+  "reporting_count": 10,
+  "missing_fips": [],
+  "source_times": {
+    "results_updated_at": "2026-11-04T04:39:11.843Z",
+    "county_provider_updated_at": "not present",
+    "S_race_updated_at": "2026-11-04T04:38:59.171Z",
+    "G_race_updated_at": "2026-11-04T04:39:01.836Z"
+  },
+  "office_audit": [
+    {
+      "office_id": "S",
+      "office": "U.S. Senate",
+      "county_count": 10,
+      "nonzero_counties": 10,
+      "source_coverage_pct": 100.0,
+      "unit_strategy": "township_units_aggregated_by_county_fips",
+      "candidate_vote_sums_match_state": true,
+      "county_total_votes_match_state": true,
+      "called_by": [
+        "ap"
+      ]
+    },
+    {
+      "office_id": "G",
+      "office": "Governor",
+      "county_count": 10,
+      "nonzero_counties": 10,
+      "source_coverage_pct": 100.0,
+      "unit_strategy": "township_units_aggregated_by_county_fips",
+      "candidate_vote_sums_match_state": true,
+      "county_total_votes_match_state": true,
+      "called_by": []
+    }
+  ],
+  "limitations": [
+    "Candidate county vote totals use only reporting_units candidates[].votes.total. NYT model estimates, expected vote, and calls were not substituted for vote counts.",
+    "When source units are township or municipality records, each unit is included once and summed into a county using fips_state + fips_county.",
+    "No blanket license is asserted; factual counts are attributed to The New York Times. AP is credited only when the race outcome records called_by including ap."
+  ],
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-new-hampshire.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 10,
+    "reporting_count": 10,
+    "row_count": 20,
+    "source_time": "2026-11-04T04:46:26.931+00:00",
+    "fetched_at": "2026-11-04T04:47:03.074Z",
+    "message": "10 counties with published returns. County totals sum distinct towns using publisher-supplied county FIPS. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}

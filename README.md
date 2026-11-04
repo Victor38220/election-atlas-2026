@@ -1,6 +1,6 @@
 # Election Atlas · 2026
 
-Interactive election dashboard for the **35 U.S. Senate contests** and **36 state governor elections** on November 3, 2026. The national map shows both offices together: Senate on the left half of each state, governor on the right. Click a state to expand directly into its county map. The national map and primary race cards show the leader in actual reported 2026 votes and that candidate’s current vote share. A leader is not a race call. Cards show Kalshi and Polymarket quotes only when they match that same candidate; a missing count or unmatched contract stays unavailable. Model probabilities appear as secondary context in race details and never substitute for a missing reported count. Polling, model forecasts, counted vote shares, and market prices remain separate measurements.
+Interactive election dashboard for the **35 U.S. Senate contests** and **36 state governor elections** on November 3, 2026. The national map shows both offices together: States with both races split Senate on the left and governor on the right. A state with one race uses its entire shape. Solid colors identify explicit Associated Press calls; uncalled reported leaders are hatched. Click a state to expand directly into its county map. The national map and primary race cards show the leader in actual reported 2026 votes and that candidate’s current vote share. A leader is not a race call. Cards show Kalshi and Polymarket quotes only when they match that same candidate; a missing count or unmatched contract stays unavailable. Model probabilities appear as secondary context in race details and never substitute for a missing reported count. Polling, model forecasts, counted vote shares, and market prices remain separate measurements.
 
 Live: https://election-atlas-2026.election-atlas-2026.workers.dev
 
@@ -8,9 +8,9 @@ Repository: [Victor38220/election-atlas-2026](https://github.com/Victor38220/ele
 
 ## How it runs
 
-- **Cloudflare Worker:** serves the built React application and a public, GET-only proxy for explicitly allowed provider hosts and paths. The proxy solves browser CORS restrictions. Market responses cache for 20 seconds; reported results and most county feeds cache for 60 seconds, Arizona for 120 seconds, and Ohio for 180 seconds. It holds no API keys or private credentials.
-- **Open dashboard:** attempts a live refresh on load, then at the next wall-clock `:00` and `:30` boundaries for markets. Forecasts and individual polls refresh every ten minutes, matching provider caching. Hidden tabs pause refresh and refresh when visible again. Browser suspension, network delays, provider caching and rate limits can delay updates; this is not a guaranteed real-time feed.
-- **GitHub archive:** a separate Action runs at minutes `7,22,37,52`. Python refreshes markets when 15 minutes have passed and polling/candidate metadata when a day has passed. It validates and commits changed JSON, preserving actual observed market history for 21 days. It does not redeploy Cloudflare and is independent of visitors or the local computer.
+- **Cloudflare Worker:** serves the built React application and a public, GET-only proxy for explicitly allowed provider hosts and paths. The proxy solves browser CORS restrictions. Market responses cache for 20 seconds; the shared national and county result feeds cache for 30 seconds. Fallback official feeds retain their own minimum intervals: most 60 seconds, Arizona 120 seconds and Ohio 180 seconds. It holds no API keys or private credentials.
+- **Open dashboard:** attempts a live refresh on load, then at the next wall-clock `:00` and `:30` boundaries for markets, reported vote counts and regional results. Forecasts and individual polls refresh every ten minutes, matching provider caching. Hidden tabs pause refresh and refresh when visible again. Browser suspension, network delays, provider caching and rate limits can delay updates; this is not a guaranteed real-time feed.
+- **GitHub archive:** a separate Action runs at minutes `7,22,37,52`. Python refreshes markets when 15 minutes have passed and polling/candidate metadata when a day has passed. It validates and commits changed JSON, preserving actual observed market history for 21 days. The Node22 collector also preserves all 71 statewide race records, explicit AP calls, and all 45 states’ current regional reports for offline/API-failure resilience. It does not redeploy Cloudflare and is independent of visitors or the local computer.
 - **Resilience:** the page starts from a real bundled snapshot, checks the GitHub archive and keeps the most recent successful browser data in local storage. Sources refresh independently. A failed fetch retains the previous successful data and timestamp. Missing data is `null`, never a zero probability.
 - **History:** archived observations use 15-minute buckets for 24 hours and hourly buckets thereafter. Browser observations use five-minute buckets for the latest day and hourly buckets thereafter. Only observed prices appear; historical prices are never backfilled with invented points.
 
@@ -60,6 +60,7 @@ Run **Actions → Archive election data → Run workflow**. Select `force` to re
 ```sh
 .venv/bin/python -m scripts.update_data
 .venv/bin/python -m scripts.update_data --force
+node --experimental-strip-types scripts/refresh_national.ts
 ```
 
 Inspect the provider status summary, then commit changed `public/data` and `config` files. The UI refresh button rechecks live sources without writing to GitHub.
@@ -75,7 +76,7 @@ The initial successful ingestion collected 71 forecasts, 1,569 deduplicated indi
 
 ## Important coverage limits
 
-- County views show **November 3, 2026 only**, using eight official state feeds. Coverage by state and office is listed below. California’s verified governor feed was initialized with zero votes; those records show awaiting reports with null vote shares. Unsupported states and offices remain unavailable. County maps never display historical election returns, polling estimates, or market prices.
+- Regional views show **November 3, 2026 only**. One shared public publisher supplies all 71 statewide contests and regional records across all 45 states with tracked elections. Forty-four states have compatible county records, including town-to-county sums where the publisher supplies county FIPS. Alaska uses its 40 House election districts with matching Census district boundaries, explicitly labeled as districts. Hawaii supplies four of five map counties. Unassigned overseas votes and temporary county/state discrepancies remain unallocated. Missing records stay gray; actual zero counts show awaiting reports with null shares. County maps never substitute historical returns, polling estimates, market prices or model estimates.
 - The map covers all 50 states, 35 Senate elections and 36 **state** governorships. Territorial gubernatorial elections are not included.
 - Forecast candidates reflect Polling Forecast’s principal outcomes, not a verified complete ballot. Reported results retain the candidates, tickets, and party labels supplied by the relevant election feed. Independents retain their own party and are not automatically assigned a Democratic caucus alignment.
 - Kalshi contracts often settle on a senator being sworn in; Polymarket contracts often settle on media consensus or official certification. **No cross-provider comparison group is approved automatically.** Both prices may be displayed, but subtraction is disabled unless explicit compatible-outcome review overrides exist in `config/market-mappings.json`.
@@ -91,23 +92,29 @@ See [ATTRIBUTION.md](ATTRIBUTION.md) for provider and row-specific data licensin
 
 ## Reported 2026 vote counts
 
-The Results view uses [Open America’s documented free API](https://openamerica.io/elections/api/), which passes through counts from official state election offices. Live calls verified both Senate and Governor responses with nine state races each on November 3, 2026. This is partial coverage, and no county breakdown is exposed by that API. Results refresh once per minute through a 60-second Cloudflare cache. The source timestamp remains visible; a reported leader is never labeled a certified winner. Reporting percentages describe the source’s reporting units, which can be precincts, counties, or localities, and do not measure votes counted. Exit-poll survey data is separate from reported vote counts; the dashboard links to publisher coverage because no free, documented 2026 demographic exit-poll API was verified.
+The Results view reads The New York Times’ publicly accessible election JSON through the fixed-host Cloudflare proxy: `results-senate.json`, `results-governor.json`, and `results-{state-name}.json` under `https://static01.nyt.com/elections-assets/pages/data/2026-11-03/`. Live responses were validated for 35 Senate races (including Florida and Ohio special-general contests), 36 governor races, and all 45 relevant state pages. The default browser requests align to :00 and :30; caching and upstream reporting may delay a change. Source update time and retrieval time remain separate. Individual county update times are not supplied and are not invented.
+
+Only `candidates[].votes.total` and published `total_votes` enter vote displays. The NYT expected-vote, model, polling, image and editorial fields are not imported. A call is labeled AP only when `outcome.called_by` explicitly includes `ap`, `outcome.won` identifies one candidate, and the canonical race identity matches. A NYT-only or CNN-only call does not become an AP call. `winner_accepted_at` is labeled as the call record’s acceptance time, not the exact AP decision time. Successful refreshes can remove retracted calls; failed office refreshes retain the prior observed records and timestamps.
+
+The minimum working publisher set for counts and AP call metadata is one. This is public keyless retrieval, not a claim of a blanket reuse licence or a guaranteed service. Named source attribution and original result-page links remain visible. The older official-state and secondary-mirror adapters remain available as fallbacks. Full per-state evidence and the minimal source analysis are in `docs/county-sources/`; the generated machine-readable coverage summary is `public/data/county-coverage.json`.
 
 ## Focused views
 
-The national map always colors states by reported ballot leaders, with the two offices shown separately. Primary cards show each reported leader, their actual share of counted votes, and only matching market quotes. No result means no leader; a model favorite never fills that gap. Full polls, forecasts, market trend charts, and resolution terms remain in race details. County maps use separate official 2026 county feeds; statewide Open America totals are never copied onto counties. Unsupported states and offices show unavailable coverage. County polling and prediction-market contracts are unavailable.
+The national map uses solid party color for explicit AP calls, hatching for uncalled reported leaders, and gray for unavailable counts. It splits only states holding both tracked races. Primary cards show each reported leader, their actual share of counted votes, and only matching market quotes. No result means no leader; a model favorite never fills that gap. Full polls, forecasts, market trend charts, and resolution terms remain in race details. Regional maps read their own published county or district observations; statewide totals are never copied onto individual areas. Unsupported areas remain unavailable. County polling and prediction-market contracts are unavailable.
 
 When a complete connected official county feed supplies a state, the dashboard may sum distinct county records separately for each office and candidate to display its reported totals. This is an arithmetic total of observed votes from one source, not a projection, race call, or estimate of how many ballots remain. Duplicate county identities and partial provider responses are excluded from that aggregation. Source times remain attached to the reports; retrieval time is separate.
 
 Exit polls have their own view: one explicitly dated, attributed national published reading and links to current publisher reports. That recorded reading does not auto-refresh; no free state/county exit-poll API was verified. Exit-poll survey percentages never replace counted election votes.
 
-## Live county sources
+## Fallback county sources
+
+The primary shared feed covers all 45 relevant states, with 30-second requests. The following separately verified adapters are retained for fallback use; their intervals apply when a fallback is used.
 
 | State | Office coverage | Verified county or locality coverage | Refresh while open |
 |---|---|---:|---|
 | Georgia | Senate and governor | 159 counties for each office | 60 seconds |
 | North Carolina | Senate | 100 counties | 60 seconds |
-| California | Governor | 58 counties; awaiting votes in the verified source observation | 60 seconds |
+| California | Governor | 58 counties; this fallback was initialized without votes at its recorded observation | 60 seconds |
 | Arizona | Governor and lieutenant governor ticket | 15 counties | 120 seconds |
 | Virginia | Senate | 133 counties and independent cities | 60 seconds |
 | Ohio | Senate and governor | 88 counties for each office | 180 seconds |
@@ -127,4 +134,4 @@ Exit polls have their own view: one explicitly dated, attributed national publis
 
 County data refreshes while its state view is open. A source failure retains the last actual 2026 observation and its source time. Precincts, counties, and localities are reporting units, never a claim about the fraction of all votes counted. Counts remain unofficial pending canvass and certification. County geometry provides geographic context only; no older election returns are served as a fallback.
 
-Minnesota’s official download host is reachable by the GitHub runner but returns origin timeouts from Cloudflare. The archive workflow collects and validates that feed about every15minutes; the browser reads the shared normalized mirror. Both original source time and actual collector fetch time remain visible. GitHub scheduling can be delayed. Other connected county feeds refresh directly; Minnesota is not described as a minute-by-minute feed.
+Minnesota’s official download host is reachable by the GitHub runner but returns origin timeouts from Cloudflare. The archive workflow collects and validates that feed about every15minutes; the browser reads the shared normalized mirror. Both original source time and actual collector fetch time remain visible. GitHub scheduling can be delayed. This applies to the Minnesota fallback only; the primary shared Minnesota feed is requested every 30 seconds.

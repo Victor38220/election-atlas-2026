@@ -1,0 +1,102 @@
+{
+  "state": "Florida",
+  "state_code": "FL",
+  "offices": [
+    "US Senate (special)",
+    "Governor"
+  ],
+  "election_identity": {
+    "date": "2026-11-03",
+    "type": "general election",
+    "race_ids": [
+      "2026-senate-fl-special",
+      "2026-governor-fl"
+    ],
+    "verification": "config/races.json identifies the Senate contest as special and Governor as regular for the November 3, 2026 general election. Florida Election Watch currently labels the election 2026 General Election / Unofficial Election Night Results."
+  },
+  "provider_family": "Florida Department of State, Florida Election Watch (official; county pages and download page located, live result payloads inaccessible in this investigation)",
+  "endpoints": {
+    "official_results_home": "https://floridaelectionwatch.gov/",
+    "official_downloads_page": "https://floridaelectionwatch.gov/Downloads",
+    "official_state_offices_page": "https://floridaelectionwatch.gov/StateOffices/",
+    "official_county_page_template": "https://floridaelectionwatch.gov/TrackCounty/{COUNTY_CODE}",
+    "official_download_utility_candidate": "https://results.elections.myflorida.com/downloadresults.asp?ElectionDate=11%2F3%2F2026"
+  },
+  "source": {
+    "official_home_claims": "The Florida Department of State's Election Watch page identifies the November 3, 2026 general election as unofficial election-night results, says it displays votes collected from Florida counties, and states preliminary results will not be released before 8:00 p.m. Eastern Time.",
+    "official_download_claims": "The official Downloads page search-index text lists Excel, tab-delimited, and pipe-delimited files including a Votes File. The actual links and whether these are live county-level results could not be inspected.",
+    "official_county_claims": "The official home page exposes county links in the form /TrackCounty/{three-letter county code}; the Florida Election Watch County Results page is independently indexed. County pages were not readable from direct requests during this investigation.",
+    "official_data_extract_claims": "The Florida Division of Elections results extract utility describes a tab-delimited extract with CountyCode, CountyName, race, candidate, vote, and precinct fields. The 2026 November 3 utility response was blocked before its contents or download behavior could be verified.",
+    "sources": [
+      "https://floridaelectionwatch.gov/",
+      "https://floridaelectionwatch.gov/Downloads",
+      "https://floridaelectionwatch.gov/StateOffices/",
+      "https://floridaelectionwatch.gov/TrackCounty/FLA",
+      "https://results.elections.myflorida.com/downloadresults.asp?ElectionDate=11%2F3%2F2026"
+    ]
+  },
+  "fetches": [
+    {
+      "fetched_at_utc": "2026-11-04T04:28:03Z",
+      "url": "https://floridaelectionwatch.gov/",
+      "http_status": 200,
+      "result": "Homepage HTML was retrievable. It identified the November 3, 2026 general election and unofficial election-night results, stated preliminary results would not be released before 8 p.m. ET, and included county-page links. No candidate vote totals were present in the body. Saved response sample: /tmp/fl-official-home-2026-11-04.html."
+    },
+    {
+      "fetched_at_utc": "2026-11-04T04:28:03Z",
+      "url": "https://floridaelectionwatch.gov/Downloads",
+      "http_status": 403,
+      "result": "Cloudflare managed challenge page; no file links or download URLs could be extracted. No challenge bypass attempted. Search indexing confirms the page lists Excel, tab-delimited, and pipe-delimited election files, including a Votes File, but live availability and row contents are unverified."
+    },
+    {
+      "fetched_at_utc": "2026-11-04T04:28:03Z",
+      "url": "https://floridaelectionwatch.gov/TrackCounty/ALA",
+      "http_status": 403,
+      "result": "Cloudflare managed challenge page; no county race rows or candidate votes were available to inspect. County-code path is linked from the official homepage."
+    },
+    {
+      "fetched_at_utc": "2026-11-04T04:28:42Z",
+      "url": "https://results.elections.myflorida.com/downloadresults.asp?ElectionDate=11%2F3%2F2026",
+      "http_status": 403,
+      "result": "Cloudflare managed challenge page; no tab-delimited rows or sample votes obtained. The endpoint shape is surfaced by the official Division of Elections utility for date-based results extracts, but the November 3, 2026 data was not verified."
+    }
+  ],
+  "county_coverage": {
+    "verified": false,
+    "county_count": null,
+    "sample_counties": [],
+    "note": "Official Florida Election Watch publishes county-specific TrackCounty pages and claims its site displays county-submitted votes. No accessible live county response with Senate special or Governor candidate votes was obtained, so neither county coverage nor vote totals are verified."
+  },
+  "license": {
+    "official_source": "No explicit reuse license for election-night result files or the live pages was established in this investigation."
+  },
+  "limitations": [
+    "No verified usable public live county-vote JSON, CSV, TSV, XML, or other data response for either requested contest was retrieved.",
+    "The official Downloads and TrackCounty routes returned Cloudflare challenges; no challenge bypass was attempted.",
+    "The statewide Division of Elections download utility documents county fields but its November 3, 2026 response was also blocked, and it was not verified as a live county-by-county data feed.",
+    "Search-indexed descriptions establish that the official pages and downloadable result formats exist, but do not prove that either requested race has reported county votes in the accessible payload.",
+    "No secondary mirror was found with verifiable current county votes. Do not use historical or test data as a substitute."
+  ],
+  "preferred_verified_source": {
+    "provider": "Reported election returns via The New York Times",
+    "provider_family": "nyt-public-results",
+    "verified": true,
+    "status": "ok",
+    "endpoint": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-florida.json",
+    "endpoint_config": {
+      "implementation": "src/lib/countyNational.ts",
+      "function": "nationalUrl(state_name)",
+      "template": "https://static01.nyt.com/elections-assets/pages/data/2026-11-03/results-{nationalSlug(state_name)}.json"
+    },
+    "offices": [
+      "Senate",
+      "Governor"
+    ],
+    "county_count": 67,
+    "reporting_count": 67,
+    "row_count": 134,
+    "source_time": "2026-11-04T04:43:12.425+00:00",
+    "fetched_at": "2026-11-04T04:47:02.942Z",
+    "message": "67 counties with published returns. Source times apply to the published race feed; individual local update times are not supplied. Unofficial counts; no forecast or expected-vote estimates are included."
+  }
+}
