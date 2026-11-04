@@ -35,6 +35,8 @@ describe('notable races',()=>{
   expect(screen.getByRole('link',{name:/Called: Candidate A \(Independent\).*Example News/})).toHaveAttribute('href','https://example.com/results');
   rerender(<NotableRaces races={[{...la,result:{status:'uncalled',sourceUrl:'https://example.com/results'}}]}/>);
   expect(screen.getByRole('link',{name:'Not called'})).toHaveAttribute('href','https://example.com/results');
+  rerender(<NotableRaces races={[{...la,result:{status:'called',winner:'Candidate A',calledBy:'AP',sourceUrl:'https://example.com/results',retained:true}}]}/>);
+  expect(screen.getByRole('link',{name:/Saved · Called: Candidate A/})).toBeInTheDocument();
   rerender(<NotableRaces races={[la]}/>);
   expect(screen.queryByText(/not called/i)).not.toBeInTheDocument();
  });

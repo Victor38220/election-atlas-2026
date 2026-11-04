@@ -42,7 +42,7 @@ export interface NotableRace {
   polls?: NotablePoll[];
   pollsRetained?: boolean;
   pollingUnavailable?: boolean;
-  result?: { status: 'called' | 'uncalled'; calledBy?: string; winner?: string; party?: string; sourceUrl: string; asOf?: string };
+  result?: { status: 'called' | 'uncalled'; calledBy?: string; winner?: string; party?: string; sourceUrl: string; asOf?: string; retained?: boolean };
 }
 
 interface Props {
@@ -81,7 +81,7 @@ export default function NotableRaces({ races, loading = false, error, updatedAt,
         {error && <p className="notable-notice" role="status">Some data may be unavailable or out of date.</p>}
         <div className={`notable-list${visible.some(race => race.news.length > 0) ? ' has-news' : ''}`}>{visible.map((race, index) => <article className="notable-race" key={race.id}>
           <div className="notable-race-main"><span className="notable-number">{String(index + 1).padStart(2, '0')}</span><div><h3>{race.title}</h3><p>{[race.location, date(race.electionDate) && `Election ${date(race.electionDate)}`].filter(Boolean).join(' · ')}</p>
-            {race.result?.sourceUrl && <a className={`notable-result ${race.result.status}`} href={race.result.sourceUrl} target="_blank" rel="noreferrer">{race.result.status === 'called' ? <>Called{race.result.winner ? `: ${race.result.winner}` : ''}{race.result.party ? ` (${race.result.party})` : ''}{race.result.calledBy ? ` · ${race.result.calledBy}` : ''}</> : 'Not called'}{timestamp(race.result.asOf) ? ` · updated ${timestamp(race.result.asOf)}` : ''} <ArrowUpRight size={12} aria-hidden="true" /></a>}
+            {race.result?.sourceUrl && <a className={`notable-result ${race.result.status}`} href={race.result.sourceUrl} target="_blank" rel="noreferrer">{race.result.retained ? 'Saved · ' : ''}{race.result.status === 'called' ? <>Called{race.result.winner ? `: ${race.result.winner}` : ''}{race.result.party ? ` (${race.result.party})` : ''}{race.result.calledBy ? ` · ${race.result.calledBy}` : ''}</> : 'Not called'}{timestamp(race.result.asOf) ? ` · updated ${timestamp(race.result.asOf)}` : ''} <ArrowUpRight size={12} aria-hidden="true" /></a>}
           </div></div>
           <div className="notable-market-list">{race.markets.length ? race.markets.map((market, i) => <a className="notable-market" key={`${market.provider}-${i}`} href={market.url} target="_blank" rel="noreferrer">
             <span className="notable-provider">{market.provider} <ArrowUpRight size={12} aria-hidden="true" /></span>
