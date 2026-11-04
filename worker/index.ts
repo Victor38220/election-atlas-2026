@@ -7,6 +7,7 @@ function targetFor(incoming:URL):{target:URL;provider:string}|null{
  if(provider==='counties'&&path==='/VA')return {target:new URL('https://enr.elections.virginia.gov/results/public/api/elections/virginia/2026-November-General/data/ballot-item/01000000-f030-c43d-d69c-08df1fee529a?lang=en'),provider};
  if(provider==='counties'&&path==='/AZ')return {target:new URL('https://app.enhancedvoting.com/results/public/api/elections/Arizona/110326GeneralElection/data/ballot-item/248c0000-c0a3-7204-3acd-08df11bc03cf?lang=en'),provider:'countyAZ'};
  if(provider==='counties'&&path==='/OH')return {target:new URL('https://liveresults.ohiosos.gov/Api/v1/download?filename=VSSC1622XmlFileBlob'),provider:'countyOH'};
+ if(provider==='counties'&&path==='/MN')return {target:new URL('https://raw.githubusercontent.com/Victor38220/election-atlas-2026/main/public/data/live-counties/MN.json'),provider:'counties'};
  if(provider==='counties'&&/^\/MN\/(results|counties)$/.test(path))return {target:new URL('https://electionresultsfiles.sos.mn.gov/20261103/'+(path.endsWith('/results')?'allracesbycounty.txt':'Cntytbl.txt')),provider:'countyText'};
  if(provider==='counties'&&path==='/CO/version')return {target:new URL('https://results.enr.clarityelections.com/CO/127407/current_ver.txt'),provider:'countyText'};
  if(provider==='counties'&&path==='/CO/report'){const version=incoming.searchParams.get('version')??'';if(!/^\d{5,12}$/.test(version))return null;return {target:new URL('https://results.enr.clarityelections.com/CO/127407/'+version+'/reports/detailxml.zip'),provider:'countyZip'}}

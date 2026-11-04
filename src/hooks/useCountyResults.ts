@@ -7,10 +7,8 @@ import {normalizeGeorgia} from '../lib/countyGeorgia';
 import {normalizeVirginia} from '../lib/countyVirginia';
 import {normalizeOhio} from '../lib/countyOhio';
 import {normalizeArizona} from '../lib/countyArizona';
-import {normalizeMinnesota} from '../lib/countyMinnesota';
 import {normalizeColorado,unzipColorado} from '../lib/countyColorado';
 import {getBatch} from '../lib/live';
-const minnesotaCounties=new Map<string,string>();
 const supported=new Set(['CA','NC','GA','VA','OH','AZ','MN','CO']);
 function valid(data:unknown,state:string):data is CountyLiveData{return Boolean(data&&typeof data==='object'&&'year' in data&&data.year===2026&&'state'in data&&data.state===state&&'election_date'in data&&data.election_date==='2026-11-03'&&'rows'in data&&Array.isArray(data.rows)&&data.rows.every(r=>r.year===2026&&r.state===state))}
 export function useCountyResults(state:string,geo:FeatureCollection<Geometry>|null){
@@ -23,7 +21,7 @@ export function useCountyResults(state:string,geo:FeatureCollection<Geometry>|nu
    else if(state==='AZ')next=normalizeArizona(await (await request('/api/counties/AZ')).json(),geo,fetched);
    else if(state==='OH')next=normalizeOhio(await (await request('/api/counties/OH')).text(),geo,fetched);
    else if(state==='CO'){const report=await request('/api/counties/CO');next=normalizeColorado(await unzipColorado(await report.arrayBuffer()),geo,fetched)}
-   else if(state==='MN'){let counties=minnesotaCounties.get('2026');if(!counties){counties=await (await request('/api/counties/MN/counties')).text();minnesotaCounties.set('2026',counties)}const report=await request('/api/counties/MN/results');next=normalizeMinnesota({election_date:'2026-11-03',results:await report.text(),counties,source_time:report.headers.get('Last-Modified')},geo,fetched)}
+   else if(state==='MN'){const mirrored=await (await request('/api/counties/MN')).json();if(!valid(mirrored,state))throw new Error('Invalid Minnesota collector snapshot');next=mirrored}
    else next=normalizeCalifornia(await (await request('/api/counties/'+state)).json(),geo,fetched);
    if(run!==epoch.current)return;setData(next);setError(null);try{localStorage.setItem('county-live-2026-'+state,JSON.stringify(next))}catch{/* Memory remains usable. */}}catch(exc){if(!controller.current?.signal.aborted&&run===epoch.current)setError(String(exc))}finally{if(run===epoch.current){busy.current=false;setLoading(false)}}},[geo,state]);
  useEffect(()=>{let active=true;epoch.current++;const run=epoch.current;setData(null);setError(null);setLoading(false);busy.current=false;

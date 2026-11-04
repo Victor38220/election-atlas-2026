@@ -2,7 +2,7 @@ import {test,expect} from '@playwright/test';
 import {mkdir} from 'node:fs/promises';
 import type {CountyLiveData} from '../../src/types/countyResults';
 
-test('reads actual 2026 county feeds for NC, GA and CA while unsupported states stay unavailable',async({page},testInfo)=>{
+test('reads all eight current county feeds and keeps Texas leader prices tied to current counts',async({page},testInfo)=>{
  test.skip(!process.env.LIVE_TEST_URL,'Set LIVE_TEST_URL to verify the deployed live county adapters.');
  test.setTimeout(90000);
  const historicalRequests:string[]=[];const errors:string[]=[];
@@ -40,6 +40,27 @@ test('reads actual 2026 county feeds for NC, GA and CA while unsupported states 
  await expect(brief).toContainText(alameda.total!.toLocaleString()+' votes reported');
  if(alameda.total===0){await expect(brief).toContainText('Awaiting reported votes');await expect(brief).not.toContainText('0.0%')}
  await expect(brief).not.toContainText('Invalid Date');
+ for(const [state,count] of [['VA',133],['OH',88],['AZ',15],['MN',87],['CO',64]] as const){
+  await page.getByLabel('Go to state').selectOption(state);await expect(page.locator('path[data-county]')).toHaveCount(count);
+  const data=await fresh(state);expect(data.year).toBe(2026);expect(data.rows.length).toBeGreaterThan(0);
+  expect(data.rows.every(row=>row.year===2026&&row.state===state)).toBe(true);
+  const office=state==='AZ'?'Governor':'Senate';const row=data.rows.find(r=>r.office===office&&(r.total??0)>0)??data.rows.find(r=>r.office===office)!;
+  await page.locator(`path[data-county="${row.fips}"]`).focus();await page.keyboard.press('Enter');
+  await expect(brief).toContainText(row.county);await expect(brief).toContainText(row.source_name);
+  if(row.total!==null)await expect(brief).toContainText(row.total.toLocaleString()+' votes reported');
+  expect(data.source_url).toMatch(/^https:/);
+ }
+ await page.getByLabel('Go to state').selectOption('TX');await expect(page.locator('path[data-county]')).toHaveCount(254);
+ const texas=page.getByTestId('race-summary-Governor');await expect(texas.getByRole('heading',{name:'Gina Hinojosa',exact:true})).toBeVisible();
+ await expect(texas.getByRole('heading',{name:'Greg Abbott',exact:true})).toHaveCount(0);
+ await expect(texas.locator('.leader-share strong')).toHaveText(/\d+\.\d%/);await expect(texas).toContainText('of reported votes');
+ const snapshot=await page.evaluate(()=>JSON.parse(localStorage.getItem('election-atlas-v1')!)) as import('../../src/types').Snapshot;
+ const race=snapshot.races.find(r=>r.state==='TX'&&r.office==='Governor')!;const candidate=race.candidates.find(c=>c.name==='Gina Hinojosa')!;
+ for(const provider of ['kalshi','polymarket']){
+  const cell=texas.locator(`[data-provider="${provider}"]`);const contracts=snapshot.contracts.filter(c=>c.race_id===race.id&&c.candidate_id===candidate.id&&c.provider===provider);
+  const title=await cell.locator('a').getAttribute('title');expect(contracts.some(c=>title?.includes(c.question))).toBe(true);
+ }
+ await texas.scrollIntoViewIfNeeded();await page.screenshot({path:`artifacts/live-Texas-leader-${testInfo.project.name}.png`,fullPage:false,animations:'disabled'});
  await page.getByLabel('Go to state').selectOption('ME');await expect(page.locator('path[data-status="unavailable"]')).toHaveCount(16);
  await expect(page.locator('.county-live-status')).toContainText('No verified 2026 live county feed');
  expect(historicalRequests).toEqual([]);expect(errors).toEqual([]);
