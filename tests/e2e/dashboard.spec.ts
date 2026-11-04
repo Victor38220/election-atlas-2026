@@ -173,6 +173,7 @@ test('exit polls identify an attributed national observation and unavailable loc
 
 
 test('Texas governor prioritizes the reported Democratic leader over the older Abbott forecast',async({page})=>{
+ await page.route('**/data/live-counties/TX.json',route=>route.abort());
  const race=seed.races.find(r=>r.state==='TX'&&r.office==='Governor')!;
  const model=seed.summaries.find(s=>s.race_id===race.id)!;
  expect(model.probability).toBeLessThan(.5);
