@@ -113,6 +113,7 @@ Exit polls have their own view: one explicitly dated, attributed national publis
 | Ohio | Senate and governor | 88 counties for each office | 180 seconds |
 | Colorado | Senate and governor | 64 counties for each office | 60 seconds |
 | Minnesota | Senate and governor | 87 counties for each office | 60 seconds |
+| Texas | Senate and governor | 254 counties for each office; counties without reported votes stay gray | 30 seconds, aligned to :00 and :30 |
 
 - **Georgia:** [Secretary of State election results](https://results.sos.ga.gov/), through public general-election metadata and separate Senate/governor county-breakdown feeds.
 - **North Carolina:** [State Board of Elections](https://er.ncsbe.gov/), through published 2026 county metadata, candidates, and federal contest results.
@@ -122,6 +123,7 @@ Exit polls have their own view: one explicitly dated, attributed national publis
 - **Ohio:** [Secretary of State live results](https://liveresults.ohiosos.gov/), through official election XML. County reporting units remain distinct from similarly named electoral districts. The feed is requested every three minutes.
 - **Colorado:** [Secretary of State election results](https://results.enr.clarityelections.com/CO/127407/web.345435/), using its current version pointer and official county-detail XML ZIP. The browser decompresses the ZIP locally; source time retains its published time-zone label.
 - **Minnesota:** [Secretary of State 2026 results files](https://electionresultsfiles.sos.mn.gov/20261103/allracesbycounty.txt), with the official county reference table. The proxy preserves the source’s Last-Modified header rather than inventing an update time.
+- **Texas:** [Texian Partisan’s public election-results mirror](https://texianpartisan.com/election-night-2026/) republishes Texas Secretary of State county returns through separate general-election Senate and governor JSON endpoints. The direct state API returned HTTP 403 during verification. The dashboard explicitly labels this a secondary mirror and preserves both original source update and mirror collection timestamps. Harris County Senate and governor candidate counts were cross-checked against its [official county JSON](https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/resultsbyballot.json); another independent public mirror also confirmed county records. Mirror reporting-unit counts may differ from a county’s own site. A complete set of 254 county records includes awaiting counties; it does not mean all ballots are counted. The archive workflow preserves the last validated Texas observation every 15 minutes; open Texas views request fresh data every 30 seconds.
 
 County data refreshes while its state view is open. A source failure retains the last actual 2026 observation and its source time. Precincts, counties, and localities are reporting units, never a claim about the fraction of all votes counted. Counts remain unofficial pending canvass and certification. County geometry provides geographic context only; no older election returns are served as a fallback.
 

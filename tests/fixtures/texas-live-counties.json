@@ -1,0 +1,189 @@
+{
+  "election_date": "2026-11-03",
+  "Senate": {
+    "key": "us-senate",
+    "race": "U.S. Senator",
+    "candidates": [
+      {
+        "name": "Ken Paxton",
+        "party": "REP",
+        "incumbent": false
+      },
+      {
+        "name": "James Talarico",
+        "party": "DEM",
+        "incumbent": false
+      },
+      {
+        "name": "Ted Brown",
+        "party": "LIB",
+        "incumbent": false
+      },
+      {
+        "name": "Avery Ayers",
+        "party": "W",
+        "incumbent": false
+      },
+      {
+        "name": "Bradford \"Brad\" Hall",
+        "party": "W",
+        "incumbent": false
+      },
+      {
+        "name": "Zul Mohamed",
+        "party": "W",
+        "incumbent": false
+      },
+      {
+        "name": "Jade Simmons",
+        "party": "W",
+        "incumbent": false
+      }
+    ],
+    "counties": [
+      {
+        "id": "ANDERSON",
+        "votes": [
+          10930,
+          3981,
+          346,
+          17,
+          11,
+          0,
+          5
+        ],
+        "total": 15290,
+        "reported": 23,
+        "precincts": 23,
+        "status": "complete"
+      },
+      {
+        "id": "BLANCO",
+        "votes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "reported": 0,
+        "precincts": 6,
+        "status": "none"
+      },
+      {
+        "id": "HARRIS",
+        "votes": [
+          345943,
+          711712,
+          14543,
+          85,
+          35,
+          10,
+          236
+        ],
+        "total": 1072564,
+        "reported": 1,
+        "precincts": 1225,
+        "status": "partial"
+      }
+    ],
+    "sourceUpdatedAt": "2026-11-04T04:13:41.000Z",
+    "fetchedAt": "2026-11-04T04:15:04.889Z"
+  },
+  "Governor": {
+    "key": "governor",
+    "race": "Governor",
+    "candidates": [
+      {
+        "name": "Greg Abbott",
+        "party": "REP",
+        "incumbent": true
+      },
+      {
+        "name": "Gina Hinojosa",
+        "party": "DEM",
+        "incumbent": false
+      },
+      {
+        "name": "Pat Dixon",
+        "party": "LIB",
+        "incumbent": false
+      },
+      {
+        "name": "Edward Earl Giles",
+        "party": "W",
+        "incumbent": false
+      },
+      {
+        "name": "Jenn Mack",
+        "party": "W",
+        "incumbent": false
+      },
+      {
+        "name": "Jinghpaw Majoishingra",
+        "party": "W",
+        "incumbent": false
+      },
+      {
+        "name": "Mike Miller",
+        "party": "W",
+        "incumbent": false
+      }
+    ],
+    "counties": [
+      {
+        "id": "ANDERSON",
+        "votes": [
+          11254,
+          3882,
+          208,
+          17,
+          6,
+          0,
+          1
+        ],
+        "total": 15368,
+        "reported": 23,
+        "precincts": 23,
+        "status": "complete"
+      },
+      {
+        "id": "BLANCO",
+        "votes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "reported": 0,
+        "precincts": 6,
+        "status": "none"
+      },
+      {
+        "id": "HARRIS",
+        "votes": [
+          367174,
+          692724,
+          12589,
+          20,
+          95,
+          5,
+          66
+        ],
+        "total": 1072673,
+        "reported": 1,
+        "precincts": 1225,
+        "status": "partial"
+      }
+    ],
+    "sourceUpdatedAt": "2026-11-04T04:13:41.000Z",
+    "fetchedAt": "2026-11-04T04:15:05.455Z"
+  }
+}
