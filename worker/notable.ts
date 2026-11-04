@@ -6,7 +6,52 @@ type Market = { rules_primary?: string; subtitle?: string; yes_sub_title?: strin
 type Event = { event_ticker?: string; title?: string; markets?: Market[] };
 type EventsResponse = { events?: Event[]; cursor?: string };
 type DisplayMarket = { provider:string; url:string; volumeContracts?:number; volumeUsd?:number; updatedAt?:string|null; status:string; outcomes:{name:string;price:number|null;status:string}[] };
-type DisplayRace = { id:string; title:string; location:string; electionDate:string; markets:DisplayMarket[]; news:never[] };
+type DisplayPoll = { pollster:string; sponsor:string|null; fieldStart:string; fieldEnd:string; sampleSize:number; population:string; source:string; url:string; collection?:{name:string;url:string}; licence?:string; outcomes:{name:string;percent:number}[] };
+type PollQuestion = {kind:string;shares?:{bass?:number;raman?:number}};
+type LaPoll = {pollster:string;sponsor?:string;population:string;field_start:string;field_end:string;n:number;questions?:PollQuestion[];source?:{label:string;url:string}};
+type HousePoll = {kind:string;stage:string;question:string;race:string;pollster:string;sample:number;population:string;source_url:string;figures:string;fieldwork_start:string;fieldwork_end:string;sponsor?:string;licence?:string};
+type DisplayRace = { id:string; title:string; location:string; electionDate:string; markets:DisplayMarket[]; news:never[]; polls?:DisplayPoll[] };
+// The Basin publishes checked runoff polling in a JSON object embedded in its page.
+// Extract only first-choice questions for the exact 2026 runoff; reject incomplete
+// records instead of silently mixing primary, subgroup, or message-test results.
+async function laPolls(): Promise<DisplayPoll[]> {
+  const response = await fetch('https://basin.la/interactives/polls-la-mayor-2026.html', { signal: AbortSignal.timeout(12000) });
+  if (!response.ok) throw new Error('Polling source unavailable');
+  const html = await response.text();
+  const match = html.match(/\bvar D = (\{[^\n]+\});/);
+  if (!match) throw new Error('Polling source format changed');
+  const data = JSON.parse(match[1]) as {race?:{id?:string;election?:string};polls?:LaPoll[]};
+  if (data.race?.id !== 'la-mayor-2026' || data.race?.election !== '2026-11-03' || !Array.isArray(data.polls)) throw new Error('Unexpected polling race');
+  return data.polls.flatMap((p: LaPoll): DisplayPoll[] => {
+    const q = Array.isArray(p.questions) ? p.questions.find((item: PollQuestion) => item.kind === 'first') : null;
+    const bass = q?.shares?.bass, raman = q?.shares?.raman;
+    const date = /^2026-\d{2}-\d{2}$/;
+    if (typeof p.pollster !== 'string' || !p.pollster || typeof p.population !== 'string' || !p.population || !date.test(p.field_start) || !date.test(p.field_end) || p.field_start > p.field_end || p.field_end > '2026-11-03' || !Number.isInteger(p.n) || p.n <= 0 || typeof bass !== 'number' || bass < 0 || bass > 100 || typeof raman !== 'number' || raman < 0 || raman > 100 || bass + raman > 100 || typeof p.source?.label !== 'string' || typeof p.source?.url !== 'string' || !/^https:\/\//.test(p.source.url)) return [];
+    return [{ pollster:p.pollster, sponsor:typeof p.sponsor === 'string' ? p.sponsor : null, fieldStart:p.field_start, fieldEnd:p.field_end, sampleSize:p.n, population:p.population, source:p.source.label, url:p.source.url, collection:{name:'The Basin',url:'https://basin.la/interactives/polls-la-mayor-2026.html'}, outcomes:[{name:'Karen Bass',percent:bass},{name:'Nithya Raman',percent:raman}] }];
+  }).sort((a: DisplayPoll, b: DisplayPoll) => b.fieldEnd.localeCompare(a.fieldEnd)).slice(0, 3);
+}
+async function housePolls(): Promise<Map<string, DisplayPoll[]>> {
+  const response = await fetch('https://www.pollingforecast.com/api/us/polls?kind=House', { headers:{Accept:'application/json'}, signal:AbortSignal.timeout(12000) });
+  if (!response.ok) throw new Error('House polling unavailable');
+  const data = await response.json() as {dataset?:string;count?:number;rows?:HousePoll[]};
+  if (data.dataset !== 'polls' || !Array.isArray(data.rows) || data.count !== data.rows.length) throw new Error('Invalid House polling dataset');
+  const byDistrict = new Map<string, DisplayPoll[]>();
+  for (const p of data.rows) {
+    if (p.kind !== 'House' || p.stage !== 'vote' || p.question !== 'Main' || typeof p.race !== 'string' || !/^[A-Z]{2}-\d{2}$/.test(p.race) || typeof p.pollster !== 'string' || !p.pollster || !Number.isInteger(p.sample) || p.sample <= 0 || !['LV','RV','V','A'].includes(p.population) || typeof p.source_url !== 'string' || !/^https:\/\//.test(p.source_url) || typeof p.figures !== 'string') continue;
+    const start = typeof p.fieldwork_start === 'string' ? p.fieldwork_start.slice(0,10) : '';
+    const end = typeof p.fieldwork_end === 'string' ? p.fieldwork_end.slice(0,10) : '';
+    if (!/^2026-\d{2}-\d{2}$/.test(start) || !/^2026-\d{2}-\d{2}$/.test(end) || start > end || end > '2026-11-03') continue;
+    const parsed = p.figures.split(';').map((part:string) => part.trim().match(/^(.+?) \(([^)]+)\) (\d+(?:\.\d+)?)$/));
+    if (parsed.some((part:RegExpMatchArray|null) => !part)) continue;
+    const candidates = parsed.filter((part:RegExpMatchArray|null) => part && !['UND','OTH'].includes(part[2])).map((part:RegExpMatchArray|null) => ({name:part![1],percent:Number(part![3])}));
+    if (candidates.length < 2 || candidates.some((candidate:{name:string;percent:number}) => candidate.percent > 100 || /generic/i.test(candidate.name))) continue;
+    const district = p.race.endsWith('-00') ? `${p.race.slice(0,2)}-AL` : p.race;
+    const poll: DisplayPoll = {pollster:p.pollster, sponsor:typeof p.sponsor === 'string' ? p.sponsor : null, fieldStart:start, fieldEnd:end, sampleSize:p.sample, population:({LV:'likely voters',RV:'registered voters',V:'voters',A:'adults'} as Record<string,string>)[p.population], source:'Poll source', url:p.source_url, collection:{name:'Polling Forecast',url:'https://www.pollingforecast.com/us/house/' + p.race.toLowerCase()}, licence:typeof p.licence === 'string' ? p.licence : undefined, outcomes:candidates};
+    const polls = byDistrict.get(district) || []; polls.push(poll); byDistrict.set(district,polls);
+  }
+  for (const [district, polls] of byDistrict) byDistrict.set(district, polls.sort((a,b) => b.fieldEnd.localeCompare(a.fieldEnd)).slice(0,3));
+  return byDistrict;
+}
 async function getJson(url: string): Promise<EventsResponse> {
   const response = await fetch(url, { headers: { Accept: 'application/json' }, signal: AbortSignal.timeout(12000) });
   if (!response.ok) throw new Error(`Kalshi HTTP ${response.status}`);
@@ -40,8 +85,12 @@ function number(value: unknown): number | null {
 export async function notableRaces(): Promise<Response> {
   const series = Object.keys(MAYORS);
   const polyRequest = fetch('https://gamma-api.polymarket.com/events/57111', { headers: { Accept: 'application/json' }, signal: AbortSignal.timeout(12000) }).then(async response => { if (!response.ok) throw new Error('Polymarket unavailable'); return response.json() as Promise<Record<string, unknown>>; }).catch(() => null);
+  const pollsRequest = Promise.allSettled([laPolls(), housePolls()]);
   const results = await Promise.allSettled([houseEvents(), ...series.map(mayorEvents)]);
   const poly = await polyRequest;
+  const [laPollResult, housePollResult] = await pollsRequest;
+  const polling_status = {house:housePollResult.status === 'fulfilled' ? 'ok' : 'error', la:laPollResult.status === 'fulfilled' ? 'ok' : 'error'};
+  const polymarket_status = poly && poly.id === '57111' && poly.title === 'Los Angeles Mayoral Election' && poly.slug === 'los-angeles-mayoral-election-117' && Array.isArray(poly.markets) ? 'ok' : 'error';
   const partial = results.some(result => result.status === 'rejected');
   if (results.every(result => result.status === 'rejected')) return Response.json({ error: 'Election market data unavailable' }, { status: 502, headers: { 'Cache-Control': 'no-store' } });
   const races: DisplayRace[] = results.flatMap((result, index) => {
@@ -82,5 +131,12 @@ export async function notableRaces(): Promise<Response> {
     const volumeUsd = number(poly.volume);
     if (la && outcomes.length && volumeUsd !== null) la.markets.push({ provider: 'Polymarket', url: 'https://polymarket.com/event/los-angeles-mayoral-election-117', volumeUsd, status: poly.closed === true ? 'closed' : poly.active === true ? 'active' : 'inactive', outcomes });
   }
-  return Response.json({ updatedAt: new Date().toISOString(), methodology: `Ranked by total Kalshi contracts traded in winner markets across 2026 House general elections and the Los Angeles mayoral general election. Polymarket is shown for Los Angeles when available but does not affect ranking. House party contracts settle on the party of the member sworn in. Contract counts are not dollar volume; last-traded prices are not election results.${partial ? ' Some market listings were unavailable, so this ranking is incomplete.' : ''}`, races }, { headers: { 'Cache-Control': partial ? 'no-store' : 'public, max-age=30', 'X-Content-Type-Options': 'nosniff' } });
+  const la = races.find(r => r.id === 'KXMAYORLA-26');
+  if (la && laPollResult.status === 'fulfilled' && laPollResult.value.length) la.polls = laPollResult.value;
+  if (housePollResult.status === 'fulfilled') for (const race of races) {
+    const match = race.id.match(/^KXHOUSERACE-([A-Z]{2})(\d{2}|AL)-26$/);
+    const polls = match && housePollResult.value.get(`${match[1]}-${match[2]}`);
+    if (polls?.length) race.polls = polls;
+  }
+  return Response.json({ updatedAt: new Date().toISOString(), ranking_status: partial ? 'partial' : 'ok', polling_status, polymarket_status, methodology: `Ranked by total Kalshi contracts traded in winner markets across 2026 House general elections and the Los Angeles mayoral general election. Polymarket is shown for Los Angeles when available but does not affect ranking. House party contracts settle on the party of the member sworn in. Contract counts are not dollar volume; last-traded prices are not election results.${partial ? ' Some market listings were unavailable, so this ranking is incomplete.' : ''}`, races }, { headers: { 'Cache-Control': partial ? 'no-store' : 'public, max-age=30', 'X-Content-Type-Options': 'nosniff' } });
 }

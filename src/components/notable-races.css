@@ -5,3 +5,12 @@
 .notable-heading p,.notable-heading-meta,.notable-race-main p,.notable-provider,.notable-figures,.notable-market small,.notable-news-source,.notable-news-title,.notable-muted,.notable-status,.notable-notice,.notable-footnote,.notable-outcome{font-size:12px}.notable-race h3{font-size:14px}.notable-figures strong{font-size:13px}.notable-number{font-size:12px}
 @media(max-width:900px){.notable-list.has-news .notable-race{grid-template-columns:minmax(150px,1fr) minmax(180px,1fr)}}
 @media(max-width:600px){.notable-list.has-news .notable-race{grid-template-columns:1fr}.notable-heading-meta{font-size:11px}}
+.notable-race{grid-template-columns:minmax(160px,1fr) minmax(180px,1fr) minmax(190px,1fr)}
+.notable-list.has-news .notable-race{grid-template-columns:minmax(150px,1fr) minmax(165px,1fr) minmax(180px,1fr) minmax(180px,1fr)}
+.notable-polls{display:grid;gap:8px;min-width:0;font-size:12px;line-height:1.5}
+.notable-polls-label{color:#dce6f4;font-weight:600}.notable-polls-label span{color:#8197b2;font-weight:400}
+.notable-poll{border-left:2px solid #779cb8;padding-left:10px;min-width:0}.notable-poll a{color:#b8d7ed;font-weight:600;overflow-wrap:anywhere}.notable-poll a svg{display:inline;vertical-align:middle}.notable-poll-meta,.notable-poll-results{display:block;margin-top:3px}.notable-poll-meta{color:#91a5bf}.notable-poll-results{color:#dce6f4}
+@media(max-width:1100px){.notable-list.has-news .notable-race{grid-template-columns:minmax(150px,1fr) minmax(180px,1fr) minmax(190px,1fr)}.notable-news{grid-column:3}}
+@media(max-width:900px){.notable-race,.notable-list.has-news .notable-race{grid-template-columns:minmax(150px,1fr) minmax(180px,1fr)}.notable-polls,.notable-news{grid-column:2}}
+@media(max-width:600px){.notable-race,.notable-list.has-news .notable-race{grid-template-columns:1fr}.notable-polls,.notable-news{grid-column:1;margin-left:25px}}
+.notable-result{display:inline-block;margin-top:8px;color:#b9c8d9;font-size:12px;line-height:1.45}.notable-result.called{color:#9bd4b8}.notable-result svg{display:inline;vertical-align:middle}

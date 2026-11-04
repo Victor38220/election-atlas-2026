@@ -38,12 +38,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Validate notable archive retention
+        run: node --experimental-strip-types --test scripts/refresh_notable.test.ts
       - name: Mirror official Minnesota county returns
         run: node --experimental-strip-types scripts/refresh_minnesota.ts
       - name: Preserve current Texas county returns from the public mirror
         run: node --experimental-strip-types scripts/refresh_texas.ts
       - name: Preserve nationwide county returns and explicit AP calls
         run: node --experimental-strip-types scripts/refresh_national.ts
+      - name: Preserve notable race markets and polls
+        run: node --experimental-strip-types scripts/refresh_notable.ts
+      - name: Preserve notable House and Los Angeles mayor results
+        run: node --experimental-strip-types scripts/refresh_notable_results.ts
       - name: Persist validated snapshots and history
         run: |
           git config user.name 'github-actions[bot]'

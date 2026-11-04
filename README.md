@@ -61,9 +61,13 @@ Run **Actions → Archive election data → Run workflow**. Select `force` to re
 .venv/bin/python -m scripts.update_data
 .venv/bin/python -m scripts.update_data --force
 node --experimental-strip-types scripts/refresh_national.ts
+node --experimental-strip-types scripts/refresh_notable.ts
+node --experimental-strip-types scripts/refresh_notable_results.ts
 ```
 
 Inspect the provider status summary, then commit changed `public/data` and `config` files. The UI refresh button rechecks live sources without writing to GitHub.
+
+The workflow also runs `scripts/refresh_notable.ts` and `scripts/refresh_notable_results.ts`. `notable-races.json` saves the ranked notable-race response, including available markets and polls. `notable-results.json` saves the raw publisher records for the currently archived notable House races and Los Angeles mayor, with a separate fetch time for each source. `notable-archive-status.json` records the most recent notable-race collection attempt. The collector retains the last complete notable snapshot when a ranking is incomplete; it retains a failed results section independently. If Polymarket explicitly fails, its last observed Los Angeles market is carried forward and marked as retained. When a polling source explicitly fails, the archive carries forward the last observed polls for matching races and marks them as retained; a successful empty response clears prior polls. A fully retained snapshot keeps its original update time. GitHub history preserves committed versions, but the current files are snapshots, not a complete record of every upstream change. A race that leaves the ranked list is no longer included in that snapshot. Optional sources can be absent on an initial collection, and source availability and scheduled execution are not guaranteed.
 
 ## Sources and observed coverage
 

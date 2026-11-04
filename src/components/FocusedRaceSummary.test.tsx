@@ -45,4 +45,19 @@ describe('reported leader cards',()=>{
   expect(screen.getByRole('heading',{name:'Unmatched source candidate'})).toBeInTheDocument();
   expect([...container.querySelectorAll('.focused-market strong')].map(n=>n.textContent)).toEqual(['—','—']);
  });
+ it('shows a verified closed contract last trade without presenting it as a live midpoint',()=>{
+  const data=structuredClone(snapshot);
+  const candidate=data.races.find(r=>r.id===race.id)!.candidates[0];
+  const contract=data.contracts.find(c=>c.race_id===race.id&&c.provider==='kalshi'&&c.candidate_id===candidate.id)!;
+  contract.status='finalized';
+  const quote=data.quotes.find(q=>q.contract_id===contract.id)!;
+  quote.price=null;quote.last_trade=.997;quote.volume=100;quote.warning='Closed, empty, one-sided or wide book. Raw last trade is informational only.';
+  const {container,rerender}=render(<FocusedRaceSummary snapshot={data} race={race} result={result} onDetails={vi.fn()}/>);
+  const card=container.querySelector('[data-provider="kalshi"]')!;
+  expect(card).toHaveTextContent('99.7%');expect(card).toHaveTextContent(/last trade · closed/i);
+  quote.warning='Error: Contract omitted by provider';
+  rerender(<FocusedRaceSummary snapshot={data} race={race} result={result} onDetails={vi.fn()}/>);
+  expect(card).not.toHaveTextContent('99.7%');
+ });
+
 });

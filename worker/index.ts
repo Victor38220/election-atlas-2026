@@ -1,4 +1,5 @@
 import { notableRaces } from './notable';
+import { notableResults } from './notableResults';
 import raceManifest from '../config/races.json';
 interface Env{ASSETS:Fetcher}
 const HOSTS:Record<string,string>={polling:'https://www.pollingforecast.com/api/us',kalshi:'https://external-api.kalshi.com/trade-api/v2',polymarket:'https://gamma-api.polymarket.com',votehub:'https://api.votehub.com',clob:'https://clob.polymarket.com'};
@@ -20,7 +21,7 @@ function targetFor(incoming:URL):{target:URL;provider:string}|null{
  if(provider==='counties'&&path==='/CA')return {target:new URL('https://media.sos.ca.gov/media/governor.json'),provider};
  if(provider==='counties'&&/^\/NC\/(metadata|candidates|results)$/.test(path)){const files:Record<string,string>={metadata:'county.txt',candidates:'results_0.txt',results:'precinct_0.txt'};const target=new URL('https://er.ncsbe.gov/enr/20261103/data/'+files[path.split('/')[2]]);target.searchParams.set('v',new Date().toISOString().slice(0,16).replace(/[^0-9]/g,''));return {target,provider}}
  if(provider==='results'&&/^\/(Senate|Governor)$/.test(path)){const target=new URL('https://openamerica.io/elections/results.json');target.searchParams.set('year','2026');target.searchParams.set('office',path.slice(1));return {target,provider}}
- if(provider==='archive'&&/^\/(latest|history|metadata)$/.test(path))return {target:new URL('https://raw.githubusercontent.com/Victor38220/election-atlas-2026/main/public/data'+path+'.json'),provider};
+ if(provider==='archive'&&/^\/(latest|history|metadata|notable-races|notable-results)$/.test(path))return {target:new URL('https://raw.githubusercontent.com/Victor38220/election-atlas-2026/main/public/data'+path+'.json'),provider};
  if(!Object.hasOwn(HOSTS,provider)||!PATHS[provider].test(path))return null;
  const target=new URL(HOSTS[provider]+path);target.search=incoming.search;return {target,provider};
 }
@@ -37,6 +38,10 @@ export default {
  async fetch(request:Request,env:Env,ctx:ExecutionContext):Promise<Response>{
   const incoming=new URL(request.url);if(!incoming.pathname.startsWith('/api/'))return env.ASSETS.fetch(request);
   if(request.method!=='GET')return Response.json({error:'Only public GET data is supported'},{status:405});
+  if(incoming.pathname==='/api/notable-results'){
+   const key=new Request(incoming.origin+'/api/notable-results');const hit=await caches.default.match(key);if(hit)return hit;
+   const response=await notableResults();if(response.ok&&response.headers.get('Cache-Control')!=='no-store')ctx.waitUntil(caches.default.put(key,response.clone()));return response;
+  }
   if(incoming.pathname==='/api/notable-races'){
    const key=new Request(incoming.origin+'/api/notable-races');const hit=await caches.default.match(key);if(hit)return hit;
    const response=await notableRaces();if(response.ok&&response.headers.get('Cache-Control')!=='no-store')ctx.waitUntil(caches.default.put(key,response.clone()));return response;

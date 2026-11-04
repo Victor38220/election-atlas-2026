@@ -20,9 +20,14 @@ describe('recorded quote identity validation',()=>{
 });
 
 import {vi,afterEach} from 'vitest';
-import {getBatch} from './live';
+import {getBatch,marketPaths} from './live';
 afterEach(()=>vi.unstubAllGlobals());
 describe('provider batching',()=>{
+ it('requests every Polymarket ID for both open and closed markets without default pagination',()=>{
+  const contracts=Array.from({length:46},(_,i)=>({market_id:String(i+1)} as Contract));const paths=marketPaths('polymarket',contracts);expect(paths).toHaveLength(4);
+  for(let i=0;i<paths.length;i+=2){const closed=new URL('https://test'+paths[i]).searchParams;const open=new URL('https://test'+paths[i+1]).searchParams;expect(closed.get('closed')).toBe('true');expect(open.get('closed')).toBe('false');expect(closed.getAll('id')).toEqual(open.getAll('id'));expect(Number(closed.get('limit'))).toBe(closed.getAll('id').length);expect(Number(open.get('limit'))).toBe(open.getAll('id').length)}
+  expect(paths.flatMap((path,i)=>i%2===0?new URL('https://test'+path).searchParams.getAll('id'):[])).toEqual(contracts.map(c=>c.market_id));
+ });
  it('preserves order and provider JSON while issuing a single Worker request',async()=>{
   const fetcher=vi.fn(async(path:string)=>({url:path,ok:true,json:async()=>[{markets:[fixtures.kalshi.raw]},[fixtures.polymarket.raw]]} as Response));vi.stubGlobal('fetch',fetcher);
   const paths=['/api/kalshi/markets?tickers=SENATEME-26-D','/api/polymarket/markets?id=630692'];

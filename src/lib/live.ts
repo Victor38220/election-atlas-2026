@@ -50,6 +50,12 @@ function poll(raw:Row,race:Race):Poll{
  return {id:'pf:'+String(raw.poll_id),underlying_id:String(raw.poll_id),race_id:race.id,provider:'polling_forecast',pollster:str(raw.pollster)||'Unknown',sponsor:str(raw.sponsor)||null,start:timestamp(raw.fieldwork_start),end:timestamp(raw.fieldwork_end),sample:numeric(raw.sample),population:str(raw.population)||null,results,figures:figures||null,margin:numeric(raw.margin),adjusted_margin:numeric(raw.adjusted_margin),url:str(raw.source_url)||null,methodology:{source_grade:raw.source_grade,partisan:raw.partisan,question:raw.question,pollster_code:raw.pollster_code},licence:str(raw.licence)||'Unknown',attribution:'Polling Forecast; original pollster. Wikipedia contributors for CC BY-SA 4.0 rows.'};
 }
 export function deduplicate(polls:Poll[]):Poll[]{const seen=new Set<string>();return [...polls].sort((a,b)=>Number(a.provider!=='polling_forecast')-Number(b.provider!=='polling_forecast')).filter(p=>{const key=[p.race_id,normalized(p.pollster),p.start?.slice(0,10),p.end?.slice(0,10),p.sample,p.population?.toUpperCase()].join('|');const source=[p.race_id,p.url,p.end?.slice(0,10),p.sample].join('|');if(seen.has(key)||(p.url&&seen.has(source)))return false;seen.add(key);if(p.url)seen.add(source);return true})}
+// Gamma defaults to 20 results and excludes closed markets unless requested explicitly.
+export function marketPaths(provider:'kalshi'|'polymarket',contracts:Contract[]):string[]{
+ const chunkSize=provider==='kalshi'?90:45;const paths:string[]=[];
+ for(let i=0;i<contracts.length;i+=chunkSize){const group=contracts.slice(i,i+chunkSize);const query=new URLSearchParams();if(provider==='kalshi'){query.set('tickers',group.map(c=>c.market_id).join(','));query.set('limit','1000')}else{query.set('limit',String(group.length));for(const c of group)query.append('id',c.market_id);query.set('closed','true');paths.push('/api/'+provider+'/markets?'+query);query.set('closed','false')}paths.push('/api/'+provider+'/markets?'+query)}
+ return paths;
+}
 export async function refreshSnapshot(previous:Snapshot,signal?:AbortSignal):Promise<Snapshot>{
  const fetched=new Date().toISOString();let result:Snapshot={...previous,providers:{...previous.providers},context:{...previous.context},races:[...previous.races],summaries:[...previous.summaries],polls:[...previous.polls],contracts:[...previous.contracts],quotes:[...previous.quotes]};
  const status=(provider:string,ok:boolean,message='',partial=false)=>{const old=previous.providers[provider];result.providers[provider]={status:ok?(partial?'partial':'ok'):'error',last_attempt:fetched,last_success:ok?fetched:old?.last_success??null,message,refresh_seconds:['polling_forecast','votehub'].includes(provider)?600:30} satisfies Status};
@@ -73,8 +79,7 @@ export async function refreshSnapshot(previous:Snapshot,signal?:AbortSignal):Pro
   }catch(exc){status('polling_forecast',false,String(exc))}})(),
   ...(['kalshi','polymarket'] as const).map(provider=>(async()=>{try{
    const contracts=previous.contracts.filter(c=>c.provider===provider);if(!contracts.length){status(provider,false,'No verified market mappings');return}
-   const rawRows:Row[]=[];const chunkSize=provider==='kalshi'?90:45;const paths:string[]=[];
-   for(let i=0;i<contracts.length;i+=chunkSize){const group=contracts.slice(i,i+chunkSize);const query=new URLSearchParams();if(provider==='kalshi'){query.set('tickers',group.map(c=>c.market_id).join(','));query.set('limit','1000')}else for(const c of group)query.append('id',c.market_id);paths.push('/api/'+provider+'/markets?'+query)}
+   const rawRows:Row[]=[];const paths=marketPaths(provider,contracts);
    const payloads=await getBatch(paths,signal);
    for(const payload of payloads){const found=provider==='kalshi'?asRow(payload).markets:payload;if(!Array.isArray(found))throw new Error('Invalid markets response');rawRows.push(...found.map(asRow))}
    if(!rawRows.length)throw new Error('Empty market response; previous quotes retained');
