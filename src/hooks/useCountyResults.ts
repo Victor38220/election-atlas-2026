@@ -24,7 +24,7 @@ export function useCountyResults(state:string,geo:FeatureCollection<Geometry>|nu
    try{next=normalizeNationalCounties(await (await request('/api/counties/national/'+state)).json(),state,geo,fetched,manifest as Race[]);if(!next.rows.length&&legacySupported.has(state))throw new Error('Shared source has no compatible county data')}
    catch(primaryError){
    if(!legacySupported.has(state))throw primaryError;
-   const minimum=state==='AZ'?120000:state==='OH'?180000:60000;if(Date.now()-(legacyAt.current[state]??0)<minimum)throw primaryError;legacyAt.current[state]=Date.now();
+   const minimum=state==='AZ'?120000:state==='OH'?180000:state==='TX'?30000:60000;if(Date.now()-(legacyAt.current[state]??0)<minimum)throw primaryError;legacyAt.current[state]=Date.now();
    if(state==='TX'){const raw=await getBatch(['Senate','Governor'].map(office=>'/api/counties/TX/'+office),signal);next=normalizeTexas({election_date:'2026-11-03',Senate:raw[0],Governor:raw[1]},geo,fetched)}
    else if(state==='GA'){const raw=await getBatch(['Senate','Governor'].map(office=>'/api/counties/GA/'+office),signal);next=normalizeGeorgia({Senate:raw[0],Governor:raw[1]},geo,fetched)}
    else if(state==='NC'){const raw=await getBatch(['metadata','candidates','results'].map(part=>'/api/counties/NC/'+part),signal);next=normalizeNorthCarolina({county:raw[0],candidates:raw[1],results:raw[2]},geo,fetched)}

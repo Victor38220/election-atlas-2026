@@ -22,6 +22,7 @@ test('Texas loads real current county votes, switches offices, and refreshes on 
   if(isTexasBatch(request.url()))requests.push({at:Date.now(),url:request.url()});
   if(/\/data\/counties\//.test(request.url()))historical.push(request.url());
  });
+ await page.route('**/api/counties/national/**',route=>route.abort());
  const liveResponse=page.waitForResponse(response=>isTexasBatch(response.url())&&response.status()===200);
  await page.goto(process.env.LIVE_TEST_URL!+'/?texasproof='+Date.now()+'#state=TX');
  await expect(page.locator('path[data-county]')).toHaveCount(254);

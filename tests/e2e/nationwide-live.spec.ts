@@ -168,17 +168,18 @@ test('live nationwide results and NYT county maps use fresh actual returns',asyn
  }
 
  await page.getByRole('button',{name:'Back to national map',exact:true}).click();
+ const mapResults=await page.evaluate(()=>JSON.parse(localStorage.getItem('election-atlas-results-v1')!) as ResultsData);
  const nyPath=page.locator('path[data-state="NY"]');const miPath=page.locator('path[data-state="MI"]');
  await expect(nyPath).toHaveAttribute('data-contests','1');
- const nyRace=results.races.find(r=>r.state==='NY'&&r.office==='Governor');expect(nyRace).toBeTruthy();
- const nyCall=results.calls.find(c=>c.race_id===nyRace!.race_id);
+ const nyRace=mapResults.races.find(r=>r.state==='NY'&&r.office==='Governor');expect(nyRace).toBeTruthy();
+ const nyCall=mapResults.calls.find(c=>c.race_id===nyRace!.race_id);
  const nyFill=await nyPath.getAttribute('fill');expect(nyFill).not.toContain('race-split-NY');
  await expect(nyPath).toHaveAttribute('data-ap-called-governor',nyCall?'true':'false');
  if(nyCall)expect(nyFill).toBe(partyColor(nyCall.party??''));
 
  await expect(miPath).toHaveAttribute('data-contests','2');await expect(miPath).toHaveAttribute('fill','url(#race-split-MI)');
  for(const office of ['Senate','Governor'] as const){
-  const race=results.races.find(r=>r.state==='MI'&&r.office===office)!;const call=results.calls.find(c=>c.race_id===race.race_id);
+  const race=mapResults.races.find(r=>r.state==='MI'&&r.office===office)!;const call=mapResults.calls.find(c=>c.race_id===race.race_id);
   await expect(miPath).toHaveAttribute(office==='Senate'?'data-ap-called-senate':'data-ap-called-governor',call?'true':'false');
   const max=Math.max(...race.candidates.map(c=>c.votes));const hasLeader=race.total>0&&max>0&&race.candidates.filter(c=>c.votes===max).length===1;
   const hatch=page.locator(`path[clip-path="url(#hatch-MI-${office})"]`);

@@ -8,6 +8,7 @@ test('reads all eight current county feeds and keeps Texas leader prices tied to
  const historicalRequests:string[]=[];const errors:string[]=[];
  page.on('request',r=>{if(/\/data\/counties\/|\/api\/polling\/counties/.test(r.url()))historicalRequests.push(r.url())});
  page.on('pageerror',e=>errors.push(e.message));
+ await page.route('**/api/counties/national/**',route=>route.abort());
  await page.goto(process.env.LIVE_TEST_URL!+'/#state=NC',{waitUntil:'domcontentloaded'});
  await expect(page.locator('path[data-county]')).toHaveCount(100);
  const fresh=async(state:string)=>{
@@ -61,7 +62,9 @@ test('reads all eight current county feeds and keeps Texas leader prices tied to
   const title=await cell.locator('a').getAttribute('title');expect(contracts.some(c=>title?.includes(c.question))).toBe(true);
  }
  await texas.scrollIntoViewIfNeeded();await page.screenshot({path:`artifacts/live-Texas-leader-${testInfo.project.name}.png`,fullPage:false,animations:'disabled'});
- await page.getByLabel('Go to state').selectOption('ME');await expect(page.locator('path[data-status="unavailable"]')).toHaveCount(16);
- await expect(page.locator('.county-live-status')).toContainText('No verified 2026 live county feed');
+ await page.getByLabel('Go to state').selectOption('ME');await expect(page.locator('path[data-county]')).toHaveCount(16);
+ await expect(page.locator('path[data-status="reporting"]')).not.toHaveCount(0);
+ await expect(page.locator('.county-source')).toContainText('The New York Times');
+ await expect(page.locator('.county-live-error')).toContainText('Last successful 2026 reports retained');
  expect(historicalRequests).toEqual([]);expect(errors).toEqual([]);
 });

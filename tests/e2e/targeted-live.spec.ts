@@ -3,6 +3,7 @@ import {mkdir} from 'node:fs/promises';
 
 test('Colorado official ZIP normalizes to fresh 2026 county results in the deployed browser',async({page})=>{
  test.skip(!process.env.LIVE_TEST_URL,'Set LIVE_TEST_URL for live proof.');test.setTimeout(60000);
+ await page.route('**/api/counties/national/**',route=>route.abort());
  await page.goto(process.env.LIVE_TEST_URL!+'/#state=CO');await expect(page.locator('path[data-county]')).toHaveCount(64);
  await expect.poll(async()=>page.evaluate(()=>{const d=JSON.parse(localStorage.getItem('county-live-2026-CO')??'null');return d?.fetched_at?Date.now()-Date.parse(d.fetched_at):Infinity}),{timeout:45000}).toBeLessThan(120000);
  const proof=await page.evaluate(()=>{const d=JSON.parse(localStorage.getItem('county-live-2026-CO')!);return {state:d.state,year:d.year,rows:d.rows.length,fetched_at:d.fetched_at,source:d.source_url}});
@@ -26,6 +27,7 @@ test('Texas prominently shows Hinojosa reported share and same-candidate market 
 
 test('Minnesota mirror preserves the actual collector timestamp and all 174 current race rows',async({page},testInfo)=>{
  test.skip(!process.env.LIVE_TEST_URL,'Set LIVE_TEST_URL for live proof.');test.setTimeout(45000);
+ await page.route('**/api/counties/national/**',route=>route.abort());
  const responsePromise=page.waitForResponse(r=>new URL(r.url()).pathname==='/api/counties/MN'&&r.status()===200);
  await page.goto(process.env.LIVE_TEST_URL!+'/#state=MN');
  const backend=await (await responsePromise).json() as import('../../src/types/countyResults').CountyLiveData;
