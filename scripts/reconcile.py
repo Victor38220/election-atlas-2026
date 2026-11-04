@@ -9,7 +9,16 @@ def match_race(title,rules,races,provider):
     if re.search(r'\b(2024|2028|2029)\b',title+' '+rules):return None
     office='Senate' if re.search(r'\bsenat(e|or)\b',text) else 'Governor' if re.search(r'\b(governor|gubernatorial)\b',text) else None
     if not office:return None
-    matches=[r for r in races if r['office']==office and re.search(r'\b'+re.escape(r['state_name'].lower())+r'\b',text)]
+    located=[]
+    for race in races:
+        if race['office']!=office:continue
+        for match in re.finditer(r'\b'+re.escape(race['state_name'].lower())+r'\b',text):located.append((race,match.span()))
+    # West Virginia contains the complete name Virginia. Prefer the enclosing state,
+    # while still rejecting contracts that independently mention multiple states.
+    matches=[]
+    for race,span in located:
+        if any(other['id']!=race['id'] and outer[0]<=span[0] and outer[1]>=span[1] and outer!=span for other,outer in located):continue
+        if not any(existing['id']==race['id'] for existing in matches):matches.append(race)
     if len(matches)!=1:return None
     r=matches[0]
     if r['election_type']=='special' and provider=='kalshi' and 'special' not in rules.lower():return None

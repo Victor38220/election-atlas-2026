@@ -1,0 +1,17 @@
+# Data attribution and licences
+
+The dashboard normalizes and reformats public source data. Each normalized poll and county row retains its original source URL where supplied, attribution, and licence metadata. The application displays those records and links; this document does not replace row-specific obligations.
+
+| Material | Attribution and terms |
+|---|---|
+| Forecasts, polling summaries and pollster ratings | [Polling Forecast](https://www.pollingforecast.com/us/data), generally [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Their model probabilities, modeled margins and reported polling averages are distinct metrics. |
+| Individual primary-provider polls | Original pollster and release URL, distributed through Polling Forecast. Consult each row’s `licence` and attribution. Rows identified as figures from Wikipedia credit Wikipedia contributors and are subject to [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Adapted normalized rows derived from those figures are shared under CC BY-SA 4.0. Other poll figures retain their source-specific terms. |
+| Supplementary polls | [VoteHub](https://votehub.com/polls/api/) and original pollsters, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). |
+| Historical county returns | Polling Forecast’s county dataset; original sources include [MIT Election Data and Science Lab](https://electionlab.mit.edu/data) under CC0/public-domain terms and the [Voting and Election Science Team](https://dataverse.harvard.edu/dataverse/electionscience) for 2020 precinct-derived presidential returns under CC BY 4.0. Each row preserves its `source` and `licence`. |
+| Race roster and incumbents | [Ballotpedia Senate roster](https://ballotpedia.org/United_States_Senate_elections,_2026), [Ballotpedia governor roster](https://ballotpedia.org/Gubernatorial_elections,_2026), [U.S. Senate Class II roster](https://www.senate.gov/senators/Class_II.htm), and Polling Forecast race pages. Provider candidate fields may omit other ballot candidates. |
+| Kalshi quotes and contract terms | [Kalshi public market-data API](https://docs.kalshi.com/getting_started/quick_start_market_data). Exact market identifiers, contract wording and source links are retained for verification. No Creative Commons licence is asserted for market data or contract text. |
+| Polymarket quotes and resolution terms | [Polymarket public market-data APIs](https://docs.polymarket.com/market-data/overview). Exact event/market identifiers, outcome metadata, resolution information and event URLs are retained. No Creative Commons licence is asserted for market data or resolution text. |
+| Map boundaries | [us-atlas v3](https://github.com/topojson/us-atlas), derived from U.S. Census Bureau boundaries. The packaged us-atlas data is [ISC licensed](https://github.com/topojson/us-atlas/blob/master/LICENSE). Local GeoJSON is converted from the original TopoJSON for rendering. These are geographic boundaries, not a claim about election administration boundaries. |
+| Interface icons | [Lucide](https://lucide.dev/license), ISC licence. Installed dependencies retain their respective licences. |
+
+Recorded fixtures and saved snapshots retain the same source-specific licensing as the source records. The project does not replace source attribution with a blanket licence over all data. The source data is presented for information; no trading, wallet, signing, or account functionality is implemented.

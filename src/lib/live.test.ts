@@ -18,3 +18,20 @@ describe('recorded quote identity validation',()=>{
  it('normalizes the recorded Georgia Polymarket contract as a separate YES contract',()=>{const result=normalizeMarket(fixtures.polymarket.raw,fixtures.polymarket.contract as Contract,races,fetched);expect(result.contract.outcome_type).toBe('party');expect(result.contract.outcome).toBe('D');expect(result.quote.price).toBeNull();expect(result.contract.comparison_group).toBeNull()});
  it('rejects changes to the source question or settlement rules',()=>{for(const raw of [{...fixtures.kalshi.raw,title:'2028 Maine Senate primary winner?'},{...fixtures.kalshi.raw,rules_primary:'If the candidate wins the primary.'}])expect(()=>normalizeMarket(raw,fixtures.kalshi.contract as Contract,races,fetched)).toThrow('mapping needs review')});
 });
+
+import {vi,afterEach} from 'vitest';
+import {getBatch} from './live';
+afterEach(()=>vi.unstubAllGlobals());
+describe('provider batching',()=>{
+ it('preserves order and provider JSON while issuing a single Worker request',async()=>{
+  const fetcher=vi.fn(async(path:string)=>({url:path,ok:true,json:async()=>[{markets:[fixtures.kalshi.raw]},[fixtures.polymarket.raw]]} as Response));vi.stubGlobal('fetch',fetcher);
+  const paths=['/api/kalshi/markets?tickers=SENATEME-26-D','/api/polymarket/markets?id=630692'];
+  const result=await getBatch(paths);expect(result).toEqual([{markets:[fixtures.kalshi.raw]},[fixtures.polymarket.raw]]);expect(fetcher).toHaveBeenCalledTimes(1);expect(JSON.parse(new URL('https://test'+fetcher.mock.calls[0][0]).searchParams.get('paths')!)).toEqual(paths);
+ });
+ it('rejects partial provider failures and incomplete batch responses',async()=>{
+  vi.stubGlobal('fetch',vi.fn(async()=>({ok:true,json:async()=>[{error:'Provider request failed',status:429}]} as Response)));
+  await expect(getBatch(['/api/kalshi/markets'])).rejects.toThrow('HTTP 429');
+  vi.stubGlobal('fetch',vi.fn(async()=>({ok:true,json:async()=>[]} as Response)));
+  await expect(getBatch(['/api/polling/senate'])).rejects.toThrow('Incomplete batch response');
+ });
+});

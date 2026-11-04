@@ -17,13 +17,20 @@ export async function getJSON(path:string,signal?:AbortSignal):Promise<unknown>{
  }
  throw new Error('Request failed');
 }
+export async function getBatch(paths:string[],signal?:AbortSignal):Promise<unknown[]>{
+ if(!paths.length||paths.length>12)throw new Error('Invalid batch size');
+ const payload=await getJSON('/api/batch?'+new URLSearchParams({paths:JSON.stringify(paths)}),signal);
+ if(!Array.isArray(payload)||payload.length!==paths.length)throw new Error('Incomplete batch response');
+ for(const item of payload){if(item&&typeof item==='object'&&!Array.isArray(item)&&'error' in item)throw new Error(`Source batch failed: ${String(item.error)}${'status' in item?' (HTTP '+item.status+')':''}`)}
+ return payload;
+}
 function rows(payload:unknown):Row[]{const p=asRow(payload);if(!Array.isArray(p.rows))throw new Error('Invalid rows envelope');if(p.count!==undefined&&p.count!==p.rows.length)throw new Error('Incomplete source response');return p.rows.map(asRow)}
 export function validMidpoint(bid:number|null,ask:number|null,status:string,liquidity:number|null){return ['active','open','initialized'].includes(status)&&bid!==null&&ask!==null&&0<bid&&bid<=ask&&ask<1&&ask-bid<=.30&&liquidity!==0?Number(((bid+ask)/2).toFixed(6)):null}
 export function normalizeMarket(raw:Row,contract:Contract,races:Race[],fetched:string):{contract:Contract;quote:Quote}{
  const isK=contract.provider==='kalshi';const race=races.find(r=>r.id===contract.race_id);
  const question=str(raw[isK?'title':'question']);const rules=isK?[str(raw.rules_primary),str(raw.rules_secondary)].filter(Boolean).join('\n'):str(raw.description);
- if(!race||!question||normalized(question)!==normalized(contract.question)||rules.trim()!==contract.rules.trim())throw new Error('Contract identity or settlement terms changed; mapping needs review');
- const candidate=race.candidates.find(c=>c.id===contract.candidate_id);
+ if((!race&&contract.outcome_type!=='control')||!question||normalized(question)!==normalized(contract.question)||rules.trim()!==contract.rules.trim())throw new Error('Contract identity or settlement terms changed; mapping needs review');
+ const candidate=race?.candidates.find(c=>c.id===contract.candidate_id);
  if(contract.outcome_type==='candidate'&&(!candidate||![candidate.name,...candidate.aliases].some(name=>normalized(str(raw[isK?'yes_sub_title':'groupItemTitle']).replace(/\s*\([^)]+\)\s*$/,'')).includes(normalized(name)))))throw new Error('Candidate identity changed; mapping needs review');
  if(contract.outcome_type==='party'&&candidate&&candidate.party!==contract.outcome)throw new Error('Candidate party changed; mapping needs review');
  const status=isK?str(raw.status):raw.closed?'closed':raw.active?'active':'inactive';
@@ -48,7 +55,7 @@ export async function refreshSnapshot(previous:Snapshot,signal?:AbortSignal):Pro
  const status=(provider:string,ok:boolean,message='',partial=false)=>{const old=previous.providers[provider];result.providers[provider]={status:ok?(partial?'partial':'ok'):'error',last_attempt:fetched,last_success:ok?fetched:old?.last_success??null,message,refresh_seconds:30} satisfies Status};
  await Promise.allSettled([
   (async()=>{try{
-   const payloads=await Promise.all(['senate','governors'].map(path=>getJSON('/api/polling/'+path,signal)));
+   const payloads=await getBatch(['senate','governors'].map(path=>'/api/polling/'+path),signal);
    const received=payloads.flatMap(rows);const known=new Map(previous.races.map(r=>[r.provider_ids.polling_forecast,r]));
    const expected=previous.races.filter(r=>r.provider_ids.polling_forecast);
    if(received.length!==expected.length||received.some(r=>!known.has(str(r.key))))throw new Error('Race roster changed; manifest requires review');
@@ -60,22 +67,22 @@ export async function refreshSnapshot(previous:Snapshot,signal?:AbortSignal):Pro
    }
    result.races=previous.races.map(r=>updated.find(u=>u.id===r.id)??r);result.summaries=summaries;status('polling_forecast',true);
    if(Date.now()-Number(previous.context.polls_fetched_at??0)>600000){
-    try{const pollPayloads=await Promise.all(['Senate','Governor'].map(kind=>getJSON('/api/polling/polls?kind='+kind,signal)));const normalizedPolls=pollPayloads.flatMap(rows).flatMap(raw=>{const race=known.get(str(raw.race));return race&&[null,undefined,'vote','general'].includes(raw.stage as string|null|undefined)?[poll(raw,race)]:[]});if(normalizedPolls.length){result.polls=deduplicate([...normalizedPolls,...result.polls.filter(p=>p.provider!=='polling_forecast')]);result.context.polls_fetched_at=Date.now()}}catch(exc){status('polling_forecast',true,'Forecast refreshed; individual polls retained: '+String(exc),true)}
+    try{const pollPayloads=await getBatch(['Senate','Governor'].map(kind=>'/api/polling/polls?kind='+kind),signal);const normalizedPolls=pollPayloads.flatMap(rows).flatMap(raw=>{const race=known.get(str(raw.race));return race&&[null,undefined,'vote','general'].includes(raw.stage as string|null|undefined)?[poll(raw,race)]:[]});if(normalizedPolls.length){result.polls=deduplicate([...normalizedPolls,...result.polls.filter(p=>p.provider!=='polling_forecast')]);result.context.polls_fetched_at=Date.now()}}catch(exc){status('polling_forecast',true,'Forecast refreshed; individual polls retained: '+String(exc),true)}
    }
   }catch(exc){status('polling_forecast',false,String(exc))}})(),
   ...(['kalshi','polymarket'] as const).map(provider=>(async()=>{try{
    const contracts=previous.contracts.filter(c=>c.provider===provider);if(!contracts.length){status(provider,false,'No verified market mappings');return}
-   const rawRows:Row[]=[];const chunkSize=provider==='kalshi'?90:45;
-   for(let i=0;i<contracts.length;i+=chunkSize){const group=contracts.slice(i,i+chunkSize);const query=new URLSearchParams();if(provider==='kalshi'){query.set('tickers',group.map(c=>c.market_id).join(','));query.set('limit','1000')}else for(const c of group)query.append('id',c.market_id);
-    const payload=await getJSON('/api/'+provider+'/markets?'+query,signal);const found=provider==='kalshi'?asRow(payload).markets:payload;if(!Array.isArray(found))throw new Error('Invalid markets response');rawRows.push(...found.map(asRow));
-   }
+   const rawRows:Row[]=[];const chunkSize=provider==='kalshi'?90:45;const paths:string[]=[];
+   for(let i=0;i<contracts.length;i+=chunkSize){const group=contracts.slice(i,i+chunkSize);const query=new URLSearchParams();if(provider==='kalshi'){query.set('tickers',group.map(c=>c.market_id).join(','));query.set('limit','1000')}else for(const c of group)query.append('id',c.market_id);paths.push('/api/'+provider+'/markets?'+query)}
+   const payloads=await getBatch(paths,signal);
+   for(const payload of payloads){const found=provider==='kalshi'?asRow(payload).markets:payload;if(!Array.isArray(found))throw new Error('Invalid markets response');rawRows.push(...found.map(asRow))}
    if(!rawRows.length)throw new Error('Empty market response; previous quotes retained');
    const byId=new Map(rawRows.map(r=>[String(r[provider==='kalshi'?'ticker':'id']),r]));const refreshed:Quote[]=[];const updated:Contract[]=[];let rejected=0;
    for(const c of contracts){const raw=byId.get(c.market_id);try{if(!raw)throw new Error('Contract omitted by provider');const normalized=normalizeMarket(raw,c,previous.races,fetched);refreshed.push(normalized.quote);updated.push(normalized.contract)}catch(exc){rejected++;const last=previous.quotes.find(q=>q.contract_id===c.id);if(last)refreshed.push({...last,price:null,pricing_method:'unavailable',warning:String(exc)});updated.push(c)}}
    result.contracts=[...result.contracts.filter(c=>c.provider!==provider),...updated];result.quotes=[...result.quotes.filter(q=>q.provider!==provider),...refreshed];status(provider,true,rejected?`${rejected} contracts unavailable or require mapping review`:'',rejected>0);
   }catch(exc){status(provider,false,String(exc))}})()),
   (async()=>{if(Date.now()-Number(previous.context.votehub_fetched_at??0)<600000)return;try{
-   const types=await getJSON('/api/votehub/poll-types',signal);if(!Array.isArray(types))throw new Error('Invalid poll-type response');const values=await Promise.all(['us-senator','governor'].filter(kind=>types.includes(kind)).map(async kind=>({kind,payload:await getJSON('/api/votehub/polls?poll_type='+kind,signal)})));
+   const types=await getJSON('/api/votehub/poll-types',signal);if(!Array.isArray(types))throw new Error('Invalid poll-type response');const kinds=['us-senator','governor'].filter(kind=>types.includes(kind));const batch=kinds.length?await getBatch(kinds.map(kind=>'/api/votehub/polls?poll_type='+kind),signal):[];const values=kinds.map((kind,i)=>({kind,payload:batch[i]}));
    const polls:Poll[]=[];
    for(const {kind,payload} of values){const records=Array.isArray(payload)?payload:asRow(payload).polls;if(!Array.isArray(records))throw new Error('Invalid VoteHub polls');for(const item of records){const raw=asRow(item);const race=previous.races.find(r=>r.office===(kind==='us-senator'?'Senate':'Governor')&&normalized(str(raw.subject))===normalized('2026 '+r.state_name));if(!race||!Array.isArray(raw.answers))continue;const answers=raw.answers.map(asRow);const observations=race.candidates.slice(0,2).map(c=>answers.find(a=>normalized(str(a.choice))===normalized(c.name)));if(observations.length<2||observations.some(x=>numeric(x?.pct)===null))continue;
     polls.push({id:'vh:'+str(raw.id),underlying_id:str(raw.id),race_id:race.id,provider:'votehub',pollster:str(raw.pollster)||'Unknown',sponsor:Array.isArray(raw.sponsors)?raw.sponsors.join(', '):null,start:timestamp(raw.start_date),end:timestamp(raw.end_date),sample:numeric(raw.sample_size),population:str(raw.population)||null,results:answers.map(a=>({name:str(a.choice),share:(numeric(a.pct)??0)/100})),figures:null,margin:Number(observations[0]!.pct)-Number(observations[1]!.pct),adjusted_margin:null,url:str(raw.url)||null,methodology:{partisan:raw.partisan,internal:raw.internal},licence:'CC BY 4.0',attribution:'VoteHub; original pollster.'});

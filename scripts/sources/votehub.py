@@ -15,7 +15,7 @@ def normalize_poll(raw,races):
     if len(matches)!=1:return None
     race=matches[0];answers=raw.get('answers') or []
     observed={name_key(a.get('choice')):number(a.get('pct')) for a in answers}
-    if not all(name_key(c['name']) in observed for c in race['candidates'][:2]):return None
+    if not all(name_key(c['name']) in observed and observed[name_key(c['name'])] is not None for c in race['candidates'][:2]):return None
     margin=observed[name_key(race['candidates'][0]['name'])]-observed[name_key(race['candidates'][1]['name'])]
     return Poll(id='vh:'+str(raw['id']),race_id=race['id'],provider='votehub',underlying_id=str(raw['id']),pollster=raw.get('pollster') or 'Unknown',sponsor=', '.join(raw.get('sponsors') or []) or None,start=stamp(raw.get('start_date')),end=stamp(raw.get('end_date')),sample=int(raw['sample_size']) if number(raw.get('sample_size')) else None,population=raw.get('population'),results=[{'name':a['choice'],'share':float(a['pct'])/100} for a in answers],margin=margin,url=raw.get('url'),methodology={'partisan':raw.get('partisan'),'internal':raw.get('internal')},licence='CC BY 4.0',attribution='VoteHub; original pollster.').model_dump()
 

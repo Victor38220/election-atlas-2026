@@ -2,7 +2,7 @@ import type {Race,Snapshot,Provider,Contract,Quote,Mode} from '../types';
 export const pct=(n:number|null|undefined,digits=1)=>n==null?'—':`${(n*100).toFixed(digits)}%`;
 export const points=(n:number|null|undefined)=>n==null?'—':`${n>0?'+':''}${n.toFixed(1)} pp`;
 export const date=(s:string|null|undefined)=>s?new Date(s).toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}):'Not available';
-export const shortDate=(s:string|null|undefined)=>s?new Date(s).toLocaleDateString([], {month:'short',day:'numeric'}):'—';
+export const shortDate=(s:string|null|undefined)=>s?new Date(s).toLocaleDateString([], {month:'short',day:'numeric',timeZone:'UTC'}):'—';
 export const money=(n:number|null)=>n==null?'Unavailable':new Intl.NumberFormat('en-US',{notation:'compact',maximumFractionDigits:1}).format(n);
 export const party=(p:string)=>({D:'Democratic',R:'Republican',I:'Independent'}[p]??p);
 export function summary(s:Snapshot,r:Race){return s.summaries.find(x=>x.race_id===r.id)}

@@ -21,14 +21,22 @@ def outcome_identifier(raw):
     return None,'unsupported'
 
 def normalize(event,raw,races,fetched,midpoints=None):
-    race=match_race(event.get('title',''),raw.get('description') or event.get('description',''),races,'polymarket')
-    if not race:return None
-    matched=match_outcome(raw.get('groupItemTitle','').strip(),raw.get('question',''),race)
-    if not matched:return None
-    outcome,kind,candidate=matched; token,fmt=outcome_identifier(raw)
+    control=event.get('title','').strip()=='Which party will win the Senate in 2026?' and 'wins control of the United States Senate' in (raw.get('description') or event.get('description',''))
+    race=None if control else match_race(event.get('title',''),raw.get('description') or event.get('description',''),races,'polymarket')
+    if control:
+        question=raw.get('question','')
+        outcome='D' if 'Democratic Party' in question else 'R' if 'Republican Party' in question else None
+        if not outcome:return None
+        kind='control';candidate=None
+    else:
+        if not race:return None
+        matched=match_outcome(raw.get('groupItemTitle','').strip(),raw.get('question',''),race)
+        if not matched:return None
+        outcome,kind,candidate=matched
+    token,fmt=outcome_identifier(raw)
     status='closed' if raw.get('closed') else 'active' if raw.get('active') else 'inactive'
     cid='polymarket:'+str(raw['id'])
-    contract=MarketContract(id=cid,provider='polymarket',event_id=str(event['id']),market_id=str(raw['id']),outcome_id=token,race_id=race['id'],candidate_id=candidate,outcome=outcome,outcome_type=kind,question=raw['question'],rules=raw.get('description') or event.get('description',''),url='https://polymarket.com/event/'+event['slug'],status=status,protocol=raw.get('version','legacy'),settlement='media_consensus_or_certification',comparison_group=None)
+    contract=MarketContract(id=cid,provider='polymarket',event_id=str(event['id']),market_id=str(raw['id']),outcome_id=token,race_id=race['id'] if race else None,candidate_id=candidate,outcome=outcome,outcome_type=kind,question=raw['question'],rules=raw.get('description') or event.get('description',''),url='https://polymarket.com/event/'+event['slug'],status=status,protocol=raw.get('version','legacy'),settlement='election_day_seat_and_caucus_rules' if control else 'media_consensus_or_certification',comparison_group=None)
     bid,ask,last=probability(raw.get('bestBid')),probability(raw.get('bestAsk')),probability(raw.get('lastTradePrice'))
     liq=number(raw.get('liquidityNum',raw.get('liquidity')))
     value,method,warning=quote_price(bid,ask,last,status,liq)
@@ -36,7 +44,7 @@ def normalize(event,raw,races,fetched,midpoints=None):
     if value is not None and midpoints and token in midpoints:
         mid=probability(midpoints[token])
         if mid is not None and bid<=mid<=ask:value=mid;method='clob_midpoint'
-    quote=MarketQuote(contract_id=cid,provider='polymarket',race_id=race['id'],candidate_id=candidate,outcome=outcome,price=value,bid=bid,ask=ask,midpoint=(bid+ask)/2 if bid is not None and ask is not None and bid<=ask else None,last_trade=last,volume=number(raw.get('volumeNum',raw.get('volume'))),liquidity=liq,source_timestamp=stamp(raw.get('updatedAt')),fetched_at=fetched,pricing_method=method,warning=warning)
+    quote=MarketQuote(contract_id=cid,provider='polymarket',race_id=race['id'] if race else None,candidate_id=candidate,outcome=outcome,price=value,bid=bid,ask=ask,midpoint=(bid+ask)/2 if bid is not None and ask is not None and bid<=ask else None,last_trade=last,volume=number(raw.get('volumeNum',raw.get('volume'))),liquidity=liq,source_timestamp=stamp(raw.get('updatedAt')),fetched_at=fetched,pricing_method=method,warning=warning)
     return contract.model_dump(),quote.model_dump()
 
 def search(client,query):
@@ -52,6 +60,8 @@ def search(client,query):
 
 def fetch(client,races,mappings,fetched):
     events={}
+    # Verified separate chamber-control event, never assigned to a state race.
+    control=client.get(BASE+'/events/32224');events[str(control['id'])]=control
     for term in ['Senate Election Winner','Governor Election Winner']:
         for e in search(client,term):
             if match_race(e.get('title',''),e.get('description',''),races,'polymarket'):events[str(e['id'])]=e

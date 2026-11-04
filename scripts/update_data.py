@@ -22,15 +22,25 @@ def due(status,interval,current):
     return (current-datetime.fromisoformat(status['last_success'].replace('Z','+00:00'))).total_seconds()>=interval
 
 def history_update(history,quotes,current):
-    cutoff=(current-timedelta(days=21)).isoformat().replace('+00:00','Z')
-    for q in quotes:
-        if q['price'] is None:continue
-        points=history.setdefault(q['contract_id'],[])
-        # One actually observed quote per 15-minute bucket, keeping the final retrieval.
-        bucket=q['fetched_at'][:14]+str(int(q['fetched_at'][14:16])//15)
-        if points and points[-1]['bucket']==bucket:points.pop()
-        points.append({'t':q['fetched_at'],'p':q['price'],'bucket':bucket,'method':q['pricing_method']})
-    return {k:[p for p in v if p['t']>=cutoff] for k,v in history.items() if any(p['t']>=cutoff for p in v)}
+    """Keep actual observations: 15-minute buckets for 24h, hourly through day 21."""
+    cutoff=current-timedelta(days=21)
+    fine_cutoff=current-timedelta(days=1)
+    merged={key:list(points) for key,points in history.items()}
+    for quote in quotes:
+        if quote['price'] is None:continue
+        merged.setdefault(quote['contract_id'],[]).append({'t':quote['fetched_at'],'p':quote['price'],'method':quote['pricing_method']})
+    compact={}
+    for key,points in merged.items():
+        buckets={}
+        for point in sorted(points,key=lambda p:p['t']):
+            try: observed=datetime.fromisoformat(point['t'].replace('Z','+00:00'))
+            except (ValueError,KeyError):continue
+            if observed<cutoff:continue
+            seconds=900 if observed>=fine_cutoff else 3600
+            bucket=(seconds,int(observed.timestamp())//seconds)
+            buckets[bucket]={'t':point['t'],'p':point['p'],'method':point.get('method','midpoint')}
+        if buckets:compact[key]=sorted(buckets.values(),key=lambda p:p['t'])
+    return compact
 
 def run(force=False):
     client=Client();current=datetime.now(timezone.utc);fetched=now()
@@ -41,6 +51,7 @@ def run(force=False):
     for provider,interval in [('polling_forecast',86400),('votehub',86400),('counties',86400),('kalshi',900),('polymarket',900)]:
         status=statuses.get(provider,{})
         if not force and not due(status,interval,current):continue
+        partial_message=''
         try:
             if provider=='polling_forecast':
                 updated,summaries,polls,pollsters=polling_forecast.fetch(client,races)
@@ -58,8 +69,24 @@ def run(force=False):
                     write(DATA/'counties'/f'{state}.json',{'as_of':payload.get('asOf'),'attribution':payload.get('attribution'),'rows':[r for r in rows if r['state']==state]})
             else:
                 adapter=kalshi if provider=='kalshi' else polymarket
-                contracts,quotes,raws=adapter.fetch(client,races,map_config['mappings'],fetched)
+                discovery=map_config.setdefault('last_discovery',{})
+                known=[m for m in map_config['mappings'] if m['provider']==provider]
+                last_discovery=discovery.get(provider) or (status.get('last_success') if known else None)
+                discover=force or not known or due({'last_success':last_discovery},86400,current)
+                if provider=='kalshi':
+                    contracts,quotes,raws=adapter.fetch(client,races,map_config['mappings'],fetched,discover=discover)
+                else:
+                    contracts,quotes,raws=adapter.fetch(client,races,map_config['mappings'],fetched)
+                if discover:discovery[provider]=fetched
                 if not contracts:raise ValueError('No verified contracts returned; keeping previous coverage')
+                found={contract['id'] for contract in contracts}
+                missing=[contract for contract in old.get('contracts',[]) if contract['provider']==provider and contract['id'] not in found]
+                if missing:
+                    partial_message=f'{len(missing)} previously known contracts unavailable; identifiers and raw values retained'
+                    for contract in missing:
+                        contracts.append({**contract,'status':'unavailable'})
+                        prior_quote=next((quote for quote in old.get('quotes',[]) if quote['contract_id']==contract['id']),None)
+                        if prior_quote:quotes.append({**prior_quote,'price':None,'pricing_method':'unavailable','warning':'Known contract omitted or incompatible on refresh; previous raw fields retained.'})
                 # Apply explicit human-review overrides, including comparison-group approvals.
                 for c in contracts:
                     for override in map_config.get('overrides',[]):
@@ -73,7 +100,7 @@ def run(force=False):
                 for c in contracts:prior[c['id']]={'contract_id':c['id'],'provider':provider,'market_id':c['market_id'],'event_id':c['event_id'],'race_id':c['race_id'],'outcome':c['outcome'],'outcome_type':c['outcome_type'],'settlement':c['settlement'],'question':c['question'],'rules':c['rules'],'url':c['url'],'review':'deterministic verified; cross-provider comparison requires explicit override'}
                 map_config['mappings']=list(prior.values());write(mappings_file,map_config)
                 write(ROOT/'artifacts'/f'{provider}-verified.json',raws)
-            statuses[provider]={'status':'ok','last_attempt':fetched,'last_success':fetched,'message':'','refresh_seconds':interval}
+            statuses[provider]={'status':'partial' if partial_message else 'ok','last_attempt':fetched,'last_success':fetched,'message':partial_message,'refresh_seconds':interval}
             logging.info(json.dumps({'provider':provider,'status':'ok'}))
         except Exception as exc:
             statuses[provider]={'status':'error','last_attempt':fetched,'last_success':status.get('last_success'),'message':str(exc)[:400],'refresh_seconds':interval}
@@ -84,7 +111,7 @@ def run(force=False):
     write(DATA/'latest.json',validated)
     history=history_update(read(DATA/'history.json',{}),validated['quotes'],current)
     write(DATA/'history.json',history)
-    write(DATA/'metadata.json',{'generated_at':fetched,'providers':statuses,'polling_note':'Margins: first listed candidate minus Republican, in percentage points. Model probabilities and model margins are distinct from polling averages.','market_note':'Executable two-sided bid/ask midpoints only; last trades retained as raw fields. Different settlement terms excluded from comparison unless explicitly reviewed.','county_note':'Historical returns only. No 2026 live county results source has been verified.','retention_days':21,'source_urls':['https://www.pollingforecast.com/us/data','https://votehub.com/polls/api/','https://docs.kalshi.com/getting_started/quick_start_market_data','https://docs.polymarket.com/market-data/overview']})
+    write(DATA/'metadata.json',{'generated_at':fetched,'providers':statuses,'polling_note':'Margins: first listed candidate minus Republican, in percentage points. Model probabilities and model margins are distinct from polling averages.','market_note':'Executable two-sided bid/ask midpoints only; last trades retained as raw fields. Different settlement terms excluded from comparison unless explicitly reviewed.','county_note':'Historical returns only. No 2026 live county results source has been verified.','retention_days':21,'history_resolution':'15 minutes for 24 hours, then hourly; observed points only','source_urls':['https://www.pollingforecast.com/us/data','https://votehub.com/polls/api/','https://docs.kalshi.com/getting_started/quick_start_market_data','https://docs.polymarket.com/market-data/overview']})
     print(json.dumps({'races':len(validated['races']),'polls':len(validated['polls']),'contracts':len(validated['contracts']),'usable_quotes':sum(q['price'] is not None for q in validated['quotes']),'providers':statuses},indent=2))
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--force',action='store_true');args=parser.parse_args();logging.basicConfig(level=logging.INFO);run(args.force)

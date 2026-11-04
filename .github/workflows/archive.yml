@@ -25,6 +25,7 @@ jobs:
           cache: pip
           cache-dependency-path: scripts/requirements.txt
       - run: pip install -r scripts/requirements.txt
+      - run: python -m pytest -q
       - name: Refresh and validate real source data
         env:
           FORCE_REFRESH: ${{ inputs.force }}

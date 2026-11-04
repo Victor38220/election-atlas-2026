@@ -1,20 +1,41 @@
 interface Env{ASSETS:Fetcher}
 const HOSTS:Record<string,string>={polling:'https://www.pollingforecast.com/api/us',kalshi:'https://external-api.kalshi.com/trade-api/v2',polymarket:'https://gamma-api.polymarket.com',votehub:'https://api.votehub.com',clob:'https://clob.polymarket.com'};
 const PATHS:Record<string,RegExp>={polling:/^\/(senate|governors|polls|pollsters|counties|race\/[A-Z0-9-]+)$/,kalshi:/^\/(markets(?:\/[A-Z0-9-]+)?|events\/[A-Z0-9-]+|series(?:\/[A-Z0-9-]+)?)$/,polymarket:/^\/(markets(?:\/\d+)?|events(?:\/\d+)?|public-search|tags)$/,votehub:/^\/(polls|poll-types|pollsters|subjects)$/,clob:/^\/(midpoint|price)$/};
+function targetFor(incoming:URL):{target:URL;provider:string}|null{
+ const [,,provider,...rest]=incoming.pathname.split('/');const path='/'+rest.join('/');
+ if(incoming.search.length>12000)return null;
+ if(provider==='archive'&&/^\/(latest|history|metadata)$/.test(path))return {target:new URL('https://raw.githubusercontent.com/Victor38220/election-atlas-2026/main/public/data'+path+'.json'),provider};
+ if(!Object.hasOwn(HOSTS,provider)||!PATHS[provider].test(path))return null;
+ const target=new URL(HOSTS[provider]+path);target.search=incoming.search;return {target,provider};
+}
+async function proxy(target:URL,provider:string,ctx:ExecutionContext):Promise<Response>{
+ const cacheKey=new Request(target.toString());const cache=caches.default;const hit=await cache.match(cacheKey);if(hit)return hit;
+ try{
+  const upstream=await fetch(target,{headers:{Accept:'application/json','User-Agent':'ElectionAtlas/1.0 public election research'},signal:AbortSignal.timeout(22000),redirect:'manual'});
+  const headers=new Headers({'Content-Type':'application/json; charset=utf-8','X-Content-Type-Options':'nosniff','Cache-Control':upstream.ok?'public, max-age=20':'no-store'});const retry=upstream.headers.get('Retry-After');if(retry)headers.set('Retry-After',retry);
+  if(!upstream.ok)return Response.json({error:`Provider returned HTTP ${upstream.status}`,provider},{status:upstream.status,headers});
+  const response=new Response(upstream.body,{status:200,headers});ctx.waitUntil(cache.put(cacheKey,response.clone()));return response;
+ }catch(exc){return Response.json({error:'Public data source unavailable',provider,detail:exc instanceof Error?exc.message:'Request failed'},{status:502,headers:{'Cache-Control':'no-store'}})}
+}
 export default {
  async fetch(request:Request,env:Env,ctx:ExecutionContext):Promise<Response>{
   const incoming=new URL(request.url);if(!incoming.pathname.startsWith('/api/'))return env.ASSETS.fetch(request);
   if(request.method!=='GET')return Response.json({error:'Only public GET data is supported'},{status:405});
-  const [, ,provider,...rest]=incoming.pathname.split('/');const path='/'+rest.join('/');let target:URL;
-  if(provider==='archive'&&/^\/(latest|history|metadata)$/.test(path)){target=new URL('https://raw.githubusercontent.com/Victor38220/election-atlas-2026/main/public/data'+path+'.json')}
-  else {if(!Object.hasOwn(HOSTS,provider)||!PATHS[provider].test(path))return Response.json({error:'Unknown public data route'},{status:404});target=new URL(HOSTS[provider]+path);if(incoming.search.length>12000)return Response.json({error:'Query too long'},{status:400});target.search=incoming.search}
+  if(incoming.pathname==='/api/batch'){
+   if(incoming.search.length>12000)return Response.json({error:'Query too long'},{status:400});
+   let paths:unknown;try{paths=JSON.parse(incoming.searchParams.get('paths')??'null')}catch{return Response.json({error:'Invalid batch paths'},{status:400})}
+   if(!Array.isArray(paths)||paths.length<1||paths.length>12||paths.some(p=>typeof p!=='string'||!p.startsWith('/api/')||p.startsWith('//')||p.includes('#')))return Response.json({error:'Expected 1–12 relative public API paths'},{status:400});
+   const targets=paths.map(path=>targetFor(new URL(path,incoming.origin)));
+   if(targets.some(t=>!t))return Response.json({error:'Unknown public data route in batch'},{status:400});
+   const cacheKey=new Request(incoming.toString());const hit=await caches.default.match(cacheKey);if(hit)return hit;
+   let failed=false;
+   // Keep provider bodies as JSON text: no parsing/re-serialization of large payloads on the free Worker CPU budget.
+   const bodies=await Promise.all(targets.map(async(item)=>{const response=await proxy(item!.target,item!.provider,ctx);if(!response.ok){failed=true;return JSON.stringify({error:'Provider request failed',status:response.status,provider:item!.provider})}return response.text()}));
+   const response=new Response('['+bodies.join(',')+']',{headers:{'Content-Type':'application/json; charset=utf-8','X-Content-Type-Options':'nosniff','Cache-Control':failed?'no-store':'public, max-age=20'}});
+   if(!failed)ctx.waitUntil(caches.default.put(cacheKey,response.clone()));return response;
+  }
+  const resolved=targetFor(incoming);if(!resolved)return Response.json({error:'Unknown public data route'},{status:404});
   // Fixed hosts and paths; visitors cannot use this endpoint as an arbitrary proxy.
-  const cacheKey=new Request(target.toString());const cache=caches.default;const hit=await cache.match(cacheKey);if(hit)return hit;
-  try{
-   const upstream=await fetch(target,{headers:{Accept:'application/json','User-Agent':'ElectionAtlas/1.0 public election research'},signal:AbortSignal.timeout(22000),redirect:'manual'});
-   const headers=new Headers({'Content-Type':'application/json; charset=utf-8','X-Content-Type-Options':'nosniff','Cache-Control':upstream.ok?'public, max-age=20':'no-store'});const retry=upstream.headers.get('Retry-After');if(retry)headers.set('Retry-After',retry);
-   if(!upstream.ok)return Response.json({error:`Provider returned HTTP ${upstream.status}`,provider},{status:upstream.status,headers});
-   const response=new Response(upstream.body,{status:200,headers});ctx.waitUntil(cache.put(cacheKey,response.clone()));return response;
-  }catch(exc){return Response.json({error:'Public data source unavailable',provider,detail:exc instanceof Error?exc.message:'Request failed'},{status:502,headers:{'Cache-Control':'no-store'}})}
+  return proxy(resolved.target,resolved.provider,ctx);
  }
 } satisfies ExportedHandler<Env>;
