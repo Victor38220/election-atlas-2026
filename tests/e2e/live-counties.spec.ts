@@ -31,6 +31,7 @@ test('reads actual 2026 county feeds for NC, GA and CA while unsupported states 
  await expect(brief.locator('.county-current-report')).toHaveCount(2);
  for(const race of appling)await expect(brief).toContainText(race.total!.toLocaleString()+' votes reported');
  await expect(brief).toContainText('Georgia Secretary of State');
+ await brief.scrollIntoViewIfNeeded();await page.screenshot({path:`artifacts/live-county-GA-${testInfo.project.name}.png`,fullPage:false,animations:'disabled'});
  await page.getByLabel('Go to state').selectOption('CA');await expect(page.locator('path[data-county]')).toHaveCount(58);
  const ca=await fresh('CA');expect(ca.year).toBe(2026);expect(ca.rows).toHaveLength(58);
  const alameda=ca.rows.find(r=>r.fips==='06001')!;

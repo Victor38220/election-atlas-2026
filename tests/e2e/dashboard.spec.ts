@@ -63,7 +63,9 @@ test('keeps favorite candidate prices separate on the two market providers',asyn
 
 test('live county reports preserve actual counts, genuine zeroes and unavailable coverage',async({page})=>{
  const historicalRequests:string[]=[];page.on('request',request=>{if(/\/data\/counties\/|\/api\/polling\/counties/.test(request.url()))historicalRequests.push(request.url())});
- await page.goto('/#state=NC');await expect(page.locator('path[data-status="reporting"]')).toHaveCount(100);
+ await page.goto('/#state=NC');await expect(page.locator('path[data-county]')).toHaveCount(100);
+ await expect(page.locator('path[data-status="reporting"]')).toHaveCount(99);
+ await expect(page.locator('path[data-status="awaiting"]')).toHaveCount(1);
  await page.locator('path[data-county="37001"]').focus();await page.keyboard.press('Enter');
  const brief=page.getByRole('region',{name:'Selected county information'});
  await expect(brief.getByRole('heading',{name:'Alamance',exact:true})).toBeVisible();
